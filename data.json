@@ -1,18 +1,33 @@
 {
-  "updated_at": "2026-03-03T01:01:00.806553Z",
+  "updated_at": "2026-03-04T00:58:01.485716Z",
   "repos": [
+    "busungtk-training",
     "youtube-shorts-sermon",
     "claude-dotfiles",
     "gumi-church",
     "church-shorts-bg"
   ],
   "summary": {
-    "total_commits": 36,
+    "total_commits": 39,
     "total_prs": 0,
     "total_issues": 0,
-    "active_days": 8
+    "active_days": 10
   },
   "daily": {
+    "2026-03-04": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-03-03": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-02": {
       "commits": 1,
       "prs_opened": 0,
@@ -71,6 +86,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "64844a6",
+      "message": "feat: 인덱스 페이지 추가 및 favicon 설정",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T00:41:49Z",
+      "url": "https://github.com/junyoungjang976/busungtk-training/commit/64844a6360ec99487fb65b2dd36639c1794ab6ca",
+      "repo": "busungtk-training"
+    },
+    {
+      "sha": "9d9060f",
+      "message": "feat: 비전공자 맞춤 교육 콘텐츠 전면 리라이트 (Phase 1~4)",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T00:30:33Z",
+      "url": "https://github.com/junyoungjang976/busungtk-training/commit/9d9060f00a3920bdb7b54d67d7fc02b285106769",
+      "repo": "busungtk-training"
+    },
+    {
+      "sha": "9420934",
+      "message": "feat: 현장지원팀 신입직원 12주 교육프로그램 Phase 1~4",
+      "author": "junyoungjang976",
+      "date": "2026-03-03T12:16:10Z",
+      "url": "https://github.com/junyoungjang976/busungtk-training/commit/9420934202e5e2f625f4c3494365ee735fe87415",
+      "repo": "busungtk-training"
+    },
     {
       "sha": "6ead9d7",
       "message": "feat: 성령으로 행하는 증인 쇼츠 하이라이트 분석 (26.03.01 설교)",
