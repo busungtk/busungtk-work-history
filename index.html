@@ -216,25 +216,25 @@
 
             <!-- Overtime Summary Cards -->
             <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+                <div class="bg-red-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-red-600" id="overtime-hours">-</div>
+                    <div class="text-xs text-gray-600">야근 시간</div>
+                </div>
+                <div class="bg-green-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-green-600" id="regular-hours">-</div>
+                    <div class="text-xs text-gray-600">정규 시간</div>
+                </div>
                 <div class="bg-orange-50 rounded-lg p-4 text-center">
                     <div class="text-2xl font-bold text-orange-600" id="overtime-rate">-</div>
                     <div class="text-xs text-gray-600">야근 비율</div>
-                </div>
-                <div class="bg-red-50 rounded-lg p-4 text-center">
-                    <div class="text-2xl font-bold text-red-600" id="overtime-count">-</div>
-                    <div class="text-xs text-gray-600">야근 커밋 수</div>
-                </div>
-                <div class="bg-green-50 rounded-lg p-4 text-center">
-                    <div class="text-2xl font-bold text-green-600" id="regular-count">-</div>
-                    <div class="text-xs text-gray-600">정규 커밋 수</div>
                 </div>
                 <div class="bg-purple-50 rounded-lg p-4 text-center">
                     <div class="text-2xl font-bold text-purple-600" id="weekend-count">-</div>
                     <div class="text-xs text-gray-600">주말 커밋</div>
                 </div>
                 <div class="bg-blue-50 rounded-lg p-4 text-center">
-                    <div class="text-2xl font-bold text-blue-600" id="late-night-count">-</div>
-                    <div class="text-xs text-gray-600">18시 이후</div>
+                    <div class="text-2xl font-bold text-blue-600" id="total-work-hours">-</div>
+                    <div class="text-xs text-gray-600">총 근무 시간</div>
                 </div>
             </div>
 
@@ -253,7 +253,7 @@
             <!-- Daily Overtime Chart -->
             <div class="mt-6">
                 <div class="flex items-center justify-between mb-3">
-                    <h3 class="text-sm font-semibold text-gray-700">일별 정규 vs 야근 커밋</h3>
+                    <h3 class="text-sm font-semibold text-gray-700">일별 근무 시간 (정규 vs 야근)</h3>
                     <div class="flex gap-1 bg-gray-100 rounded-lg p-1">
                         <button onclick="updateDailyOvertimeChart(7)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="7">7일</button>
                         <button onclick="updateDailyOvertimeChart(14)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="14">14일</button>
@@ -769,8 +769,7 @@
         let dailyOvertimeChart = null;
         function updateDailyOvertimeChart(days) {
             if (!data || !data.overtime) return;
-            const dailyData = data.daily || {};
-            const otByDate = data.overtime.overtime_by_date || {};
+            const dh = data.overtime.daily_hours || {};
 
             // Update button active states
             document.querySelectorAll('.ot-period-btn').forEach(btn => {
@@ -784,18 +783,16 @@
             // Build date range
             const entries = [];
             if (days === 0) {
-                // All: use all dates from otByDate + dailyData
-                const allDates = new Set([...Object.keys(otByDate), ...Object.keys(dailyData)]);
-                const sorted = [...allDates].sort();
+                const sorted = Object.keys(dh).sort();
                 sorted.forEach(key => {
                     const d = new Date(key + 'T00:00:00');
-                    const totalDay = dailyData[key] ? dailyData[key].commits : 0;
-                    const otDay = otByDate[key] || 0;
+                    const info = dh[key];
                     entries.push({
                         date: (d.getMonth() + 1) + '/' + d.getDate(),
-                        regular: Math.max(totalDay - otDay, 0),
-                        overtime: otDay,
-                        isWeekend: d.getDay() === 0 || d.getDay() === 6
+                        regular: info.regular_hours,
+                        overtime: info.overtime_hours,
+                        isWeekend: info.is_weekend,
+                        commits: info.commits
                     });
                 });
             } else {
@@ -804,13 +801,13 @@
                     const d = new Date(today);
                     d.setDate(d.getDate() - i);
                     const key = d.toISOString().slice(0, 10);
-                    const totalDay = dailyData[key] ? dailyData[key].commits : 0;
-                    const otDay = otByDate[key] || 0;
+                    const info = dh[key];
                     entries.push({
                         date: (d.getMonth() + 1) + '/' + d.getDate(),
-                        regular: Math.max(totalDay - otDay, 0),
-                        overtime: otDay,
-                        isWeekend: d.getDay() === 0 || d.getDay() === 6
+                        regular: info ? info.regular_hours : 0,
+                        overtime: info ? info.overtime_hours : 0,
+                        isWeekend: info ? info.is_weekend : (d.getDay() === 0 || d.getDay() === 6),
+                        commits: info ? info.commits : 0
                     });
                 }
             }
@@ -827,13 +824,13 @@
                     labels: entries.map(d => d.date),
                     datasets: [
                         {
-                            label: '정규 시간 (건)',
+                            label: '정규 (시간)',
                             data: entries.map(d => d.regular),
                             backgroundColor: '#22c55e',
                             borderRadius: 2
                         },
                         {
-                            label: '야근 (건)',
+                            label: '야근 (시간)',
                             data: entries.map(d => d.overtime),
                             backgroundColor: entries.map(d => d.isWeekend ? '#ef4444' : '#f97316'),
                             borderRadius: 2
@@ -844,15 +841,22 @@
                     responsive: true,
                     scales: {
                         x: { stacked: true, ticks: { font: { size: 10 }, maxRotation: 45 } },
-                        y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1 } }
+                        y: { stacked: true, beginAtZero: true, title: { display: true, text: '시간 (h)' } }
                     },
                     plugins: {
                         legend: { position: 'top', labels: { font: { size: 11 } } },
                         tooltip: {
                             callbacks: {
+                                label: function(ctx) {
+                                    return ctx.dataset.label + ': ' + ctx.raw + 'h';
+                                },
                                 afterBody: function(ctx) {
                                     const idx = ctx[0].dataIndex;
-                                    return entries[idx].isWeekend ? '(주말)' : '';
+                                    const e = entries[idx];
+                                    let lines = [];
+                                    if (e.isWeekend) lines.push('(주말)');
+                                    lines.push('커밋: ' + e.commits + '건');
+                                    return lines;
                                 }
                             }
                         }
@@ -865,24 +869,31 @@
             if (!data.overtime) return;
             const ot = data.overtime;
 
-            // Summary cards
-            document.getElementById('overtime-rate').textContent = ot.overtime_rate + '%';
-            document.getElementById('overtime-count').textContent = ot.overtime_commits + '건';
-            document.getElementById('regular-count').textContent = ot.regular_commits + '건';
+            // Summary cards (hours-based)
+            document.getElementById('overtime-hours').textContent = ot.overtime_hours + 'h';
+            document.getElementById('regular-hours').textContent = ot.regular_hours + 'h';
+            document.getElementById('overtime-rate').textContent = ot.overtime_hour_rate + '%';
             document.getElementById('weekend-count').textContent = ot.weekend_commits + '건';
-            document.getElementById('late-night-count').textContent = ot.late_night_commits + '건';
+            document.getElementById('total-work-hours').textContent = ot.total_hours + 'h';
 
-            // Pie chart: regular vs overtime
+            // Pie chart: regular vs overtime (hours)
+            // Calculate weekend hours vs weekday overtime hours
+            const dailyH = ot.daily_hours || {};
+            let weekendHours = 0, weekdayOtHours = 0;
+            Object.values(dailyH).forEach(d => {
+                if (d.is_weekend) weekendHours += d.overtime_hours;
+                else weekdayOtHours += d.overtime_hours;
+            });
             const pieCtx = document.getElementById('overtime-pie-chart').getContext('2d');
             new Chart(pieCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['정규 시간', '야근 (평일)', '주말'],
+                    labels: ['정규 시간', '야근 (평일)', '주말 근무'],
                     datasets: [{
                         data: [
-                            ot.regular_commits,
-                            ot.late_night_commits + ot.early_morning_commits,
-                            ot.weekend_commits
+                            ot.regular_hours,
+                            Math.round(weekdayOtHours * 10) / 10,
+                            Math.round(weekendHours * 10) / 10
                         ],
                         backgroundColor: ['#22c55e', '#f97316', '#ef4444'],
                         borderWidth: 2,
@@ -892,7 +903,14 @@
                 options: {
                     responsive: true,
                     plugins: {
-                        legend: { position: 'bottom', labels: { font: { size: 12 } } }
+                        legend: { position: 'bottom', labels: { font: { size: 12 } } },
+                        tooltip: {
+                            callbacks: {
+                                label: function(ctx) {
+                                    return ctx.label + ': ' + ctx.raw + '시간';
+                                }
+                            }
+                        }
                     }
                 }
             });
@@ -931,17 +949,18 @@
             // Daily overtime chart (default 30 days, switchable via filter)
             updateDailyOvertimeChart(30);
 
-            // Message
+            // Message (hours-based)
             const msgDiv = document.getElementById('overtime-message');
-            if (ot.overtime_rate > 50) {
+            const otRate = ot.overtime_hour_rate;
+            if (otRate > 50) {
                 msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-red-50 text-red-700';
-                msgDiv.textContent = '⚠️ 야근 비율이 높습니다 (' + ot.overtime_rate + '%). 근무 시간 내 집중도를 높여보세요.';
-            } else if (ot.overtime_rate > 30) {
+                msgDiv.textContent = '⚠️ 야근 ' + ot.overtime_hours + '시간 (비율 ' + otRate + '%). 근무 시간 내 집중도를 높여보세요.';
+            } else if (otRate > 30) {
                 msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-orange-50 text-orange-700';
-                msgDiv.textContent = '🔶 야근이 다소 있습니다 (' + ot.overtime_rate + '%). 업무 분배를 확인해보세요.';
+                msgDiv.textContent = '🔶 야근 ' + ot.overtime_hours + '시간 (비율 ' + otRate + '%). 업무 분배를 확인해보세요.';
             } else {
                 msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-green-50 text-green-700';
-                msgDiv.textContent = '✅ 야근 비율이 적정 수준입니다 (' + ot.overtime_rate + '%). 건강한 근무 패턴을 유지하고 있습니다.';
+                msgDiv.textContent = '✅ 야근 ' + ot.overtime_hours + '시간 (비율 ' + otRate + '%). 건강한 근무 패턴입니다.';
             }
         }
 

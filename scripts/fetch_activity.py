@@ -165,55 +165,103 @@ def get_repo_list():
 
 
 def generate_overtime_analysis(commits):
-    """야근(정규 근무 시간 외) 분석"""
+    """야근(정규 근무 시간 외) 분석 — 시간(hours) 기반"""
     WORK_START = 9   # 09:00
     WORK_END = 18    # 18:00
     KST_OFFSET = 9   # UTC+9
 
-    overtime_commits = []
-    regular_commits = []
-    overtime_by_date = {}  # date -> count
-    overtime_by_hour = [0] * 24  # hour -> count (KST)
-    weekend_commits = 0
-    early_morning = 0  # before 09:00
-    late_night = 0     # after 18:00
+    # 일별로 커밋 시간 수집
+    daily_times = {}  # date_str -> list of kst_dt
+    overtime_by_hour = [0] * 24  # hour -> commit count (KST)
+    overtime_commit_count = 0
+    regular_commit_count = 0
+    weekend_commit_count = 0
+    late_night_commit_count = 0
 
     for commit in commits:
         utc_dt = datetime.fromisoformat(commit['date'].replace('Z', '+00:00'))
         kst_dt = utc_dt + timedelta(hours=KST_OFFSET)
-        kst_hour = kst_dt.hour
-        kst_weekday = kst_dt.weekday()  # 0=Mon, 6=Sun
         date_str = kst_dt.strftime('%Y-%m-%d')
+        kst_hour = kst_dt.hour
+        kst_weekday = kst_dt.weekday()
+
+        if date_str not in daily_times:
+            daily_times[date_str] = []
+        daily_times[date_str].append(kst_dt)
 
         is_weekend = kst_weekday >= 5
         is_outside_hours = kst_hour < WORK_START or kst_hour >= WORK_END
         is_overtime = is_weekend or is_outside_hours
 
         if is_overtime:
-            overtime_commits.append(commit)
-            overtime_by_date[date_str] = overtime_by_date.get(date_str, 0) + 1
+            overtime_commit_count += 1
             overtime_by_hour[kst_hour] += 1
             if is_weekend:
-                weekend_commits += 1
-            if kst_hour < WORK_START:
-                early_morning += 1
+                weekend_commit_count += 1
             if kst_hour >= WORK_END:
-                late_night += 1
+                late_night_commit_count += 1
         else:
-            regular_commits.append(commit)
+            regular_commit_count += 1
 
+    # 일별 근무 시간 계산 (첫 커밋 ~ 마지막 커밋)
+    daily_hours = {}  # date_str -> {regular_hours, overtime_hours, total_hours, is_weekend}
+    total_regular_hours = 0
+    total_overtime_hours = 0
+    overtime_by_date = {}  # date_str -> overtime_hours
+
+    for date_str, times in daily_times.items():
+        times.sort()
+        first = times[0]
+        last = times[-1]
+        is_weekend = first.weekday() >= 5
+
+        if len(times) == 1:
+            # 커밋 1개: 최소 0.5시간 작업으로 추정
+            span_hours = 0.5
+        else:
+            span_hours = (last - first).total_seconds() / 3600
+            span_hours = max(span_hours, 0.5)  # 최소 0.5시간
+
+        if is_weekend:
+            regular_h = 0
+            overtime_h = round(span_hours, 1)
+        else:
+            # 정규 시간(09~18)과 겹치는 부분 계산
+            first_hour = first.hour + first.minute / 60
+            last_hour = last.hour + last.minute / 60
+            overlap_start = max(first_hour, WORK_START)
+            overlap_end = min(last_hour, WORK_END)
+            regular_h = round(max(overlap_end - overlap_start, 0), 1)
+            overtime_h = round(max(span_hours - regular_h, 0), 1)
+
+        daily_hours[date_str] = {
+            'regular_hours': regular_h,
+            'overtime_hours': overtime_h,
+            'total_hours': round(regular_h + overtime_h, 1),
+            'is_weekend': is_weekend,
+            'commits': len(times)
+        }
+        total_regular_hours += regular_h
+        total_overtime_hours += overtime_h
+        if overtime_h > 0:
+            overtime_by_date[date_str] = overtime_h
+
+    total_hours = round(total_regular_hours + total_overtime_hours, 1)
     total = len(commits)
-    ot_count = len(overtime_commits)
 
     return {
         'total_commits': total,
-        'overtime_commits': ot_count,
-        'regular_commits': total - ot_count,
-        'overtime_rate': round(ot_count / total * 100, 1) if total > 0 else 0,
-        'weekend_commits': weekend_commits,
-        'early_morning_commits': early_morning,
-        'late_night_commits': late_night,
-        'overtime_by_date': dict(sorted(overtime_by_date.items(), reverse=True)),
+        'overtime_commits': overtime_commit_count,
+        'regular_commits': regular_commit_count,
+        'overtime_rate': round(overtime_commit_count / total * 100, 1) if total > 0 else 0,
+        'weekend_commits': weekend_commit_count,
+        'late_night_commits': late_night_commit_count,
+        'total_hours': total_hours,
+        'regular_hours': round(total_regular_hours, 1),
+        'overtime_hours': round(total_overtime_hours, 1),
+        'overtime_hour_rate': round(total_overtime_hours / total_hours * 100, 1) if total_hours > 0 else 0,
+        'daily_hours': dict(sorted(daily_hours.items())),
+        'overtime_by_date': dict(sorted(overtime_by_date.items())),
         'overtime_by_hour': overtime_by_hour,
         'work_hours': {'start': WORK_START, 'end': WORK_END}
     }
