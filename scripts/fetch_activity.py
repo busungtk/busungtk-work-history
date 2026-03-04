@@ -11,14 +11,8 @@ import requests
 
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 GITHUB_API = 'https://api.github.com'
+ORG = 'busungtk'
 USERNAME = 'junyoungjang976'
-
-# 추적할 레포 목록 (JND 관련 제외)
-TRACKED_REPOS = [
-    'busungtk-docs',
-    'portal',
-    'hvac-mentor',
-]
 
 # 제외할 레포 패턴 (대소문자 구분 없음)
 EXCLUDED_PATTERNS = ['jnd', 'work-history', 'oh-my-claudecode']
@@ -29,10 +23,10 @@ headers = {
 }
 
 
-def fetch_commits(repo, days=90):
+def fetch_commits(owner, repo, days=90):
     """최근 N일간 커밋 조회"""
     since = (datetime.utcnow() - timedelta(days=days)).isoformat() + 'Z'
-    url = f'{GITHUB_API}/repos/{USERNAME}/{repo}/commits'
+    url = f'{GITHUB_API}/repos/{owner}/{repo}/commits'
     params = {'since': since, 'per_page': 100}
 
     commits = []
@@ -54,9 +48,9 @@ def fetch_commits(repo, days=90):
     return commits
 
 
-def fetch_pull_requests(repo, days=90):
+def fetch_pull_requests(owner, repo, days=90):
     """PR 조회"""
-    url = f'{GITHUB_API}/repos/{USERNAME}/{repo}/pulls'
+    url = f'{GITHUB_API}/repos/{owner}/{repo}/pulls'
     params = {'state': 'all', 'per_page': 100, 'sort': 'updated', 'direction': 'desc'}
 
     prs = []
@@ -85,9 +79,9 @@ def fetch_pull_requests(repo, days=90):
     return prs
 
 
-def fetch_issues(repo, days=90):
+def fetch_issues(owner, repo, days=90):
     """이슈 조회"""
-    url = f'{GITHUB_API}/repos/{USERNAME}/{repo}/issues'
+    url = f'{GITHUB_API}/repos/{owner}/{repo}/issues'
     params = {'state': 'all', 'per_page': 100, 'sort': 'updated', 'direction': 'desc'}
 
     issues = []
@@ -121,32 +115,51 @@ def fetch_issues(repo, days=90):
 
 
 def get_repo_list():
-    """사용자의 레포 목록 조회 (Private 포함, 제외 패턴 적용)"""
-    # /user/repos는 인증된 사용자의 모든 레포 (private 포함) 반환
-    url = f'{GITHUB_API}/user/repos'
-    params = {'per_page': 100, 'sort': 'updated', 'affiliation': 'owner'}
-
+    """조직 + 개인 레포 목록 조회 (Private 포함, 제외 패턴 적용)
+    Returns: list of (owner, repo_name) tuples
+    """
     repos = []
+    seen = set()
+
+    # 1) 조직 레포 조회 (우선)
+    url = f'{GITHUB_API}/orgs/{ORG}/repos'
+    params = {'per_page': 100, 'sort': 'updated'}
     try:
         response = requests.get(url, headers=headers, params=params)
         if response.status_code == 200:
             for repo in response.json():
                 name = repo['name']
-                # 제외 패턴 체크 (대소문자 구분 없음)
-                if any(pattern.lower() in name.lower() for pattern in EXCLUDED_PATTERNS):
+                if any(p.lower() in name.lower() for p in EXCLUDED_PATTERNS):
                     print(f"  ⏭️ 제외: {name}")
                     continue
-                # fork는 제외
                 if repo.get('fork'):
                     print(f"  ⏭️ Fork 제외: {name}")
                     continue
-                repos.append(name)
+                repos.append((ORG, name))
+                seen.add(name)
         else:
-            print(f"API 응답 오류: {response.status_code} - {response.text}")
-            repos = TRACKED_REPOS
+            print(f"Org API 응답 오류: {response.status_code}")
     except Exception as e:
-        print(f"Error fetching repo list: {e}")
-        repos = TRACKED_REPOS
+        print(f"Error fetching org repos: {e}")
+
+    # 2) 개인 레포 조회 (조직에 없는 것만 추가)
+    url = f'{GITHUB_API}/user/repos'
+    params = {'per_page': 100, 'sort': 'updated', 'affiliation': 'owner'}
+    try:
+        response = requests.get(url, headers=headers, params=params)
+        if response.status_code == 200:
+            for repo in response.json():
+                name = repo['name']
+                if name in seen:
+                    continue
+                if any(p.lower() in name.lower() for p in EXCLUDED_PATTERNS):
+                    continue
+                if repo.get('fork'):
+                    continue
+                repos.append((USERNAME, name))
+                seen.add(name)
+    except Exception as e:
+        print(f"Error fetching user repos: {e}")
 
     return repos
 
@@ -189,19 +202,20 @@ def generate_daily_summary(commits, prs, issues):
 def main():
     print("🔍 GitHub 작업 히스토리 수집 시작...")
 
-    # 레포 목록 조회
+    # 레포 목록 조회 (owner, repo_name) 튜플
     repos = get_repo_list()
-    print(f"📁 추적 대상 레포: {repos}")
+    repo_names = [name for _, name in repos]
+    print(f"📁 추적 대상 레포: {len(repos)}개 ({len([r for r in repos if r[0] == ORG])}개 조직, {len([r for r in repos if r[0] == USERNAME])}개 개인)")
 
     all_commits = []
     all_prs = []
     all_issues = []
 
-    for repo in repos:
-        print(f"  → {repo} 데이터 수집 중...")
-        all_commits.extend(fetch_commits(repo))
-        all_prs.extend(fetch_pull_requests(repo))
-        all_issues.extend(fetch_issues(repo))
+    for owner, repo in repos:
+        print(f"  → {owner}/{repo} 데이터 수집 중...")
+        all_commits.extend(fetch_commits(owner, repo))
+        all_prs.extend(fetch_pull_requests(owner, repo))
+        all_issues.extend(fetch_issues(owner, repo))
 
     # 날짜순 정렬
     all_commits.sort(key=lambda x: x['date'], reverse=True)
@@ -214,7 +228,7 @@ def main():
     # 데이터 저장
     data = {
         'updated_at': datetime.utcnow().isoformat() + 'Z',
-        'repos': repos,
+        'repos': repo_names,
         'summary': {
             'total_commits': len(all_commits),
             'total_prs': len(all_prs),

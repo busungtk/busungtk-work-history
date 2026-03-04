@@ -21,5 +21,5 @@ scripts/       # 데이터 생성 스크립트
 - 커밋 타임라인 (레포별 필터링)
 
 ## 배포
-- **GitHub Pages**: https://junyoungjang976.github.io/busungtk-work-history/
+- **GitHub Pages**: https://busungtk.github.io/busungtk-work-history/
 
