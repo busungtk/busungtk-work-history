@@ -246,6 +246,12 @@
                 </div>
             </div>
 
+            <!-- Daily Overtime Chart -->
+            <div class="mt-6">
+                <h3 class="text-sm font-semibold text-gray-700 mb-3">일별 정규 vs 야근 커밋 (최근 30일)</h3>
+                <canvas id="overtime-daily-chart" height="120"></canvas>
+            </div>
+
             <!-- Overtime Message -->
             <div id="overtime-message" class="mt-4 p-3 rounded-lg text-sm"></div>
         </div>
@@ -810,6 +816,65 @@
                         x: { ticks: { font: { size: 10 } } }
                     },
                     plugins: { legend: { display: false } }
+                }
+            });
+
+            // Daily overtime chart (last 30 days)
+            const dailyData = data.daily || {};
+            const otByDate = ot.overtime_by_date || {};
+            const today = new Date();
+            const last30 = [];
+            for (let i = 29; i >= 0; i--) {
+                const d = new Date(today);
+                d.setDate(d.getDate() - i);
+                const key = d.toISOString().slice(0, 10);
+                const totalDay = dailyData[key] ? dailyData[key].commits : 0;
+                const otDay = otByDate[key] || 0;
+                last30.push({
+                    date: (d.getMonth() + 1) + '/' + d.getDate(),
+                    regular: Math.max(totalDay - otDay, 0),
+                    overtime: otDay,
+                    isWeekend: d.getDay() === 0 || d.getDay() === 6
+                });
+            }
+
+            const dailyCtx = document.getElementById('overtime-daily-chart').getContext('2d');
+            new Chart(dailyCtx, {
+                type: 'bar',
+                data: {
+                    labels: last30.map(d => d.date),
+                    datasets: [
+                        {
+                            label: '정규 시간',
+                            data: last30.map(d => d.regular),
+                            backgroundColor: '#22c55e',
+                            borderRadius: 2
+                        },
+                        {
+                            label: '야근',
+                            data: last30.map(d => d.overtime),
+                            backgroundColor: last30.map(d => d.isWeekend ? '#ef4444' : '#f97316'),
+                            borderRadius: 2
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: { stacked: true, ticks: { font: { size: 10 }, maxRotation: 45 } },
+                        y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1 } }
+                    },
+                    plugins: {
+                        legend: { position: 'top', labels: { font: { size: 11 } } },
+                        tooltip: {
+                            callbacks: {
+                                afterBody: function(ctx) {
+                                    const idx = ctx[0].dataIndex;
+                                    return last30[idx].isWeekend ? '(주말)' : '';
+                                }
+                            }
+                        }
+                    }
                 }
             });
 
