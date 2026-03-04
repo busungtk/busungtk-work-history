@@ -215,14 +215,18 @@
             <p class="text-sm text-gray-500 mb-4">정규 근무: 평일 09:00~18:00 기준</p>
 
             <!-- Overtime Summary Cards -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
                 <div class="bg-orange-50 rounded-lg p-4 text-center">
                     <div class="text-2xl font-bold text-orange-600" id="overtime-rate">-</div>
                     <div class="text-xs text-gray-600">야근 비율</div>
                 </div>
                 <div class="bg-red-50 rounded-lg p-4 text-center">
                     <div class="text-2xl font-bold text-red-600" id="overtime-count">-</div>
-                    <div class="text-xs text-gray-600">야근 커밋</div>
+                    <div class="text-xs text-gray-600">야근 커밋 수</div>
+                </div>
+                <div class="bg-green-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-green-600" id="regular-count">-</div>
+                    <div class="text-xs text-gray-600">정규 커밋 수</div>
                 </div>
                 <div class="bg-purple-50 rounded-lg p-4 text-center">
                     <div class="text-2xl font-bold text-purple-600" id="weekend-count">-</div>
@@ -248,7 +252,16 @@
 
             <!-- Daily Overtime Chart -->
             <div class="mt-6">
-                <h3 class="text-sm font-semibold text-gray-700 mb-3">일별 정규 vs 야근 커밋 (최근 30일)</h3>
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-sm font-semibold text-gray-700">일별 정규 vs 야근 커밋</h3>
+                    <div class="flex gap-1 bg-gray-100 rounded-lg p-1">
+                        <button onclick="updateDailyOvertimeChart(7)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="7">7일</button>
+                        <button onclick="updateDailyOvertimeChart(14)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="14">14일</button>
+                        <button onclick="updateDailyOvertimeChart(30)" class="ot-period-btn px-3 py-1 text-xs rounded-md bg-blue-600 text-white" data-days="30">30일</button>
+                        <button onclick="updateDailyOvertimeChart(90)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="90">90일</button>
+                        <button onclick="updateDailyOvertimeChart(0)" class="ot-period-btn px-3 py-1 text-xs rounded-md" data-days="0">전체</button>
+                    </div>
+                </div>
                 <canvas id="overtime-daily-chart" height="120"></canvas>
             </div>
 
@@ -753,15 +766,111 @@
             document.getElementById('time-advice').innerHTML = `<strong>${goodPoint}</strong><br><strong>${improvePoint}</strong>`;
         }
 
+        let dailyOvertimeChart = null;
+        function updateDailyOvertimeChart(days) {
+            if (!data || !data.overtime) return;
+            const dailyData = data.daily || {};
+            const otByDate = data.overtime.overtime_by_date || {};
+
+            // Update button active states
+            document.querySelectorAll('.ot-period-btn').forEach(btn => {
+                if (parseInt(btn.dataset.days) === days || (days === 0 && btn.dataset.days === '0')) {
+                    btn.className = 'ot-period-btn px-3 py-1 text-xs rounded-md bg-blue-600 text-white';
+                } else {
+                    btn.className = 'ot-period-btn px-3 py-1 text-xs rounded-md text-gray-600 hover:bg-gray-200';
+                }
+            });
+
+            // Build date range
+            const entries = [];
+            if (days === 0) {
+                // All: use all dates from otByDate + dailyData
+                const allDates = new Set([...Object.keys(otByDate), ...Object.keys(dailyData)]);
+                const sorted = [...allDates].sort();
+                sorted.forEach(key => {
+                    const d = new Date(key + 'T00:00:00');
+                    const totalDay = dailyData[key] ? dailyData[key].commits : 0;
+                    const otDay = otByDate[key] || 0;
+                    entries.push({
+                        date: (d.getMonth() + 1) + '/' + d.getDate(),
+                        regular: Math.max(totalDay - otDay, 0),
+                        overtime: otDay,
+                        isWeekend: d.getDay() === 0 || d.getDay() === 6
+                    });
+                });
+            } else {
+                const today = new Date();
+                for (let i = days - 1; i >= 0; i--) {
+                    const d = new Date(today);
+                    d.setDate(d.getDate() - i);
+                    const key = d.toISOString().slice(0, 10);
+                    const totalDay = dailyData[key] ? dailyData[key].commits : 0;
+                    const otDay = otByDate[key] || 0;
+                    entries.push({
+                        date: (d.getMonth() + 1) + '/' + d.getDate(),
+                        regular: Math.max(totalDay - otDay, 0),
+                        overtime: otDay,
+                        isWeekend: d.getDay() === 0 || d.getDay() === 6
+                    });
+                }
+            }
+
+            // Destroy old chart
+            if (dailyOvertimeChart) {
+                dailyOvertimeChart.destroy();
+            }
+
+            const dailyCtx = document.getElementById('overtime-daily-chart').getContext('2d');
+            dailyOvertimeChart = new Chart(dailyCtx, {
+                type: 'bar',
+                data: {
+                    labels: entries.map(d => d.date),
+                    datasets: [
+                        {
+                            label: '정규 시간 (건)',
+                            data: entries.map(d => d.regular),
+                            backgroundColor: '#22c55e',
+                            borderRadius: 2
+                        },
+                        {
+                            label: '야근 (건)',
+                            data: entries.map(d => d.overtime),
+                            backgroundColor: entries.map(d => d.isWeekend ? '#ef4444' : '#f97316'),
+                            borderRadius: 2
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: { stacked: true, ticks: { font: { size: 10 }, maxRotation: 45 } },
+                        y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1 } }
+                    },
+                    plugins: {
+                        legend: { position: 'top', labels: { font: { size: 11 } } },
+                        tooltip: {
+                            callbacks: {
+                                afterBody: function(ctx) {
+                                    const idx = ctx[0].dataIndex;
+                                    return entries[idx].isWeekend ? '(주말)' : '';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
         function renderOvertimeAnalysis() {
             if (!data.overtime) return;
             const ot = data.overtime;
 
             // Summary cards
             document.getElementById('overtime-rate').textContent = ot.overtime_rate + '%';
-            document.getElementById('overtime-count').textContent = ot.overtime_commits;
-            document.getElementById('weekend-count').textContent = ot.weekend_commits;
-            document.getElementById('late-night-count').textContent = ot.late_night_commits;
+            document.getElementById('overtime-count').textContent = ot.overtime_commits + '건';
+            document.getElementById('regular-count').textContent = ot.regular_commits + '건';
+            document.getElementById('weekend-count').textContent = ot.weekend_commits + '건';
+            document.getElementById('late-night-count').textContent = ot.late_night_commits + '건';
 
             // Pie chart: regular vs overtime
             const pieCtx = document.getElementById('overtime-pie-chart').getContext('2d');
@@ -819,64 +928,8 @@
                 }
             });
 
-            // Daily overtime chart (last 30 days)
-            const dailyData = data.daily || {};
-            const otByDate = ot.overtime_by_date || {};
-            const today = new Date();
-            const last30 = [];
-            for (let i = 29; i >= 0; i--) {
-                const d = new Date(today);
-                d.setDate(d.getDate() - i);
-                const key = d.toISOString().slice(0, 10);
-                const totalDay = dailyData[key] ? dailyData[key].commits : 0;
-                const otDay = otByDate[key] || 0;
-                last30.push({
-                    date: (d.getMonth() + 1) + '/' + d.getDate(),
-                    regular: Math.max(totalDay - otDay, 0),
-                    overtime: otDay,
-                    isWeekend: d.getDay() === 0 || d.getDay() === 6
-                });
-            }
-
-            const dailyCtx = document.getElementById('overtime-daily-chart').getContext('2d');
-            new Chart(dailyCtx, {
-                type: 'bar',
-                data: {
-                    labels: last30.map(d => d.date),
-                    datasets: [
-                        {
-                            label: '정규 시간',
-                            data: last30.map(d => d.regular),
-                            backgroundColor: '#22c55e',
-                            borderRadius: 2
-                        },
-                        {
-                            label: '야근',
-                            data: last30.map(d => d.overtime),
-                            backgroundColor: last30.map(d => d.isWeekend ? '#ef4444' : '#f97316'),
-                            borderRadius: 2
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        x: { stacked: true, ticks: { font: { size: 10 }, maxRotation: 45 } },
-                        y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1 } }
-                    },
-                    plugins: {
-                        legend: { position: 'top', labels: { font: { size: 11 } } },
-                        tooltip: {
-                            callbacks: {
-                                afterBody: function(ctx) {
-                                    const idx = ctx[0].dataIndex;
-                                    return last30[idx].isWeekend ? '(주말)' : '';
-                                }
-                            }
-                        }
-                    }
-                }
-            });
+            // Daily overtime chart (default 30 days, switchable via filter)
+            updateDailyOvertimeChart(30);
 
             // Message
             const msgDiv = document.getElementById('overtime-message');
