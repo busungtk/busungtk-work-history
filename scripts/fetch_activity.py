@@ -164,6 +164,61 @@ def get_repo_list():
     return repos
 
 
+def generate_overtime_analysis(commits):
+    """야근(정규 근무 시간 외) 분석"""
+    WORK_START = 9   # 09:00
+    WORK_END = 18    # 18:00
+    KST_OFFSET = 9   # UTC+9
+
+    overtime_commits = []
+    regular_commits = []
+    overtime_by_date = {}  # date -> count
+    overtime_by_hour = [0] * 24  # hour -> count (KST)
+    weekend_commits = 0
+    early_morning = 0  # before 09:00
+    late_night = 0     # after 18:00
+
+    for commit in commits:
+        utc_dt = datetime.fromisoformat(commit['date'].replace('Z', '+00:00'))
+        kst_dt = utc_dt + timedelta(hours=KST_OFFSET)
+        kst_hour = kst_dt.hour
+        kst_weekday = kst_dt.weekday()  # 0=Mon, 6=Sun
+        date_str = kst_dt.strftime('%Y-%m-%d')
+
+        is_weekend = kst_weekday >= 5
+        is_outside_hours = kst_hour < WORK_START or kst_hour >= WORK_END
+        is_overtime = is_weekend or is_outside_hours
+
+        if is_overtime:
+            overtime_commits.append(commit)
+            overtime_by_date[date_str] = overtime_by_date.get(date_str, 0) + 1
+            overtime_by_hour[kst_hour] += 1
+            if is_weekend:
+                weekend_commits += 1
+            if kst_hour < WORK_START:
+                early_morning += 1
+            if kst_hour >= WORK_END:
+                late_night += 1
+        else:
+            regular_commits.append(commit)
+
+    total = len(commits)
+    ot_count = len(overtime_commits)
+
+    return {
+        'total_commits': total,
+        'overtime_commits': ot_count,
+        'regular_commits': total - ot_count,
+        'overtime_rate': round(ot_count / total * 100, 1) if total > 0 else 0,
+        'weekend_commits': weekend_commits,
+        'early_morning_commits': early_morning,
+        'late_night_commits': late_night,
+        'overtime_by_date': dict(sorted(overtime_by_date.items(), reverse=True)),
+        'overtime_by_hour': overtime_by_hour,
+        'work_hours': {'start': WORK_START, 'end': WORK_END}
+    }
+
+
 def generate_daily_summary(commits, prs, issues):
     """일별 요약 생성"""
     daily = {}
@@ -225,6 +280,9 @@ def main():
     # 일별 요약 생성
     daily_summary = generate_daily_summary(all_commits, all_prs, all_issues)
 
+    # 야근 분석
+    overtime = generate_overtime_analysis(all_commits)
+
     # 데이터 저장
     data = {
         'updated_at': datetime.utcnow().isoformat() + 'Z',
@@ -236,6 +294,7 @@ def main():
             'active_days': len(daily_summary)
         },
         'daily': daily_summary,
+        'overtime': overtime,
         'commits': all_commits[:200],  # 최근 200개
         'pull_requests': all_prs[:100],
         'issues': all_issues[:100]

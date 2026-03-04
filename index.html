@@ -209,6 +209,47 @@
             </div>
         </div>
 
+        <!-- Overtime Analysis -->
+        <div class="bg-white rounded-lg shadow p-6 mb-8">
+            <h2 class="text-lg font-semibold mb-4">🌙 야근 분석</h2>
+            <p class="text-sm text-gray-500 mb-4">정규 근무: 평일 09:00~18:00 기준</p>
+
+            <!-- Overtime Summary Cards -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-orange-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-orange-600" id="overtime-rate">-</div>
+                    <div class="text-xs text-gray-600">야근 비율</div>
+                </div>
+                <div class="bg-red-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-red-600" id="overtime-count">-</div>
+                    <div class="text-xs text-gray-600">야근 커밋</div>
+                </div>
+                <div class="bg-purple-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-purple-600" id="weekend-count">-</div>
+                    <div class="text-xs text-gray-600">주말 커밋</div>
+                </div>
+                <div class="bg-blue-50 rounded-lg p-4 text-center">
+                    <div class="text-2xl font-bold text-blue-600" id="late-night-count">-</div>
+                    <div class="text-xs text-gray-600">18시 이후</div>
+                </div>
+            </div>
+
+            <!-- Overtime Chart -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-700 mb-3">근무 시간 분포</h3>
+                    <canvas id="overtime-pie-chart" height="200"></canvas>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-700 mb-3">시간대별 야근 커밋 (KST)</h3>
+                    <canvas id="overtime-hour-chart" height="200"></canvas>
+                </div>
+            </div>
+
+            <!-- Overtime Message -->
+            <div id="overtime-message" class="mt-4 p-3 rounded-lg text-sm"></div>
+        </div>
+
         <!-- Activity Chart -->
         <div class="bg-white rounded-lg shadow p-6 mb-8">
             <h2 class="text-lg font-semibold mb-4">일별 활동</h2>
@@ -307,6 +348,7 @@
                 renderWeeklyGoal();
                 renderWorkTypeAnalysis();
                 renderTimeHeatmap();
+                renderOvertimeAnalysis();
                 renderWorkPatternAnalysis();
                 renderWeeklyComparison();
                 renderGoalHistory();
@@ -703,6 +745,86 @@
             }
 
             document.getElementById('time-advice').innerHTML = `<strong>${goodPoint}</strong><br><strong>${improvePoint}</strong>`;
+        }
+
+        function renderOvertimeAnalysis() {
+            if (!data.overtime) return;
+            const ot = data.overtime;
+
+            // Summary cards
+            document.getElementById('overtime-rate').textContent = ot.overtime_rate + '%';
+            document.getElementById('overtime-count').textContent = ot.overtime_commits;
+            document.getElementById('weekend-count').textContent = ot.weekend_commits;
+            document.getElementById('late-night-count').textContent = ot.late_night_commits;
+
+            // Pie chart: regular vs overtime
+            const pieCtx = document.getElementById('overtime-pie-chart').getContext('2d');
+            new Chart(pieCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['정규 시간', '야근 (평일)', '주말'],
+                    datasets: [{
+                        data: [
+                            ot.regular_commits,
+                            ot.late_night_commits + ot.early_morning_commits,
+                            ot.weekend_commits
+                        ],
+                        backgroundColor: ['#22c55e', '#f97316', '#ef4444'],
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { font: { size: 12 } } }
+                    }
+                }
+            });
+
+            // Bar chart: overtime commits by hour (highlight overtime hours)
+            const hourCtx = document.getElementById('overtime-hour-chart').getContext('2d');
+            const hours = Array.from({length: 24}, (_, i) => i + '시');
+            const hourData = ot.overtime_by_hour;
+            const barColors = hourData.map((_, i) => {
+                if (i >= 9 && i < 18) return '#d1d5db'; // regular hours - gray (should be 0)
+                if (i >= 22 || i < 6) return '#ef4444';  // deep night - red
+                return '#f97316'; // early morning / evening - orange
+            });
+
+            new Chart(hourCtx, {
+                type: 'bar',
+                data: {
+                    labels: hours,
+                    datasets: [{
+                        label: '야근 커밋',
+                        data: hourData,
+                        backgroundColor: barColors,
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, ticks: { stepSize: 1 } },
+                        x: { ticks: { font: { size: 10 } } }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+
+            // Message
+            const msgDiv = document.getElementById('overtime-message');
+            if (ot.overtime_rate > 50) {
+                msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-red-50 text-red-700';
+                msgDiv.textContent = '⚠️ 야근 비율이 높습니다 (' + ot.overtime_rate + '%). 근무 시간 내 집중도를 높여보세요.';
+            } else if (ot.overtime_rate > 30) {
+                msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-orange-50 text-orange-700';
+                msgDiv.textContent = '🔶 야근이 다소 있습니다 (' + ot.overtime_rate + '%). 업무 분배를 확인해보세요.';
+            } else {
+                msgDiv.className = 'mt-4 p-3 rounded-lg text-sm bg-green-50 text-green-700';
+                msgDiv.textContent = '✅ 야근 비율이 적정 수준입니다 (' + ot.overtime_rate + '%). 건강한 근무 패턴을 유지하고 있습니다.';
+            }
         }
 
         function renderWorkPatternAnalysis() {
