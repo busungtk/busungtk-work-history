@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-04T12:43:23.955224Z",
+  "updated_at": "2026-03-04T12:47:26.080211Z",
   "repos": [
     "busungtk-marketing",
     "busungtk-portal",
@@ -266,38 +266,254 @@
     "regular_commits": 205,
     "overtime_rate": 68.8,
     "weekend_commits": 180,
-    "early_morning_commits": 162,
     "late_night_commits": 230,
+    "total_hours": 393.6,
+    "regular_hours": 137.9,
+    "overtime_hours": 255.7,
+    "overtime_hour_rate": 65.0,
+    "daily_hours": {
+      "2026-01-24": {
+        "regular_hours": 0,
+        "overtime_hours": 1.1,
+        "total_hours": 1.1,
+        "is_weekend": true,
+        "commits": 6
+      },
+      "2026-01-27": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
+      },
+      "2026-01-28": {
+        "regular_hours": 9,
+        "overtime_hours": 12.9,
+        "total_hours": 21.9,
+        "is_weekend": false,
+        "commits": 17
+      },
+      "2026-01-29": {
+        "regular_hours": 9,
+        "overtime_hours": 14.3,
+        "total_hours": 23.3,
+        "is_weekend": false,
+        "commits": 49
+      },
+      "2026-01-30": {
+        "regular_hours": 3.9,
+        "overtime_hours": 7.2,
+        "total_hours": 11.1,
+        "is_weekend": false,
+        "commits": 10
+      },
+      "2026-01-31": {
+        "regular_hours": 0,
+        "overtime_hours": 3.1,
+        "total_hours": 3.1,
+        "is_weekend": true,
+        "commits": 22
+      },
+      "2026-02-01": {
+        "regular_hours": 0,
+        "overtime_hours": 3.6,
+        "total_hours": 3.6,
+        "is_weekend": true,
+        "commits": 5
+      },
+      "2026-02-02": {
+        "regular_hours": 9,
+        "overtime_hours": 8.3,
+        "total_hours": 17.3,
+        "is_weekend": false,
+        "commits": 15
+      },
+      "2026-02-03": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
+      },
+      "2026-02-04": {
+        "regular_hours": 9,
+        "overtime_hours": 14.0,
+        "total_hours": 23.0,
+        "is_weekend": false,
+        "commits": 15
+      },
+      "2026-02-06": {
+        "regular_hours": 0,
+        "overtime_hours": 2.1,
+        "total_hours": 2.1,
+        "is_weekend": false,
+        "commits": 18
+      },
+      "2026-02-07": {
+        "regular_hours": 0,
+        "overtime_hours": 13.5,
+        "total_hours": 13.5,
+        "is_weekend": true,
+        "commits": 32
+      },
+      "2026-02-08": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": true,
+        "commits": 2
+      },
+      "2026-02-09": {
+        "regular_hours": 9,
+        "overtime_hours": 10.0,
+        "total_hours": 19.0,
+        "is_weekend": false,
+        "commits": 30
+      },
+      "2026-02-10": {
+        "regular_hours": 9,
+        "overtime_hours": 6.5,
+        "total_hours": 15.5,
+        "is_weekend": false,
+        "commits": 19
+      },
+      "2026-02-11": {
+        "regular_hours": 7.6,
+        "overtime_hours": 5.7,
+        "total_hours": 13.3,
+        "is_weekend": false,
+        "commits": 24
+      },
+      "2026-02-12": {
+        "regular_hours": 2.8,
+        "overtime_hours": 8.9,
+        "total_hours": 11.7,
+        "is_weekend": false,
+        "commits": 13
+      },
+      "2026-02-13": {
+        "regular_hours": 8.6,
+        "overtime_hours": 1.3,
+        "total_hours": 9.9,
+        "is_weekend": false,
+        "commits": 7
+      },
+      "2026-02-14": {
+        "regular_hours": 0,
+        "overtime_hours": 12.7,
+        "total_hours": 12.7,
+        "is_weekend": true,
+        "commits": 45
+      },
+      "2026-02-15": {
+        "regular_hours": 0,
+        "overtime_hours": 3.3,
+        "total_hours": 3.3,
+        "is_weekend": true,
+        "commits": 4
+      },
+      "2026-02-17": {
+        "regular_hours": 9,
+        "overtime_hours": 14.7,
+        "total_hours": 23.7,
+        "is_weekend": false,
+        "commits": 99
+      },
+      "2026-02-18": {
+        "regular_hours": 9,
+        "overtime_hours": 13.8,
+        "total_hours": 22.8,
+        "is_weekend": false,
+        "commits": 24
+      },
+      "2026-02-19": {
+        "regular_hours": 9,
+        "overtime_hours": 14.8,
+        "total_hours": 23.8,
+        "is_weekend": false,
+        "commits": 56
+      },
+      "2026-02-20": {
+        "regular_hours": 9,
+        "overtime_hours": 11.2,
+        "total_hours": 20.2,
+        "is_weekend": false,
+        "commits": 19
+      },
+      "2026-02-21": {
+        "regular_hours": 0,
+        "overtime_hours": 21.5,
+        "total_hours": 21.5,
+        "is_weekend": true,
+        "commits": 45
+      },
+      "2026-02-22": {
+        "regular_hours": 0,
+        "overtime_hours": 23.3,
+        "total_hours": 23.3,
+        "is_weekend": true,
+        "commits": 19
+      },
+      "2026-02-23": {
+        "regular_hours": 6.4,
+        "overtime_hours": 8.9,
+        "total_hours": 15.3,
+        "is_weekend": false,
+        "commits": 16
+      },
+      "2026-02-25": {
+        "regular_hours": 0.6,
+        "overtime_hours": 1.1,
+        "total_hours": 1.7,
+        "is_weekend": false,
+        "commits": 4
+      },
+      "2026-03-03": {
+        "regular_hours": 9,
+        "overtime_hours": 12.6,
+        "total_hours": 21.6,
+        "is_weekend": false,
+        "commits": 25
+      },
+      "2026-03-04": {
+        "regular_hours": 9,
+        "overtime_hours": 3.8,
+        "total_hours": 12.8,
+        "is_weekend": false,
+        "commits": 14
+      }
+    },
     "overtime_by_date": {
-      "2026-03-04": 3,
-      "2026-03-03": 18,
-      "2026-02-25": 1,
-      "2026-02-23": 8,
-      "2026-02-22": 19,
-      "2026-02-21": 45,
-      "2026-02-20": 13,
-      "2026-02-19": 19,
-      "2026-02-18": 8,
-      "2026-02-17": 89,
-      "2026-02-15": 4,
-      "2026-02-14": 45,
-      "2026-02-13": 1,
-      "2026-02-12": 4,
-      "2026-02-11": 16,
-      "2026-02-10": 9,
-      "2026-02-09": 5,
-      "2026-02-08": 2,
-      "2026-02-07": 32,
-      "2026-02-06": 18,
-      "2026-02-04": 7,
-      "2026-02-02": 11,
-      "2026-02-01": 5,
-      "2026-01-31": 22,
-      "2026-01-30": 7,
-      "2026-01-29": 25,
-      "2026-01-28": 8,
-      "2026-01-27": 3,
-      "2026-01-24": 6
+      "2026-01-24": 1.1,
+      "2026-01-27": 0.5,
+      "2026-01-28": 12.9,
+      "2026-01-29": 14.3,
+      "2026-01-30": 7.2,
+      "2026-01-31": 3.1,
+      "2026-02-01": 3.6,
+      "2026-02-02": 8.3,
+      "2026-02-03": 0.5,
+      "2026-02-04": 14.0,
+      "2026-02-06": 2.1,
+      "2026-02-07": 13.5,
+      "2026-02-08": 0.5,
+      "2026-02-09": 10.0,
+      "2026-02-10": 6.5,
+      "2026-02-11": 5.7,
+      "2026-02-12": 8.9,
+      "2026-02-13": 1.3,
+      "2026-02-14": 12.7,
+      "2026-02-15": 3.3,
+      "2026-02-17": 14.7,
+      "2026-02-18": 13.8,
+      "2026-02-19": 14.8,
+      "2026-02-20": 11.2,
+      "2026-02-21": 21.5,
+      "2026-02-22": 23.3,
+      "2026-02-23": 8.9,
+      "2026-02-25": 1.1,
+      "2026-03-03": 12.6,
+      "2026-03-04": 3.8
     },
     "overtime_by_hour": [
       40,
