@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-03-04T12:47:26.080211Z",
+  "updated_at": "2026-03-05T01:00:16.393125Z",
   "repos": [
+    "busungtk-landing",
+    "busungtk-ai-ideation",
+    "busungtk-kitchen-resource",
     "busungtk-marketing",
     "busungtk-portal",
     "busungtk-training",
-    "busungtk-landing",
     "busungtk-hub",
     "busungtk-asms",
-    "busungtk-ai-ideation",
     "busungtk-ui",
     "busungtk-supabase-types",
     "busungtk-sales-crm",
@@ -29,14 +30,21 @@
     "church-shorts-bg"
   ],
   "summary": {
-    "total_commits": 658,
+    "total_commits": 665,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 32
+    "active_days": 33
   },
   "daily": {
+    "2026-03-05": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-04": {
-      "commits": 13,
+      "commits": 19,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -261,16 +269,16 @@
     }
   },
   "overtime": {
-    "total_commits": 658,
-    "overtime_commits": 453,
-    "regular_commits": 205,
-    "overtime_rate": 68.8,
+    "total_commits": 665,
+    "overtime_commits": 459,
+    "regular_commits": 206,
+    "overtime_rate": 69.0,
     "weekend_commits": 180,
-    "late_night_commits": 230,
-    "total_hours": 393.6,
-    "regular_hours": 137.9,
-    "overtime_hours": 255.7,
-    "overtime_hour_rate": 65.0,
+    "late_night_commits": 235,
+    "total_hours": 406.4,
+    "regular_hours": 138.9,
+    "overtime_hours": 267.5,
+    "overtime_hour_rate": 65.8,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -477,10 +485,17 @@
       },
       "2026-03-04": {
         "regular_hours": 9,
-        "overtime_hours": 3.8,
-        "total_hours": 12.8,
+        "overtime_hours": 6.7,
+        "total_hours": 15.7,
         "is_weekend": false,
-        "commits": 14
+        "commits": 19
+      },
+      "2026-03-05": {
+        "regular_hours": 1.0,
+        "overtime_hours": 8.9,
+        "total_hours": 9.9,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -513,10 +528,11 @@
       "2026-02-23": 8.9,
       "2026-02-25": 1.1,
       "2026-03-03": 12.6,
-      "2026-03-04": 3.8
+      "2026-03-04": 6.7,
+      "2026-03-05": 8.9
     },
     "overtime_by_hour": [
-      40,
+      41,
       22,
       20,
       29,
@@ -539,7 +555,7 @@
       19,
       81,
       31,
-      48
+      53
     ],
     "work_hours": {
       "start": 9,
@@ -547,6 +563,62 @@
     }
   },
   "commits": [
+    {
+      "sha": "bbf18ef",
+      "message": "feat: 아임웹 위젯용 JS 분리 — problem-focused 5페이지 외부 스크립트",
+      "author": "junyoungjang976",
+      "date": "2026-03-05T00:58:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bbf18ef6887dc5dde07494d97b916988a1e07a3f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c37edaa",
+      "message": "feat: VR 주방 동선 체험 아이디에이션 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T15:02:52Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/c37edaab10dfed4e9d44e3e9b5db554cf0854f54",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "b331983",
+      "message": "feat: 주방 종합 자료공유실 웹 앱 초기 커밋",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T14:51:33Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/b331983693c4777da42553e0e79f59297567e87a",
+      "repo": "busungtk-kitchen-resource"
+    },
+    {
+      "sha": "c35ebb3",
+      "message": "docs: 랜딩 약속 이행 체크리스트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T14:41:14Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c35ebb3f09b3e163f8383e4f7dd52a37c12c1584",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4f14baf",
+      "message": "docs: 세일즈 전략 2026 문서 추가 (세그멘테이션 기반, 21개 이론)",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T14:23:47Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/4f14bafeef52e64a348751338a07db73e2ee39ab",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "7d0000b",
+      "message": "fix: 98% 만족도 수치 불일치 제거 — 85% 재계약률로 통일",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T14:13:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7d0000b99c6c11df62c1d458bb3b821f00d1a869",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "36cab77",
+      "message": "fix: 랜딩 카피 현실성 검수 — 비즈니스 모델 반영",
+      "author": "junyoungjang976",
+      "date": "2026-03-04T14:04:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/36cab7788702ed155e212c443efc3dbb7b563ad1",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "6aa879f",
       "message": "fix: 모바일 헤더 레이아웃 깨짐 수정 — flex-col 대신 block 스택 적용",
@@ -2090,62 +2162,6 @@
       "date": "2026-02-18T16:10:18Z",
       "url": "https://github.com/busungtk/busungtk-marketing/commit/f2c75800b51b5ecba39db46fa163a33bf17e00fe",
       "repo": "busungtk-marketing"
-    },
-    {
-      "sha": "992bbc2",
-      "message": "feat: AI 카피 생성 입력 강화 - 타겟/CTA/USP/톤앤매너 + .env.vercel gitignore",
-      "author": "jangj",
-      "date": "2026-02-18T16:08:56Z",
-      "url": "https://github.com/busungtk/busungtk-marketing/commit/992bbc2d4d615a90579d11ea4370a3d3d56ca3b8",
-      "repo": "busungtk-marketing"
-    },
-    {
-      "sha": "799a4b8",
-      "message": "feat: AI 카피 생성 강화 - 마케팅 심리학 프롬프트 + 확장소재 + 비용 추적",
-      "author": "jangj",
-      "date": "2026-02-18T16:00:42Z",
-      "url": "https://github.com/busungtk/busungtk-marketing/commit/799a4b80c45b63709dd1ad645db6981ab5877a26",
-      "repo": "busungtk-marketing"
-    },
-    {
-      "sha": "e374661",
-      "message": "feat: 채널 전체 영상 성과 대시보드로 전환",
-      "author": "junyoungjang976",
-      "date": "2026-02-18T15:32:39Z",
-      "url": "https://github.com/junyoungjang976/gumi-church/commit/e374661a6e463411f24ef7c94ffd01ab56025480",
-      "repo": "gumi-church"
-    },
-    {
-      "sha": "baf5054",
-      "message": "fix: 최근 영상 30일 필터, 리스트 10개 표시",
-      "author": "junyoungjang976",
-      "date": "2026-02-18T15:17:02Z",
-      "url": "https://github.com/junyoungjang976/gumi-church/commit/baf50548d240f213be546c10d9187caa63bfa52b",
-      "repo": "gumi-church"
-    },
-    {
-      "sha": "316dee2",
-      "message": "feat: 쇼츠 성과 대시보드 페이지 추가",
-      "author": "junyoungjang976",
-      "date": "2026-02-18T15:08:58Z",
-      "url": "https://github.com/junyoungjang976/gumi-church/commit/316dee23a421d4d8bd5e5244c0f20edbc2e1d39a",
-      "repo": "gumi-church"
-    },
-    {
-      "sha": "a8f43b2",
-      "message": "fix: 누락된 @busungtk/supabase-types 의존성 제거",
-      "author": "junyoungjang976",
-      "date": "2026-02-18T14:59:31Z",
-      "url": "https://github.com/junyoungjang976/gumi-church/commit/a8f43b2811174c564dbc044737a8851f3d18a962",
-      "repo": "gumi-church"
-    },
-    {
-      "sha": "80729cf",
-      "message": "feat: YouTube 쇼츠 성과 추적 (조회수/좋아요/댓글)",
-      "author": "junyoungjang976",
-      "date": "2026-02-18T14:38:30Z",
-      "url": "https://github.com/junyoungjang976/gumi-church/commit/80729cf0530f4d1ad38a0a4c39b9a2398a33b7aa",
-      "repo": "gumi-church"
     }
   ],
   "pull_requests": [
