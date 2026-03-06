@@ -13,3 +13,4 @@ Thumbs.db
 # Claude / OMC
 .omc/
 .env*.local
+__pycache__/
