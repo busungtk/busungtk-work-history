@@ -1,14 +1,16 @@
 {
-  "updated_at": "2026-03-11T00:57:01.620136Z",
+  "updated_at": "2026-03-12T00:53:41.631063Z",
   "repos": [
-    "busungtk-landing",
-    "busungtk-ai-ideation",
     "busungtk-seo-agent",
     "busungtk-partner-map",
+    "busungtk-marketing",
+    "busungtk-kitchen-resource",
+    "busungtk-ai-ideation",
+    "busungtk-kitchen-simulator",
+    "busungtk-landing",
     "busungtk-ui",
     "vibe-factory",
     "busungtk-portal",
-    "busungtk-marketing",
     "busungtk-relay-board",
     "busungtk-order-tracker",
     "busungtk-hvac-mentor",
@@ -19,17 +21,16 @@
     "busungtk-field-check",
     "busungtk-kitchen-planner",
     "busungtk-asms",
-    "busungtk-kitchen-resource",
     "busungtk-sales-pipeline",
     "busungtk-training",
     "busungtk-control-tower",
     "busungtk-purchase-data",
-    "busungtk-kitchen-simulator",
     "busungtk-daily-report",
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
-    "dance-academy-marketing",
     "busungtk-marketing-v2",
+    "busungtk-kitchen-consulting",
+    "dance-academy-marketing",
     "gumi-church-shorts",
     "claude-dotfiles",
     "gumi-church-ai",
@@ -37,12 +38,19 @@
     "gumi-church"
   ],
   "summary": {
-    "total_commits": 885,
+    "total_commits": 898,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 38
+    "active_days": 39
   },
   "daily": {
+    "2026-03-11": {
+      "commits": 13,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-10": {
       "commits": 31,
       "prs_opened": 0,
@@ -311,16 +319,16 @@
     }
   },
   "overtime": {
-    "total_commits": 885,
-    "overtime_commits": 623,
-    "regular_commits": 262,
-    "overtime_rate": 70.4,
+    "total_commits": 898,
+    "overtime_commits": 635,
+    "regular_commits": 263,
+    "overtime_rate": 70.7,
     "weekend_commits": 275,
-    "late_night_commits": 300,
-    "total_hours": 502.8,
-    "regular_hours": 164.9,
-    "overtime_hours": 337.9,
-    "overtime_hour_rate": 67.2,
+    "late_night_commits": 312,
+    "total_hours": 507.7,
+    "regular_hours": 165.0,
+    "overtime_hours": 342.7,
+    "overtime_hour_rate": 67.5,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -573,6 +581,13 @@
         "total_hours": 22.9,
         "is_weekend": false,
         "commits": 36
+      },
+      "2026-03-11": {
+        "regular_hours": 0.1,
+        "overtime_hours": 4.8,
+        "total_hours": 4.9,
+        "is_weekend": false,
+        "commits": 13
       }
     },
     "overtime_by_date": {
@@ -611,7 +626,8 @@
       "2026-03-07": 12.0,
       "2026-03-08": 22.3,
       "2026-03-09": 11.7,
-      "2026-03-10": 13.9
+      "2026-03-10": 13.9,
+      "2026-03-11": 4.8
     },
     "overtime_by_hour": [
       56,
@@ -635,8 +651,8 @@
       33,
       32,
       31,
-      92,
-      52,
+      93,
+      63,
       60
     ],
     "work_hours": {
@@ -645,6 +661,110 @@
     }
   },
   "commits": [
+    {
+      "sha": "408ed2d",
+      "message": "docs: Google Ads API 설계 문서 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:54:18Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/408ed2d8819378741ec97b41900c54352ef04b02",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "129978a",
+      "message": "chore: .gitignore 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:53:53Z",
+      "url": "https://github.com/busungtk/busungtk-seo-agent/commit/129978aa9f67161eb419c782f29704d277dee8ab",
+      "repo": "busungtk-seo-agent"
+    },
+    {
+      "sha": "beee72b",
+      "message": "chore: .gitignore 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:53:40Z",
+      "url": "https://github.com/busungtk/busungtk-partner-map/commit/beee72bd33f17cd79bf5def4f8866a102228f4ba",
+      "repo": "busungtk-partner-map"
+    },
+    {
+      "sha": "0c0ec88",
+      "message": "feat: 키워드 데이터 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:53:32Z",
+      "url": "https://github.com/busungtk/busungtk-marketing/commit/0c0ec8893bf47f2fe7b41af0540c7433184ae518",
+      "repo": "busungtk-marketing"
+    },
+    {
+      "sha": "70dc4c5",
+      "message": "feat: 가격 추출 스크립트 및 데이터 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:53:21Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/70dc4c59e2dc94827d62e0a838c5ef68aaa50787",
+      "repo": "busungtk-kitchen-resource"
+    },
+    {
+      "sha": "5f9ee2c",
+      "message": "docs: kitchen-consulting MVP 작업 기록 (2026-03-11)",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:49:51Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/5f9ee2c0faf073232f97deaba0e5dcdc66cc19d3",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "5789f31",
+      "message": "chore: .gitignore에 .omc/ 및 dist/ 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:48:14Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/5789f312aab7d1a372cc0bbf3939c45220b75ec1",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a5dfd54",
+      "message": "feat: 컨설팅 템플릿 생성 스크립트 + 70개 템플릿 데이터",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:47:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-simulator/commit/a5dfd540784e5f3fc1096d3fffeccb12861234d3",
+      "repo": "busungtk-kitchen-simulator"
+    },
+    {
+      "sha": "48c01cb",
+      "message": "fix: 벽면 추종 레이아웃 적용 - 장비를 벽면 따라 정렬",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:43:07Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/48c01cbb8807e81a3454c9a2fd5f623ab9843fe8",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e96e7c5",
+      "message": "fix: 장비 실제 치수 반영 - ID 접미사 버그 수정 후 템플릿 재생성",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:29:51Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/e96e7c5c497f470d9fc7775b5235a12b0fe89e8b",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2b9fb57",
+      "message": "feat: 무료 주방 컨설팅 MVP - 업종+평수 입력 → 장비/견적/배치도 자동 생성",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T13:14:23Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/2b9fb57bcb2027236ff7d066e91b8e59d61c8842",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2b5dbdb",
+      "message": "docs: CEO 비전 로드맵 PPT 3종 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T12:26:53Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/2b5dbdb5e6d063fed635081b38861bcc9e7456ef",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "3105a72",
+      "message": "feat: 모바일 최적화 - 사이드바 드로어, 반응형 헤더/그리드, PPT 미디어 쿼리",
+      "author": "junyoungjang976",
+      "date": "2026-03-11T08:57:19Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/3105a72c8ea2c9432e5f259d87a0e905a155941b",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "506fbf5",
       "message": "docs: 메타 광고 이미지 v2 (폰트 사이즈 업 + URL 메인페이지 통일)",
@@ -2140,110 +2260,6 @@
       "date": "2026-03-06T10:59:52Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-simulator/commit/f7bff3d6607f6d55b8624e82096809470a4ef64b",
       "repo": "busungtk-kitchen-simulator"
-    },
-    {
-      "sha": "5eaca51",
-      "message": "chore: update CLAUDE.md",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:50Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-planner/commit/5eaca51b51073b0531489bff81597859badca7f4",
-      "repo": "busungtk-kitchen-planner"
-    },
-    {
-      "sha": "0d43413",
-      "message": "chore: update CLAUDE.md",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:48Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/0d43413deb31495ec82e1a9441656b175d02a596",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "9e6667b",
-      "message": "chore: update CLAUDE.md",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:46Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/9e6667bbb6e014f261f25c702c93bb3b99c4b6ee",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "c045eb1",
-      "message": "chore: update CLAUDE.md",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:44Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/c045eb1b6df12b6c8369d9713040427fb054ecb8",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "f7aaffb",
-      "message": "chore: update CLAUDE.md",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:43Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/f7aaffb181ed42a23db12fec8a88b2b9a6ea20c0",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "8b4659b",
-      "message": "chore: clean up unused plan files",
-      "author": "junyoungjang976",
-      "date": "2026-03-06T10:59:28Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/8b4659bbd0db847fc6417bade2c315e35ddc5056",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "48ca57e",
-      "message": "feat: 아임웹 하위페이지 4개 설정 + 모바일 CSS 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T14:52:59Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/48ca57e7149711268f6e17c05826eb87c518ec89",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3115918",
-      "message": "fix: Tailwind v4 reset이 mx-auto 덮어쓰는 문제 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:37:36Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/31159189ccdbaff2ac3ab7ca9116687df42ad0e0",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "19749d9",
-      "message": "fix: CSS 전체 셀렉터 .bstk-pf/.bstk-ps 스코핑 (아임웹 충돌 해결)",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:30:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/19749d9c09c6f2f2623909c25a20422776823cd5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "47e023d",
-      "message": "fix: section-container max-width 1100px → 1280px (넓은 화면 중앙 정렬)",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:23:56Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/47e023d46cb63e468c084354caa536a102fb1565",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "07a2a6e",
-      "message": "fix: gradient-text 중앙 정렬 수정 (display: inline)",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:15:20Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/07a2a6ebfe1b59e8b621d8d83a1f4e1ac135e74a",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "b157e46",
-      "message": "refactor: forceColors JS 제거 — 아임웹 섹션 설정으로 해결",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:11:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b157e467089d8f6efe760db31257ba71a3849bb3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "dbc7dc3",
-      "message": "feat: 홈페이지 시공 프로세스 섹션 추가 + 간격 조정",
-      "author": "junyoungjang976",
-      "date": "2026-03-05T13:08:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/dbc7dc327f559817fb4cf066f3c1d403da74098f",
-      "repo": "busungtk-kitchen-resource"
     }
   ],
   "pull_requests": [
