@@ -436,8 +436,8 @@
             <td class="td-content">시공완료 등록 → 블로그 포스팅 관리</td>
             <td class="td-purpose">시공사례 콘텐츠 누락 방지</td>
             <td class="td-impl">
-              <span class="tag tag-dash">대시보드</span><span class="tag tag-sms">SMS</span>
-              marketing-v2 대시보드, 시공완료 등록 → 포스팅 상태 추적 → 3일 미포스팅 시 SMS 리마인더
+              <span class="tag tag-dash">대시보드</span><span class="tag tag-sms">SMS</span><span class="tag tag-cron">Cron 19:00 KST</span>
+              채널톡 시공완료 보고 자동 수집(Cron 매일 19:00 KST, 그룹 453017) → DB → 대시보드 → 포스팅 상태 추적 → 3일 미포스팅 시 SMS 리마인더. 과거 데이터 22건 등록 완료.
             </td>
             <td class="td-effect">시공사례 100% 콘텐츠화</td>
           </tr>
@@ -601,14 +601,14 @@
         <tbody>
           <tr data-id="16" data-cat="3">
             <td class="td-check"><input type="checkbox" class="check-input" /></td>
-            <td class="td-item">Supabase SQL 실행</td>
-            <td class="td-content">만족도/콘텐츠/퍼널 테이블 3개 생성</td>
+            <td class="td-item">Supabase SQL 실행 ✅</td>
+            <td class="td-content">만족도/콘텐츠/퍼널/채널톡 테이블 5개 생성</td>
             <td class="td-purpose">자동화 기능 DB 활성화</td>
             <td class="td-impl">
-              <span class="tag tag-manual">수동</span><span class="tag tag-db">SQL</span>
-              total-system Dashboard → SQL Editor에서 satisfaction_survey.sql, content_pipeline.sql, lead_funnel.sql 실행
+              <span class="tag tag-db">SQL</span>
+              <code>npx supabase db push</code>로 5개 마이그레이션 완료 (satisfaction_survey, content_pipeline, lead_funnel, construction_channeltalk, add_work_date)
             </td>
-            <td class="td-effect">만족도/콘텐츠/퍼널 기능 정상 작동</td>
+            <td class="td-effect">만족도/콘텐츠/퍼널 기능 정상 작동 ✅</td>
           </tr>
           <tr data-id="17" data-cat="3">
             <td class="td-check"><input type="checkbox" class="check-input" /></td>
