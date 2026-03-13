@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-03-13T02:25:53.051091Z",
+  "updated_at": "2026-03-13T03:55:20.122854Z",
   "repos": [
+    "busungtk-ai-ideation",
     "busungtk-asms",
     "busungtk-landing",
-    "busungtk-ai-ideation",
     "vibe-factory",
     "busungtk-seo-agent",
     "busungtk-partner-map",
@@ -28,8 +28,9 @@
     "busungtk-daily-report",
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
-    "busungtk-kitchen-consulting",
     "busungtk-marketing-v2",
+    "busungtk-ad-videos",
+    "busungtk-kitchen-consulting",
     "claude-dotfiles",
     "dance-academy-marketing",
     "gumi-church-shorts",
@@ -38,14 +39,14 @@
     "gumi-church"
   ],
   "summary": {
-    "total_commits": 928,
+    "total_commits": 935,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 41
   },
   "daily": {
     "2026-03-13": {
-      "commits": 21,
+      "commits": 28,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -333,16 +334,16 @@
     }
   },
   "overtime": {
-    "total_commits": 928,
+    "total_commits": 935,
     "overtime_commits": 651,
-    "regular_commits": 277,
-    "overtime_rate": 70.2,
+    "regular_commits": 284,
+    "overtime_rate": 69.6,
     "weekend_commits": 274,
     "late_night_commits": 320,
-    "total_hours": 521.9,
-    "regular_hours": 167.2,
+    "total_hours": 523.0,
+    "regular_hours": 168.3,
     "overtime_hours": 354.7,
-    "overtime_hour_rate": 68.0,
+    "overtime_hour_rate": 67.8,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -611,11 +612,11 @@
         "commits": 9
       },
       "2026-03-13": {
-        "regular_hours": 2.2,
+        "regular_hours": 3.3,
         "overtime_hours": 8.3,
-        "total_hours": 10.5,
+        "total_hours": 11.6,
         "is_weekend": false,
-        "commits": 30
+        "commits": 37
       }
     },
     "overtime_by_date": {
@@ -691,6 +692,62 @@
     }
   },
   "commits": [
+    {
+      "sha": "f7baf02",
+      "message": "fix: construction_completions에 work_date 컬럼 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T03:19:33Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/f7baf0212becbc9be8186cd9319ad59a3221a108",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "346a536",
+      "message": "feat: sync-construction에 ?since= 파라미터 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T03:12:30Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/346a53637fd810857d73647bbc643ea237bd2685",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "c33ca8e",
+      "message": "feat: 채널톡 시공완료 보고 자동 수집 → 콘텐츠 파이프라인 연동",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:42:30Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/c33ca8efeb45d610cc86c09fbd9bf80b4758c1ec",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "0279c5a",
+      "message": "docs: B2B 전략서에 영상 콘텐츠 활용 전략 추가 (2026-03-13)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:38:15Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/0279c5a3f74f3160d0b0fd77d341dc72e096996f",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "4f40b75",
+      "message": "feat: B2B 리드 생성 영상 프로젝트 초기화 (Remotion)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:38:11Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ad-videos/commit/4f40b75f43c9f00c52e8ca986669b21b6ff71272",
+      "repo": "busungtk-ad-videos"
+    },
+    {
+      "sha": "0056af1",
+      "message": "feat: 리드 수집 게이트 + 핵심/비핵심 업종 분기",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:37:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/0056af1486c8f0db00da297860c5cd430af3c3c4",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f12d2aa",
+      "message": "fix: 사이드바에 콘텐츠 파이프라인 메뉴 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:29:32Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/f12d2aa679d04d820a400513a301cab7653f6db5",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "159691c",
       "message": "feat: Canvas 2D 블루프린트 렌더러로 FloorPlan 교체 (Konva → Canvas)",
@@ -2233,62 +2290,6 @@
       "author": "jangjoonyoung",
       "date": "2026-03-07T01:20:27Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/e43545a7454aad0a0c73d3a9fb2bb7e4dbf04f05",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6137acf",
-      "message": "fix: reliable-service overflow-x를 .btk-rs → html로 이동",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:19:35Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6137acfc50c20a19b5da53882086835bbb03f604",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "31540b4",
-      "message": "fix: scroll-snap 강화 — 섹션별 100svh 고정, mandatory 직접 적용",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:19:09Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/31540b42ec3b7aacd18822861dc2ddcdb35cb2d4",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "2292110",
-      "message": "fix: reliable-service scroll-snap을 html로 이동",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:17:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2292110a8379cd4f390960ab3eb9e8a92dfb4ad7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "66fd263",
-      "message": "fix: 하위페이지 '홈' 링크 수정 (index.html → /)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:15:47Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/66fd2632d60efd33a2fe37d289f4e43a6098043e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f86dc5c",
-      "message": "fix: 하위페이지 내부 링크에서 .html 확장자 제거",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:14:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f86dc5cca29e2c54e76d93f5d70a3488fda5d313",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "0eaf193",
-      "message": "fix: expert-design 모바일 프로세스/비교표 가로 넘침 수정",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:12:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/0eaf193dee118accdd12c88c9e40a72760d6ffaa",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5f00b74",
-      "message": "fix: expert-design 모바일 hero 순서 복원 (카드→텍스트 → 텍스트→카드)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:10:57Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5f00b7429e618ab67a002910aad6daf6f85d2895",
       "repo": "busungtk-landing"
     }
   ],
