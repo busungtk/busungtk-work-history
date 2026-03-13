@@ -1,6 +1,8 @@
 {
-  "updated_at": "2026-03-13T00:59:03.537022Z",
+  "updated_at": "2026-03-13T02:25:53.051091Z",
   "repos": [
+    "busungtk-asms",
+    "busungtk-landing",
     "busungtk-ai-ideation",
     "vibe-factory",
     "busungtk-seo-agent",
@@ -8,7 +10,6 @@
     "busungtk-marketing",
     "busungtk-kitchen-resource",
     "busungtk-kitchen-simulator",
-    "busungtk-landing",
     "busungtk-ui",
     "busungtk-portal",
     "busungtk-relay-board",
@@ -20,7 +21,6 @@
     "busungtk-dotfiles",
     "busungtk-field-check",
     "busungtk-kitchen-planner",
-    "busungtk-asms",
     "busungtk-sales-pipeline",
     "busungtk-training",
     "busungtk-control-tower",
@@ -29,8 +29,8 @@
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
     "busungtk-kitchen-consulting",
-    "claude-dotfiles",
     "busungtk-marketing-v2",
+    "claude-dotfiles",
     "dance-academy-marketing",
     "gumi-church-shorts",
     "gumi-church-ai",
@@ -38,14 +38,14 @@
     "gumi-church"
   ],
   "summary": {
-    "total_commits": 919,
+    "total_commits": 928,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 41
   },
   "daily": {
     "2026-03-13": {
-      "commits": 3,
+      "commits": 21,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -164,21 +164,21 @@
       "issues_closed": 0
     },
     "2026-02-19": {
-      "commits": 48,
+      "commits": 47,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-02-18": {
-      "commits": 30,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-02-17": {
-      "commits": 82,
+      "commits": 81,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -241,7 +241,7 @@
       "issues_closed": 0
     },
     "2026-02-07": {
-      "commits": 26,
+      "commits": 25,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -333,16 +333,16 @@
     }
   },
   "overtime": {
-    "total_commits": 919,
-    "overtime_commits": 653,
-    "regular_commits": 266,
-    "overtime_rate": 71.1,
-    "weekend_commits": 275,
-    "late_night_commits": 321,
-    "total_hours": 519.8,
-    "regular_hours": 165.2,
-    "overtime_hours": 354.6,
-    "overtime_hour_rate": 68.2,
+    "total_commits": 928,
+    "overtime_commits": 651,
+    "regular_commits": 277,
+    "overtime_rate": 70.2,
+    "weekend_commits": 274,
+    "late_night_commits": 320,
+    "total_hours": 521.9,
+    "regular_hours": 167.2,
+    "overtime_hours": 354.7,
+    "overtime_hour_rate": 68.0,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -426,7 +426,7 @@
         "overtime_hours": 13.5,
         "total_hours": 13.5,
         "is_weekend": true,
-        "commits": 24
+        "commits": 23
       },
       "2026-02-08": {
         "regular_hours": 0,
@@ -496,14 +496,14 @@
         "overtime_hours": 13.8,
         "total_hours": 22.8,
         "is_weekend": false,
-        "commits": 24
+        "commits": 17
       },
       "2026-02-19": {
         "regular_hours": 9,
         "overtime_hours": 14.8,
         "total_hours": 23.8,
         "is_weekend": false,
-        "commits": 56
+        "commits": 55
       },
       "2026-02-20": {
         "regular_hours": 9,
@@ -611,11 +611,11 @@
         "commits": 9
       },
       "2026-03-13": {
-        "regular_hours": 0.2,
-        "overtime_hours": 8.2,
-        "total_hours": 8.4,
+        "regular_hours": 2.2,
+        "overtime_hours": 8.3,
+        "total_hours": 10.5,
         "is_weekend": false,
-        "commits": 12
+        "commits": 30
       }
     },
     "overtime_by_date": {
@@ -657,12 +657,12 @@
       "2026-03-10": 13.9,
       "2026-03-11": 4.8,
       "2026-03-12": 3.7,
-      "2026-03-13": 8.2
+      "2026-03-13": 8.3
     },
     "overtime_by_hour": [
       57,
       30,
-      38,
+      37,
       46,
       40,
       6,
@@ -683,7 +683,7 @@
       32,
       99,
       63,
-      60
+      59
     ],
     "work_hours": {
       "start": 9,
@@ -691,6 +691,150 @@
     }
   },
   "commits": [
+    {
+      "sha": "159691c",
+      "message": "feat: Canvas 2D 블루프린트 렌더러로 FloorPlan 교체 (Konva → Canvas)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:15:54Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/159691cec9e26972d01fda1629b6961e34f9264f",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "69c16a2",
+      "message": "feat: A/S 완료 시 marketing-v2 웹훅 자동 전송",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:04:00Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/69c16a254f711f01a501c4362dc84ceee2f0a72e",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "5e24ef0",
+      "message": "feat: ASMS 웹훅 수신 + 리드 퍼널 추적 강화",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:03:54Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/5e24ef01981ae7bd77acf77f4d6b66567175f555",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "5138f72",
+      "message": "feat: 챗봇 개선 — 한국어 전용 강화 + 빠른 질문 버튼 + URL 자동 링크",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T02:03:36Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5138f72317791866365ceef48edbaed6a11c1e96",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d818083",
+      "message": "fix: Gemini safety filter 시 친절한 폴백 응답 반환",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:51:05Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d818083e6d511c4dda565c7aa0b3444fbb945334",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f67fdab",
+      "message": "feat: 14개 업종 × 5개 평수 = 70개 전체 정밀 배치 데이터 생성",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:49:44Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/f67fdab0013ce6568afe86b423e753f69703bb25",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ddc89a1",
+      "message": "fix: 챗봇 히스토리 검증 + 빈 응답 시 친절한 폴백",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:49:37Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ddc89a186c201c31d1ca5dfdc611692a80482644",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c790476",
+      "message": "fix: gemini-2.0-flash-lite 모델 지원 종료 → gemini-2.0-flash로 변경",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:46:03Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c790476eebb358c66ad7fe3c60890fdace9bacdf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "01fd640",
+      "message": "fix: GEMINI_API_KEY trim() 적용 (Vercel \\n 오염 방어)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:44:14Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/01fd64069a6191feab43737afeac6bb9f8ea8406",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "76e831b",
+      "message": "docs: 인테리어 파트너 브로슈어 제작 (6페이지 A4 HTML/PDF)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:41:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/76e831b8ed78b25a06155d88351a12b54fb0c3bf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "801a022",
+      "message": "feat: 콘텐츠 파이프라인 — 시공완료 등록 + 블로그 미포스팅 리마인더",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:41:22Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/801a0223762bb759dc20443c6900b1a4090f36c1",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "6417155",
+      "message": "refactor: 장비 실치수 기반 정밀 좌표 계산으로 배치 데이터 재생성",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:39:22Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/641715558e62a1b5d8145cd30ae1d83f334aba1f",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "7837ded",
+      "message": "feat: Gemini AI 챗봇 추가 (플로팅 위젯 + Vercel Serverless)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:30:15Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7837ded0d2589aac72854b2ae6cde13f97533542",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8f7a9b2",
+      "message": "feat: 주요 6개 업종 수작업 배치 데모 (15평 기준)",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:28:06Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/8f7a9b2c097f96a89a4887a73b3dea30c955df3d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "95c9b11",
+      "message": "feat: 만족도 자동 조사 + 소개 시스템 + 키워드 분석 + 채널 ROI 대시보드",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:21:51Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/95c9b110ed50b4f22245728456284469e1084c34",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "63a7ecc",
+      "message": "docs: 시공사례 콘텐츠 템플릿 4종 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:21:16Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/63a7ecc7936f4ed185a95481fa0142309a8f0265",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "aa688e9",
+      "message": "feat: kitchen-consulting 프로모션 섹션 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:21:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/aa688e9fd5e4546af4c5b65c7869eb6862c92e43",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d97957e",
+      "message": "feat: CTA 실번호 적용 + 카톡 채널 + 파트너 UTM 추적",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T01:20:50Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/d97957e376f2c1f60cc1b68baf05f11a910ec5df",
+      "repo": "busungtk-kitchen-consulting"
+    },
     {
       "sha": "2a27958",
       "message": "fix: 미사용 변수 경고 제거",
@@ -2145,150 +2289,6 @@
       "author": "jangjoonyoung",
       "date": "2026-03-07T01:10:57Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/5f00b7429e618ab67a002910aad6daf6f85d2895",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e8a200",
-      "message": "fix: 모바일 비교 섹션 3열 레이아웃 유지 (1열→3열)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:08:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5e8a2002991abedadeef1c5eb9230d174f8a7aee",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "06d1b31",
-      "message": "feat: 랜딩페이지 동일 scroll-snap 적용 + 무료 상담 URL 변경",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:08:32Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/06d1b314430c1bc733b8482fd8b67099f0af69e1",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "0f49b4d",
-      "message": "fix: 모바일 최적화 — 스크롤 잘림, 햄버거 메뉴, 반응형 개선",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:59:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/0f49b4d17f46b5e50452ed27a1c8ad27ed69b0e7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5dbce4d",
-      "message": "fix: scroll-snap proximity 방식으로 수정 (레이아웃 충돌 해결)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:58:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/5dbce4d98ef356461298c5abd48cf7a984607aaf",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "be5032e",
-      "message": "feat: 홈페이지에 scroll-snap 스크롤 적용 (랜딩페이지 동일 방식)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:55:31Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/be5032e983820b79469afab2c3edd977aad676a4",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "fe2d27b",
-      "message": "feat: 견적 폼 아임웹 양식 완성 (3-part 연락처, 체크박스, 개인정보 동의)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:52:00Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/fe2d27b9373ded3b8c45578ce9067ef037ee1053",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "86e6cd4",
-      "message": "fix: 무료 상담 URL을 랜딩페이지로 변경",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:51:20Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/86e6cd4ce2aa92f5573b9705e4038aa4c4ed661c",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "e0a9ca2",
-      "message": "feat: CTA 섹션을 Supabase 연동 견적 폼으로 교체",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:44:58Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e0a9ca2f9d1a700898e085e6982375f181cb9ed0",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "50eeb6a",
-      "message": "feat: 하위 4페이지 섹션 스냅 스크롤 적용",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:41:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/50eeb6aee86069d362229440e797313390e7669b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c1af60e",
-      "message": "refactor: stats를 solution 섹션 하단으로 통합",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:33:42Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c1af60e79d42c099db5ff94f8523503a395b1c58",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "786eafb",
-      "message": "feat: 섹션별 100svh 뷰포트 맞춤 + 수직 중앙 정렬",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:29:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/786eafb98351861a2699d890c9e3a5bac0b1444c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "41b4d93",
-      "message": "feat: scroll-snap mandatory로 섹션 단위 스크롤 적용",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:25:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/41b4d93f383f1035c53a1944ab4a3dcbe7e35bd5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "eefca8d",
-      "message": "feat: v7 standalone Vercel 배포 전환",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:22:21Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/eefca8da5aad7a6a2ea8de4b0b34f5821cbd7a55",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "02bb32e",
-      "message": "fix: 피드 섹션 레이아웃 버그 수정 + 3D 도면 섹션 추가",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T00:05:41Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/02bb32e06a4dc3d27a54b4cb4c3baf10165dd826",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4ba8596",
-      "message": "fix: feed-container max-width 960px로 제한",
-      "author": "jangjoonyoung",
-      "date": "2026-03-06T23:22:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4ba8596ea5cc689cc71c3c82731f87c90a838460",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "196a3e0",
-      "message": "fix: feed-section.js 블로그/인스타 비율 및 컨테이너 수정",
-      "author": "jangjoonyoung",
-      "date": "2026-03-06T23:21:28Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/196a3e078ed41ee96ff1a7740bd1350030e37b7b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c3ac934",
-      "message": "docs: 2026-03-07 모바일 폰트 사이즈 조정 작업 기록",
-      "author": "jangjoonyoung",
-      "date": "2026-03-06T21:10:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c3ac934d4b7561cb77a426c0bd7e274a0b3c2bcb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "0add75c",
-      "message": "feat: 모바일 폰트 사이즈 조정 + 폴더 구조 정리",
-      "author": "jangjoonyoung",
-      "date": "2026-03-06T21:08:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/0add75c1a93abcb494ed1ead36fe18142e6ca826",
       "repo": "busungtk-landing"
     }
   ],
