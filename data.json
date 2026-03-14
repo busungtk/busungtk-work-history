@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-03-13T03:55:20.122854Z",
+  "updated_at": "2026-03-14T00:58:43.197545Z",
   "repos": [
+    "busungtk-ui",
     "busungtk-ai-ideation",
     "busungtk-asms",
     "busungtk-landing",
@@ -10,7 +11,6 @@
     "busungtk-marketing",
     "busungtk-kitchen-resource",
     "busungtk-kitchen-simulator",
-    "busungtk-ui",
     "busungtk-portal",
     "busungtk-relay-board",
     "busungtk-order-tracker",
@@ -29,8 +29,8 @@
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
     "busungtk-marketing-v2",
-    "busungtk-ad-videos",
     "busungtk-kitchen-consulting",
+    "busungtk-ad-videos",
     "claude-dotfiles",
     "dance-academy-marketing",
     "gumi-church-shorts",
@@ -39,14 +39,14 @@
     "gumi-church"
   ],
   "summary": {
-    "total_commits": 935,
+    "total_commits": 944,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 41
   },
   "daily": {
     "2026-03-13": {
-      "commits": 28,
+      "commits": 37,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -334,16 +334,16 @@
     }
   },
   "overtime": {
-    "total_commits": 935,
-    "overtime_commits": 651,
-    "regular_commits": 284,
-    "overtime_rate": 69.6,
+    "total_commits": 944,
+    "overtime_commits": 652,
+    "regular_commits": 292,
+    "overtime_rate": 69.1,
     "weekend_commits": 274,
-    "late_night_commits": 320,
-    "total_hours": 523.0,
-    "regular_hours": 168.3,
-    "overtime_hours": 354.7,
-    "overtime_hour_rate": 67.8,
+    "late_night_commits": 321,
+    "total_hours": 529.7,
+    "regular_hours": 174.0,
+    "overtime_hours": 355.7,
+    "overtime_hour_rate": 67.2,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -612,11 +612,11 @@
         "commits": 9
       },
       "2026-03-13": {
-        "regular_hours": 3.3,
-        "overtime_hours": 8.3,
-        "total_hours": 11.6,
+        "regular_hours": 9,
+        "overtime_hours": 9.3,
+        "total_hours": 18.3,
         "is_weekend": false,
-        "commits": 37
+        "commits": 46
       }
     },
     "overtime_by_date": {
@@ -658,7 +658,7 @@
       "2026-03-10": 13.9,
       "2026-03-11": 4.8,
       "2026-03-12": 3.7,
-      "2026-03-13": 8.3
+      "2026-03-13": 9.3
     },
     "overtime_by_hour": [
       57,
@@ -680,7 +680,7 @@
       0,
       1,
       34,
-      33,
+      34,
       32,
       99,
       63,
@@ -692,6 +692,78 @@
     }
   },
   "commits": [
+    {
+      "sha": "19c8a0e",
+      "message": "feat: UI Skillbook v1.1.1 — 풀스크린 스텝 위저드 + 라이브 미리보기",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T10:00:37Z",
+      "url": "https://github.com/busungtk/busungtk-ui/commit/19c8a0ebe2760798d61db3e10dad76d897d1c705",
+      "repo": "busungtk-ui"
+    },
+    {
+      "sha": "0b0304b",
+      "message": "fix: 기존 캠페인 이름 중복 시 재사용하여 광고그룹 생성",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T06:15:17Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/0b0304bebf3501b1538fb947cc9ce4ed8767cc9e",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "af05686",
+      "message": "fix: 마지막 스텝 버튼 '무료 상담 신청'으로 변경",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T06:10:03Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/af05686556f51e298e7924a378573e3ad74eaa8d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "9e25d9f",
+      "message": "fix: 네이버 광고그룹 생성 시 비즈채널 ID 자동 조회",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T06:05:05Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/9e25d9ffa39eaaa71e480719f6656aeedb669d3b",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "cd2a9d5",
+      "message": "feat: ResultView 스텝 전환 위저드 UX로 변경",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T06:03:01Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/cd2a9d59301a85e9d7eb37683ddc610d070cfa5d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "780220e",
+      "message": "fix: restructure 환경변수 .trim() 추가 — Naver API 서명 오류 수정",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T05:57:01Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/780220e22cbe64029a5be177fb13e395453b6f85",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "038aee9",
+      "message": "feat: ResultView 가이드 퍼널 UX로 리디자인",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T04:14:05Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/038aee953702188fcf149ce9e0cb350e484f6982",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d412cd7",
+      "message": "feat: v2 배치 엔진 (겹침 방지) + FloorPlan 뱃지/범례 수정 + 프리뷰 모드",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T04:13:50Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-consulting/commit/d412cd7752957c92fb90ddf645c9f4bdbc3f9fac",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "80595bd",
+      "message": "feat: 네이버 광고 5캠페인 구조 전환 페이지",
+      "author": "junyoungjang976",
+      "date": "2026-03-13T04:11:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/80595bd903c28e312af723d8c770c7954a6415de",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "f7baf02",
       "message": "fix: construction_completions에 work_date 컬럼 추가",
@@ -2219,78 +2291,6 @@
       "date": "2026-03-07T15:25:45Z",
       "url": "https://github.com/busungtk/busungtk-field-check/commit/2fb587b2fa9ba18bc01b32b554cb9ebbec10285e",
       "repo": "busungtk-field-check"
-    },
-    {
-      "sha": "ea151c1",
-      "message": "feat: apply busungtk-ui semantic theme colors (warm)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-planner/commit/ea151c17e4d42d3279abd08b1461a0daeeeef2b1",
-      "repo": "busungtk-kitchen-planner"
-    },
-    {
-      "sha": "69a0a4f",
-      "message": "feat: apply busungtk-ui semantic theme colors (teal)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:43Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/69a0a4f124399decc3afb0afea6aaf9d0fd86f42",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "fcd0dbb",
-      "message": "feat: apply busungtk-ui semantic theme colors (sage)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:41Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/fcd0dbb1b543a13a10d2ee2859f44fd5e729457d",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "32e4f04",
-      "message": "feat: apply busungtk-ui semantic theme colors",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/32e4f04e495a09d8adac9601a54899a8d472c9da",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1c78b7e",
-      "message": "feat: SEO 설정 — sitemap, robots.txt, JSON-LD, 메타태그 보완",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T03:56:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1c78b7e1c78d79d4e0255a29126c488a797717a2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e642f38",
-      "message": "feat: CTA 자체폼 전환, JS 스무스 스크롤, 관리자 페이지, 문의 API",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T03:45:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e642f3823cf873d2565940f251b427c70250c0ae",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e6857a6",
-      "message": "fix: reliable-service nav 인라인 position:relative 제거",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:24:17Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e6857a6812b414e7fa9a6924c2adce0a2309c396",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4e28446",
-      "message": "feat: JS 기반 풀페이지 스크롤 구현 (딱딱 섹션 전환)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:22:49Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-resource/commit/4e2844668fedda594d2ff4396621836f046fd41f",
-      "repo": "busungtk-kitchen-resource"
-    },
-    {
-      "sha": "e43545a",
-      "message": "fix: transparent-pricing/reliable-service 스크롤 스냅 수정",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T01:20:27Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e43545a7454aad0a0c73d3a9fb2bb7e4dbf04f05",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
