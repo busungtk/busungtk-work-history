@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T00:58:43.197545Z",
+  "updated_at": "2026-03-15T01:08:59.466565Z",
   "repos": [
     "busungtk-ui",
     "busungtk-ai-ideation",
@@ -29,22 +29,30 @@
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
     "busungtk-marketing-v2",
+    "silt-bot",
+    "gumi-church",
+    "claude-dotfiles",
     "busungtk-kitchen-consulting",
     "busungtk-ad-videos",
-    "claude-dotfiles",
     "dance-academy-marketing",
     "gumi-church-shorts",
     "gumi-church-ai",
-    "every-job-instagram",
-    "gumi-church"
+    "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 944,
+    "total_commits": 954,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 41
+    "active_days": 42
   },
   "daily": {
+    "2026-03-14": {
+      "commits": 10,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-13": {
       "commits": 37,
       "prs_opened": 0,
@@ -334,16 +342,16 @@
     }
   },
   "overtime": {
-    "total_commits": 944,
-    "overtime_commits": 652,
+    "total_commits": 954,
+    "overtime_commits": 662,
     "regular_commits": 292,
-    "overtime_rate": 69.1,
-    "weekend_commits": 274,
-    "late_night_commits": 321,
-    "total_hours": 529.7,
+    "overtime_rate": 69.4,
+    "weekend_commits": 284,
+    "late_night_commits": 323,
+    "total_hours": 544.2,
     "regular_hours": 174.0,
-    "overtime_hours": 355.7,
-    "overtime_hour_rate": 67.2,
+    "overtime_hours": 370.2,
+    "overtime_hour_rate": 68.0,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -617,6 +625,20 @@
         "total_hours": 18.3,
         "is_weekend": false,
         "commits": 46
+      },
+      "2026-03-14": {
+        "regular_hours": 0,
+        "overtime_hours": 12.4,
+        "total_hours": 12.4,
+        "is_weekend": true,
+        "commits": 5
+      },
+      "2026-03-15": {
+        "regular_hours": 0,
+        "overtime_hours": 2.1,
+        "total_hours": 2.1,
+        "is_weekend": true,
+        "commits": 5
       }
     },
     "overtime_by_date": {
@@ -658,24 +680,26 @@
       "2026-03-10": 13.9,
       "2026-03-11": 4.8,
       "2026-03-12": 3.7,
-      "2026-03-13": 9.3
+      "2026-03-13": 9.3,
+      "2026-03-14": 12.4,
+      "2026-03-15": 2.1
     },
     "overtime_by_hour": [
       57,
       30,
-      37,
+      39,
       46,
-      40,
-      6,
+      42,
+      7,
       3,
       2,
       10,
       20,
       20,
-      49,
+      50,
       7,
       1,
-      2,
+      4,
       0,
       0,
       1,
@@ -684,7 +708,7 @@
       32,
       99,
       63,
-      59
+      61
     ],
     "work_hours": {
       "start": 9,
@@ -692,6 +716,86 @@
     }
   },
   "commits": [
+    {
+      "sha": "9358bf3",
+      "message": "feat: Phase 3 — 자동 승인 + 성과 피드백 + 라이프사이클 대시보드",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T20:03:21Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/9358bf3e3802e51ef497352e2729730d200e35f8",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "c495832",
+      "message": "feat: SILT 봇 초기 구현 - 책 사진 → 콘텐츠 자동 생성",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T19:56:49Z",
+      "url": "https://github.com/junyoungjang976/silt-bot/commit/c4958323e79c9dfb9f1bb47a86ce784426e51798",
+      "repo": "silt-bot"
+    },
+    {
+      "sha": "f8d72fb",
+      "message": "feat: Phase 2 — AI 일간 분석 + 외부 알림 + 키워드 라이프사이클",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T19:40:48Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/f8d72fb2708c6dc2d07313ec34f233dc2b235a1e",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "75ef809",
+      "message": "fix: 사이트링크 name 6자 제한 대응 — 5캠페인 17개 등록 완료",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T17:58:43Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/75ef809723292046203ebe33da64e1674a376dbd",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "d8dcd75",
+      "message": "feat: 사이트링크 확장소재 API + 키워드 등급 분석 시스템 (Phase 1)",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T17:55:58Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/d8dcd75f450a131be909f99951033f9100832975",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "1c83ed6",
+      "message": "feat: 이재두 목사님 실제 신학/스타일 반영하여 전체 콘텐츠 채움",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T14:38:36Z",
+      "url": "https://github.com/junyoungjang976/gumi-church/commit/1c83ed65a6a845b8a385f734a1307f55ab72a51a",
+      "repo": "gumi-church"
+    },
+    {
+      "sha": "5ce5698",
+      "message": "feat: 네이버 키워드 도구 API 연동 — 검색량/경쟁도/CTR 조회",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T14:12:35Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/5ce5698c8d456b7898ad9bfb6d142ad99bac096b",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "071439d",
+      "message": "chore: gitignore omc state files",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T05:07:23Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/071439d900b4dcadbbae7c25011c7e4d6b226799",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "dc6791f",
+      "message": "feat: 네이버 5캠페인 구조 전환 시스템",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T05:06:19Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/dc6791ff6c1b3ab2874ad1495e05284f41122073",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "f6d3da0",
+      "message": "chore: 동기화 정리 — 중복 폴더 제거, 신규 폴더 추가, install.sh 업데이트",
+      "author": "jangjoonyoung",
+      "date": "2026-03-14T02:13:05Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f6d3da0270c95296be5440576be3e4d01514a05f",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "19c8a0e",
       "message": "feat: UI Skillbook v1.1.1 — 풀스크린 스텝 위저드 + 라이브 미리보기",
@@ -2211,86 +2315,6 @@
       "date": "2026-03-07T16:29:17Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/7235467f3eb36b24653e8cb6e87ce659dacd36f3",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "21ac737",
-      "message": "fix: package.json에 type:module 추가 — Solapi SMS 발송 수정",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:18:08Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/21ac737aa4c4079a7f779b2b0c912114b9a44ae9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f59d25a",
-      "message": "chore: sync all settings and skills from current environment",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:04:04Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f59d25acb8aa6940d53c23a930ea9381fa19c2e5",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "3980bf0",
-      "message": "docs: CLAUDE.md를 현재 Vercel 독립 배포 구조에 맞게 업데이트",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:57:12Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3980bf0c5372f76a3d38a77de7a51ba83a64a3ff",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ab5ffaf",
-      "message": "fix: LocalBusiness 스키마를 ProfessionalService로 개선",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:40:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ab5ffafe502e04d169f4d5fcdb78a60ca5cb4ea9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "65c6949",
-      "message": "feat: add scheduled tasks automation system",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:30:08Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/65c69492913bf0a1f49c3b5668fa852fec995c79",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "d803fd4",
-      "message": "chore: update package-lock.json after npm install",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:30:01Z",
-      "url": "https://github.com/busungtk/busungtk-field-check/commit/d803fd4608a6a66b365d9d5d97fbd744cbc6ffa2",
-      "repo": "busungtk-field-check"
-    },
-    {
-      "sha": "68f399f",
-      "message": "chore: update package-lock.json after npm install",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:30:00Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/68f399f9c6421b76365db29a0cdf106ce06ebde3",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "536e4a6",
-      "message": "feat: add CSS variable-based theme system",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:50Z",
-      "url": "https://github.com/busungtk/busungtk-ui/commit/536e4a65d33114d6933b8936993842a235f47be4",
-      "repo": "busungtk-ui"
-    },
-    {
-      "sha": "97ffc06",
-      "message": "feat: apply busungtk-ui semantic theme colors (teal)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:46Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/97ffc06164893a1b717d2595757a164d784ccdb9",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "2fb587b",
-      "message": "feat: apply busungtk-ui semantic theme colors (sage)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T15:25:45Z",
-      "url": "https://github.com/busungtk/busungtk-field-check/commit/2fb587b2fa9ba18bc01b32b554cb9ebbec10285e",
-      "repo": "busungtk-field-check"
     }
   ],
   "pull_requests": [
