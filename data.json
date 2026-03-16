@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T01:08:59.466565Z",
+  "updated_at": "2026-03-16T01:08:12.502335Z",
   "repos": [
     "busungtk-ui",
     "busungtk-ai-ideation",
@@ -40,12 +40,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 954,
+    "total_commits": 962,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 42
+    "active_days": 43
   },
   "daily": {
+    "2026-03-15": {
+      "commits": 8,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-14": {
       "commits": 10,
       "prs_opened": 0,
@@ -342,16 +349,16 @@
     }
   },
   "overtime": {
-    "total_commits": 954,
-    "overtime_commits": 662,
+    "total_commits": 962,
+    "overtime_commits": 670,
     "regular_commits": 292,
-    "overtime_rate": 69.4,
-    "weekend_commits": 284,
+    "overtime_rate": 69.6,
+    "weekend_commits": 290,
     "late_night_commits": 323,
-    "total_hours": 544.2,
+    "total_hours": 554.0,
     "regular_hours": 174.0,
-    "overtime_hours": 370.2,
-    "overtime_hour_rate": 68.0,
+    "overtime_hours": 380.0,
+    "overtime_hour_rate": 68.6,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -635,10 +642,17 @@
       },
       "2026-03-15": {
         "regular_hours": 0,
-        "overtime_hours": 2.1,
-        "total_hours": 2.1,
+        "overtime_hours": 11.4,
+        "total_hours": 11.4,
         "is_weekend": true,
-        "commits": 5
+        "commits": 11
+      },
+      "2026-03-16": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -682,7 +696,8 @@
       "2026-03-12": 3.7,
       "2026-03-13": 9.3,
       "2026-03-14": 12.4,
-      "2026-03-15": 2.1
+      "2026-03-15": 11.4,
+      "2026-03-16": 0.5
     },
     "overtime_by_hour": [
       57,
@@ -691,15 +706,15 @@
       46,
       42,
       7,
-      3,
+      5,
       2,
       10,
       20,
-      20,
-      50,
-      7,
+      21,
+      52,
+      9,
       1,
-      4,
+      5,
       0,
       0,
       1,
@@ -716,6 +731,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "8dde8a1",
+      "message": "feat: 네이버 순위 기반 자동 입찰 + Meta 이미지 자동화 엔드포인트",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T21:55:49Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/8dde8a14b3f2470ad6a95a15f3f6a80144360e2c",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "ff80552",
+      "message": "feat: 성과 피드백 루프 + A/B 테스트 자동화 엔진",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T21:55:34Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/ff805529176145dbe1bc29050c0941a2359cbd35",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "47dc541",
+      "message": "feat: Meta 광고 자동 생성 파이프라인 완성 (adset → ad 생성)",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T05:21:44Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/47dc5412d3076e31fcfa08c2c9333cc797fafb58",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "0563744",
+      "message": "feat: Meta 광고 이미지 자동 생성 + 소재 자동 교체 파이프라인",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T03:48:54Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/056374479ffae131157a67ef1333d93369a0028c",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "9ed89d7",
+      "message": "feat: Meta 자동화 규칙 엔진 + 텔레그램 알림 통합 + 승인 UI 플랫폼 통합",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T03:41:35Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/9ed89d77cdbcd97228968564911301ba608bb04a",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "33938e8",
+      "message": "feat: Meta 토큰 자동갱신 + Google 쓰기 API + 리드 템플릿 + 페이지뷰 추적",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T02:59:52Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/33938e86ceb072400b92f6a6e3101ad0c80823ee",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "216932e",
+      "message": "docs: 시스템 설명서 HTML/MD 추가 — 전체 운영 매뉴얼",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T02:04:32Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/216932e79c9e65958687d9da76554c844bfdc217",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "a3d7c55",
+      "message": "feat: AI 자동 최적화 루프 + 실험 시스템 + 예산/리포트 페이지",
+      "author": "jangjoonyoung",
+      "date": "2026-03-15T01:27:59Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a3d7c55d053364535200d48f371bc621d0285a8b",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "9358bf3",
       "message": "feat: Phase 3 — 자동 승인 + 성과 피드백 + 라이프사이클 대시보드",
@@ -2251,70 +2330,6 @@
       "date": "2026-03-07T17:29:12Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/42b50975654e2c8f4421eb3085974b02712e81bf",
       "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "ca6098f",
-      "message": "feat: 오늘의 직업 인스타그램 자동화 프로젝트 초기 구현",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T17:28:56Z",
-      "url": "https://github.com/junyoungjang976/every-job-instagram/commit/ca6098fb1602e214efe888a667b06dc711b1e4be",
-      "repo": "every-job-instagram"
-    },
-    {
-      "sha": "8456a9a",
-      "message": "feat: admin에서 직원 IP 제외 관리 UI + 자동 감지",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T17:22:04Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8456a9acfd26f3ec1883a984c4962563d634dff8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7668839",
-      "message": "feat: 직원 트래킹 제외 — admin 로그인 플래그 + IP 필터링",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T17:14:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7668839405ba59f6c939de29080947127484ccd1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "123e81f",
-      "message": "feat: 자체 트래킹 시스템 구축 — GA4 보완용 방문자 분석",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T17:10:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/123e81f475ba6570af174d97641070b36d51ffc6",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e40a304",
-      "message": "feat: GA4 설치 (G-VGMHRJ5G5Q) — 전체 5페이지",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:45:54Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e40a30434f2e5ebe1d4086eb244129dd3b7a1b09",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "537250b",
-      "message": "feat: 업종 필드를 체크박스로 변경",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:41:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/537250b969414afa6115e655974460556f6e866f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5ec4c62",
-      "message": "fix: SMS 디버그 코드 제거 — Solapi 연동 정상 확인 완료",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:33:22Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5ec4c629775ead5317daf88004438af594de4bfb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7235467",
-      "message": "debug: SMS 결과를 응답에 포함 (임시)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-07T16:29:17Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7235467f3eb36b24653e8cb6e87ce659dacd36f3",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
