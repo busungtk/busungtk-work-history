@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T01:00:34.948400Z",
+  "updated_at": "2026-03-18T01:04:58.609338Z",
   "repos": [
     "busungtk-landing",
     "busungtk-ui",
@@ -40,12 +40,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 970,
+    "total_commits": 971,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 44
+    "active_days": 45
   },
   "daily": {
+    "2026-03-17": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-16": {
       "commits": 10,
       "prs_opened": 0,
@@ -138,7 +145,7 @@
       "issues_closed": 0
     },
     "2026-03-03": {
-      "commits": 25,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -173,7 +180,7 @@
       "issues_closed": 0
     },
     "2026-02-21": {
-      "commits": 22,
+      "commits": 21,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -356,16 +363,16 @@
     }
   },
   "overtime": {
-    "total_commits": 970,
-    "overtime_commits": 674,
+    "total_commits": 971,
+    "overtime_commits": 675,
     "regular_commits": 296,
     "overtime_rate": 69.5,
-    "weekend_commits": 288,
+    "weekend_commits": 287,
     "late_night_commits": 329,
-    "total_hours": 565.5,
-    "regular_hours": 183.0,
-    "overtime_hours": 382.5,
-    "overtime_hour_rate": 67.6,
+    "total_hours": 564.8,
+    "regular_hours": 182.7,
+    "overtime_hours": 382.1,
+    "overtime_hour_rate": 67.7,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -547,7 +554,7 @@
         "overtime_hours": 23.3,
         "total_hours": 23.3,
         "is_weekend": true,
-        "commits": 20
+        "commits": 19
       },
       "2026-02-23": {
         "regular_hours": 6.4,
@@ -571,11 +578,11 @@
         "commits": 26
       },
       "2026-03-04": {
-        "regular_hours": 9,
-        "overtime_hours": 6.7,
-        "total_hours": 15.7,
+        "regular_hours": 8.7,
+        "overtime_hours": 5.8,
+        "total_hours": 14.5,
         "is_weekend": false,
-        "commits": 19
+        "commits": 18
       },
       "2026-03-05": {
         "regular_hours": 9,
@@ -660,6 +667,13 @@
         "total_hours": 12.0,
         "is_weekend": false,
         "commits": 12
+      },
+      "2026-03-18": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -692,7 +706,7 @@
       "2026-02-23": 8.9,
       "2026-02-25": 5.1,
       "2026-03-03": 12.6,
-      "2026-03-04": 6.7,
+      "2026-03-04": 5.8,
       "2026-03-05": 14.8,
       "2026-03-06": 0.5,
       "2026-03-07": 12.0,
@@ -704,18 +718,19 @@
       "2026-03-13": 9.3,
       "2026-03-14": 12.4,
       "2026-03-15": 11.4,
-      "2026-03-16": 3.0
+      "2026-03-16": 3.0,
+      "2026-03-18": 0.5
     },
     "overtime_by_hour": [
-      57,
+      56,
       30,
-      39,
+      42,
       46,
       40,
       7,
       5,
       2,
-      10,
+      9,
       20,
       21,
       52,
@@ -738,6 +753,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "93002ca",
+      "message": "feat: 의도 5그룹 확장소재 재설계 스크립트 + replaceUrls 버그 수정",
+      "author": "jangjoonyoung",
+      "date": "2026-03-17T17:42:31Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/93002ca53cf6e14293cffd17d1848f0ee587ad69",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "e17eb18",
+      "message": "feat: 메인 네비게이션에 포트폴리오/팀 링크 추가",
+      "author": "jangjoonyoung",
+      "date": "2026-03-17T17:40:14Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e17eb18ceccc0b07d9057819332c9d6eb7b729c8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d48093a",
+      "message": "feat: 포트폴리오 하위 페이지 4종 + 팀 소개 페이지 추가",
+      "author": "jangjoonyoung",
+      "date": "2026-03-17T17:33:33Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d48093a9fe89414b01cf76f4aa39dee756f9f10f",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "875fcca",
       "message": "docs: 네이버 광고그룹 채널 이전 작업 기록 (2026-03-16)",
@@ -2312,30 +2351,6 @@
       "author": "junyoungjang976",
       "date": "2026-03-08T00:41:01Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/fa418a53c26fca78ce6d35cf42acf477f88027bc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "977d309",
-      "message": "fix: closest() 뷰포트 중심 기반으로 수정 — 긴 섹션 스크롤 전환 버그 해결",
-      "author": "junyoungjang976",
-      "date": "2026-03-08T00:39:38Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/977d3097d87ee2a8d722742abfaa1b4be384ef6a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e5b631d",
-      "message": "feat: 채널 전체 자막 다운로드 (285개 설교 VTT)",
-      "author": "junyoungjang976",
-      "date": "2026-03-08T00:36:18Z",
-      "url": "https://github.com/junyoungjang976/gumi-church-shorts/commit/e5b631d82ee51c601de00752d85c1cac7e375aba",
-      "repo": "gumi-church-shorts"
-    },
-    {
-      "sha": "ca406a6",
-      "message": "fix: 스냅 스크롤 개선 + 카피 수정 + 폼 파일첨부 + UI 버그 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-08T00:33:42Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ca406a6a2f8da5c5c823bb7c6f0a701c562e3a52",
       "repo": "busungtk-landing"
     }
   ],
