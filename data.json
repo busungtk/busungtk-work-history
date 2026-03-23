@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T01:04:04.389282Z",
+  "updated_at": "2026-03-23T01:05:11.859732Z",
   "repos": [
     "vibe-factory",
     "busungtk-ai-ideation",
@@ -28,9 +28,9 @@
     "busungtk-daily-report",
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
+    "claude-dotfiles",
     "busungtk-marketing-v2",
     "busungtk-kitchen-consulting",
-    "claude-dotfiles",
     "silt-bot",
     "gumi-church",
     "busungtk-ad-videos",
@@ -40,12 +40,26 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1021,
+    "total_commits": 1024,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 49
+    "active_days": 51
   },
   "daily": {
+    "2026-03-23": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-03-22": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-21": {
       "commits": 22,
       "prs_opened": 0,
@@ -391,16 +405,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1021,
-    "overtime_commits": 687,
-    "regular_commits": 334,
-    "overtime_rate": 67.3,
+    "total_commits": 1024,
+    "overtime_commits": 688,
+    "regular_commits": 336,
+    "overtime_rate": 67.2,
     "weekend_commits": 309,
     "late_night_commits": 322,
-    "total_hours": 595.1,
-    "regular_hours": 198.2,
-    "overtime_hours": 396.9,
-    "overtime_hour_rate": 66.7,
+    "total_hours": 603.6,
+    "regular_hours": 198.9,
+    "overtime_hours": 404.7,
+    "overtime_hour_rate": 67.0,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -730,6 +744,13 @@
         "total_hours": 4.7,
         "is_weekend": true,
         "commits": 18
+      },
+      "2026-03-23": {
+        "regular_hours": 0.7,
+        "overtime_hours": 7.8,
+        "total_hours": 8.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -779,11 +800,12 @@
       "2026-03-19": 8.7,
       "2026-03-20": 0.5,
       "2026-03-21": 0.9,
-      "2026-03-22": 4.7
+      "2026-03-22": 4.7,
+      "2026-03-23": 7.8
     },
     "overtime_by_hour": [
       57,
-      40,
+      41,
       45,
       47,
       42,
@@ -813,6 +835,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "fa2c962",
+      "message": "feat: 프론트엔드 UI 품질 원칙 시스템 적용",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T00:42:38Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fa2c96289c642bd847c2985a4c180d24b8191ef3",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "a00bdc6",
+      "message": "fix: Naver 진단 로깅 추가 + 일일 리포트 rawData 불일치 수정",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T00:04:31Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a00bdc65b9d4e7709f53a00643b1baddce8d1a99",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "a591da8",
+      "message": "feat: old 광고그룹 비활성화 — 의도 5그룹 전환 완료",
+      "author": "jangjoonyoung",
+      "date": "2026-03-22T16:13:19Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a591da836bde5a02c1c5c53b56ac900392bfef88",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "968b10d",
       "message": "feat: 코어랭크 + 코히트랩 데모 페이지 및 리뷰 자료 추가",
@@ -2388,30 +2434,6 @@
       "date": "2026-03-10T01:20:36Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/ea66a29e8e099baf29d799a86eeb8c3fe934d638",
       "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "1e31b9d",
-      "message": "feat: n_query 파라미터 수집 추가 (네이버 자동 추적 URL 대응)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T01:14:50Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1e31b9db5033bfa773278ceba5c13d3babd4e0b4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ef01ed6",
-      "message": "feat: utm_term 트래킹 추가 (네이버 검색광고 키워드 추적)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T00:52:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ef01ed672347ed945bdbcac5c081cc98b1400152",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f0de206",
-      "message": "feat: 배경 이미지 생성기 통합 (church-shorts-bg에서 이관)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T00:15:11Z",
-      "url": "https://github.com/junyoungjang976/gumi-church-shorts/commit/f0de206a82970799b3f408e7c180bbfcfbf1d63d",
-      "repo": "gumi-church-shorts"
     }
   ],
   "pull_requests": [
