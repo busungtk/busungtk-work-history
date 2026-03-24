@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-03-23T01:05:11.859732Z",
+  "updated_at": "2026-03-24T00:58:02.595298Z",
   "repos": [
-    "vibe-factory",
-    "busungtk-ai-ideation",
-    "busungtk-portal",
     "busungtk-landing",
+    "busungtk-ai-ideation",
+    "vibe-factory",
+    "busungtk-portal",
     "busungtk-sales-crm",
     "busungtk-hub",
     "busungtk-ui",
@@ -28,8 +28,8 @@
     "busungtk-daily-report",
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
-    "claude-dotfiles",
     "busungtk-marketing-v2",
+    "claude-dotfiles",
     "busungtk-kitchen-consulting",
     "silt-bot",
     "gumi-church",
@@ -40,14 +40,14 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1024,
+    "total_commits": 1032,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 51
   },
   "daily": {
     "2026-03-23": {
-      "commits": 2,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -159,21 +159,21 @@
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 58,
+      "commits": 56,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-03-06": {
-      "commits": 31,
+      "commits": 27,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-03-05": {
-      "commits": 20,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -405,16 +405,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1024,
-    "overtime_commits": 688,
-    "regular_commits": 336,
-    "overtime_rate": 67.2,
-    "weekend_commits": 309,
-    "late_night_commits": 322,
-    "total_hours": 603.6,
-    "regular_hours": 198.9,
-    "overtime_hours": 404.7,
-    "overtime_hour_rate": 67.0,
+    "total_commits": 1032,
+    "overtime_commits": 686,
+    "regular_commits": 346,
+    "overtime_rate": 66.5,
+    "weekend_commits": 303,
+    "late_night_commits": 326,
+    "total_hours": 611.8,
+    "regular_hours": 207.2,
+    "overtime_hours": 404.6,
+    "overtime_hour_rate": 66.1,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -628,10 +628,10 @@
       },
       "2026-03-05": {
         "regular_hours": 9,
-        "overtime_hours": 14.8,
-        "total_hours": 23.8,
+        "overtime_hours": 13.6,
+        "total_hours": 22.6,
         "is_weekend": false,
-        "commits": 21
+        "commits": 17
       },
       "2026-03-06": {
         "regular_hours": 0,
@@ -645,14 +645,14 @@
         "overtime_hours": 12.0,
         "total_hours": 12.0,
         "is_weekend": true,
-        "commits": 38
+        "commits": 34
       },
       "2026-03-08": {
         "regular_hours": 0,
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 63
+        "commits": 61
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -746,11 +746,11 @@
         "commits": 18
       },
       "2026-03-23": {
-        "regular_hours": 0.7,
-        "overtime_hours": 7.8,
-        "total_hours": 8.5,
+        "regular_hours": 9,
+        "overtime_hours": 8.9,
+        "total_hours": 17.9,
         "is_weekend": false,
-        "commits": 3
+        "commits": 21
       }
     },
     "overtime_by_date": {
@@ -784,7 +784,7 @@
       "2026-02-25": 5.1,
       "2026-03-03": 12.6,
       "2026-03-04": 5.8,
-      "2026-03-05": 14.8,
+      "2026-03-05": 13.6,
       "2026-03-06": 0.5,
       "2026-03-07": 12.0,
       "2026-03-08": 22.3,
@@ -801,18 +801,18 @@
       "2026-03-20": 0.5,
       "2026-03-21": 0.9,
       "2026-03-22": 4.7,
-      "2026-03-23": 7.8
+      "2026-03-23": 8.9
     },
     "overtime_by_hour": [
       57,
       41,
-      45,
+      43,
       47,
       42,
       8,
-      6,
+      4,
       2,
-      9,
+      7,
       20,
       21,
       52,
@@ -822,12 +822,12 @@
       0,
       0,
       1,
-      41,
-      34,
+      47,
+      36,
       28,
       94,
-      64,
-      61
+      61,
+      60
     ],
     "work_hours": {
       "start": 9,
@@ -835,6 +835,150 @@
     }
   },
   "commits": [
+    {
+      "sha": "9b7e9c6",
+      "message": "docs: Meta 광고 한글 깨짐 수정 기록 업데이트",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T10:04:49Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/9b7e9c6dbdf4a6a00b13a0bf2dbc3cf162755153",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "922e531",
+      "message": "feat: 6권 카피라이팅 이론 통합 — copywriting + marketing-psychology 스킬 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T10:01:03Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/922e5311becb504df7c753911980b32e559271d1",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "4ccdd82",
+      "message": "docs: Meta 6권 파이프라인 적용 작업 기록 (2026-03-23)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:59:35Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/4ccdd825936784cf6e60dd654c95bba8961f832f",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "5ed5c40",
+      "message": "feat: 네이버 10그룹 AI 자동 캠페인 입찰 지원",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:52:19Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/5ed5c401b0740243ecfded8eec65d9ecd9ffd8ae",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "9433236",
+      "message": "feat: 6권 파이프라인 적용 — Meta 카피 재구성, 팩트 교정, 새 템플릿",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:52:00Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/943323636b6cab846a43fe4c7e721903b0d7d660",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "1e3a355",
+      "message": "docs: 6권 카피라이팅 소재 재구성 작업 기록 (2026-03-23)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:50:05Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/1e3a355432ef6daae8eaf5082b262442cf659985",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "a6c32f4",
+      "message": "feat: 6권 카피라이팅 이론 적용 — 네이버 검색광고 소재 전체 재구성",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:48:56Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a6c32f489e110149ad2fa8ed39fc71f3e4c16554",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "f3903bf",
+      "message": "fix: feed API를 상대 경로로 변경 (CSP connect-src 위반 해결)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T09:06:15Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f3903bf5f090562920629dbd78d0243655281443",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e8bff36",
+      "message": "refactor: A variant 커스텀 섹션 스냅 스크롤 제거, 자유 스크롤로 통일",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T08:59:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e8bff365309b8e8a4edd12f9d5ce2bd62c2059c5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cb7b333",
+      "message": "fix: C variant SEC-1 reality 카드 아이콘 모바일 가시성 개선",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T08:47:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cb7b3330fed45655328bae87f662b7287a5edfb9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f98ca04",
+      "message": "feat: C variant 하단에 문의 폼 추가, AI 진단 섹션 제거",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T05:46:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f98ca042b377e17e185ea830db6b43a1c66d05c1",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1ccd02f",
+      "message": "fix: CSP connect-src에 cdn.jsdelivr.net 추가 (폰트 소스맵 차단 해결)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T05:41:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1ccd02f3421ae498a1d25c19512001c415e2a6f2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0a5f606",
+      "message": "feat: A/B/C 랜딩 3종 + 랜덤 배정 라우터",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T05:39:08Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0a5f606583ba97c774481335b813c4648d76877b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "11e43e5",
+      "message": "feat: 신규 캠페인 초기 소재 자동 시드 로직 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T04:42:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/11e43e54600744086f90e2b243e7a886c38e1af2",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "fba326c",
+      "message": "feat: Meta 광고 이미지 자동 생성 파이프라인 완성",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T04:32:36Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/fba326c1fd94ea1a35bec79c098ad44a18cbbbed",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "19b61b2",
+      "message": "feat: A/B 테스트 B variant 신규 — 하이브리드 컨셉 (업종맞춤+리스크제거+증거물)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T04:06:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/19b61b249078af52365582a23fc1f97526ad34d0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d3d7663",
+      "message": "chore: v1~v10 컨셉 아카이브 파일 삭제",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T04:06:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d3d7663a1e56ef3898aa3ea8ef21bdf9b68c4962",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c0d3043",
+      "message": "docs: B2B 리드 마케팅 전략 리서치 및 액션 플랜 산출물 (2026-03-23)",
+      "author": "junyoungjang976",
+      "date": "2026-03-23T03:59:28Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/c0d3043ba5bbb0f80839d8d68af58589479fa859",
+      "repo": "busungtk-ai-ideation"
+    },
     {
       "sha": "fa2c962",
       "message": "feat: 프론트엔드 UI 품질 원칙 시스템 적용",
@@ -2289,150 +2433,6 @@
       "author": "junyoungjang976",
       "date": "2026-03-10T04:23:59Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/80178df703487c5fcf8449a59a0849ea29a031a3",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "9b4ab42",
-      "message": "docs: Meta 광고 소재 5종 제작 (HTML + PNG 이미지)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:23:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9b4ab42641a71c58c3f7db6eea3ddd281b455bd8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5b4299d",
-      "message": "feat: Phase 3 — AI bid optimizer, budget allocator, weekly review",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:13:32Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/5b4299dae0691b5475fd6585fe4c4315a68f269c",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "4f3257d",
-      "message": "feat: Phase 2 — rule engine, evaluators, 6 management UI pages",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:08:00Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/4f3257dd9e42e3f64e6d1bf56e0a4ee384a71549",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "2577d06",
-      "message": "feat: Phase 1 — Naver ads automation infrastructure",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:00:09Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/2577d06838b6e9582a785e2bd743541e279a42cd",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "d93e56f",
-      "message": "feat: 쇼츠 자동 편집 파이프라인 (알파컷 대체)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T03:58:12Z",
-      "url": "https://github.com/junyoungjang976/gumi-church-shorts/commit/d93e56f1544305cd14b2dd54de98a0626d91812a",
-      "repo": "gumi-church-shorts"
-    },
-    {
-      "sha": "a7b7b87",
-      "message": "feat: add dedicated naver-entities cron for entity sync",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:48:27Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a7b7b87bd18056b0bbfa42b60714a3a516a0f6af",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "36a0176",
-      "message": "feat: Meta Pixel 설치 (전 페이지 PageView + Lead 전환 추적)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:47:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/36a0176c63e0552bc128a55827b5002504a41abe",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d6fbf73",
-      "message": "refactor: split sync into fast campaign path + separate entity sync",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:45:16Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/d6fbf737de6afd59f11cbb7166e921fa751bc04a",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "0e071b3",
-      "message": "perf: parallelize entity sync, reduce API sleep, filter active only",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:40:39Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/0e071b3072153056ec8fbf906fbd0e2f7e512c78",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "4ae82a2",
-      "message": "perf: parallelize Naver stats API calls with concurrency limit",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:37:19Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/4ae82a27dbc8f6be12df8797c357207ea328f20f",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "4e7056a",
-      "message": "docs: Meta 광고 실행 가이드 추가 (2타겟 캠페인 구조)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:36:04Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4e7056a76f2a28974a1c2ca6be95535ee0f0fabc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "96c1aee",
-      "message": "fix: use singular 'id' param for Naver Stats API calls",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:25:59Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/96c1aee96e7ebd3eb0206d043b7a658315aded19",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "49e07a7",
-      "message": "docs: Meta 광고 콘텐츠 기획 기록 추가 (2026-03-10)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:17:33Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/49e07a74964cf32ce7e20a46697d0cbe9460ab5d",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "884ff25",
-      "message": "docs: Meta 광고 콘텐츠 기획안 추가 (신규 리드 확보 전략)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:16:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/884ff255a92372afb36347f02f6457d58aaf72c9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "46db1de",
-      "message": "feat: 네이버 검색광고 Phase 1 MVP 구현",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T02:10:12Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/46db1de8f7c893e627fac7910640b2d976318160",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "930decc",
-      "message": "docs: Google Ads API 세팅 기록 추가 (2026-03-10)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T01:58:59Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/930decc1ec72e83f68eaf27dafc45551b8f2b3ec",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "5ca2017",
-      "message": "docs: Google Ads API 기본 액세스 신청용 설계 문서 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T01:58:08Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/5ca20175b4e68ca256a4b31df6c292a1c63e7e79",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "ea66a29",
-      "message": "docs: 네이버 검색광고 자동화 기획 문서 (Codex 검토 반영)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T01:20:36Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/ea66a29e8e099baf29d799a86eeb8c3fe934d638",
       "repo": "busungtk-ai-ideation"
     }
   ],
