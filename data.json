@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-24T00:58:02.595298Z",
+  "updated_at": "2026-03-25T01:03:16.457547Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-ai-ideation",
+    "busungtk-landing",
     "vibe-factory",
     "busungtk-portal",
     "busungtk-sales-crm",
@@ -40,12 +40,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1032,
+    "total_commits": 1033,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 51
+    "active_days": 52
   },
   "daily": {
+    "2026-03-24": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-23": {
       "commits": 20,
       "prs_opened": 0,
@@ -159,7 +166,7 @@
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 56,
+      "commits": 54,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -405,16 +412,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1032,
-    "overtime_commits": 686,
-    "regular_commits": 346,
-    "overtime_rate": 66.5,
-    "weekend_commits": 303,
+    "total_commits": 1033,
+    "overtime_commits": 684,
+    "regular_commits": 349,
+    "overtime_rate": 66.2,
+    "weekend_commits": 301,
     "late_night_commits": 326,
-    "total_hours": 611.8,
-    "regular_hours": 207.2,
+    "total_hours": 615.3,
+    "regular_hours": 210.7,
     "overtime_hours": 404.6,
-    "overtime_hour_rate": 66.1,
+    "overtime_hour_rate": 65.8,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -645,14 +652,14 @@
         "overtime_hours": 12.0,
         "total_hours": 12.0,
         "is_weekend": true,
-        "commits": 34
+        "commits": 33
       },
       "2026-03-08": {
         "regular_hours": 0,
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 61
+        "commits": 60
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -751,6 +758,13 @@
         "total_hours": 17.9,
         "is_weekend": false,
         "commits": 21
+      },
+      "2026-03-24": {
+        "regular_hours": 3.5,
+        "overtime_hours": 0,
+        "total_hours": 3.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -807,13 +821,13 @@
       57,
       41,
       43,
-      47,
+      46,
       42,
       8,
       4,
       2,
       7,
-      20,
+      19,
       21,
       52,
       9,
@@ -835,6 +849,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "da0c948",
+      "message": "feat: Meta 광고 4캠페인 13소재 재등록 및 활성화 스크립트",
+      "author": "junyoungjang976",
+      "date": "2026-03-24T08:50:12Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/da0c94827d1ed585e97c7a9d1990b6095eefd17a",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "abf81c6",
+      "message": "docs: 마케팅 자동화 작업 기록 추가 (2026-03-24)",
+      "author": "junyoungjang976",
+      "date": "2026-03-24T05:22:41Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/abf81c6232e68119d132293c2492f3c49f21e820",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "b295c86",
+      "message": "fix: A/B/C variant별 폼 source 구분 + GA4 variant 파라미터 통일",
+      "author": "junyoungjang976",
+      "date": "2026-03-24T05:21:17Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b295c8662ead34d963a307fee97d2513fa19e3ae",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "9b7e9c6",
       "message": "docs: Meta 광고 한글 깨짐 수정 기록 업데이트",
@@ -2410,30 +2448,6 @@
       "date": "2026-03-10T13:28:27Z",
       "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/22ccc010591d0f1b5ba6c360fac34ef3fdf9923e",
       "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "a130ad5",
-      "message": "docs: 네이버 광고 자동화 시스템 Phase 1-3 완성 기록 (2026-03-10)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:38:13Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/a130ad5a95072e4849c7e7198248461033cd2128",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "f965279",
-      "message": "docs: 네이버 광고 자동화 시스템 사용자 가이드 HTML 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:36:22Z",
-      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/f965279028ae2e5a5fce57125442923c200576da",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "80178df",
-      "message": "docs: Meta 광고 실행 세션 기록 추가 (2026-03-10)",
-      "author": "junyoungjang976",
-      "date": "2026-03-10T04:23:59Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/80178df703487c5fcf8449a59a0849ea29a031a3",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "pull_requests": [
