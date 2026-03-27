@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-26T01:08:23.193383Z",
+  "updated_at": "2026-03-27T01:07:43.226931Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-ai-ideation",
+    "busungtk-landing",
     "busungtk-asms",
     "busungtk-order-tracker",
     "vibe-factory",
@@ -28,10 +28,10 @@
     "busungtk-daily-report",
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
+    "busungtk-marketing-v2",
     "busungtk-kitchen-quote",
     "busungtk-process-map",
     "dev-journey",
-    "busungtk-marketing-v2",
     "claude-dotfiles",
     "busungtk-kitchen-consulting",
     "silt-bot",
@@ -43,12 +43,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1040,
+    "total_commits": 1042,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 53
+    "active_days": 54
   },
   "daily": {
+    "2026-03-26": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-25": {
       "commits": 21,
       "prs_opened": 0,
@@ -169,14 +176,14 @@
       "issues_closed": 0
     },
     "2026-03-08": {
-      "commits": 40,
+      "commits": 39,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 42,
+      "commits": 41,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -422,16 +429,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1040,
-    "overtime_commits": 686,
-    "regular_commits": 354,
-    "overtime_rate": 66.0,
-    "weekend_commits": 287,
-    "late_night_commits": 336,
-    "total_hours": 624.2,
-    "regular_hours": 215.0,
-    "overtime_hours": 409.2,
-    "overtime_hour_rate": 65.6,
+    "total_commits": 1042,
+    "overtime_commits": 687,
+    "regular_commits": 355,
+    "overtime_rate": 65.9,
+    "weekend_commits": 285,
+    "late_night_commits": 338,
+    "total_hours": 641.4,
+    "regular_hours": 224.0,
+    "overtime_hours": 417.4,
+    "overtime_hour_rate": 65.1,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -662,14 +669,14 @@
         "overtime_hours": 12.0,
         "total_hours": 12.0,
         "is_weekend": true,
-        "commits": 21
+        "commits": 20
       },
       "2026-03-08": {
         "regular_hours": 0,
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 60
+        "commits": 59
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -784,11 +791,11 @@
         "commits": 16
       },
       "2026-03-26": {
-        "regular_hours": 0,
-        "overtime_hours": 0.9,
-        "total_hours": 0.9,
+        "regular_hours": 9,
+        "overtime_hours": 9.1,
+        "total_hours": 18.1,
         "is_weekend": false,
-        "commits": 5
+        "commits": 9
       }
     },
     "overtime_by_date": {
@@ -841,7 +848,7 @@
       "2026-03-22": 4.7,
       "2026-03-23": 8.9,
       "2026-03-25": 5.9,
-      "2026-03-26": 0.9
+      "2026-03-26": 9.1
     },
     "overtime_by_hour": [
       61,
@@ -854,7 +861,7 @@
       2,
       7,
       11,
-      17,
+      16,
       52,
       9,
       1,
@@ -862,8 +869,8 @@
       0,
       0,
       1,
-      49,
-      39,
+      52,
+      38,
       29,
       94,
       62,
@@ -875,6 +882,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "2b10a18",
+      "message": "docs: 네이버 AI Auto 캠페인 최적화 작업 기록 (2026-03-26)",
+      "author": "junyoungjang976",
+      "date": "2026-03-26T09:04:09Z",
+      "url": "https://github.com/junyoungjang976/busungtk-marketing-v2/commit/2b10a180ba814d0e72875cf0efff14d439ca6743",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "bd92cb9",
+      "message": "docs: 네이버 검색광고 기록 marketing-v2로 이동",
+      "author": "junyoungjang976",
+      "date": "2026-03-26T09:03:33Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/bd92cb9c97bb9b550e790067c2343e3bd3696159",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "92a1bee",
+      "message": "docs: 네이버 검색광고 AI Auto 최적화 기록 (2026-03-26)",
+      "author": "junyoungjang976",
+      "date": "2026-03-26T09:02:47Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/92a1beed5ef0c171f438938df1c3c4f985e1b375",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "7bbd72d",
+      "message": "fix: 블로그 피드 썸네일 미표시 수정 (undefined API_BASE 제거)",
+      "author": "junyoungjang976",
+      "date": "2026-03-26T08:32:16Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7bbd72d9b87235eed1fd50f44c1460eadd5bdebe",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "32d154e",
       "message": "feat: Compare 섹션 다크 테마 리디자인 — 프리미엄 카드형",
@@ -2442,38 +2481,6 @@
       "date": "2026-03-12T12:33:13Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/17d6f3e7d559ab3851878ec18109bde90853efcc",
       "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "7ecd0dd",
-      "message": "feat: 세션 시작 시 메모리 동기화 상태 자동 확인 규칙 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-12T12:26:52Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/7ecd0ddd382711bea661705ed9d9d9ca97a7f329",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "9b5af35",
-      "message": "docs: B2B 전략 리셋 + 네이버 광고 구조개편 기획서 추가 (2026-03-12)",
-      "author": "junyoungjang976",
-      "date": "2026-03-12T12:16:37Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/9b5af35bcbcec9b2b76aecb1e54f347d4056fe08",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "b48861e",
-      "message": "feat: install.sh에 OneDrive 메모리 Junction 자동 설정 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-12T12:13:11Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b48861e08ef9176d6db73654542e8af465e1e2c2",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "b4eec3f",
-      "message": "feat: install.sh에 에이전트 설치 추가 + 미동기화 스킬 2개 동기화",
-      "author": "junyoungjang976",
-      "date": "2026-03-12T12:03:02Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b4eec3fc8390621cc2f02d6f766a0dcd31ec283b",
-      "repo": "claude-dotfiles"
     }
   ],
   "pull_requests": [
