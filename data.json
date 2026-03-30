@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T01:10:49.714530Z",
+  "updated_at": "2026-03-30T01:11:59.955327Z",
   "repos": [
     "busungtk-ai-ideation",
     "busungtk-dotfiles",
@@ -34,23 +34,23 @@
     "busungtk-as-diagnosis",
     "busungtk-supabase-types",
     "claude-dotfiles",
+    "gumi-church-shorts",
     "dev-journey",
     "silt-bot",
     "gumi-church",
     "dance-academy-marketing",
-    "gumi-church-shorts",
     "gumi-church-ai",
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1047,
+    "total_commits": 1052,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 56
   },
   "daily": {
     "2026-03-29": {
-      "commits": 3,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -443,15 +443,15 @@
     }
   },
   "overtime": {
-    "total_commits": 1047,
-    "overtime_commits": 692,
+    "total_commits": 1052,
+    "overtime_commits": 697,
     "regular_commits": 355,
-    "overtime_rate": 66.1,
-    "weekend_commits": 290,
+    "overtime_rate": 66.3,
+    "weekend_commits": 295,
     "late_night_commits": 339,
-    "total_hours": 642.9,
+    "total_hours": 643.4,
     "regular_hours": 224.0,
-    "overtime_hours": 418.9,
+    "overtime_hours": 419.4,
     "overtime_hour_rate": 65.2,
     "daily_hours": {
       "2026-01-24": {
@@ -820,10 +820,10 @@
       },
       "2026-03-29": {
         "regular_hours": 0,
-        "overtime_hours": 1.0,
-        "total_hours": 1.0,
+        "overtime_hours": 1.5,
+        "total_hours": 1.5,
         "is_weekend": true,
-        "commits": 4
+        "commits": 9
       }
     },
     "overtime_by_date": {
@@ -878,7 +878,7 @@
       "2026-03-25": 5.9,
       "2026-03-26": 9.1,
       "2026-03-28": 0.5,
-      "2026-03-29": 1.0
+      "2026-03-29": 1.5
     },
     "overtime_by_hour": [
       61,
@@ -891,7 +891,7 @@
       2,
       8,
       13,
-      17,
+      22,
       52,
       9,
       1,
@@ -912,6 +912,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "f5f1b8e",
+      "message": "docs: 새 PC 세팅 가이드 추가 + Dashboard 링크",
+      "author": "junyoungjang976",
+      "date": "2026-03-29T01:30:09Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/f5f1b8e8ca2557dfe528930e476824ec942f5dfa",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "92a8907",
+      "message": "docs: 새 PC 환경 세팅 가이드 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-29T01:26:16Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/92a89072d99d4281f9ab73a6e772a03d29245182",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "1af585e",
+      "message": "docs: PROJECT-INDEX.md 추가",
+      "author": "junyoungjang976",
+      "date": "2026-03-29T01:21:09Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/1af585e6cd0a3a3005eaa4feb7b2a3b60a33f24e",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "22f9d55",
+      "message": "docs: CLAUDE.md 동기화 (31개 프로젝트 + 17명 조직도)",
+      "author": "junyoungjang976",
+      "date": "2026-03-29T01:21:05Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/22f9d5584c666b965489253aa059bae98b204a36",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "a767b4e",
+      "message": "feat: 260315/260322 설교 쇼츠 하이라이트 분석 (마케팅 검수 포함)",
+      "author": "junyoungjang976",
+      "date": "2026-03-29T01:16:18Z",
+      "url": "https://github.com/junyoungjang976/gumi-church-shorts/commit/a767b4eb00694a54de5e589b65d881b06a3005d9",
+      "repo": "gumi-church-shorts"
+    },
     {
       "sha": "750c615",
       "message": "docs: PRD 31개 frontmatter 태그 + Obsidian Dashboard + Dataview 쿼리",
@@ -2471,46 +2511,6 @@
       "date": "2026-03-12T23:56:36Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3fde6da3b055fc9d7f1eb253b5c983f2ab6ec766",
       "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "402399c",
-      "message": "docs: vibe-factory SDK 마이그레이션 기록 추가 (2026-03-13)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-12T17:45:16Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/402399c695b5d6f80e5d04122f4b172c1747a6cc",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "b6399c7",
-      "message": "refactor: Gemini SDK 마이그레이션 (@google/generative-ai → @google/genai)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-12T17:43:12Z",
-      "url": "https://github.com/busungtk/vibe-factory/commit/b6399c7ba59d9fbc6dacf51c1053348a8aac43ff",
-      "repo": "vibe-factory"
-    },
-    {
-      "sha": "f7d2a34",
-      "message": "docs: vibe-factory 2026-03-13 작업 기록 (무료 베타 전환, Gemini 챗봇)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-12T17:36:49Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/f7d2a347c0d1b406362a55855cb4f014b7255df9",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "fa29369",
-      "message": "docs: 2026-03-13 세션 작업 기록 (유 서기)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-12T17:35:55Z",
-      "url": "https://github.com/busungtk/vibe-factory/commit/fa293693b64bf41c86a3f7fcac5599a2641f8e7c",
-      "repo": "vibe-factory"
-    },
-    {
-      "sha": "0cac33f",
-      "message": "feat: Meta 광고 소재 무료 베타 메시지로 전면 업데이트",
-      "author": "jangjoonyoung",
-      "date": "2026-03-12T17:35:42Z",
-      "url": "https://github.com/busungtk/vibe-factory/commit/0cac33f164260ba72ff3e4c33c445f0dcff2a4e1",
-      "repo": "vibe-factory"
     }
   ],
   "pull_requests": [
