@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-01T01:16:14.036858Z",
+  "updated_at": "2026-04-02T01:06:48.880667Z",
   "repos": [
-    "busungtk-ai-ideation",
     "busungtk-landing",
+    "busungtk-ai-ideation",
     "busungtk-portal",
     "busungtk-marketing-v2",
     "busungtk-dotfiles",
@@ -43,12 +43,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1059,
+    "total_commits": 1061,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 57
+    "active_days": 58
   },
   "daily": {
+    "2026-04-02": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-03-30": {
       "commits": 19,
       "prs_opened": 0,
@@ -204,7 +211,7 @@
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 31,
+      "commits": 28,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -450,15 +457,15 @@
     }
   },
   "overtime": {
-    "total_commits": 1059,
-    "overtime_commits": 691,
-    "regular_commits": 368,
-    "overtime_rate": 65.3,
-    "weekend_commits": 285,
+    "total_commits": 1061,
+    "overtime_commits": 688,
+    "regular_commits": 373,
+    "overtime_rate": 64.8,
+    "weekend_commits": 282,
     "late_night_commits": 343,
-    "total_hours": 647.8,
-    "regular_hours": 229.8,
-    "overtime_hours": 418.0,
+    "total_hours": 648.3,
+    "regular_hours": 230.1,
+    "overtime_hours": 418.2,
     "overtime_hour_rate": 64.5,
     "daily_hours": {
       "2026-01-24": {
@@ -697,7 +704,7 @@
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 55
+        "commits": 52
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -838,6 +845,13 @@
         "total_hours": 7.0,
         "is_weekend": false,
         "commits": 19
+      },
+      "2026-04-02": {
+        "regular_hours": 0.3,
+        "overtime_hours": 0.2,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
@@ -893,11 +907,12 @@
       "2026-03-26": 9.1,
       "2026-03-28": 0.5,
       "2026-03-29": 1.5,
-      "2026-03-30": 1.2
+      "2026-03-30": 1.2,
+      "2026-04-02": 0.2
     },
     "overtime_by_hour": [
       59,
-      39,
+      36,
       43,
       46,
       42,
@@ -927,6 +942,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "2519429",
+      "message": "docs: SETUP-NEW-PC 현재 환경에 맞게 업데이트",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T00:53:41Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/2519429402dcb2da1ef319364e3f28ec6020467c",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "67bc146",
+      "message": "refactor: CLAUDE.md 다이어트 — 조직도/체크리스트 분리 (38% 절감)",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T00:47:54Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/67bc146c5e0f1759c5ae0b16eb65f3beb0e88688",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "2601efb",
+      "message": "fix: CSP connect-src에 nam.veta.naver.com 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T00:42:33Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2601efb4a69f0ae76fa3d6683f543b0e6b338b52",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e1c7868",
+      "message": "fix: CSP에 네이버 CTS 추가 도메인 허용 (ssl.pstatic.net, wcs.naver.com)",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T00:41:30Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e1c78687cdbd5e21106cce66a93b0eab61c10962",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a8600c8",
+      "message": "feat: 네이버 전환추적(CTS) 스크립트 전체 설치",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T00:35:30Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a8600c8693099f3d3daa09b7209f5fdd5ae4a101",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "a2223ad",
       "message": "docs: 네이버 광고 소재 카피 검수 기록 (2026-03-30)",
@@ -2486,46 +2541,6 @@
       "date": "2026-03-13T02:38:11Z",
       "url": "https://github.com/busungtk/busungtk-ad-videos/commit/4f40b75f43c9f00c52e8ca986669b21b6ff71272",
       "repo": "busungtk-ad-videos"
-    },
-    {
-      "sha": "0056af1",
-      "message": "feat: 리드 수집 게이트 + 핵심/비핵심 업종 분기",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:37:41Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0056af1486c8f0db00da297860c5cd430af3c3c4",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f12d2aa",
-      "message": "fix: 사이드바에 콘텐츠 파이프라인 메뉴 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:29:32Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/f12d2aa679d04d820a400513a301cab7653f6db5",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "159691c",
-      "message": "feat: Canvas 2D 블루프린트 렌더러로 FloorPlan 교체 (Konva → Canvas)",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:15:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/159691cec9e26972d01fda1629b6961e34f9264f",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "69c16a2",
-      "message": "feat: A/S 완료 시 marketing-v2 웹훅 자동 전송",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:04:00Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/69c16a254f711f01a501c4362dc84ceee2f0a72e",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "5e24ef0",
-      "message": "feat: ASMS 웹훅 수신 + 리드 퍼널 추적 강화",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:03:54Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5e24ef01981ae7bd77acf77f4d6b66567175f555",
-      "repo": "busungtk-marketing-v2"
     }
   ],
   "pull_requests": [
