@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-02T01:06:48.880667Z",
+  "updated_at": "2026-04-03T01:09:36.529928Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-ai-ideation",
-    "busungtk-portal",
+    "busungtk-landing",
     "busungtk-marketing-v2",
+    "busungtk-portal",
     "busungtk-dotfiles",
     "busungtk-marketing",
     "busungtk-ad-videos",
@@ -43,14 +43,14 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1061,
+    "total_commits": 1063,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 58
   },
   "daily": {
     "2026-04-02": {
-      "commits": 5,
+      "commits": 15,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -197,7 +197,7 @@
       "issues_closed": 0
     },
     "2026-03-09": {
-      "commits": 31,
+      "commits": 30,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -211,7 +211,7 @@
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 28,
+      "commits": 21,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -457,16 +457,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1061,
-    "overtime_commits": 688,
-    "regular_commits": 373,
-    "overtime_rate": 64.8,
-    "weekend_commits": 282,
-    "late_night_commits": 343,
-    "total_hours": 648.3,
-    "regular_hours": 230.1,
-    "overtime_hours": 418.2,
-    "overtime_hour_rate": 64.5,
+    "total_commits": 1063,
+    "overtime_commits": 683,
+    "regular_commits": 380,
+    "overtime_rate": 64.3,
+    "weekend_commits": 275,
+    "late_night_commits": 345,
+    "total_hours": 657.8,
+    "regular_hours": 238.2,
+    "overtime_hours": 419.6,
+    "overtime_hour_rate": 63.8,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -704,14 +704,14 @@
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 52
+        "commits": 45
       },
       "2026-03-09": {
         "regular_hours": 9,
         "overtime_hours": 11.7,
         "total_hours": 20.7,
         "is_weekend": false,
-        "commits": 35
+        "commits": 34
       },
       "2026-03-10": {
         "regular_hours": 9,
@@ -847,11 +847,11 @@
         "commits": 19
       },
       "2026-04-02": {
-        "regular_hours": 0.3,
-        "overtime_hours": 0.2,
-        "total_hours": 0.5,
+        "regular_hours": 8.4,
+        "overtime_hours": 1.6,
+        "total_hours": 10.0,
         "is_weekend": false,
-        "commits": 5
+        "commits": 15
       }
     },
     "overtime_by_date": {
@@ -908,13 +908,13 @@
       "2026-03-28": 0.5,
       "2026-03-29": 1.5,
       "2026-03-30": 1.2,
-      "2026-04-02": 0.2
+      "2026-04-02": 1.6
     },
     "overtime_by_hour": [
       59,
       36,
-      43,
-      46,
+      38,
+      44,
       42,
       8,
       4,
@@ -930,7 +930,7 @@
       0,
       1,
       56,
-      39,
+      41,
       29,
       94,
       62,
@@ -942,6 +942,86 @@
     }
   },
   "commits": [
+    {
+      "sha": "6f8a252",
+      "message": "docs: 아웃바운드 3-Track 전략 문서 v2 (14슬라이드 HTML)",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T10:37:32Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/6f8a2523fbad1110f25790392bbd7bdbec9b63a4",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "ac948db",
+      "message": "feat: Variant D 재설계 — 파트너 포지셔닝(Lv.4) 컨셉, 3축 가치제안",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T10:37:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ac948db0cd9e2367c87771a349db2394097b50c4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "5a2cfee",
+      "message": "fix: 모바일 AI상담 FAB 하단바 겹침 해소 + C변형 히어로 가운데 정렬",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T04:11:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5a2cfee0b7baa5790f2cd56af758580809b06bb9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b77b649",
+      "message": "feat: A/B/C 변형 전환율 개선 — 히어로 퀵폼, 디지털 업무 시스템, 서브네비, 코드/마케팅 검수 반영",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T04:06:07Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b77b6491f88f2fc7a28d1bbfef735eeb9de7bd97",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cfc8f34",
+      "message": "feat: 콘텐츠 공장 (Content Factory) Phase 1 구현",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T04:02:41Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/cfc8f34cd65a5e3cbbc3a5902b126fdb39bfe81c",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "354626e",
+      "message": "feat: admin 방문자 분석 탭에 월별 필터 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T02:02:42Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/354626e1476f79a01a4a4d1b11b31057e5134b26",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "978e276",
+      "message": "feat: admin 대시보드 월별 빠른 필터 탭 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T01:58:19Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/978e276c1152084cc1998c7023f38f46bf2a4b2b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "134dec2",
+      "message": "fix: 본문 카피 500+ 고객사 통일 + 챗봇 GA4 전환 이벤트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T01:52:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/134dec226487897a1b582fb2012d8467ddef796d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d385462",
+      "message": "fix: OG description 500+로 통일, twitter:card B/C/D 추가, 포트폴리오 CTA→메인폼 이동",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T01:45:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d38546220257bc1befde4902d22637d2c2d057da",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7fb7fdf",
+      "message": "refactor: dotfiles 폴더 구조 정리 — 중복 제거 + 역할 명확화",
+      "author": "junyoungjang976",
+      "date": "2026-04-02T01:30:31Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/7fb7fdfe3df02667efb293d5d91e558c6b6f836f",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "2519429",
       "message": "docs: SETUP-NEW-PC 현재 환경에 맞게 업데이트",
@@ -2461,86 +2541,6 @@
       "date": "2026-03-13T06:05:05Z",
       "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/9e25d9ffa39eaaa71e480719f6656aeedb669d3b",
       "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "cd2a9d5",
-      "message": "feat: ResultView 스텝 전환 위저드 UX로 변경",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T06:03:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/cd2a9d59301a85e9d7eb37683ddc610d070cfa5d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "780220e",
-      "message": "fix: restructure 환경변수 .trim() 추가 — Naver API 서명 오류 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T05:57:01Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/780220e22cbe64029a5be177fb13e395453b6f85",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "038aee9",
-      "message": "feat: ResultView 가이드 퍼널 UX로 리디자인",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T04:14:05Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/038aee953702188fcf149ce9e0cb350e484f6982",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d412cd7",
-      "message": "feat: v2 배치 엔진 (겹침 방지) + FloorPlan 뱃지/범례 수정 + 프리뷰 모드",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T04:13:50Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d412cd7752957c92fb90ddf645c9f4bdbc3f9fac",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "80595bd",
-      "message": "feat: 네이버 광고 5캠페인 구조 전환 페이지",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T04:11:41Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/80595bd903c28e312af723d8c770c7954a6415de",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "f7baf02",
-      "message": "fix: construction_completions에 work_date 컬럼 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T03:19:33Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/f7baf0212becbc9be8186cd9319ad59a3221a108",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "346a536",
-      "message": "feat: sync-construction에 ?since= 파라미터 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T03:12:30Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/346a53637fd810857d73647bbc643ea237bd2685",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "c33ca8e",
-      "message": "feat: 채널톡 시공완료 보고 자동 수집 → 콘텐츠 파이프라인 연동",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:42:30Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/c33ca8efeb45d610cc86c09fbd9bf80b4758c1ec",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "0279c5a",
-      "message": "docs: B2B 전략서에 영상 콘텐츠 활용 전략 추가 (2026-03-13)",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:38:15Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/0279c5a3f74f3160d0b0fd77d341dc72e096996f",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "4f40b75",
-      "message": "feat: B2B 리드 생성 영상 프로젝트 초기화 (Remotion)",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T02:38:11Z",
-      "url": "https://github.com/busungtk/busungtk-ad-videos/commit/4f40b75f43c9f00c52e8ca986669b21b6ff71272",
-      "repo": "busungtk-ad-videos"
     }
   ],
   "pull_requests": [
