@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-04-03T01:09:36.529928Z",
+  "updated_at": "2026-04-04T01:03:22.981429Z",
   "repos": [
-    "busungtk-ai-ideation",
     "busungtk-landing",
+    "busungtk-ai-ideation",
+    "busungtk-sales-crm",
     "busungtk-marketing-v2",
     "busungtk-portal",
     "busungtk-dotfiles",
@@ -14,7 +15,6 @@
     "busungtk-asms",
     "busungtk-order-tracker",
     "vibe-factory",
-    "busungtk-sales-crm",
     "busungtk-hub",
     "busungtk-ui",
     "busungtk-seo-agent",
@@ -43,12 +43,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1063,
+    "total_commits": 1065,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 58
+    "active_days": 59
   },
   "daily": {
+    "2026-04-03": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-02": {
       "commits": 15,
       "prs_opened": 0,
@@ -204,14 +211,14 @@
       "issues_closed": 0
     },
     "2026-03-08": {
-      "commits": 39,
+      "commits": 37,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-03-07": {
-      "commits": 21,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -457,16 +464,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1063,
-    "overtime_commits": 683,
-    "regular_commits": 380,
-    "overtime_rate": 64.3,
-    "weekend_commits": 275,
+    "total_commits": 1065,
+    "overtime_commits": 680,
+    "regular_commits": 385,
+    "overtime_rate": 63.8,
+    "weekend_commits": 272,
     "late_night_commits": 345,
-    "total_hours": 657.8,
-    "regular_hours": 238.2,
+    "total_hours": 658.9,
+    "regular_hours": 239.3,
     "overtime_hours": 419.6,
-    "overtime_hour_rate": 63.8,
+    "overtime_hour_rate": 63.7,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -704,7 +711,7 @@
         "overtime_hours": 22.3,
         "total_hours": 22.3,
         "is_weekend": true,
-        "commits": 45
+        "commits": 42
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -852,6 +859,13 @@
         "total_hours": 10.0,
         "is_weekend": false,
         "commits": 15
+      },
+      "2026-04-03": {
+        "regular_hours": 1.1,
+        "overtime_hours": 0.0,
+        "total_hours": 1.1,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
@@ -914,13 +928,13 @@
       59,
       36,
       38,
-      44,
+      43,
       42,
       8,
       4,
       2,
       8,
-      13,
+      11,
       18,
       52,
       7,
@@ -942,6 +956,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "cc08746",
+      "message": "feat: 브랜딩 고객 설문 페이지 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-03T04:32:23Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cc087469adc180e404d2bec8152edbf1f1da07a3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "89da8cb",
+      "message": "feat: 관리자 페이지에 변형 이력 탭 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-03T03:59:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/89da8cbd8be5423532212b20c83b62ac79ca5f0d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "27d9360",
+      "message": "docs: CRM 아웃바운드 통합 Phase 1 이전/이후 보고서",
+      "author": "junyoungjang976",
+      "date": "2026-04-03T03:48:35Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/27d936075e4c17f276119a44351c5daf7e0a03ff",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "409618a",
+      "message": "feat: Variant A→D 교체 — 파트너 포지셔닝을 메인으로 승격",
+      "author": "junyoungjang976",
+      "date": "2026-04-03T03:35:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/409618a5a4e32960d26cf5c4e37475ef58e75dc7",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "236af43",
+      "message": "feat: 아웃바운드 타겟 관리 MVP (Phase 0-5)",
+      "author": "junyoungjang976",
+      "date": "2026-04-03T03:26:13Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/236af433e7d3734d4f37f21d1e24bedaa7c838b9",
+      "repo": "busungtk-sales-crm"
+    },
     {
       "sha": "6f8a252",
       "message": "docs: 아웃바운드 3-Track 전략 문서 v2 (14슬라이드 HTML)",
@@ -2500,46 +2554,6 @@
       "author": "jangjoonyoung",
       "date": "2026-03-14T05:06:19Z",
       "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/dc6791ff6c1b3ab2874ad1495e05284f41122073",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "f6d3da0",
-      "message": "chore: 동기화 정리 — 중복 폴더 제거, 신규 폴더 추가, install.sh 업데이트",
-      "author": "jangjoonyoung",
-      "date": "2026-03-14T02:13:05Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f6d3da0270c95296be5440576be3e4d01514a05f",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "19c8a0e",
-      "message": "feat: UI Skillbook v1.1.1 — 풀스크린 스텝 위저드 + 라이브 미리보기",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T10:00:37Z",
-      "url": "https://github.com/busungtk/busungtk-ui/commit/19c8a0ebe2760798d61db3e10dad76d897d1c705",
-      "repo": "busungtk-ui"
-    },
-    {
-      "sha": "0b0304b",
-      "message": "fix: 기존 캠페인 이름 중복 시 재사용하여 광고그룹 생성",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T06:15:17Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/0b0304bebf3501b1538fb947cc9ce4ed8767cc9e",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "af05686",
-      "message": "fix: 마지막 스텝 버튼 '무료 상담 신청'으로 변경",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T06:10:03Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/af05686556f51e298e7924a378573e3ad74eaa8d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "9e25d9f",
-      "message": "fix: 네이버 광고그룹 생성 시 비즈채널 ID 자동 조회",
-      "author": "junyoungjang976",
-      "date": "2026-03-13T06:05:05Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/9e25d9ffa39eaaa71e480719f6656aeedb669d3b",
       "repo": "busungtk-marketing-v2"
     }
   ],
