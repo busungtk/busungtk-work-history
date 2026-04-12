@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-04-11T01:06:44.586886Z",
+  "updated_at": "2026-04-12T01:15:50.444791Z",
   "repos": [
+    "busungtk-landing",
+    "busungtk-ai-ideation",
     "busungtk-ad-videos",
     "busungtk-ui",
     "busungtk-marketing-v2",
-    "busungtk-ai-ideation",
     "busungtk-purchase-data",
     "busungtk-kitchen-simulator",
     "busungtk-daily-report",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
     "busungtk-order-tracker",
-    "busungtk-landing",
     "busungtk-portal",
     "busungtk-equipment",
     "busungtk-kitchen-resource",
@@ -45,12 +45,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1114,
+    "total_commits": 1117,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 65
+    "active_days": 66
   },
   "daily": {
+    "2026-04-11": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-10": {
       "commits": 1,
       "prs_opened": 0,
@@ -227,7 +234,7 @@
       "issues_closed": 0
     },
     "2026-03-13": {
-      "commits": 37,
+      "commits": 35,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -248,7 +255,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 23,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -508,16 +515,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1114,
-    "overtime_commits": 716,
-    "regular_commits": 398,
-    "overtime_rate": 64.3,
-    "weekend_commits": 285,
-    "late_night_commits": 362,
-    "total_hours": 704.9,
+    "total_commits": 1117,
+    "overtime_commits": 721,
+    "regular_commits": 396,
+    "overtime_rate": 64.5,
+    "weekend_commits": 291,
+    "late_night_commits": 361,
+    "total_hours": 708.8,
     "regular_hours": 259.6,
-    "overtime_hours": 445.3,
-    "overtime_hour_rate": 63.2,
+    "overtime_hours": 449.2,
+    "overtime_hour_rate": 63.4,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -766,10 +773,10 @@
       },
       "2026-03-10": {
         "regular_hours": 9,
-        "overtime_hours": 13.9,
-        "total_hours": 22.9,
+        "overtime_hours": 13.7,
+        "total_hours": 22.7,
         "is_weekend": false,
-        "commits": 26
+        "commits": 25
       },
       "2026-03-11": {
         "regular_hours": 0.1,
@@ -790,7 +797,7 @@
         "overtime_hours": 9.3,
         "total_hours": 18.3,
         "is_weekend": false,
-        "commits": 46
+        "commits": 44
       },
       "2026-03-14": {
         "regular_hours": 0,
@@ -959,6 +966,20 @@
         "total_hours": 16.3,
         "is_weekend": false,
         "commits": 7
+      },
+      "2026-04-11": {
+        "regular_hours": 0,
+        "overtime_hours": 3.6,
+        "total_hours": 3.6,
+        "is_weekend": true,
+        "commits": 4
+      },
+      "2026-04-12": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": true,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -997,7 +1018,7 @@
       "2026-03-07": 9.4,
       "2026-03-08": 22.3,
       "2026-03-09": 11.7,
-      "2026-03-10": 13.9,
+      "2026-03-10": 13.7,
       "2026-03-11": 4.8,
       "2026-03-12": 5.6,
       "2026-03-13": 9.3,
@@ -1022,23 +1043,25 @@
       "2026-04-07": 1.7,
       "2026-04-08": 1.5,
       "2026-04-09": 5.4,
-      "2026-04-10": 7.4
+      "2026-04-10": 7.4,
+      "2026-04-11": 3.6,
+      "2026-04-12": 0.5
     },
     "overtime_by_hour": [
       58,
       42,
       36,
-      42,
+      44,
       42,
       10,
       6,
       2,
       8,
       6,
-      15,
-      51,
+      16,
+      52,
       6,
-      3,
+      5,
       24,
       0,
       2,
@@ -1048,7 +1071,7 @@
       34,
       96,
       63,
-      71
+      70
     ],
     "work_hours": {
       "start": 9,
@@ -1056,6 +1079,54 @@
     }
   },
   "commits": [
+    {
+      "sha": "6ad2c50",
+      "message": "fix(admin): 첨부파일 다운로드 서명 URL 발급 API 추가",
+      "author": "jangj",
+      "date": "2026-04-11T18:57:27Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/6ad2c50372e22ef219cdb0f62e17e5e864141ee5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b856617",
+      "message": "feat(e-variant): Challenger Teach 기반 E 변종 랜딩 5페이지 + 산출 보고서",
+      "author": "junyoungjang976",
+      "date": "2026-04-11T18:52:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b8566177dde4f1b248d89fe62a7c3024acb652c9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "6028af7",
+      "message": "docs: 마케팅·영업본부 지식베이스 훅 업그레이드 작업 로그 (2026-04-11)",
+      "author": "junyoungjang976",
+      "date": "2026-04-11T04:59:09Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/6028af7be9268b234ce91471f1dc95f8ad674b39",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "5ae2109",
+      "message": "feat: 마케팅·영업본부 에이전트에 지식베이스 훅 주입 (14권 바이블 연동)",
+      "author": "junyoungjang976",
+      "date": "2026-04-11T04:58:18Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/5ae210985591e41ecce460b61d67bd67418869d2",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "b5683f0",
+      "message": "fix: 네이버 CTS 전환 타입 표준화 + portfolio.html GA4 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-11T02:14:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b5683f043c20dc2f5a77170930af75b7f9d1e388",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8ce9ec3",
+      "message": "feat: add sales-expert + marketing-expert skills, reinforce kitchen-expert",
+      "author": "junyoungjang976",
+      "date": "2026-04-11T01:23:51Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/8ce9ec3ec11ac442b3787196abf35c8b7b357bea",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "d500d2d",
       "message": "chore: OMC 버전 마커 4.9.1 → 4.11.4 업데이트",
@@ -2607,54 +2678,6 @@
       "date": "2026-03-23T04:06:44Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/d3d7663a1e56ef3898aa3ea8ef21bdf9b68c4962",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c0d3043",
-      "message": "docs: B2B 리드 마케팅 전략 리서치 및 액션 플랜 산출물 (2026-03-23)",
-      "author": "junyoungjang976",
-      "date": "2026-03-23T03:59:28Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/c0d3043ba5bbb0f80839d8d68af58589479fa859",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "fa2c962",
-      "message": "feat: 프론트엔드 UI 품질 원칙 시스템 적용",
-      "author": "junyoungjang976",
-      "date": "2026-03-23T00:42:38Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fa2c96289c642bd847c2985a4c180d24b8191ef3",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "a00bdc6",
-      "message": "fix: Naver 진단 로깅 추가 + 일일 리포트 rawData 불일치 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-23T00:04:31Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/a00bdc65b9d4e7709f53a00643b1baddce8d1a99",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "a591da8",
-      "message": "feat: old 광고그룹 비활성화 — 의도 5그룹 전환 완료",
-      "author": "jangjoonyoung",
-      "date": "2026-03-22T16:13:19Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/a591da836bde5a02c1c5c53b56ac900392bfef88",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "968b10d",
-      "message": "feat: 코어랭크 + 코히트랩 데모 페이지 및 리뷰 자료 추가",
-      "author": "jangjoonyoung",
-      "date": "2026-03-21T21:16:08Z",
-      "url": "https://github.com/busungtk/vibe-factory/commit/968b10d31104ec924b3976a504318cb196b3e4c2",
-      "repo": "vibe-factory"
-    },
-    {
-      "sha": "8738961",
-      "message": "feat: 인스타그램 시공사례 자동 게시 시스템 (인프라키친)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-21T20:28:12Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/873896125d8b06fa8db7f616ba6807f2ccf572a3",
-      "repo": "busungtk-marketing-v2"
     }
   ],
   "pull_requests": [
