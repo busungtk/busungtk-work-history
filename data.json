@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T01:15:50.444791Z",
+  "updated_at": "2026-04-13T01:17:27.242051Z",
   "repos": [
     "busungtk-landing",
     "busungtk-ai-ideation",
@@ -48,9 +48,16 @@
     "total_commits": 1117,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 66
+    "active_days": 67
   },
   "daily": {
+    "2026-04-13": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-11": {
       "commits": 6,
       "prs_opened": 0,
@@ -234,7 +241,7 @@
       "issues_closed": 0
     },
     "2026-03-13": {
-      "commits": 35,
+      "commits": 34,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -521,9 +528,9 @@
     "overtime_rate": 64.5,
     "weekend_commits": 291,
     "late_night_commits": 361,
-    "total_hours": 708.8,
+    "total_hours": 709.3,
     "regular_hours": 259.6,
-    "overtime_hours": 449.2,
+    "overtime_hours": 449.7,
     "overtime_hour_rate": 63.4,
     "daily_hours": {
       "2026-01-24": {
@@ -797,7 +804,7 @@
         "overtime_hours": 9.3,
         "total_hours": 18.3,
         "is_weekend": false,
-        "commits": 44
+        "commits": 43
       },
       "2026-03-14": {
         "regular_hours": 0,
@@ -980,6 +987,13 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 2
+      },
+      "2026-04-13": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
@@ -1045,7 +1059,8 @@
       "2026-04-09": 5.4,
       "2026-04-10": 7.4,
       "2026-04-11": 3.6,
-      "2026-04-12": 0.5
+      "2026-04-12": 0.5,
+      "2026-04-13": 0.5
     },
     "overtime_by_hour": [
       58,
@@ -1079,6 +1094,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "b6eec5c",
+      "message": "fix(inquiry): 한글 파일명 업로드 실패 — Supabase Storage ASCII-only key 제약 대응",
+      "author": "jangj",
+      "date": "2026-04-13T00:18:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b6eec5cb951df2840c04dd310b512ddc72fbcc5e",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "6ad2c50",
       "message": "fix(admin): 첨부파일 다운로드 서명 URL 발급 API 추가",
@@ -2669,14 +2692,6 @@
       "author": "junyoungjang976",
       "date": "2026-03-23T04:06:56Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/19b61b249078af52365582a23fc1f97526ad34d0",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d3d7663",
-      "message": "chore: v1~v10 컨셉 아카이브 파일 삭제",
-      "author": "junyoungjang976",
-      "date": "2026-03-23T04:06:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d3d7663a1e56ef3898aa3ea8ef21bdf9b68c4962",
       "repo": "busungtk-landing"
     }
   ],
