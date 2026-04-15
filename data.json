@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-04-14T01:15:56.900120Z",
+  "updated_at": "2026-04-15T01:13:50.861472Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
-    "busungtk-daily-report",
+    "busungtk-purchase-data",
     "busungtk-marketing-v2",
+    "busungtk-daily-report",
     "busungtk-ai-ideation",
     "busungtk-ad-videos",
     "busungtk-ui",
-    "busungtk-purchase-data",
     "busungtk-kitchen-simulator",
     "busungtk-kitchen-consulting",
     "busungtk-order-tracker",
@@ -46,12 +46,26 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1122,
+    "total_commits": 1124,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 67
+    "active_days": 69
   },
   "daily": {
+    "2026-04-15": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-04-14": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-13": {
       "commits": 23,
       "prs_opened": 0,
@@ -221,7 +235,7 @@
       "issues_closed": 0
     },
     "2026-03-16": {
-      "commits": 10,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -242,7 +256,7 @@
       "issues_closed": 0
     },
     "2026-03-13": {
-      "commits": 30,
+      "commits": 29,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -263,7 +277,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 20,
+      "commits": 19,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -410,7 +424,7 @@
       "issues_closed": 0
     },
     "2026-02-11": {
-      "commits": 25,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -523,16 +537,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1122,
+    "total_commits": 1124,
     "overtime_commits": 722,
-    "regular_commits": 400,
-    "overtime_rate": 64.3,
+    "regular_commits": 402,
+    "overtime_rate": 64.2,
     "weekend_commits": 291,
     "late_night_commits": 362,
-    "total_hours": 710.2,
-    "regular_hours": 260.7,
-    "overtime_hours": 449.5,
-    "overtime_hour_rate": 63.3,
+    "total_hours": 719.1,
+    "regular_hours": 264.9,
+    "overtime_hours": 454.2,
+    "overtime_hour_rate": 63.2,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -644,7 +658,7 @@
         "overtime_hours": 5.7,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 21
+        "commits": 20
       },
       "2026-02-12": {
         "regular_hours": 2.8,
@@ -784,7 +798,7 @@
         "overtime_hours": 13.7,
         "total_hours": 22.7,
         "is_weekend": false,
-        "commits": 23
+        "commits": 22
       },
       "2026-03-11": {
         "regular_hours": 0.1,
@@ -805,7 +819,7 @@
         "overtime_hours": 9.3,
         "total_hours": 18.3,
         "is_weekend": false,
-        "commits": 39
+        "commits": 38
       },
       "2026-03-14": {
         "regular_hours": 0,
@@ -826,7 +840,7 @@
         "overtime_hours": 3.0,
         "total_hours": 12.0,
         "is_weekend": false,
-        "commits": 12
+        "commits": 10
       },
       "2026-03-18": {
         "regular_hours": 0,
@@ -995,6 +1009,20 @@
         "total_hours": 9.0,
         "is_weekend": false,
         "commits": 23
+      },
+      "2026-04-14": {
+        "regular_hours": 4.0,
+        "overtime_hours": 4.4,
+        "total_hours": 8.4,
+        "is_weekend": false,
+        "commits": 5
+      },
+      "2026-04-15": {
+        "regular_hours": 0.2,
+        "overtime_hours": 0.3,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -1061,7 +1089,9 @@
       "2026-04-10": 7.4,
       "2026-04-11": 3.6,
       "2026-04-12": 0.5,
-      "2026-04-13": 0.3
+      "2026-04-13": 0.3,
+      "2026-04-14": 4.4,
+      "2026-04-15": 0.3
     },
     "overtime_by_hour": [
       58,
@@ -1082,11 +1112,11 @@
       0,
       2,
       1,
-      56,
+      54,
       43,
       34,
       96,
-      63,
+      65,
       70
     ],
     "work_hours": {
@@ -1095,6 +1125,62 @@
     }
   },
   "commits": [
+    {
+      "sha": "57fb75c",
+      "message": "fix: 모바일 견적서/작업완료서 PDF·인쇄 이미지 깨짐 수정",
+      "author": "junyoungjang976",
+      "date": "2026-04-15T00:33:48Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/57fb75c03ddd422dad6f7812f36fdbc80587d601",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b0ea839",
+      "message": "chore(seo): exclude /e-variant/ from crawlers via robots.txt",
+      "author": "junyoungjang976",
+      "date": "2026-04-15T00:18:52Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b0ea83946013e335cc9c060e341b7db6a7317c6d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "da87a9c",
+      "message": "feat(seo): add Naver site verification meta tag",
+      "author": "junyoungjang976",
+      "date": "2026-04-14T13:26:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/da87a9cf29614ce7610414ce36b9de3bdebfe2e8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "42621f8",
+      "message": "fix(seo): resolve search indexing rejection from A/B variant redirect",
+      "author": "junyoungjang976",
+      "date": "2026-04-14T13:25:00Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/42621f8dcb76358a6a63307c63de56e1f3404fab",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ec8716f",
+      "message": "feat: webhook 서버 추가 (express + 채널톡 연동)",
+      "author": "junyoungjang976",
+      "date": "2026-04-14T05:01:42Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/ec8716fe7e873888995f5ff41246c58cce711d51",
+      "repo": "channeltalk-downloader"
+    },
+    {
+      "sha": "2484434",
+      "message": "chore: 컬럼 정보 + 데이터 요약 파일 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-14T05:01:35Z",
+      "url": "https://github.com/busungtk/busungtk-purchase-data/commit/24844341f62bb7c13719a628d9234893b3c8e439",
+      "repo": "busungtk-purchase-data"
+    },
+    {
+      "sha": "8943418",
+      "message": "chore: 광고 소재 이미지 + 스크립트 + 리포트 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-04-14T05:01:27Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/894341802ad9e771dbf0745198ad87abccc30309",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "0d31358",
       "message": "feat: 채널톡 완료보고 자동 다운로드 시스템",
@@ -2638,62 +2724,6 @@
       "date": "2026-03-25T11:19:45Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/3f6b15aaf699c80fddbbd84b6a4a60687898cc0c",
       "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "f60fce7",
-      "message": "fix: 데이터 정제 개선 및 가격 표시 버그 수정",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T10:49:19Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-quote/commit/f60fce7f952134c2b4bf5b900d4b334c89e623ad",
-      "repo": "busungtk-kitchen-quote"
-    },
-    {
-      "sha": "1b73412",
-      "message": "feat: 태블릿 가견적 웹앱 초기 구현",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T10:39:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-quote/commit/1b73412c586a330980caabeb4f52b509aed78d61",
-      "repo": "busungtk-kitchen-quote"
-    },
-    {
-      "sha": "079722a",
-      "message": "feat: busungtk-process-map 초기 구현 — 10개 프로젝트 비즈니스 프로세스 시각화",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T10:18:18Z",
-      "url": "https://github.com/busungtk/busungtk-process-map/commit/079722a4dba131c822c00cf67a7c9b1a729879c6",
-      "repo": "busungtk-process-map"
-    },
-    {
-      "sha": "a718b6f",
-      "message": "feat: 새 리드 부재중 상태 추가 (미연락→부재중→연락완료→파이프라인)",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T09:44:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a718b6f88281545a897a2ae0b882a9cdf855111b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5144820",
-      "message": "feat: 진단 리드 연락상태 추적 기능 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T09:14:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/51448204bff6024633e3d9b669c1afbf9d1305ff",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "218efb4",
-      "message": "feat: 견적서 수정 로그 UI 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T07:33:19Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/218efb4b8cdf4b8be184722cfa0c2b212964c143",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "2255e21",
-      "message": "fix: 발주서 인쇄 시 컴팩트 레이아웃 적용 (품목 많을 때 1장 출력)",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T06:28:45Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/2255e216e6fadbd8374f1b1f69f4882c12434a21",
-      "repo": "busungtk-order-tracker"
     }
   ],
   "pull_requests": [
