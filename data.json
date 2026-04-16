@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-04-15T01:13:50.861472Z",
+  "updated_at": "2026-04-16T01:18:35.340479Z",
   "repos": [
-    "busungtk-asms",
     "busungtk-landing",
+    "busungtk-ai-ideation",
+    "busungtk-sales-pipeline",
+    "busungtk-asms",
     "busungtk-purchase-data",
     "busungtk-marketing-v2",
     "busungtk-daily-report",
-    "busungtk-ai-ideation",
     "busungtk-ad-videos",
     "busungtk-ui",
     "busungtk-kitchen-simulator",
@@ -30,7 +31,6 @@
     "busungtk-hvac-mentor",
     "busungtk-field-check",
     "busungtk-kitchen-planner",
-    "busungtk-sales-pipeline",
     "busungtk-training",
     "busungtk-supabase-types",
     "channeltalk-downloader",
@@ -46,14 +46,21 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1124,
+    "total_commits": 1126,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 69
+    "active_days": 70
   },
   "daily": {
-    "2026-04-15": {
+    "2026-04-16": {
       "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-04-15": {
+      "commits": 4,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -228,7 +235,7 @@
       "issues_closed": 0
     },
     "2026-03-17": {
-      "commits": 3,
+      "commits": 1,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -537,16 +544,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1124,
+    "total_commits": 1126,
     "overtime_commits": 722,
-    "regular_commits": 402,
-    "overtime_rate": 64.2,
+    "regular_commits": 404,
+    "overtime_rate": 64.1,
     "weekend_commits": 291,
-    "late_night_commits": 362,
-    "total_hours": 719.1,
-    "regular_hours": 264.9,
-    "overtime_hours": 454.2,
-    "overtime_hour_rate": 63.2,
+    "late_night_commits": 364,
+    "total_hours": 728.7,
+    "regular_hours": 273.4,
+    "overtime_hours": 455.3,
+    "overtime_hour_rate": 62.5,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -847,7 +854,7 @@
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 3
+        "commits": 1
       },
       "2026-03-19": {
         "regular_hours": 8.7,
@@ -1018,8 +1025,15 @@
         "commits": 5
       },
       "2026-04-15": {
-        "regular_hours": 0.2,
-        "overtime_hours": 0.3,
+        "regular_hours": 8.7,
+        "overtime_hours": 0.9,
+        "total_hours": 9.6,
+        "is_weekend": false,
+        "commits": 4
+      },
+      "2026-04-16": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 2
@@ -1091,12 +1105,13 @@
       "2026-04-12": 0.5,
       "2026-04-13": 0.3,
       "2026-04-14": 4.4,
-      "2026-04-15": 0.3
+      "2026-04-15": 0.9,
+      "2026-04-16": 0.5
     },
     "overtime_by_hour": [
       58,
       42,
-      36,
+      34,
       44,
       42,
       10,
@@ -1112,7 +1127,7 @@
       0,
       2,
       1,
-      54,
+      56,
       43,
       34,
       96,
@@ -1125,6 +1140,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "65c4947",
+      "message": "feat: meta-events.js를 A/B 변종(index-b, index-c)에도 주입",
+      "author": "junyoungjang976",
+      "date": "2026-04-16T00:27:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/65c494754be39f8dfa38b03a8e6f6c4b0b9ec0e0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3c81e7a",
+      "message": "feat: Meta Pixel+CAPI 듀얼 설치, 표준 이벤트 7개 매핑",
+      "author": "junyoungjang976",
+      "date": "2026-04-16T00:25:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3c81e7a61b09a3b45e10e9f8f9b68bd6fd859c8a",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "30a1157",
+      "message": "docs: revenue-growth-roadmap 페이지 추가",
+      "author": "Claude Agent",
+      "date": "2026-04-15T09:52:53Z",
+      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/30a1157214e4a8c92de71159e68e2d2529f29776",
+      "repo": "busungtk-ai-ideation"
+    },
+    {
+      "sha": "0f7bce7",
+      "message": "docs: 제안서 패키지 템플릿 5종 + README 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-15T09:52:25Z",
+      "url": "https://github.com/busungtk/busungtk-sales-pipeline/commit/0f7bce7c49094d88df82d618a561a5e319e92a90",
+      "repo": "busungtk-sales-pipeline"
+    },
     {
       "sha": "57fb75c",
       "message": "fix: 모바일 견적서/작업완료서 PDF·인쇄 이미지 깨짐 수정",
@@ -2692,38 +2739,6 @@
       "date": "2026-03-25T14:36:25Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/1ebc695824317ddfcfde18c2a03eab5bfb6f4d36",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5b2cf10",
-      "message": "fix: .vercelignore에서 6-problem-simple 제외 해제",
-      "author": "jangjoonyoung",
-      "date": "2026-03-25T14:33:45Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5b2cf108cbdce112668076a129b40ab46e5dca86",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "dfcb26e",
-      "message": "feat: 6-problem-simple 랜딩 퀄리티 업그레이드 (3/10 → 8/10)",
-      "author": "jangjoonyoung",
-      "date": "2026-03-25T14:30:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/dfcb26e3854cfd2ffa02c306127f6cf42f39f376",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9532292",
-      "message": "fix: branding contents 이미지 404 — 폴더명 공백 제거",
-      "author": "jangjoonyoung",
-      "date": "2026-03-25T13:59:30Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/95322922e56e976d76a7ac6f69834b4ac6f080bb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3f6b15a",
-      "message": "docs: kitchen-quote 작업 기록 추가 (2026-03-25)",
-      "author": "junyoungjang976",
-      "date": "2026-03-25T11:19:45Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/3f6b15aaf699c80fddbbd84b6a4a60687898cc0c",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "pull_requests": [
