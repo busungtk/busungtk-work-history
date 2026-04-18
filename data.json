@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-17T01:16:33.996773Z",
+  "updated_at": "2026-04-18T01:09:52.322664Z",
   "repos": [
+    "busungtk-landing",
+    "busungtk-marketing-v2",
     "busungtk-relay-board",
     "busungtk-ui",
     "busungtk-partner-map",
-    "busungtk-landing",
     "busungtk-ai-ideation",
-    "busungtk-marketing-v2",
     "busungtk-sales-pipeline",
     "busungtk-asms",
     "busungtk-purchase-data",
@@ -49,11 +49,18 @@
     "total_commits": 1131,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 70
+    "active_days": 71
   },
   "daily": {
+    "2026-04-17": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-16": {
-      "commits": 12,
+      "commits": 14,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -221,7 +228,7 @@
       "issues_closed": 0
     },
     "2026-03-19": {
-      "commits": 24,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -284,7 +291,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 18,
+      "commits": 15,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -545,15 +552,15 @@
   },
   "overtime": {
     "total_commits": 1131,
-    "overtime_commits": 722,
-    "regular_commits": 409,
-    "overtime_rate": 63.8,
+    "overtime_commits": 725,
+    "regular_commits": 406,
+    "overtime_rate": 64.1,
     "weekend_commits": 291,
-    "late_night_commits": 364,
-    "total_hours": 732.0,
-    "regular_hours": 277.2,
-    "overtime_hours": 454.8,
-    "overtime_hour_rate": 62.1,
+    "late_night_commits": 367,
+    "total_hours": 734.7,
+    "regular_hours": 279.4,
+    "overtime_hours": 455.3,
+    "overtime_hour_rate": 62.0,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -805,7 +812,7 @@
         "overtime_hours": 13.7,
         "total_hours": 22.7,
         "is_weekend": false,
-        "commits": 21
+        "commits": 18
       },
       "2026-03-11": {
         "regular_hours": 0.1,
@@ -861,7 +868,7 @@
         "overtime_hours": 8.7,
         "total_hours": 17.4,
         "is_weekend": false,
-        "commits": 25
+        "commits": 23
       },
       "2026-03-20": {
         "regular_hours": 7.0,
@@ -1032,11 +1039,18 @@
         "commits": 4
       },
       "2026-04-16": {
-        "regular_hours": 3.8,
-        "overtime_hours": 0.0,
-        "total_hours": 3.8,
+        "regular_hours": 6.0,
+        "overtime_hours": 0,
+        "total_hours": 6.0,
         "is_weekend": false,
-        "commits": 12
+        "commits": 14
+      },
+      "2026-04-17": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -1105,7 +1119,8 @@
       "2026-04-12": 0.5,
       "2026-04-13": 0.3,
       "2026-04-14": 4.4,
-      "2026-04-15": 0.9
+      "2026-04-15": 0.9,
+      "2026-04-17": 0.5
     },
     "overtime_by_hour": [
       58,
@@ -1126,8 +1141,8 @@
       0,
       2,
       1,
-      56,
-      43,
+      58,
+      44,
       34,
       96,
       65,
@@ -1139,6 +1154,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "48a6d35",
+      "message": "chore: gitignore MCP 스크린샷/프리뷰 아티팩트 제외",
+      "author": "junyoungjang976",
+      "date": "2026-04-17T10:14:26Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/48a6d35ee7ffa3d67dc95d724d6c88bc946815a5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f5f069a",
+      "message": "feat: 정보성 SNS 생성기 개선 + IG 캐러셀 품질 프레임워크 리서치",
+      "author": "junyoungjang976",
+      "date": "2026-04-17T09:59:59Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/f5f069a7b578c276eac3917197f11a8bacd5f590",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "3ee70b3",
+      "message": "feat(f-variant): Act 2 convergence 배포 품질 개선 + 접근성 강화",
+      "author": "junyoungjang976",
+      "date": "2026-04-17T09:59:53Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3ee70b33fe5d8122a0ba3c4fcd355741b0a8582c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "92a6bb8",
+      "message": "feat: 정보성 콘텐츠 파이프라인 — 블로그+IG+Threads 통합 (진짜 도움 원칙)",
+      "author": "junyoungjang976",
+      "date": "2026-04-16T06:24:59Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/92a6bb888d5ad0a6feba1843f4952dad73faca69",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "d705de0",
+      "message": "feat: 현장 리포트 콘텐츠 생성 파이프라인 + 중복 실행 가드",
+      "author": "junyoungjang976",
+      "date": "2026-04-16T05:06:47Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/d705de0f49bedba42b6e8209728af676202b3c09",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "2575d46",
       "message": "chore: gitignore .omc/",
@@ -2698,46 +2753,6 @@
       "date": "2026-03-29T01:02:26Z",
       "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/750c615ba1e01bf01035fb41e64391d188d30bfc",
       "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "4ccd466",
-      "message": "docs: deprecated 표시 (정본은 claude-dotfiles로 이전)",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T00:00:05Z",
-      "url": "https://github.com/busungtk/busungtk-dotfiles/commit/4ccd46682bb6399ab90405713562aad151a75889",
-      "repo": "busungtk-dotfiles"
-    },
-    {
-      "sha": "b818cba",
-      "message": "docs: 6권 카피라이팅 프레임워크 복원 + 스킬 업데이트",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T00:00:02Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b818cba7038f456cd7ded8df35905042f15772ad",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "36cc59f",
-      "message": "docs: PRD 17개 추가 + 지식 관리 구조 (skills, references, ideas)",
-      "author": "junyoungjang976",
-      "date": "2026-03-28T23:59:58Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/36cc59f95145242a7397f6c5b9f93a4847ed7f2a",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "239e5c7",
-      "message": "feat: ASMS 프레젠테이션 모드 + 교육 영상 자막/나레이션",
-      "author": "junyoungjang976",
-      "date": "2026-03-28T09:58:56Z",
-      "url": "https://github.com/busungtk/busungtk-process-map/commit/239e5c787caa9c3880ba63a209a234cf93a921c2",
-      "repo": "busungtk-process-map"
-    },
-    {
-      "sha": "2b10a18",
-      "message": "docs: 네이버 AI Auto 캠페인 최적화 작업 기록 (2026-03-26)",
-      "author": "junyoungjang976",
-      "date": "2026-03-26T09:04:09Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/2b10a180ba814d0e72875cf0efff14d439ca6743",
-      "repo": "busungtk-marketing-v2"
     }
   ],
   "pull_requests": [
