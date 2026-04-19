@@ -1,8 +1,12 @@
 {
-  "updated_at": "2026-04-18T01:09:52.322664Z",
+  "updated_at": "2026-04-19T01:17:55.866625Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-marketing-v2",
+    "vibe-factory",
+    "busungtk-dotfiles",
+    "busungtk-landing",
+    "busungtk-kitchen-simulator",
+    "busungtk-ad-videos",
     "busungtk-relay-board",
     "busungtk-ui",
     "busungtk-partner-map",
@@ -11,8 +15,6 @@
     "busungtk-asms",
     "busungtk-purchase-data",
     "busungtk-daily-report",
-    "busungtk-ad-videos",
-    "busungtk-kitchen-simulator",
     "busungtk-kitchen-consulting",
     "busungtk-order-tracker",
     "busungtk-portal",
@@ -23,37 +25,42 @@
     "busungtk-kitchen-quote",
     "busungtk-hub",
     "busungtk-sales-crm",
-    "busungtk-dotfiles",
     "busungtk-marketing",
     "busungtk-process-map",
-    "vibe-factory",
     "busungtk-seo-agent",
     "busungtk-hvac-mentor",
     "busungtk-field-check",
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
+    "claude-dotfiles",
+    "gumi-church-ai",
     "dev-journey",
     "channeltalk-downloader",
     "busungtk-dev-console",
-    "claude-dotfiles",
     "busungtk-brand-config",
     "gumi-church-shorts",
     "silt-bot",
     "gumi-church",
     "dance-academy-marketing",
-    "gumi-church-ai",
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1131,
+    "total_commits": 1138,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 71
+    "active_days": 72
   },
   "daily": {
+    "2026-04-18": {
+      "commits": 11,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-17": {
-      "commits": 3,
+      "commits": 4,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -228,7 +235,7 @@
       "issues_closed": 0
     },
     "2026-03-19": {
-      "commits": 22,
+      "commits": 21,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -291,7 +298,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 15,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -551,16 +558,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1131,
-    "overtime_commits": 725,
-    "regular_commits": 406,
-    "overtime_rate": 64.1,
-    "weekend_commits": 291,
-    "late_night_commits": 367,
-    "total_hours": 734.7,
+    "total_commits": 1138,
+    "overtime_commits": 736,
+    "regular_commits": 402,
+    "overtime_rate": 64.7,
+    "weekend_commits": 303,
+    "late_night_commits": 373,
+    "total_hours": 755.0,
     "regular_hours": 279.4,
-    "overtime_hours": 455.3,
-    "overtime_hour_rate": 62.0,
+    "overtime_hours": 475.6,
+    "overtime_hour_rate": 63.0,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -812,7 +819,7 @@
         "overtime_hours": 13.7,
         "total_hours": 22.7,
         "is_weekend": false,
-        "commits": 18
+        "commits": 14
       },
       "2026-03-11": {
         "regular_hours": 0.1,
@@ -868,7 +875,7 @@
         "overtime_hours": 8.7,
         "total_hours": 17.4,
         "is_weekend": false,
-        "commits": 23
+        "commits": 22
       },
       "2026-03-20": {
         "regular_hours": 7.0,
@@ -1051,6 +1058,20 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 3
+      },
+      "2026-04-18": {
+        "regular_hours": 0,
+        "overtime_hours": 17.4,
+        "total_hours": 17.4,
+        "is_weekend": true,
+        "commits": 8
+      },
+      "2026-04-19": {
+        "regular_hours": 0,
+        "overtime_hours": 2.9,
+        "total_hours": 2.9,
+        "is_weekend": true,
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -1120,16 +1141,18 @@
       "2026-04-13": 0.3,
       "2026-04-14": 4.4,
       "2026-04-15": 0.9,
-      "2026-04-17": 0.5
+      "2026-04-17": 0.5,
+      "2026-04-18": 17.4,
+      "2026-04-19": 2.9
     },
     "overtime_by_hour": [
       58,
-      42,
+      43,
       34,
-      44,
+      46,
       42,
-      10,
-      6,
+      11,
+      7,
       2,
       8,
       6,
@@ -1142,10 +1165,10 @@
       2,
       1,
       58,
-      44,
+      51,
       34,
       96,
-      65,
+      64,
       70
     ],
     "work_hours": {
@@ -1154,6 +1177,102 @@
     }
   },
   "commits": [
+    {
+      "sha": "550788c",
+      "message": "feat: IG 사진 콘텐츠 파이프라인 — 스코어링/큐레이션/크롭/캡션 4단계",
+      "author": "jangjoonyoung",
+      "date": "2026-04-18T21:11:08Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/550788c155292a8209b1e294e9fac337362259a1",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "42d0d77",
+      "message": "feat: IG 캐러셀 Phase 1 초안 5세트 재작업 — HTML 소스 + 10장 표준화",
+      "author": "jangjoonyoung",
+      "date": "2026-04-18T20:05:13Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/42d0d77f6ace3cbd9bfe4ce04d5761bbd123a512",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "4dbed21",
+      "message": "feat: ig-carousel 스킬 추가 — IG 카드뉴스 캐러셀 자동 생성 파이프라인",
+      "author": "jangjoonyoung",
+      "date": "2026-04-18T18:20:02Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/4dbed211d527125ef3d438e6b6d8167c3338d5aa",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c50a10f",
+      "message": "feat: IG 캐러셀 Phase 1 — 냉장고/그리들/튀김기 3세트 + PNG 캡처 파이프라인",
+      "author": "jangjoonyoung",
+      "date": "2026-04-18T18:19:38Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/c50a10fc96681c386826fdfb3fcba5c4813c54c8",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "4e8ecd3",
+      "message": "docs: 하이브리드 저장 원칙 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:38Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/4e8ecd32f8d73678aeabaf5d1b57c06e8fd05bf7",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "6a4ce7d",
+      "message": "chore: chunks.json Git 트래킹 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:31Z",
+      "url": "https://github.com/junyoungjang976/gumi-church-ai/commit/6a4ce7dfd18fcdbed51fb092acfc1ff9bbc40b11",
+      "repo": "gumi-church-ai"
+    },
+    {
+      "sha": "188c32c",
+      "message": "chore: 개인 작업 상태 3PC 동기화 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:24Z",
+      "url": "https://github.com/busungtk/busungtk-dotfiles/commit/188c32c1c2aaf136bf35067e5a714b1bdde128fc",
+      "repo": "busungtk-dotfiles"
+    },
+    {
+      "sha": "f8e09e3",
+      "message": "chore: 콘텐츠 자료 Git 트래킹 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:16Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f8e09e3139767dd96d20f40d834a5d6f69338e23",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "495e998",
+      "message": "chore: 시뮬레이션 결과물 Git 트래킹 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:09Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-simulator/commit/495e998ee4187eb3d3758e77e718f50070a188ea",
+      "repo": "busungtk-kitchen-simulator"
+    },
+    {
+      "sha": "3c509a7",
+      "message": "chore: 콘텐츠 최종본 Git 트래킹 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:20:00Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/3c509a7c9bab13c030db0fb89c15cbe15087b2f3",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "3d78056",
+      "message": "chore: 영상 OneDrive 하이브리드 저장으로 전환",
+      "author": "junyoungjang976",
+      "date": "2026-04-18T10:19:53Z",
+      "url": "https://github.com/busungtk/busungtk-ad-videos/commit/3d780567b6f662184f5c3b62ffb38e63726044b3",
+      "repo": "busungtk-ad-videos"
+    },
+    {
+      "sha": "8668996",
+      "message": "docs: 베타 유저 온보딩 가이드 (코어랭크/코히트랩)",
+      "author": "jangjoonyoung",
+      "date": "2026-04-17T16:57:05Z",
+      "url": "https://github.com/busungtk/vibe-factory/commit/8668996984b91004b776234e43d8cfb7ecef77e9",
+      "repo": "vibe-factory"
+    },
     {
       "sha": "48a6d35",
       "message": "chore: gitignore MCP 스크린샷/프리뷰 아티팩트 제외",
@@ -2657,102 +2776,6 @@
       "date": "2026-03-30T05:17:10Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/a725b77c2e54d3e194dae0a6b4db3a92b41f3f7c",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "45b8423",
-      "message": "feat: 채널별 유입 분석에 문의수 + 전환율 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:03:56Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/45b8423a38ab6dcbc85cd5ad9f70453f7b235671",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "93e6529",
-      "message": "feat: 방문자 분석 강화 - 일별 시트, 채널 정제, 동기간 비교",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:02:56Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/93e652917e7f72c7ac22257e80536bece430a6f2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "59013b7",
-      "message": "fix: 폼 notes에 지역/요청/첨부 항상 표시 + 48h+ 미연락만 적용",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T03:25:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/59013b7884135d5235c110908513faa8cb0ff894",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5783510",
-      "message": "feat: admin 새 리드 행 배경색 상태별 구분",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T03:21:07Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5783510574490a59417726b4a15285569ddc1461",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "aede671",
-      "message": "fix: admin 상태값을 sales_stage enum에 맞게 매핑",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T03:18:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/aede6716c8a091b438f27f9dea52d6ed22286358",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a7933bc",
-      "message": "fix: admin 새 리드 source 필터 + 상태변경 에러처리",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T03:15:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a7933bcb47b18ec38c40eb6a2ef2e61df59aee2f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f5f1b8e",
-      "message": "docs: 새 PC 세팅 가이드 추가 + Dashboard 링크",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:30:09Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/f5f1b8e8ca2557dfe528930e476824ec942f5dfa",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "92a8907",
-      "message": "docs: 새 PC 환경 세팅 가이드 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:26:16Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/92a89072d99d4281f9ab73a6e772a03d29245182",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "1af585e",
-      "message": "docs: PROJECT-INDEX.md 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:21:09Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/1af585e6cd0a3a3005eaa4feb7b2a3b60a33f24e",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "22f9d55",
-      "message": "docs: CLAUDE.md 동기화 (31개 프로젝트 + 17명 조직도)",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:21:05Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/22f9d5584c666b965489253aa059bae98b204a36",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "a767b4e",
-      "message": "feat: 260315/260322 설교 쇼츠 하이라이트 분석 (마케팅 검수 포함)",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:16:18Z",
-      "url": "https://github.com/junyoungjang976/gumi-church-shorts/commit/a767b4eb00694a54de5e589b65d881b06a3005d9",
-      "repo": "gumi-church-shorts"
-    },
-    {
-      "sha": "750c615",
-      "message": "docs: PRD 31개 frontmatter 태그 + Obsidian Dashboard + Dataview 쿼리",
-      "author": "junyoungjang976",
-      "date": "2026-03-29T01:02:26Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/750c615ba1e01bf01035fb41e64391d188d30bfc",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "pull_requests": [
