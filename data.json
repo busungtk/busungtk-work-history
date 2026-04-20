@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-19T01:17:55.866625Z",
+  "updated_at": "2026-04-20T01:18:30.905701Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-marketing-v2",
     "vibe-factory",
     "busungtk-dotfiles",
-    "busungtk-landing",
     "busungtk-kitchen-simulator",
     "busungtk-ad-videos",
     "busungtk-relay-board",
@@ -46,12 +46,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1138,
+    "total_commits": 1141,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 72
+    "active_days": 73
   },
   "daily": {
+    "2026-04-19": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-18": {
       "commits": 11,
       "prs_opened": 0,
@@ -235,7 +242,7 @@
       "issues_closed": 0
     },
     "2026-03-19": {
-      "commits": 21,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -298,7 +305,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 11,
+      "commits": 10,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -558,16 +565,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1138,
-    "overtime_commits": 736,
-    "regular_commits": 402,
-    "overtime_rate": 64.7,
-    "weekend_commits": 303,
-    "late_night_commits": 373,
-    "total_hours": 755.0,
+    "total_commits": 1141,
+    "overtime_commits": 740,
+    "regular_commits": 401,
+    "overtime_rate": 64.9,
+    "weekend_commits": 306,
+    "late_night_commits": 375,
+    "total_hours": 773.2,
     "regular_hours": 279.4,
-    "overtime_hours": 475.6,
-    "overtime_hour_rate": 63.0,
+    "overtime_hours": 493.8,
+    "overtime_hour_rate": 63.9,
     "daily_hours": {
       "2026-01-24": {
         "regular_hours": 0,
@@ -819,7 +826,7 @@
         "overtime_hours": 13.7,
         "total_hours": 22.7,
         "is_weekend": false,
-        "commits": 14
+        "commits": 13
       },
       "2026-03-11": {
         "regular_hours": 0.1,
@@ -875,7 +882,7 @@
         "overtime_hours": 8.7,
         "total_hours": 17.4,
         "is_weekend": false,
-        "commits": 22
+        "commits": 21
       },
       "2026-03-20": {
         "regular_hours": 7.0,
@@ -1068,10 +1075,17 @@
       },
       "2026-04-19": {
         "regular_hours": 0,
-        "overtime_hours": 2.9,
-        "total_hours": 2.9,
+        "overtime_hours": 20.6,
+        "total_hours": 20.6,
         "is_weekend": true,
-        "commits": 4
+        "commits": 7
+      },
+      "2026-04-20": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -1143,10 +1157,11 @@
       "2026-04-15": 0.9,
       "2026-04-17": 0.5,
       "2026-04-18": 17.4,
-      "2026-04-19": 2.9
+      "2026-04-19": 20.6,
+      "2026-04-20": 0.5
     },
     "overtime_by_hour": [
-      58,
+      60,
       43,
       34,
       46,
@@ -1168,8 +1183,8 @@
       51,
       34,
       96,
-      64,
-      70
+      65,
+      71
     ],
     "work_hours": {
       "start": 9,
@@ -1177,6 +1192,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "86de96b",
+      "message": "fix(install): 기존 스킬 dir에 cp -r 시 이중 nested 폴더 생성 방지",
+      "author": "jangjoonyoung",
+      "date": "2026-04-19T15:05:59Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/86de96bda4fc2e6faaaa51f4e173f2aaae6dfe0e",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c5c0a88",
+      "message": "sync: hud v4+ flat install 지원 + ui-ux-pro-max data/scripts 추가",
+      "author": "jangjoonyoung",
+      "date": "2026-04-19T15:02:10Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c5c0a88b22887a511d6df2a24d65bfea43ecb5fa",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "e2396c3",
+      "message": "docs(f-variant): Claude Design 첫 도입 온보딩 진척 기록",
+      "author": "jangjoonyoung",
+      "date": "2026-04-19T14:53:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e2396c386843d64ba029e7bf0fcfd361e23eba65",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "de3ca03",
+      "message": "feat: ig-feed 스킬 추가 — IG 피드 사진 콘텐츠 생성 (kitchen-expert+marketing-expert 필수)",
+      "author": "jangjoonyoung",
+      "date": "2026-04-19T13:50:41Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/de3ca030e0df01432fc41063e54cd67bde32a599",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "1107294",
+      "message": "feat: IG 피드 ig-feed 스킬 전환 — Vision AI→Claude Code 직접 수행, post-log 중복방지",
+      "author": "jangjoonyoung",
+      "date": "2026-04-19T13:50:17Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/1107294142358ac245cbcdfbe9786dd36eabf890",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "550788c",
       "message": "feat: IG 사진 콘텐츠 파이프라인 — 스코어링/큐레이션/크롭/캡션 4단계",
@@ -2736,46 +2791,6 @@
       "date": "2026-03-30T05:51:21Z",
       "url": "https://github.com/busungtk/busungtk-portal/commit/fff1e8cf3651fdfeffa2c8d33034855360393d7b",
       "repo": "busungtk-portal"
-    },
-    {
-      "sha": "2a3fc0f",
-      "message": "docs: 옵시디언 로그 22개 frontmatter + wikilink 추가 (그래프 뷰 결집)",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:39:56Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/2a3fc0f7ec302c6db8ef84ec45c4ed11aaea7a0c",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "f95128c",
-      "message": "feat: 이탈 분석 기반 개선 dev 페이지 2종 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:30:03Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f95128c6a8cded248b050568d57e84b7533df82b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "22402b4",
-      "message": "feat: 구매의도 키워드 분류 기준 확장 — 설비/기기/기구 카테고리 + B2B 수식어 추가",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:22:59Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/22402b440bd9c93677dd98f5e0398f34c5ae319e",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "940c060",
-      "message": "feat: 이탈 분석 3파트 확장 (바운스+이탈페이지+스크롤지점)",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:20:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/940c06069c4166a6dc98c13636c1dc0b14710e1f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a725b77",
-      "message": "feat: 페이지별 이탈 분석 카드 추가 (admin 방문자 분석)",
-      "author": "junyoungjang976",
-      "date": "2026-03-30T05:17:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a725b77c2e54d3e194dae0a6b4db3a92b41f3f7c",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
