@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-21T01:15:48.036990Z",
+  "updated_at": "2026-04-22T01:14:28.001238Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-marketing-v2",
+    "busungtk-landing",
     "busungtk-daily-report",
     "busungtk-order-tracker",
     "busungtk-asms",
@@ -34,11 +34,11 @@
     "busungtk-training",
     "busungtk-supabase-types",
     "claude-dotfiles",
+    "busungtk-brand-config",
     "channeltalk-downloader",
     "gumi-church-ai",
     "dev-journey",
     "busungtk-dev-console",
-    "busungtk-brand-config",
     "gumi-church-shorts",
     "silt-bot",
     "gumi-church",
@@ -46,12 +46,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1145,
+    "total_commits": 1151,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 74
+    "active_days": 75
   },
   "daily": {
+    "2026-04-21": {
+      "commits": 7,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-20": {
       "commits": 22,
       "prs_opened": 0,
@@ -291,7 +298,7 @@
       "issues_closed": 0
     },
     "2026-03-13": {
-      "commits": 23,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -572,15 +579,15 @@
     }
   },
   "overtime": {
-    "total_commits": 1145,
-    "overtime_commits": 757,
-    "regular_commits": 388,
-    "overtime_rate": 66.1,
+    "total_commits": 1151,
+    "overtime_commits": 764,
+    "regular_commits": 387,
+    "overtime_rate": 66.4,
     "weekend_commits": 304,
-    "late_night_commits": 389,
-    "total_hours": 792.8,
-    "regular_hours": 288.3,
-    "overtime_hours": 504.5,
+    "late_night_commits": 396,
+    "total_hours": 815.8,
+    "regular_hours": 297.3,
+    "overtime_hours": 518.5,
     "overtime_hour_rate": 63.6,
     "daily_hours": {
       "2026-01-24": {
@@ -854,7 +861,7 @@
         "overtime_hours": 9.3,
         "total_hours": 18.3,
         "is_weekend": false,
-        "commits": 32
+        "commits": 31
       },
       "2026-03-14": {
         "regular_hours": 0,
@@ -1095,11 +1102,11 @@
         "commits": 19
       },
       "2026-04-21": {
-        "regular_hours": 0,
-        "overtime_hours": 0.6,
-        "total_hours": 0.6,
+        "regular_hours": 9,
+        "overtime_hours": 14.6,
+        "total_hours": 23.6,
         "is_weekend": false,
-        "commits": 5
+        "commits": 12
       }
     },
     "overtime_by_date": {
@@ -1173,7 +1180,7 @@
       "2026-04-18": 17.4,
       "2026-04-19": 20.6,
       "2026-04-20": 14.0,
-      "2026-04-21": 0.6
+      "2026-04-21": 14.6
     },
     "overtime_by_hour": [
       65,
@@ -1194,12 +1201,12 @@
       0,
       2,
       1,
-      69,
+      71,
       52,
       34,
-      96,
-      63,
-      75
+      97,
+      64,
+      78
     ],
     "work_hours": {
       "start": 9,
@@ -1207,6 +1214,62 @@
     }
   },
   "commits": [
+    {
+      "sha": "9ca633b",
+      "message": "feat(ig): 5트랙 매트릭스 + 커버 오버레이 + 공유 디자인 토큰",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T14:39:28Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/9ca633b30f9d74c96709e1eb91bc58ccc7c7373c",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "66c0d43",
+      "message": "feat: ROOT_IDENTITY / PARTNERSHIP_SCOPE / HERO_MOMENT 상수 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T14:07:56Z",
+      "url": "https://github.com/junyoungjang976/busungtk-brand-config/commit/66c0d43c670b774c28d8d298bf2b3ff20531d380",
+      "repo": "busungtk-brand-config"
+    },
+    {
+      "sha": "756fc10",
+      "message": "feat(root-identity): 부성TK 주방 운영 파트너 루트 정체성 Always-On 반영",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T14:05:38Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/756fc105ff136bc143ee3662b82226c76dd96d41",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c1ef5bf",
+      "message": "fix(sync): Python 절대경로 + PowerShell 대체 러너",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T13:10:44Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/c1ef5bfe1637db7413e2f649fc637dcb54d17590",
+      "repo": "channeltalk-downloader"
+    },
+    {
+      "sha": "b3c90ba",
+      "message": "fix(sync): Task Scheduler hang 근본 해결 — Python 직접 로깅 + stdio 분리",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T12:14:58Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/b3c90baee047660ac108d3f994ad4627e6e96e68",
+      "repo": "channeltalk-downloader"
+    },
+    {
+      "sha": "35b4011",
+      "message": "chore(audit): 핵심 앱 7개 + Supabase 키 로테이션 감사 스크립트",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T09:10:01Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/35b40111e437253832741353310ce1d51ffdeb1b",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "68f7254",
+      "message": "fix(sync): urlopen 타임아웃 추가 + unbuffered 출력으로 hang 방지",
+      "author": "junyoungjang976",
+      "date": "2026-04-21T09:09:28Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/68f725402b1e8f4e5ac3a647d8d5d5dfd5eed9d4",
+      "repo": "channeltalk-downloader"
+    },
     {
       "sha": "c63951f",
       "message": "feat(ig-carousel): v2.2 인포그래픽 체제 + 콘텐츠 의도 > 구조 원칙 반영",
@@ -2750,62 +2813,6 @@
       "date": "2026-04-04T04:28:06Z",
       "url": "https://github.com/junyoungjang976/busungtk-brand-config/commit/3d05f66ca832c318cd83105ac9cc7b838c4d8ed7",
       "repo": "busungtk-brand-config"
-    },
-    {
-      "sha": "88dba7c",
-      "message": "feat: 아웃바운드 Phase 3 — 시퀀스 빌더 (14일 콜드 시퀀스)",
-      "author": "jangjoonyoung",
-      "date": "2026-04-04T03:38:35Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/88dba7cc1c03c016bf4abe3741c883823668be27",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "cc08746",
-      "message": "feat: 브랜딩 고객 설문 페이지 추가",
-      "author": "junyoungjang976",
-      "date": "2026-04-03T04:32:23Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/cc087469adc180e404d2bec8152edbf1f1da07a3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "89da8cb",
-      "message": "feat: 관리자 페이지에 변형 이력 탭 추가",
-      "author": "junyoungjang976",
-      "date": "2026-04-03T03:59:57Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/89da8cbd8be5423532212b20c83b62ac79ca5f0d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "27d9360",
-      "message": "docs: CRM 아웃바운드 통합 Phase 1 이전/이후 보고서",
-      "author": "junyoungjang976",
-      "date": "2026-04-03T03:48:35Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/27d936075e4c17f276119a44351c5daf7e0a03ff",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "sha": "409618a",
-      "message": "feat: Variant A→D 교체 — 파트너 포지셔닝을 메인으로 승격",
-      "author": "junyoungjang976",
-      "date": "2026-04-03T03:35:04Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/409618a5a4e32960d26cf5c4e37475ef58e75dc7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "236af43",
-      "message": "feat: 아웃바운드 타겟 관리 MVP (Phase 0-5)",
-      "author": "junyoungjang976",
-      "date": "2026-04-03T03:26:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/236af433e7d3734d4f37f21d1e24bedaa7c838b9",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "6f8a252",
-      "message": "docs: 아웃바운드 3-Track 전략 문서 v2 (14슬라이드 HTML)",
-      "author": "junyoungjang976",
-      "date": "2026-04-02T10:37:32Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/6f8a2523fbad1110f25790392bbd7bdbec9b63a4",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "pull_requests": [
