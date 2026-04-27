@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-26T01:20:57.867040Z",
+  "updated_at": "2026-04-27T00:11:51.678599Z",
   "repos": [
+    "busungtk-vehicle-check",
     "busungtk-asms",
     "busungtk-portal",
     "busungtk-marketing-v2",
     "busungtk-daily-report",
     "busungtk-landing",
-    "busungtk-vehicle-check",
     "busungtk-order-tracker",
     "vibe-factory",
     "busungtk-dotfiles",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1168,
+    "total_commits": 1166,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 76
   },
   "daily": {
+    "2026-04-26": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-04-23": {
       "commits": 9,
       "prs_opened": 0,
@@ -481,7 +488,7 @@
       "issues_closed": 0
     },
     "2026-02-11": {
-      "commits": 14,
+      "commits": 13,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -577,34 +584,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-01-26": {
-      "commits": 3,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1168,
-    "overtime_commits": 767,
+    "total_commits": 1166,
+    "overtime_commits": 765,
     "regular_commits": 401,
-    "overtime_rate": 65.7,
+    "overtime_rate": 65.6,
     "weekend_commits": 298,
-    "late_night_commits": 404,
+    "late_night_commits": 403,
     "total_hours": 832.7,
     "regular_hours": 309.6,
     "overtime_hours": 523.1,
     "overtime_hour_rate": 62.8,
     "daily_hours": {
-      "2026-01-27": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 3
-      },
       "2026-01-28": {
         "regular_hours": 9,
         "overtime_hours": 12.9,
@@ -701,7 +694,7 @@
         "overtime_hours": 5.7,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 10
+        "commits": 9
       },
       "2026-02-12": {
         "regular_hours": 2.8,
@@ -1122,10 +1115,16 @@
         "total_hours": 9.0,
         "is_weekend": false,
         "commits": 9
+      },
+      "2026-04-27": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
-      "2026-01-27": 0.5,
       "2026-01-28": 12.9,
       "2026-01-29": 14.3,
       "2026-01-30": 7.2,
@@ -1196,10 +1195,11 @@
       "2026-04-20": 14.0,
       "2026-04-21": 14.6,
       "2026-04-22": 4.9,
-      "2026-04-23": 1.9
+      "2026-04-23": 1.9,
+      "2026-04-27": 0.5
     },
     "overtime_by_hour": [
-      65,
+      62,
       43,
       32,
       46,
@@ -1207,7 +1207,7 @@
       11,
       7,
       2,
-      8,
+      10,
       6,
       16,
       52,
@@ -1221,7 +1221,7 @@
       60,
       34,
       93,
-      67,
+      66,
       76
     ],
     "work_hours": {
@@ -1230,6 +1230,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "45565af",
+      "message": "chore: .omc 세션 캐시 gitignore 추가 및 트래킹 해제",
+      "author": "junyoungjang976",
+      "date": "2026-04-26T23:16:45Z",
+      "url": "https://github.com/busungtk/busungtk-vehicle-check/commit/45565af5138106c10bd2b983323df9f36be812c5",
+      "repo": "busungtk-vehicle-check"
+    },
+    {
+      "sha": "2774431",
+      "message": "chore: 견적 검색 false positive 탐지 검증 스크립트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-04-26T23:16:37Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/2774431990a018ebdd2690c9becb0c34f2fc0d46",
+      "repo": "busungtk-asms"
+    },
     {
       "sha": "6754fe9",
       "message": "refactor: 매입/매출 명세표·세금계산서·발주서·A/S 접수 경리나라 compact UI 통일",
@@ -2813,22 +2829,6 @@
       "date": "2026-04-06T05:03:25Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/8852336d18349a8ef303aa9b64ee3a11696906e5",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7b874a0",
-      "message": "fix: ab-router.js 삭제 (변형 페이지 삭제로 404 발생) + SMS 중복 정보 제거",
-      "author": "junyoungjang976",
-      "date": "2026-04-06T04:54:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7b874a00337f67cfe7ac93771ce91d205c9a9d76",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7185fc3",
-      "message": "docs: landing 아카이브 삭제+보안 강화 작업 기록 + PC SETUP 작업완료 규칙 추가",
-      "author": "junyoungjang976",
-      "date": "2026-04-06T04:52:11Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/commit/7185fc398a621e757770ee3f1935599535819295",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "pull_requests": [
