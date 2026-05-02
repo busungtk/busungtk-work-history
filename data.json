@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T00:16:25.436137Z",
+  "updated_at": "2026-05-02T00:15:47.788033Z",
   "repos": [
     "busungtk-ai-ideation",
     "busungtk-landing",
@@ -47,10 +47,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1095,
+    "total_commits": 1068,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 73
+    "active_days": 72
   },
   "daily": {
     "2026-04-30": {
@@ -556,41 +556,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-01-31": {
-      "commits": 27,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1095,
-    "overtime_commits": 729,
+    "total_commits": 1068,
+    "overtime_commits": 702,
     "regular_commits": 366,
-    "overtime_rate": 66.6,
-    "weekend_commits": 290,
-    "late_night_commits": 398,
-    "total_hours": 796.6,
+    "overtime_rate": 65.7,
+    "weekend_commits": 263,
+    "late_night_commits": 376,
+    "total_hours": 789.9,
     "regular_hours": 312.1,
-    "overtime_hours": 484.5,
-    "overtime_hour_rate": 60.8,
+    "overtime_hours": 477.8,
+    "overtime_hour_rate": 60.5,
     "daily_hours": {
-      "2026-01-31": {
-        "regular_hours": 0,
-        "overtime_hours": 3.1,
-        "total_hours": 3.1,
-        "is_weekend": true,
-        "commits": 22
-      },
-      "2026-02-01": {
-        "regular_hours": 0,
-        "overtime_hours": 3.6,
-        "total_hours": 3.6,
-        "is_weekend": true,
-        "commits": 5
-      },
       "2026-02-02": {
         "regular_hours": 9,
         "overtime_hours": 8.3,
@@ -1090,8 +1069,6 @@
       }
     },
     "overtime_by_date": {
-      "2026-01-31": 3.1,
-      "2026-02-01": 3.6,
       "2026-02-02": 8.3,
       "2026-02-03": 0.5,
       "2026-02-04": 14.0,
@@ -1163,11 +1140,11 @@
     },
     "overtime_by_hour": [
       61,
-      41,
-      28,
-      35,
       39,
-      9,
+      28,
+      34,
+      38,
+      8,
       5,
       2,
       10,
@@ -1182,10 +1159,10 @@
       1,
       69,
       60,
-      35,
-      94,
-      68,
-      72
+      29,
+      88,
+      62,
+      68
     ],
     "work_hours": {
       "start": 9,
