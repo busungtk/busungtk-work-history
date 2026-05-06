@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-05T00:16:51.386964Z",
+  "updated_at": "2026-05-06T00:16:06.182409Z",
   "repos": [
     "busungtk-marketing-v2",
-    "vibe-factory",
     "busungtk-landing",
+    "vibe-factory",
     "busungtk-ai-ideation",
     "busungtk-process-map",
     "busungtk-hub",
@@ -47,14 +47,28 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1058,
+    "total_commits": 1046,
     "total_prs": 3,
     "total_issues": 0,
-    "active_days": 71
+    "active_days": 72
   },
   "daily": {
+    "2026-05-06": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-05-05": {
+      "commits": 9,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-04": {
-      "commits": 12,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -243,7 +257,7 @@
       "issues_closed": 0
     },
     "2026-03-30": {
-      "commits": 19,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -264,14 +278,14 @@
       "issues_closed": 0
     },
     "2026-03-26": {
-      "commits": 4,
+      "commits": 3,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-03-25": {
-      "commits": 16,
+      "commits": 9,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -299,7 +313,7 @@
       "issues_closed": 0
     },
     "2026-03-21": {
-      "commits": 21,
+      "commits": 19,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -542,34 +556,20 @@
       "prs_merged": 2,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-04": {
-      "commits": 13,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1058,
-    "overtime_commits": 704,
-    "regular_commits": 354,
-    "overtime_rate": 66.5,
-    "weekend_commits": 275,
-    "late_night_commits": 371,
-    "total_hours": 785.3,
-    "regular_hours": 309.7,
-    "overtime_hours": 475.6,
-    "overtime_hour_rate": 60.6,
+    "total_commits": 1046,
+    "overtime_commits": 701,
+    "regular_commits": 345,
+    "overtime_rate": 67.0,
+    "weekend_commits": 273,
+    "late_night_commits": 370,
+    "total_hours": 769.8,
+    "regular_hours": 301.6,
+    "overtime_hours": 468.2,
+    "overtime_hour_rate": 60.8,
     "daily_hours": {
-      "2026-02-04": {
-        "regular_hours": 7.9,
-        "overtime_hours": 5.8,
-        "total_hours": 13.7,
-        "is_weekend": false,
-        "commits": 13
-      },
       "2026-02-06": {
         "regular_hours": 0,
         "overtime_hours": 2.1,
@@ -813,7 +813,7 @@
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 3
+        "commits": 1
       },
       "2026-03-22": {
         "regular_hours": 0,
@@ -838,17 +838,17 @@
       },
       "2026-03-25": {
         "regular_hours": 4.3,
-        "overtime_hours": 5.9,
-        "total_hours": 10.2,
-        "is_weekend": false,
-        "commits": 11
-      },
-      "2026-03-26": {
-        "regular_hours": 9,
-        "overtime_hours": 9.1,
-        "total_hours": 18.1,
+        "overtime_hours": 2.4,
+        "total_hours": 6.7,
         "is_weekend": false,
         "commits": 9
+      },
+      "2026-03-26": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       },
       "2026-03-28": {
         "regular_hours": 0,
@@ -865,11 +865,11 @@
         "commits": 9
       },
       "2026-03-30": {
-        "regular_hours": 5.8,
-        "overtime_hours": 1.2,
-        "total_hours": 7.0,
+        "regular_hours": 5.6,
+        "overtime_hours": 1.3,
+        "total_hours": 6.9,
         "is_weekend": false,
-        "commits": 19
+        "commits": 16
       },
       "2026-04-02": {
         "regular_hours": 8.4,
@@ -1055,14 +1055,27 @@
       },
       "2026-05-04": {
         "regular_hours": 9,
-        "overtime_hours": 11.0,
-        "total_hours": 20.0,
+        "overtime_hours": 11.8,
+        "total_hours": 20.8,
         "is_weekend": false,
-        "commits": 19
+        "commits": 20
+      },
+      "2026-05-05": {
+        "regular_hours": 9,
+        "overtime_hours": 9.1,
+        "total_hours": 18.1,
+        "is_weekend": false,
+        "commits": 12
+      },
+      "2026-05-06": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
-      "2026-02-04": 5.8,
       "2026-02-06": 2.1,
       "2026-02-07": 11.3,
       "2026-02-08": 0.5,
@@ -1099,11 +1112,11 @@
       "2026-03-21": 0.5,
       "2026-03-22": 4.7,
       "2026-03-23": 8.9,
-      "2026-03-25": 5.9,
-      "2026-03-26": 9.1,
+      "2026-03-25": 2.4,
+      "2026-03-26": 0.5,
       "2026-03-28": 0.5,
       "2026-03-29": 1.5,
-      "2026-03-30": 1.2,
+      "2026-03-30": 1.3,
       "2026-04-02": 1.6,
       "2026-04-04": 10.7,
       "2026-04-05": 0.5,
@@ -1128,15 +1141,17 @@
       "2026-04-28": 4.8,
       "2026-04-30": 1.3,
       "2026-05-03": 4.7,
-      "2026-05-04": 11.0
+      "2026-05-04": 11.8,
+      "2026-05-05": 9.1,
+      "2026-05-06": 0.5
     },
     "overtime_by_hour": [
-      61,
+      56,
       35,
       32,
       34,
       36,
-      8,
+      11,
       5,
       2,
       10,
@@ -1151,10 +1166,10 @@
       10,
       62,
       59,
-      32,
-      88,
-      64,
-      66
+      33,
+      89,
+      66,
+      61
     ],
     "work_hours": {
       "start": 9,
@@ -1162,6 +1177,118 @@
     }
   },
   "commits": [
+    {
+      "sha": "8c92304",
+      "message": "sync(skills): ig-carousel — 스마트폰 가독성 + 가운데 정렬 + 사실 검증 + 캡션 사이드카 자동 4섹션",
+      "author": "junyoungjang976",
+      "date": "2026-05-06T00:13:51Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/8c92304b81ca78def1bc0a4030386166658ef288",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "28adbf9",
+      "message": "chore(operating-map): E variant 잠금 표기 (2026-05-05)",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T14:07:45Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/28adbf9230176b5c2749eedf1e585d600899e780",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "b63ed15",
+      "message": "chore(e-variant): E variant 잠금 (수정 작업 중 2026-05-05)",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T14:07:39Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b63ed1539a6ef91519dfa781437d05435fc1ed9b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9269fd3",
+      "message": "chore(operating-map): D/E variant A/B 50/50 활성 + E inquiry 신규 + B/C archived",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T13:53:54Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/9269fd316faee7ccab091102f81e2bb04b176e4e",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "2c499c9",
+      "message": "fix(e-variant): inquiry 폼 항목 D 변형과 동일 + multipart 핸들러로 교체",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T13:38:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2c499c9ed12bec2a432df2ca73f0a4f7e2652dcc",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3b74809",
+      "message": "fix: 팀페이지 신동억 대표 카드를 다크 톤 정보 카드 SVG로 교체",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T13:14:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3b7480930437ae1e62eac2e73c7e11d2912a3069",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2c31bdc",
+      "message": "feat: A/B 테스트 C→E variant 스왑, production 배포",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T12:58:46Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2c31bdccd49be9970a32cba4eb2b35fcf89ba308",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3018218",
+      "message": "refactor(e-variant): 영문 라벨 일괄 한글화 + process.html 동행 카피",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T11:41:40Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/301821845e8e271ce03d7514a5ddee82fa21523f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e21d786",
+      "message": "refactor(landing): reliable-service + index 카피 다이어트 SOP v0.2 적용",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T06:57:23Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e21d786f25f994ef1d0786525549cd427c737b9c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "5ea0c00",
+      "message": "refactor(expert-design): 카피 다이어트 SOP v0.2 적용 (-10.4% 워드, 운영 파트너 톤 + H3 6개 신설)",
+      "author": "jangjoonyoung",
+      "date": "2026-05-05T06:25:41Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5ea0c003ec11d84ef3edcebf0fe404dab7110cb9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "5aa0dc7",
+      "message": "chore(scripts): Phase 0 카피 다이어트 진단 스크립트 추가",
+      "author": "jangjoonyoung",
+      "date": "2026-05-04T20:24:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5aa0dc7e07ecfe2ea7a396289b3df760f40fb8e7",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "437715e",
+      "message": "refactor(transparent-pricing): 카피 다이어트 SOP v0.1 적용 (-16% 워드, 운영 파트너 톤 결합)",
+      "author": "jangjoonyoung",
+      "date": "2026-05-04T20:19:12Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/437715e2228088eacb7ba73bfa5f42e087d48cf0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "5c7d0b5",
+      "message": "refactor(proven-results): 카피 다이어트 옵션 B 적용 (-42% 누적, 운영 파트너 톤 결합)",
+      "author": "jangjoonyoung",
+      "date": "2026-05-04T20:02:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5c7d0b5205e8c4de27beded066127fcd2508c839",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "21ffc07",
+      "message": "refactor(operating-map): pricing → proven-results 흡수 + 인라인 폼 통합 (B 결재)",
+      "author": "junyoungjang976",
+      "date": "2026-05-04T12:34:47Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/21ffc07987371623a82c4d1c5416436f11083083",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "11685db",
       "message": "feat(ig-carousel): B 라인 미손본 13개 카드 slide 01 redesign — A/C 라인 안전영역 동일 적용",
@@ -2648,118 +2775,6 @@
       "author": "junyoungjang976",
       "date": "2026-04-13T05:08:47Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/5c06ef7f97827fd30acd7718072e821352e209f3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "da1f2e7",
-      "message": "fix: 견적서 목록 인라인 편집에도 발행 요청자 선택 모달 추가",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T04:38:52Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/da1f2e7eddc7d41347cb3d568efd1ccb7abb0ecc",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "21e0b82",
-      "message": "feat: 세금계산서 발행 요청 시 변경자 선택 + SMS에 요청자 포함",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T04:34:22Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/21e0b82da5e2996955d8b34b1393f68188af58eb",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "673fe05",
-      "message": "fix: 미입금 리마인더 SMS 메시지 축약 — 상위 5건 + 요약",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:27:25Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/673fe05ccf1ad3b2807388fea1498ac338254787",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "84a9bf4",
-      "message": "fix: SMS 타입 자동감지로 복원 — 솔라피 자체 처리",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:24:12Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/84a9bf442db2f3e49946cd48ed57a6dd4bb461b5",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "3412c05",
-      "message": "fix: SMS 90바이트 초과 시 LMS 자동 전환",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:22:21Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/3412c0521a5be8739aa8076a629586979089e6e7",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "92b707e",
-      "message": "feat: kitchen-expert, marketing-expert, sales-expert 스킬 데이터 추가",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:21:13Z",
-      "url": "https://github.com/junyoungjang976/busungtk-dev-console/commit/92b707e4e859f92f2aa6ce949bee91ec76e01ddb",
-      "repo": "busungtk-dev-console"
-    },
-    {
-      "sha": "8875a42",
-      "message": "fix: SMS 환경변수 trim 처리 — 줄바꿈 문자 제거",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:20:16Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/8875a427d3fd6d1b373bf2fc75ac4952ee5c25ae",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a482e79",
-      "message": "feat: 세금계산서 SMS 자동 알림 — 발행요청 즉시 + 매일 미입금 리마인더",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:18:29Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a482e792b5f8c19def8443640b5190e62bb3705b",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "df1173a",
-      "message": "feat: 견적서 UX 개선 — 드래그/휠 수정, 품목별 마진, 수정 이력 강화",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T03:03:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/df1173a8ce4a443bd7d4d47ca56845eb558ed54e",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "3e93a89",
-      "message": "feat: add sync-prepare, sync-pull skills to OMC system view",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T01:33:33Z",
-      "url": "https://github.com/junyoungjang976/busungtk-dev-console/commit/3e93a89d4f3c9546209c2cca5ab25157b9764986",
-      "repo": "busungtk-dev-console"
-    },
-    {
-      "sha": "9597e50",
-      "message": "feat: add sync-prepare + sync-pull skills for 3-PC synchronization",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T01:33:25Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/9597e5067d11c9adad2165648d52aa47b44150be",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "b6eec5c",
-      "message": "fix(inquiry): 한글 파일명 업로드 실패 — Supabase Storage ASCII-only key 제약 대응",
-      "author": "jangj",
-      "date": "2026-04-13T00:18:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b6eec5cb951df2840c04dd310b512ddc72fbcc5e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6ad2c50",
-      "message": "fix(admin): 첨부파일 다운로드 서명 URL 발급 API 추가",
-      "author": "jangj",
-      "date": "2026-04-11T18:57:27Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6ad2c50372e22ef219cdb0f62e17e5e864141ee5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b856617",
-      "message": "feat(e-variant): Challenger Teach 기반 E 변종 랜딩 5페이지 + 산출 보고서",
-      "author": "junyoungjang976",
-      "date": "2026-04-11T18:52:04Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b8566177dde4f1b248d89fe62a7c3024acb652c9",
       "repo": "busungtk-landing"
     }
   ],
