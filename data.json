@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T00:16:06.182409Z",
+  "updated_at": "2026-05-07T00:16:01.075826Z",
   "repos": [
     "busungtk-marketing-v2",
     "busungtk-landing",
@@ -47,14 +47,14 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1046,
+    "total_commits": 1049,
     "total_prs": 3,
     "total_issues": 0,
     "active_days": 72
   },
   "daily": {
     "2026-05-06": {
-      "commits": 1,
+      "commits": 4,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -559,16 +559,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1046,
-    "overtime_commits": 701,
-    "regular_commits": 345,
-    "overtime_rate": 67.0,
+    "total_commits": 1049,
+    "overtime_commits": 702,
+    "regular_commits": 347,
+    "overtime_rate": 66.9,
     "weekend_commits": 273,
-    "late_night_commits": 370,
-    "total_hours": 769.8,
-    "regular_hours": 301.6,
-    "overtime_hours": 468.2,
-    "overtime_hour_rate": 60.8,
+    "late_night_commits": 371,
+    "total_hours": 783.2,
+    "regular_hours": 310.4,
+    "overtime_hours": 472.8,
+    "overtime_hour_rate": 60.4,
     "daily_hours": {
       "2026-02-06": {
         "regular_hours": 0,
@@ -1068,11 +1068,11 @@
         "commits": 12
       },
       "2026-05-06": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "regular_hours": 8.8,
+        "overtime_hours": 5.1,
+        "total_hours": 13.9,
         "is_weekend": false,
-        "commits": 1
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -1143,7 +1143,7 @@
       "2026-05-03": 4.7,
       "2026-05-04": 11.8,
       "2026-05-05": 9.1,
-      "2026-05-06": 0.5
+      "2026-05-06": 5.1
     },
     "overtime_by_hour": [
       56,
@@ -1169,7 +1169,7 @@
       33,
       89,
       66,
-      61
+      62
     ],
     "work_hours": {
       "start": 9,
@@ -1177,6 +1177,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "bd9a94b",
+      "message": "sync(skills): sync-pull — 메인 vault busungtk-renewal 1순위 추적",
+      "author": "jangjoonyoung",
+      "date": "2026-05-06T14:09:51Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/bd9a94b48f155176358b48ccb2eb568f9444530c",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "e61a479",
+      "message": "sync(skills): ig-feed — 메인-A 다양화(5변주) + 메인-Q 길이 통일 룰",
+      "author": "junyoungjang976",
+      "date": "2026-05-06T03:18:18Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e61a479d933d237646b9e9d50b64286310a29ceb",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c5ffcf7",
+      "message": "sync(skills): A 톤 검수 룰 + 익명화 강화 + 통합 빌드 스크립트 룰",
+      "author": "junyoungjang976",
+      "date": "2026-05-06T01:30:07Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c5ffcf7af187ddf2dc302044c1e9c90d861ceca5",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "8c92304",
       "message": "sync(skills): ig-carousel — 스마트폰 가독성 + 가운데 정렬 + 사실 검증 + 캡션 사이드카 자동 4섹션",
@@ -2752,30 +2776,6 @@
       "date": "2026-04-13T05:42:57Z",
       "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/09d4a82603ced733f62cc42dfdc71801fb6852ec",
       "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "1c8aa74",
-      "message": "fix(e-variant): CSS 경로 깨짐 — trailingSlash:false + cleanUrls 환경에서 상대 경로 → 절대 경로",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T05:20:22Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1c8aa7495b5720d530e12c1ded380d7977172bed",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d1f9168",
-      "message": "fix(e-variant): 큐레이션 그리드 5개 카드 대응 — repeat(4)→3/5 반응형",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T05:13:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d1f91683a061143fb2ba5aea261246043a51e690",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5c06ef7",
-      "message": "refactor(e-variant): 브랜드명·대리점 표현 제거 → 품목 중심 카피 전환",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T05:08:47Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5c06ef7f97827fd30acd7718072e821352e209f3",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
