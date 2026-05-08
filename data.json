@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-07T00:16:01.075826Z",
+  "updated_at": "2026-05-08T00:16:38.418427Z",
   "repos": [
-    "busungtk-marketing-v2",
     "busungtk-landing",
+    "busungtk-asms",
+    "busungtk-marketing-v2",
     "vibe-factory",
     "busungtk-ai-ideation",
     "busungtk-process-map",
     "busungtk-hub",
     "busungtk-control-tower",
     "busungtk-vehicle-check",
-    "busungtk-asms",
     "busungtk-portal",
     "busungtk-daily-report",
     "busungtk-order-tracker",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1049,
-    "total_prs": 3,
+    "total_commits": 1031,
+    "total_prs": 1,
     "total_issues": 0,
     "active_days": 72
   },
   "daily": {
+    "2026-05-07": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-06": {
       "commits": 4,
       "prs_opened": 0,
@@ -257,7 +264,7 @@
       "issues_closed": 0
     },
     "2026-03-30": {
-      "commits": 16,
+      "commits": 14,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -523,7 +530,7 @@
       "issues_closed": 0
     },
     "2026-02-11": {
-      "commits": 13,
+      "commits": 12,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -549,34 +556,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-06": {
-      "commits": 18,
-      "prs_opened": 2,
-      "prs_merged": 2,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1049,
-    "overtime_commits": 702,
-    "regular_commits": 347,
-    "overtime_rate": 66.9,
+    "total_commits": 1031,
+    "overtime_commits": 683,
+    "regular_commits": 348,
+    "overtime_rate": 66.2,
     "weekend_commits": 273,
-    "late_night_commits": 371,
-    "total_hours": 783.2,
-    "regular_hours": 310.4,
-    "overtime_hours": 472.8,
-    "overtime_hour_rate": 60.4,
+    "late_night_commits": 352,
+    "total_hours": 780.7,
+    "regular_hours": 310.0,
+    "overtime_hours": 470.7,
+    "overtime_hour_rate": 60.3,
     "daily_hours": {
-      "2026-02-06": {
-        "regular_hours": 0,
-        "overtime_hours": 2.1,
-        "total_hours": 2.1,
-        "is_weekend": false,
-        "commits": 18
-      },
       "2026-02-07": {
         "regular_hours": 0,
         "overtime_hours": 11.3,
@@ -610,7 +603,7 @@
         "overtime_hours": 5.7,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 9
+        "commits": 8
       },
       "2026-02-12": {
         "regular_hours": 2.8,
@@ -865,11 +858,11 @@
         "commits": 9
       },
       "2026-03-30": {
-        "regular_hours": 5.6,
+        "regular_hours": 3.9,
         "overtime_hours": 1.3,
-        "total_hours": 6.9,
+        "total_hours": 5.2,
         "is_weekend": false,
-        "commits": 16
+        "commits": 14
       },
       "2026-04-02": {
         "regular_hours": 8.4,
@@ -1073,10 +1066,16 @@
         "total_hours": 13.9,
         "is_weekend": false,
         "commits": 4
+      },
+      "2026-05-07": {
+        "regular_hours": 1.3,
+        "overtime_hours": 0,
+        "total_hours": 1.3,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
-      "2026-02-06": 2.1,
       "2026-02-07": 11.3,
       "2026-02-08": 0.5,
       "2026-02-09": 1.6,
@@ -1167,9 +1166,9 @@
       62,
       59,
       33,
-      89,
-      66,
-      62
+      81,
+      60,
+      57
     ],
     "work_hours": {
       "start": 9,
@@ -1177,6 +1176,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "22b2355",
+      "message": "feat(dev-review): 메인 페이지 토스 스타일 1분 진단 prototype",
+      "author": "junyoungjang976",
+      "date": "2026-05-07T03:46:03Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/22b235503d729ed29ccfd2304ea178dd53f22bf5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a81b63c",
+      "message": "feat(e-variant/industry): 프랜차이즈 본사 페이지 카피 4분류 페르소나 기반 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-05-07T02:37:07Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a81b63ce8afde43adad9ef1aecb65a81bb245d85",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c697c24",
+      "message": "feat: 견적서 수정 이력에 상태 변경 통합 기록",
+      "author": "junyoungjang976",
+      "date": "2026-05-07T02:30:16Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/c697c2444534b104306421eb2a11d5d7a3ec1b52",
+      "repo": "busungtk-asms"
+    },
     {
       "sha": "bd9a94b",
       "message": "sync(skills): sync-pull — 메인 vault busungtk-renewal 1순위 추적",
@@ -2752,30 +2775,6 @@
       "date": "2026-04-13T08:41:21Z",
       "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/ed20ac648fbc3ba56668a82d732ef05775163a9d",
       "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "26b8d03",
-      "message": "fix: 세금계산서 상태 변경 시 견적서/접수 상태 동기화 누락 수정",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T06:16:54Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/26b8d0356a01407a12a9353adb76ab8e3ffbf56a",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "d4097f2",
-      "message": "feat: 세금계산서 개선 3건 — 모달 확장, 드로어 1x2 레이아웃, 거래명세표 필터",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T05:43:34Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/d4097f21d0e1069267d0dc38552e55676c5d19df",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "09d4a82",
-      "message": "feat: 블로그 전용 생성기 + 품질 검증 + 주간 자동화",
-      "author": "junyoungjang976",
-      "date": "2026-04-13T05:42:57Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/09d4a82603ced733f62cc42dfdc71801fb6852ec",
-      "repo": "busungtk-marketing-v2"
     }
   ],
   "pull_requests": [
@@ -2789,28 +2788,6 @@
       "merged_at": "2026-02-16T18:35:21Z",
       "url": "https://github.com/busungtk/busungtk-marketing/pull/1",
       "repo": "busungtk-marketing"
-    },
-    {
-      "number": 2,
-      "title": "Add kitchen layout simulator planning docs",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-02-06T14:32:38Z",
-      "updated_at": "2026-02-06T14:33:18Z",
-      "merged_at": "2026-02-06T14:33:18Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/pull/2",
-      "repo": "busungtk-ai-ideation"
-    },
-    {
-      "number": 1,
-      "title": "Document AI trend assistant dashboard idea",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-02-06T13:59:29Z",
-      "updated_at": "2026-02-06T14:12:35Z",
-      "merged_at": "2026-02-06T14:12:35Z",
-      "url": "https://github.com/busungtk/busungtk-ai-ideation/pull/1",
-      "repo": "busungtk-ai-ideation"
     }
   ],
   "issues": []
