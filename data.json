@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T00:15:50.591782Z",
+  "updated_at": "2026-05-11T00:16:27.457710Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,10 +47,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1014,
+    "total_commits": 1005,
     "total_prs": 1,
     "total_issues": 0,
-    "active_days": 73
+    "active_days": 72
   },
   "daily": {
     "2026-05-09": {
@@ -556,40 +556,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-09": {
-      "commits": 9,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1014,
-    "overtime_commits": 669,
-    "regular_commits": 345,
-    "overtime_rate": 66.0,
+    "total_commits": 1005,
+    "overtime_commits": 661,
+    "regular_commits": 344,
+    "overtime_rate": 65.8,
     "weekend_commits": 262,
-    "late_night_commits": 340,
-    "total_hours": 775.7,
-    "regular_hours": 304.8,
-    "overtime_hours": 470.9,
-    "overtime_hour_rate": 60.7,
+    "late_night_commits": 339,
+    "total_hours": 765.1,
+    "regular_hours": 301.6,
+    "overtime_hours": 463.5,
+    "overtime_hour_rate": 60.6,
     "daily_hours": {
-      "2026-02-09": {
-        "regular_hours": 0.3,
-        "overtime_hours": 1.6,
-        "total_hours": 1.9,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-02-10": {
-        "regular_hours": 2.9,
-        "overtime_hours": 6.3,
-        "total_hours": 9.2,
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 8
+        "commits": 1
       },
       "2026-02-11": {
         "regular_hours": 6.1,
@@ -1076,8 +1062,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-02-09": 1.6,
-      "2026-02-10": 6.3,
+      "2026-02-10": 0.5,
       "2026-02-11": 5.7,
       "2026-02-12": 0.5,
       "2026-02-14": 12.7,
@@ -1146,10 +1131,10 @@
     "overtime_by_hour": [
       53,
       36,
-      33,
-      32,
+      31,
+      28,
       36,
-      11,
+      10,
       5,
       2,
       11,
@@ -1163,7 +1148,7 @@
       4,
       11,
       64,
-      55,
+      54,
       33,
       68,
       62,
