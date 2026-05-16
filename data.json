@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T00:18:11.495346Z",
+  "updated_at": "2026-05-16T00:16:27.085235Z",
   "repos": [
     "busungtk-asms",
     "busungtk-daily-report",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 1013,
+    "total_commits": 969,
     "total_prs": 1,
     "total_issues": 0,
     "active_days": 72
   },
   "daily": {
+    "2026-05-15": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-14": {
       "commits": 24,
       "prs_opened": 0,
@@ -250,7 +257,7 @@
       "issues_closed": 0
     },
     "2026-04-09": {
-      "commits": 32,
+      "commits": 28,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -549,41 +556,20 @@
       "prs_merged": 1,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-14": {
-      "commits": 44,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1013,
-    "overtime_commits": 642,
+    "total_commits": 969,
+    "overtime_commits": 598,
     "regular_commits": 371,
-    "overtime_rate": 63.4,
-    "weekend_commits": 237,
-    "late_night_commits": 347,
-    "total_hours": 752.9,
-    "regular_hours": 300.0,
-    "overtime_hours": 452.9,
-    "overtime_hour_rate": 60.2,
+    "overtime_rate": 61.7,
+    "weekend_commits": 193,
+    "late_night_commits": 345,
+    "total_hours": 737.5,
+    "regular_hours": 300.7,
+    "overtime_hours": 436.8,
+    "overtime_hour_rate": 59.2,
     "daily_hours": {
-      "2026-02-14": {
-        "regular_hours": 0,
-        "overtime_hours": 12.7,
-        "total_hours": 12.7,
-        "is_weekend": true,
-        "commits": 40
-      },
-      "2026-02-15": {
-        "regular_hours": 0,
-        "overtime_hours": 3.3,
-        "total_hours": 3.3,
-        "is_weekend": true,
-        "commits": 4
-      },
       "2026-02-17": {
         "regular_hours": 9,
         "overtime_hours": 14.7,
@@ -865,11 +851,11 @@
         "commits": 3
       },
       "2026-04-09": {
-        "regular_hours": 8.7,
-        "overtime_hours": 5.4,
-        "total_hours": 14.1,
+        "regular_hours": 8.6,
+        "overtime_hours": 5.3,
+        "total_hours": 13.9,
         "is_weekend": false,
-        "commits": 26
+        "commits": 22
       },
       "2026-04-10": {
         "regular_hours": 8.9,
@@ -1059,11 +1045,16 @@
         "total_hours": 5.9,
         "is_weekend": false,
         "commits": 24
+      },
+      "2026-05-15": {
+        "regular_hours": 0.8,
+        "overtime_hours": 0,
+        "total_hours": 0.8,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
-      "2026-02-14": 12.7,
-      "2026-02-15": 3.3,
       "2026-02-17": 14.7,
       "2026-02-18": 13.8,
       "2026-02-19": 14.8,
@@ -1102,7 +1093,7 @@
       "2026-04-06": 5.6,
       "2026-04-07": 0.5,
       "2026-04-08": 0.2,
-      "2026-04-09": 5.4,
+      "2026-04-09": 5.3,
       "2026-04-10": 7.4,
       "2026-04-11": 3.6,
       "2026-04-13": 0.4,
@@ -1129,10 +1120,10 @@
       "2026-05-14": 3.7
     },
     "overtime_by_hour": [
-      49,
+      47,
       36,
-      30,
-      23,
+      29,
+      22,
       34,
       9,
       4,
@@ -1140,10 +1131,10 @@
       11,
       10,
       17,
-      39,
+      4,
       2,
-      5,
-      17,
+      4,
+      15,
       2,
       3,
       2,
@@ -1152,7 +1143,7 @@
       32,
       70,
       57,
-      52
+      50
     ],
     "work_hours": {
       "start": 9,
@@ -1160,6 +1151,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "84aabbe",
+      "message": "fix(work-completion): 작업완료확인서 도장 위치 — 대표명 옆 고정",
+      "author": "junyoungjang976",
+      "date": "2026-05-15T05:40:23Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/84aabbec81c457ebf70b961abd5d4a81ff8692b9",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "8d946a7",
+      "message": "feat(list): 2순위 정렬(고유번호 desc) + 검색 보존",
+      "author": "junyoungjang976",
+      "date": "2026-05-15T05:09:47Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/8d946a73a589fa01d801bfe4a5546c4240a291a3",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "9f2cd14",
+      "message": "fix(quote-pdf): 인쇄 시 표 행이 페이지 경계에서 잘리지 않게",
+      "author": "junyoungjang976",
+      "date": "2026-05-15T05:00:16Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/9f2cd148f22ccd0691c749eb9f3fd920ab9eada7",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "5bf2ab9",
+      "message": "feat(panel): 4개 모듈 풀 패턴 적용 (품목·발주서·매입명세표·매출 거래명세표)",
+      "author": "junyoungjang976",
+      "date": "2026-05-15T04:54:11Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/5bf2ab9cbee35bdf0335432e78e0cab37e883232",
+      "repo": "busungtk-asms"
+    },
     {
       "sha": "e59b0c1",
       "message": "feat(panel): 5개 모듈 사이드 패널을 플로팅 패널로 통일",
@@ -2726,38 +2749,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-04T11:34:50Z",
       "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5d0ec41d6a8d3e23b09b84ec557e69da72bec530",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "6822403",
-      "message": "sync(skills): ig-carousel — IG 그리드 안전영역 + B12 디자인 패턴 + 소비자 언어 + 깨짐 방지 + 검수 워크플로 신설",
-      "author": "junyoungjang976",
-      "date": "2026-05-04T11:34:38Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/68224037174609372e4823d97203728a4d618e02",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "5754559",
-      "message": "fix(ig-feed): 커버 v2.1 — 좌측 padding 160 + 하단 130 원본 유지",
-      "author": "junyoungjang976",
-      "date": "2026-05-04T08:59:36Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5754559e3f383e7f93dc807015230ffcaee3ace7",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "c5c9ed3",
-      "message": "sync(skills): A/C 피드 커버 v2.1 — 안전영역 +더, 흰 그라데이션 강화, 글로우",
-      "author": "junyoungjang976",
-      "date": "2026-05-04T08:59:23Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c5c9ed3368d057fd9798dc729043cda54527a030",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "87cd4ac",
-      "message": "fix(ig-feed): 커버 카피 가독성 강화 — 흰 그라 52% + 글로우 text-shadow",
-      "author": "junyoungjang976",
-      "date": "2026-05-04T08:37:39Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/87cd4aca39df5c6fadd1c6b7da3858d802891ef4",
       "repo": "busungtk-marketing-v2"
     }
   ],
