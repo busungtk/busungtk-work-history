@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T00:21:34.444378Z",
+  "updated_at": "2026-05-20T00:22:21.132885Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 873,
+    "total_commits": 849,
     "total_prs": 5,
     "total_issues": 0,
     "active_days": 71
   },
   "daily": {
+    "2026-05-19": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-18": {
       "commits": 33,
       "prs_opened": 5,
@@ -103,7 +110,7 @@
       "issues_closed": 0
     },
     "2026-05-08": {
-      "commits": 37,
+      "commits": 32,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -542,40 +549,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-18": {
-      "commits": 24,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 873,
-    "overtime_commits": 509,
-    "regular_commits": 364,
-    "overtime_rate": 58.3,
+    "total_commits": 849,
+    "overtime_commits": 493,
+    "regular_commits": 356,
+    "overtime_rate": 58.1,
     "weekend_commits": 190,
-    "late_night_commits": 283,
-    "total_hours": 691.5,
-    "regular_hours": 285.2,
-    "overtime_hours": 406.3,
-    "overtime_hour_rate": 58.8,
+    "late_night_commits": 277,
+    "total_hours": 670.8,
+    "regular_hours": 279.3,
+    "overtime_hours": 391.5,
+    "overtime_hour_rate": 58.4,
     "daily_hours": {
-      "2026-02-18": {
+      "2026-02-19": {
         "regular_hours": 7.8,
         "overtime_hours": 6.0,
         "total_hours": 13.8,
         "is_weekend": false,
-        "commits": 14
-      },
-      "2026-02-19": {
-        "regular_hours": 9,
-        "overtime_hours": 14.8,
-        "total_hours": 23.8,
-        "is_weekend": false,
-        "commits": 55
+        "commits": 45
       },
       "2026-02-20": {
         "regular_hours": 9,
@@ -988,7 +981,7 @@
         "overtime_hours": 5.9,
         "total_hours": 12.5,
         "is_weekend": false,
-        "commits": 32
+        "commits": 27
       },
       "2026-05-09": {
         "regular_hours": 0,
@@ -1038,11 +1031,17 @@
         "total_hours": 6.4,
         "is_weekend": false,
         "commits": 33
+      },
+      "2026-05-19": {
+        "regular_hours": 3.1,
+        "overtime_hours": 0.0,
+        "total_hours": 3.1,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
-      "2026-02-18": 6.0,
-      "2026-02-19": 14.8,
+      "2026-02-19": 6.0,
       "2026-02-20": 11.2,
       "2026-02-21": 21.8,
       "2026-02-22": 23.3,
@@ -1106,9 +1105,9 @@
       "2026-05-18": 1.4
     },
     "overtime_by_hour": [
-      46,
-      34,
-      25,
+      43,
+      31,
+      21,
       15,
       28,
       3,
@@ -1124,12 +1123,12 @@
       2,
       3,
       2,
-      78,
-      65,
+      77,
+      63,
       31,
       34,
-      43,
-      32
+      42,
+      30
     ],
     "work_hours": {
       "start": 9,
@@ -1137,6 +1136,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "43abd15",
+      "message": "fix(admin): 대시보드 max-width 1200px → 1800px 확대",
+      "author": "junyoungjang976",
+      "date": "2026-05-19T05:18:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/43abd154a49383b93beda50b643c4000f37fd7be",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c2924c2",
+      "message": "fix(admin): 월별 카드 필터 시 KPI 카드 동시 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-05-19T05:05:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c2924c2412d07f7ca1fc2de68eeca63a885d649d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f4c98a6",
+      "message": "fix(seo): D 옛 URL → E slug 자동 redirect",
+      "author": "junyoungjang976",
+      "date": "2026-05-19T04:46:19Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f4c98a61bd30a5827d4e87b2f79074be27b63afb",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "dc943f0",
+      "message": "fix(seo): redirect chain 제거 — / → /e-variant 1단계로",
+      "author": "junyoungjang976",
+      "date": "2026-05-19T04:29:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/dc943f09373fc8ef588bd2b970ed9ed35bff2464",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ef55008",
+      "message": "fix(seo): Rich Results 권장 필드 보강",
+      "author": "junyoungjang976",
+      "date": "2026-05-19T02:10:58Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ef55008cd04339bb54727a52888c023185a6d47d",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "f2602d6",
       "message": "feat: 헌장 §12 v1.6 + 페르소나 8개 폐기 + 결재 5/18-05·06 박힘",
@@ -2474,14 +2513,6 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "2cddf0b",
-      "message": "feat(dev-review): v21 — 4 카드 라벨 시공·공급·운영·동행 정정",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T13:48:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2cddf0b815e558f5fc7752ed3a2ebf6aad576970",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "130630e",
       "message": "feat(skills): B 라인 외곽 여백 80→120px + 가운데 정렬 절대 패턴",
       "author": "junyoungjang976",
@@ -2498,30 +2529,6 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "68c2819",
-      "message": "feat(dev-review): v20 — 비교 표 우측 역량→가치 톤 변환",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T09:36:22Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/68c28196976c113d624dcf0d3e980ec3ddf22f2c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5138255",
-      "message": "feat(dev-review): v19 — S2.5 차별 비교 섹션 추가 (관행 vs 부성TK)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T08:55:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/51382557017398096ab15d63190e2f557bd2d4cf",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e77d73",
-      "message": "feat(dev-review): v18 — 4 카드 수준 카피 표준화 (6 영역)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T08:48:12Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5e77d73f6bc3393424629119f0e6ba71c714122b",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "843d8b5",
       "message": "feat(skills): B 라인 카드뉴스도 IG 피드 한계 규격 적용",
       "author": "junyoungjang976",
@@ -2536,14 +2543,6 @@
       "date": "2026-05-08T08:02:10Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e388839d34e65e7a16a23fd5b950a54b5ab9c52d",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "3b6f220",
-      "message": "fix(dev-review): v17 — S4 다크 풀모드 → 라이트 통일 (v4 잔재 제거)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T07:56:37Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3b6f2202221b4287194fe7b79c65b56a640071cd",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "e20a2c0",
