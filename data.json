@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T00:22:21.132885Z",
+  "updated_at": "2026-05-21T00:22:23.159504Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 849,
+    "total_commits": 802,
     "total_prs": 5,
     "total_issues": 0,
     "active_days": 71
   },
   "daily": {
+    "2026-05-20": {
+      "commits": 8,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-19": {
       "commits": 5,
       "prs_opened": 0,
@@ -103,14 +110,14 @@
       "issues_closed": 0
     },
     "2026-05-09": {
-      "commits": 15,
+      "commits": 14,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-05-08": {
-      "commits": 32,
+      "commits": 25,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -542,40 +549,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-02-19": {
-      "commits": 47,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 849,
-    "overtime_commits": 493,
-    "regular_commits": 356,
-    "overtime_rate": 58.1,
-    "weekend_commits": 190,
-    "late_night_commits": 277,
-    "total_hours": 670.8,
-    "regular_hours": 279.3,
-    "overtime_hours": 391.5,
-    "overtime_hour_rate": 58.4,
+    "total_commits": 802,
+    "overtime_commits": 474,
+    "regular_commits": 328,
+    "overtime_rate": 59.1,
+    "weekend_commits": 184,
+    "late_night_commits": 266,
+    "total_hours": 636.5,
+    "regular_hours": 273.9,
+    "overtime_hours": 362.6,
+    "overtime_hour_rate": 57.0,
     "daily_hours": {
-      "2026-02-19": {
-        "regular_hours": 7.8,
-        "overtime_hours": 6.0,
-        "total_hours": 13.8,
-        "is_weekend": false,
-        "commits": 45
-      },
       "2026-02-20": {
-        "regular_hours": 9,
-        "overtime_hours": 11.2,
-        "total_hours": 20.2,
+        "regular_hours": 8.2,
+        "overtime_hours": 2.1,
+        "total_hours": 10.3,
         "is_weekend": false,
-        "commits": 16
+        "commits": 14
       },
       "2026-02-21": {
         "regular_hours": 0,
@@ -978,17 +971,17 @@
       },
       "2026-05-08": {
         "regular_hours": 6.6,
-        "overtime_hours": 5.9,
-        "total_hours": 12.5,
+        "overtime_hours": 0.8,
+        "total_hours": 7.4,
         "is_weekend": false,
-        "commits": 27
+        "commits": 25
       },
       "2026-05-09": {
         "regular_hours": 0,
-        "overtime_hours": 17.1,
-        "total_hours": 17.1,
+        "overtime_hours": 8.3,
+        "total_hours": 8.3,
         "is_weekend": true,
-        "commits": 20
+        "commits": 14
       },
       "2026-05-11": {
         "regular_hours": 6.3,
@@ -1038,11 +1031,17 @@
         "total_hours": 3.1,
         "is_weekend": false,
         "commits": 5
+      },
+      "2026-05-20": {
+        "regular_hours": 3.2,
+        "overtime_hours": 0.1,
+        "total_hours": 3.3,
+        "is_weekend": false,
+        "commits": 8
       }
     },
     "overtime_by_date": {
-      "2026-02-19": 6.0,
-      "2026-02-20": 11.2,
+      "2026-02-20": 2.1,
       "2026-02-21": 21.8,
       "2026-02-22": 23.3,
       "2026-02-23": 8.9,
@@ -1097,24 +1096,25 @@
       "2026-05-05": 0.5,
       "2026-05-06": 5.1,
       "2026-05-07": 0.5,
-      "2026-05-08": 5.9,
-      "2026-05-09": 17.1,
+      "2026-05-08": 0.8,
+      "2026-05-09": 8.3,
       "2026-05-11": 1.2,
       "2026-05-12": 2.4,
       "2026-05-14": 3.7,
-      "2026-05-18": 1.4
+      "2026-05-18": 1.4,
+      "2026-05-20": 0.1
     },
     "overtime_by_hour": [
-      43,
-      31,
-      21,
+      39,
+      30,
+      20,
       15,
       28,
       3,
       3,
       2,
-      11,
       10,
+      9,
       17,
       4,
       2,
@@ -1123,12 +1123,12 @@
       2,
       3,
       2,
-      77,
+      72,
       63,
       31,
-      34,
-      42,
-      30
+      31,
+      41,
+      28
     ],
     "work_hours": {
       "start": 9,
@@ -1136,6 +1136,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "27d799f",
+      "message": "fix(foodservice): B안 v2 — A/S 위기 시나리오 폐기, 종합 톤으로 대체",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T05:10:58Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/27d799f58364c5f7386d4cccac638710a72dc002",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "6b5d852",
+      "message": "feat(foodservice): B안 \"연락 한 번으로 끝\" 카피 재기획 적용",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T04:58:39Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/6b5d852bda5417474f0ac68fa1386a282f6cc2b1",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0f64194",
+      "message": "fix(architect): PROOF \"직수입\" 라벨 정정 — \"수입 거래선\"",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T04:38:37Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0f6419482c4916599048b81955f31969d972c8b3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0631008",
+      "message": "feat(general): A안 검증 가능 투명성 카피 재기획 적용",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T04:01:47Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/06310084ee4afa7bee6f111129de84b85cc111b3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4a6063e",
+      "message": "feat(inquiry): E-variant 문의 폼에 지역(시·도) 필드 추가",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T02:20:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4a6063e6013e529815cf13243b3892a5903740d4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1e6ab88",
+      "message": "fix(admin): 광고 전환 탭 필터 완화 — NaPm만 있는 행도 잡히게",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T02:16:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1e6ab88ad23127166223e4d45362ea0b890339b8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e8f7780",
+      "message": "fix(track): e-variant 페이지뷰 누락 해소 — tracker.js 동적 로드 추가",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T02:07:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e8f7780eab3039ca6c30182e1a2132db7f62198c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7ca1e11",
+      "message": "fix(inquiry): 외부 호출 3건 병렬화 — 응답 시간 4~5초 → 약 1.5~2초",
+      "author": "junyoungjang976",
+      "date": "2026-05-20T01:55:53Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7ca1e11bd90ea7839cd73a6907402c5af4c6fd84",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "43abd15",
       "message": "fix(admin): 대시보드 max-width 1200px → 1800px 확대",
@@ -2446,70 +2510,6 @@
       "author": "jangjoonyoung",
       "date": "2026-05-09T00:23:27Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/27e3655154339e0b50380c3a0c960606cc936365",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e8582b",
-      "message": "feat(dev-review): V29 Sticky CTA Bar — 전화·1분 진단·인프라키친 자료 3 버튼 (#3·#4·#5 3시점 동시 커버)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T00:09:05Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5e8582bc0743ed570fc067a10627000d6eb7edb2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "82356a8",
-      "message": "feat: dev-review V28 — Hero 페르소나 라인 승격 (eyebrow 칩 → hero__tag 큰 텍스트)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T23:27:05Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/82356a8bb4b775282a4698dd71de59626931b278",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "79247d5",
-      "message": "feat: dev-review V27 — S5 CTA 카피 정정 (결정 도구·결과물 구체)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T17:47:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/79247d5abcbf52e91c23fca518f7ba5b48b33cc3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2192efa",
-      "message": "feat: dev-review V26 — Proof Band 확장 (인스타 4 + 블로그 3)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T16:09:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2192efa65e6b2f7a8c8a0ebc286d4b2434fd7dc6",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f43d22a",
-      "message": "feat: dev-review V25 — Proof Band 동적화 (인스타 라이브 증거 4 카드)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T15:47:25Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f43d22a25d69a5f9d92b4c7ac160fe2962822ba8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c0b91f6",
-      "message": "feat(dev-review): v24 — 코디네이터 톤 정정 (희귀품 매장 톤 X)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T15:35:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c0b91f62b96be9ffc9724bc69eeb39f03e8c68aa",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a7ef2e5",
-      "message": "feat(dev-review): v23 — 본질 재정의 (직수입·자체 제조 거짓 박힘 정정)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T14:54:59Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a7ef2e52de888de6e6002abb6fdd73ad34b6c167",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a7507a3",
-      "message": "feat(dev-review): v22 — S2 카드 4번 \"50곳\" 카운트 제거 (Iron Law 3 정합)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-08T13:58:03Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a7507a31ca6f54917538eb0b45eed1950d21a9a2",
       "repo": "busungtk-landing"
     },
     {
