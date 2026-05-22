@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T00:22:23.159504Z",
+  "updated_at": "2026-05-22T00:20:51.663809Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,7 +47,7 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 802,
+    "total_commits": 750,
     "total_prs": 5,
     "total_issues": 0,
     "active_days": 71
@@ -544,7 +544,7 @@
       "issues_closed": 0
     },
     "2026-02-20": {
-      "commits": 54,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -552,30 +552,23 @@
     }
   },
   "overtime": {
-    "total_commits": 802,
-    "overtime_commits": 474,
-    "regular_commits": 328,
-    "overtime_rate": 59.1,
-    "weekend_commits": 184,
-    "late_night_commits": 266,
-    "total_hours": 636.5,
-    "regular_hours": 273.9,
-    "overtime_hours": 362.6,
-    "overtime_hour_rate": 57.0,
+    "total_commits": 750,
+    "overtime_commits": 427,
+    "regular_commits": 323,
+    "overtime_rate": 56.9,
+    "weekend_commits": 146,
+    "late_night_commits": 257,
+    "total_hours": 623.1,
+    "regular_hours": 265.7,
+    "overtime_hours": 357.4,
+    "overtime_hour_rate": 57.4,
     "daily_hours": {
-      "2026-02-20": {
-        "regular_hours": 8.2,
-        "overtime_hours": 2.1,
-        "total_hours": 10.3,
-        "is_weekend": false,
-        "commits": 14
-      },
       "2026-02-21": {
         "regular_hours": 0,
-        "overtime_hours": 21.8,
-        "total_hours": 21.8,
+        "overtime_hours": 18.7,
+        "total_hours": 18.7,
         "is_weekend": true,
-        "commits": 44
+        "commits": 6
       },
       "2026-02-22": {
         "regular_hours": 0,
@@ -1041,8 +1034,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-02-20": 2.1,
-      "2026-02-21": 21.8,
+      "2026-02-21": 18.7,
       "2026-02-22": 23.3,
       "2026-02-23": 8.9,
       "2026-02-25": 5.1,
@@ -1106,14 +1098,14 @@
     },
     "overtime_by_hour": [
       39,
-      30,
-      20,
-      15,
       28,
+      16,
+      10,
+      7,
       3,
       3,
       2,
-      10,
+      4,
       9,
       17,
       4,
@@ -1123,9 +1115,9 @@
       2,
       3,
       2,
-      72,
-      63,
-      31,
+      66,
+      61,
+      30,
       31,
       41,
       28
