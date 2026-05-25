@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T00:18:55.009675Z",
+  "updated_at": "2026-05-25T00:20:03.973198Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 721,
+    "total_commits": 713,
     "total_prs": 5,
-    "total_issues": 0,
+    "total_issues": 1,
     "active_days": 71
   },
   "daily": {
+    "2026-05-24": {
+      "commits": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-05-22": {
       "commits": 6,
       "prs_opened": 0,
@@ -529,13 +536,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-02-23": {
-      "commits": 8,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-02-21": {
       "commits": 1,
       "prs_opened": 0,
@@ -552,16 +552,16 @@
     }
   },
   "overtime": {
-    "total_commits": 721,
+    "total_commits": 713,
     "overtime_commits": 392,
-    "regular_commits": 329,
-    "overtime_rate": 54.4,
+    "regular_commits": 321,
+    "overtime_rate": 55.0,
     "weekend_commits": 119,
     "late_night_commits": 254,
-    "total_hours": 571.3,
-    "regular_hours": 265.6,
+    "total_hours": 566.7,
+    "regular_hours": 261.0,
     "overtime_hours": 305.7,
-    "overtime_hour_rate": 53.5,
+    "overtime_hour_rate": 53.9,
     "daily_hours": {
       "2026-02-21": {
         "regular_hours": 0,
@@ -576,13 +576,6 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 1
-      },
-      "2026-02-23": {
-        "regular_hours": 4.6,
-        "overtime_hours": 0,
-        "total_hours": 4.6,
-        "is_weekend": false,
-        "commits": 8
       },
       "2026-02-25": {
         "regular_hours": 0.6,
@@ -2792,5 +2785,21 @@
       "repo": "busungtk-landing"
     }
   ],
-  "issues": []
+  "issues": [
+    {
+      "number": 6,
+      "title": "[SEO] sitemap 정합성 이슈 25건 — 2026-05-24",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-05-24T00:31:31Z",
+      "updated_at": "2026-05-24T00:31:31Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/6",
+      "repo": "busungtk-landing"
+    }
+  ]
 }
