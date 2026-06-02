@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T00:20:57.958563Z",
+  "updated_at": "2026-06-02T00:26:59.142266Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 707,
+    "total_commits": 691,
     "total_prs": 5,
     "total_issues": 2,
     "active_days": 70
   },
   "daily": {
+    "2026-06-01": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-05-31": {
       "commits": 0,
       "prs_opened": 0,
@@ -131,7 +138,7 @@
       "issues_closed": 0
     },
     "2026-05-09": {
-      "commits": 8,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -522,13 +529,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-03": {
-      "commits": 16,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-02-21": {
       "commits": 1,
       "prs_opened": 0,
@@ -545,16 +545,16 @@
     }
   },
   "overtime": {
-    "total_commits": 707,
-    "overtime_commits": 389,
-    "regular_commits": 318,
-    "overtime_rate": 55.0,
-    "weekend_commits": 119,
-    "late_night_commits": 253,
-    "total_hours": 542.7,
-    "regular_hours": 251.4,
-    "overtime_hours": 291.3,
-    "overtime_hour_rate": 53.7,
+    "total_commits": 691,
+    "overtime_commits": 369,
+    "regular_commits": 322,
+    "overtime_rate": 53.4,
+    "weekend_commits": 113,
+    "late_night_commits": 238,
+    "total_hours": 544.4,
+    "regular_hours": 259.2,
+    "overtime_hours": 285.2,
+    "overtime_hour_rate": 52.4,
     "daily_hours": {
       "2026-02-21": {
         "regular_hours": 0,
@@ -569,13 +569,6 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 1
-      },
-      "2026-03-03": {
-        "regular_hours": 0,
-        "overtime_hours": 3.3,
-        "total_hours": 3.3,
-        "is_weekend": false,
-        "commits": 16
       },
       "2026-03-04": {
         "regular_hours": 8.5,
@@ -950,10 +943,10 @@
       },
       "2026-05-09": {
         "regular_hours": 0,
-        "overtime_hours": 6.5,
-        "total_hours": 6.5,
+        "overtime_hours": 1.4,
+        "total_hours": 1.4,
         "is_weekend": true,
-        "commits": 8
+        "commits": 2
       },
       "2026-05-11": {
         "regular_hours": 6.3,
@@ -1017,12 +1010,25 @@
         "total_hours": 1.7,
         "is_weekend": false,
         "commits": 6
+      },
+      "2026-06-01": {
+        "regular_hours": 7.8,
+        "overtime_hours": 1.8,
+        "total_hours": 9.6,
+        "is_weekend": false,
+        "commits": 5
+      },
+      "2026-06-02": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
       "2026-02-21": 0.5,
       "2026-02-22": 0.5,
-      "2026-03-03": 3.3,
       "2026-03-04": 5.8,
       "2026-03-05": 13.6,
       "2026-03-06": 0.5,
@@ -1073,12 +1079,14 @@
       "2026-05-06": 5.1,
       "2026-05-07": 0.5,
       "2026-05-08": 0.8,
-      "2026-05-09": 6.5,
+      "2026-05-09": 1.4,
       "2026-05-11": 1.2,
       "2026-05-12": 2.4,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
-      "2026-05-20": 0.1
+      "2026-05-20": 0.1,
+      "2026-06-01": 1.8,
+      "2026-06-02": 0.5
     },
     "overtime_by_hour": [
       22,
@@ -1089,21 +1097,21 @@
       3,
       3,
       2,
-      4,
+      5,
       6,
       14,
-      2,
-      2,
+      1,
+      1,
       4,
-      15,
+      14,
+      0,
       2,
-      3,
       1,
       66,
-      61,
-      30,
-      30,
-      41,
+      56,
+      26,
+      27,
+      38,
       25
     ],
     "work_hours": {
@@ -1112,6 +1120,54 @@
     }
   },
   "commits": [
+    {
+      "sha": "62585e3",
+      "message": "fix: 네이버 자동 추적 5필드 page_views/conversion_logs 저장",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T23:54:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/62585e30dfe5a6069edf8a330c5182069fe883f8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3fc2ad6",
+      "message": "fix: 광고 출처 추적 누락 보정 — e-variant 전체에 source-tracker.js 설치",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T10:46:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3fc2ad6409024325c56a4713d3918daf3a23be22",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e8c5136",
+      "message": "fix: \"6개국·국가 명시·일반적 브랜드\" 표현 폐기 → \"해외 수입사 거래선 + 필요 시 확장\" 정확 톤 (사장님 2026-06-01 v3 정정)",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T01:49:40Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e8c5136c02e3cdf3f40d987955274d3526bbd3fa",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "847c212",
+      "message": "fix: \"메이커 풀·응대 가능\" 과장 표현 재정정 — 대중 브랜드 한정 정직 톤 (사장님 2026-06-01 정정)",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T01:34:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/847c212297ab56f08c909dceed35e0a22ce0c9ba",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c5b5a98",
+      "message": "fix: \"수입\" 단어 직접 노출 일괄 정정 — 헌장 §11 정합 (사장님 2026-06-01 룰)",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T01:25:26Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c5b5a98ecec9bde074983837374ef8e61de63667",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e301541",
+      "message": "feat(architect): 3대 축 재작성 + Voice of Customer 원문 복원 + 자체 시공팀 정정",
+      "author": "junyoungjang976",
+      "date": "2026-06-01T01:11:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e3015411245837cfff3304a3618d216957ead1c5",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "3df69ce",
       "message": "fix(corporate): \"이사회\" 표현 폐기 → \"결재 과정\" 톤 통일 (사장님 22년 현장 어휘)",
@@ -2438,54 +2494,6 @@
       "author": "jangjoonyoung",
       "date": "2026-05-09T07:12:53Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/b264152f757c3418644ce459d6fdeedd07f6f6ce",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "459d9d2",
-      "message": "fix(inquiry): claim ledger — 영상 상담 단어 폐기 (C안 결재)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T07:07:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/459d9d2f7b1b6fa4704623a40759b811fe61aa3a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "42454a3",
-      "message": "feat(e-variant): Phase 2-1 — V32 매거진 메인 페이지 라이브 승격",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T06:48:23Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/42454a36fe32782d47aca2651052ca4c94d03105",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "261f0c4",
-      "message": "feat(e-variant): B안 5 페르소나 4영역 재배치 + cases 본문 가독성 정리",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T06:33:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/261f0c4b47ff2ddba57576adfe0da4cf6bada6a3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f251dc5",
-      "message": "feat(e-variant): V32 NAV 상세 페이지 7종 신규 + 기존 페이지 NAV 정합",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T05:38:07Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f251dc588b511962febf0a6b04119a2f85fef977",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7b5a511",
-      "message": "feat(dev-review): Phase 1 P1 템플릿 — 프랜차이즈 본사 (V32 흐름 정합)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T03:11:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7b5a5113e4dbba7f0da105024eca665baed75e1e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "81453bd",
-      "message": "feat(landing): V32 정정 ⑤ — Hero 중앙정렬 + S2 동행 이미지 교체",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T02:10:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/81453bde28f570332ab6c54656d78c78f17423bb",
       "repo": "busungtk-landing"
     },
     {
