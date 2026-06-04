@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T00:31:36.640599Z",
+  "updated_at": "2026-06-04T00:32:09.262462Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,10 +47,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 678,
+    "total_commits": 662,
     "total_prs": 5,
     "total_issues": 2,
-    "active_days": 69
+    "active_days": 68
   },
   "daily": {
     "2026-06-01": {
@@ -515,13 +515,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-05": {
-      "commits": 16,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-02-21": {
       "commits": 1,
       "prs_opened": 0,
@@ -538,16 +531,16 @@
     }
   },
   "overtime": {
-    "total_commits": 678,
-    "overtime_commits": 364,
-    "regular_commits": 314,
-    "overtime_rate": 53.7,
+    "total_commits": 662,
+    "overtime_commits": 357,
+    "regular_commits": 305,
+    "overtime_rate": 53.9,
     "weekend_commits": 113,
-    "late_night_commits": 234,
-    "total_hours": 519.8,
-    "regular_hours": 249.4,
-    "overtime_hours": 270.4,
-    "overtime_hour_rate": 52.0,
+    "late_night_commits": 227,
+    "total_hours": 507.5,
+    "regular_hours": 241.7,
+    "overtime_hours": 265.8,
+    "overtime_hour_rate": 52.4,
     "daily_hours": {
       "2026-02-21": {
         "regular_hours": 0,
@@ -562,13 +555,6 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 1
-      },
-      "2026-03-05": {
-        "regular_hours": 7.7,
-        "overtime_hours": 4.6,
-        "total_hours": 12.3,
-        "is_weekend": false,
-        "commits": 16
       },
       "2026-03-06": {
         "regular_hours": 0,
@@ -1015,7 +1001,6 @@
     "overtime_by_date": {
       "2026-02-21": 0.5,
       "2026-02-22": 0.5,
-      "2026-03-05": 4.6,
       "2026-03-06": 0.5,
       "2026-03-07": 9.4,
       "2026-03-08": 22.3,
@@ -1095,8 +1080,8 @@
       66,
       56,
       24,
-      27,
-      38,
+      25,
+      33,
       23
     ],
     "work_hours": {
