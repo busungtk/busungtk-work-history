@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T00:32:09.262462Z",
+  "updated_at": "2026-06-05T00:23:32.747296Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,26 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 662,
+    "total_commits": 639,
     "total_prs": 5,
     "total_issues": 2,
-    "active_days": 68
+    "active_days": 66
   },
   "daily": {
+    "2026-06-05": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-06-04": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-01": {
       "commits": 6,
       "prs_opened": 0,
@@ -131,14 +145,7 @@
       "issues_closed": 0
     },
     "2026-05-11": {
-      "commits": 21,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-05-09": {
-      "commits": 2,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -507,68 +514,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-03-06": {
-      "commits": 21,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-02-21": {
-      "commits": 1,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-02-20": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 662,
-    "overtime_commits": 357,
-    "regular_commits": 305,
-    "overtime_rate": 53.9,
-    "weekend_commits": 113,
-    "late_night_commits": 227,
-    "total_hours": 507.5,
-    "regular_hours": 241.7,
-    "overtime_hours": 265.8,
-    "overtime_hour_rate": 52.4,
+    "total_commits": 639,
+    "overtime_commits": 331,
+    "regular_commits": 308,
+    "overtime_rate": 51.8,
+    "weekend_commits": 105,
+    "late_night_commits": 209,
+    "total_hours": 496.8,
+    "regular_hours": 242.3,
+    "overtime_hours": 254.5,
+    "overtime_hour_rate": 51.2,
     "daily_hours": {
-      "2026-02-21": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 2
-      },
-      "2026-02-22": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 1
-      },
-      "2026-03-06": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 18
-      },
       "2026-03-07": {
         "regular_hours": 0,
-        "overtime_hours": 9.4,
-        "total_hours": 9.4,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 9
+        "commits": 6
       },
       "2026-03-08": {
         "regular_hours": 0,
@@ -913,19 +878,12 @@
         "is_weekend": false,
         "commits": 25
       },
-      "2026-05-09": {
-        "regular_hours": 0,
-        "overtime_hours": 1.4,
-        "total_hours": 1.4,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-05-11": {
         "regular_hours": 6.3,
         "overtime_hours": 1.2,
         "total_hours": 7.5,
         "is_weekend": false,
-        "commits": 21
+        "commits": 20
       },
       "2026-05-12": {
         "regular_hours": 2.6,
@@ -996,13 +954,24 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
+      },
+      "2026-06-04": {
+        "regular_hours": 0.6,
+        "overtime_hours": 0,
+        "total_hours": 0.6,
+        "is_weekend": false,
+        "commits": 3
+      },
+      "2026-06-05": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
-      "2026-02-21": 0.5,
-      "2026-02-22": 0.5,
-      "2026-03-06": 0.5,
-      "2026-03-07": 9.4,
+      "2026-03-07": 0.5,
       "2026-03-08": 22.3,
       "2026-03-09": 11.7,
       "2026-03-10": 13.7,
@@ -1049,21 +1018,21 @@
       "2026-05-06": 5.1,
       "2026-05-07": 0.5,
       "2026-05-08": 0.8,
-      "2026-05-09": 1.4,
       "2026-05-11": 1.2,
       "2026-05-12": 2.4,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
       "2026-05-20": 0.1,
       "2026-06-01": 1.8,
-      "2026-06-02": 0.5
+      "2026-06-02": 0.5,
+      "2026-06-05": 0.5
     },
     "overtime_by_hour": [
+      19,
       21,
-      21,
-      16,
+      15,
       10,
-      6,
+      3,
       3,
       3,
       2,
@@ -1075,11 +1044,11 @@
       4,
       14,
       0,
-      2,
       1,
+      0,
       66,
-      56,
-      24,
+      47,
+      15,
       25,
       33,
       23
@@ -1090,6 +1059,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "e475a7f",
+      "message": "feat(geo): Phase 1 — FAQ 섹션+FAQPage schema 신설 + llms.txt 현행화(구버전·루트모순 claim 제거)",
+      "author": "junyoungjang976",
+      "date": "2026-06-05T00:08:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e475a7f9afc414f283d1cb3361d10e987be93deb",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "86b244e",
+      "message": "docs: CLAUDE.md를 e-variant 단일 운영 기준으로 갱신 (구버전→아카이브, 빌드스크립트·인라인폼·301 반영)",
+      "author": "junyoungjang976",
+      "date": "2026-06-04T02:20:19Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/86b244e3daf421cc0c912c3c7cfc854c3288ae49",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "db8191f",
+      "message": "fix(seo): 구버전 페이지 18개 → e-variant 301 리다이렉트 (portfolio·inquiry 멀티스텝 폼 누수 차단)",
+      "author": "junyoungjang976",
+      "date": "2026-06-04T02:09:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/db8191f17db7a4adfc81938625a7c4cdba670bc4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a56ebfc",
+      "message": "chore: sync OMC core to v4.14.4",
+      "author": "junyoungjang976",
+      "date": "2026-06-04T01:46:06Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/a56ebfc2a4b71e5da38d23717c6379b41a111f94",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "62585e3",
       "message": "fix: 네이버 자동 추적 5필드 page_views/conversion_logs 저장",
@@ -2443,30 +2444,6 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "ea067bf",
-      "message": "fix(claim-ledger): 카피 인용 5건 + trust-logos 18 로고 검증",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T02:42:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ea067bf4077bfe065a6a3836a0f6c6c9ec1f3815",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1e6cda1",
-      "message": "feat(ab-router): D/E 50:50 분할 라이브 (E 잠금 해제)",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T08:39:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1e6cda1aee01459d13e38486092482dc67b5c1a4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b264152",
-      "message": "fix(persona): claim ledger A안 — 5 페르소나 CTA 약속 자산 통일",
-      "author": "jangjoonyoung",
-      "date": "2026-05-09T07:12:53Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b264152f757c3418644ce459d6fdeedd07f6f6ce",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "130630e",
       "message": "feat(skills): B 라인 외곽 여백 80→120px + 가운데 정렬 절대 패턴",
       "author": "junyoungjang976",
@@ -2680,14 +2657,6 @@
       "author": "jangjoonyoung",
       "date": "2026-05-06T14:09:51Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/bd9a94b48f155176358b48ccb2eb568f9444530c",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "e61a479",
-      "message": "sync(skills): ig-feed — 메인-A 다양화(5변주) + 메인-Q 길이 통일 룰",
-      "author": "junyoungjang976",
-      "date": "2026-05-06T03:18:18Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e61a479d933d237646b9e9d50b64286310a29ceb",
       "repo": "claude-dotfiles"
     }
   ],
