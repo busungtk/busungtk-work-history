@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T00:23:32.747296Z",
+  "updated_at": "2026-06-06T00:22:43.117869Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,14 +47,14 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 639,
+    "total_commits": 620,
     "total_prs": 5,
     "total_issues": 2,
-    "active_days": 66
+    "active_days": 65
   },
   "daily": {
     "2026-06-05": {
-      "commits": 1,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -145,7 +145,7 @@
       "issues_closed": 0
     },
     "2026-05-11": {
-      "commits": 20,
+      "commits": 19,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -507,40 +507,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-03-07": {
-      "commits": 19,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 639,
-    "overtime_commits": 331,
+    "total_commits": 620,
+    "overtime_commits": 312,
     "regular_commits": 308,
-    "overtime_rate": 51.8,
-    "weekend_commits": 105,
+    "overtime_rate": 50.3,
+    "weekend_commits": 86,
     "late_night_commits": 209,
-    "total_hours": 496.8,
-    "regular_hours": 242.3,
-    "overtime_hours": 254.5,
-    "overtime_hour_rate": 51.2,
+    "total_hours": 491.6,
+    "regular_hours": 247.3,
+    "overtime_hours": 244.3,
+    "overtime_hour_rate": 49.7,
     "daily_hours": {
-      "2026-03-07": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 6
-      },
       "2026-03-08": {
         "regular_hours": 0,
-        "overtime_hours": 22.3,
-        "total_hours": 22.3,
+        "overtime_hours": 13.1,
+        "total_hours": 13.1,
         "is_weekend": true,
-        "commits": 32
+        "commits": 19
       },
       "2026-03-09": {
         "regular_hours": 9,
@@ -883,7 +869,7 @@
         "overtime_hours": 1.2,
         "total_hours": 7.5,
         "is_weekend": false,
-        "commits": 20
+        "commits": 19
       },
       "2026-05-12": {
         "regular_hours": 2.6,
@@ -963,16 +949,15 @@
         "commits": 3
       },
       "2026-06-05": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "regular_hours": 5.0,
+        "overtime_hours": 0,
+        "total_hours": 5.0,
         "is_weekend": false,
-        "commits": 1
+        "commits": 2
       }
     },
     "overtime_by_date": {
-      "2026-03-07": 0.5,
-      "2026-03-08": 22.3,
+      "2026-03-08": 13.1,
       "2026-03-09": 11.7,
       "2026-03-10": 13.7,
       "2026-03-11": 1.4,
@@ -1024,21 +1009,20 @@
       "2026-05-18": 1.4,
       "2026-05-20": 0.1,
       "2026-06-01": 1.8,
-      "2026-06-02": 0.5,
-      "2026-06-05": 0.5
+      "2026-06-02": 0.5
     },
     "overtime_by_hour": [
-      19,
-      21,
-      15,
+      10,
+      20,
+      13,
       10,
       3,
       3,
       3,
-      2,
+      1,
       5,
-      6,
-      14,
+      3,
+      11,
       1,
       1,
       4,
@@ -1059,6 +1043,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "bcccd1c",
+      "message": "docs(geo): GEO 전략 기획서 (프린스턴 연구·G2 2026 근거, A안 채택)",
+      "author": "junyoungjang976",
+      "date": "2026-06-05T05:07:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bcccd1c1c08d11dcff452f3e2aec78a8260b1044",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "e475a7f",
       "message": "feat(geo): Phase 1 — FAQ 섹션+FAQPage schema 신설 + llms.txt 현행화(구버전·루트모순 claim 제거)",
@@ -2433,14 +2425,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-11T02:42:44Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/e37cb73e58fb928d536327f19ce42ed707a112a2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "53f5211",
-      "message": "feat(persona): 5 페이지 통합 풀콘텐츠 (업종 적용 + 사례 fetch + Sticky CTA)",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T02:42:33Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/53f52116fb6e1b460a9ccada0315766d4b956cb4",
       "repo": "busungtk-landing"
     },
     {
