@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T00:22:43.117869Z",
+  "updated_at": "2026-06-07T00:22:41.611011Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,10 +47,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 620,
+    "total_commits": 595,
     "total_prs": 5,
     "total_issues": 2,
-    "active_days": 65
+    "active_days": 64
   },
   "daily": {
     "2026-06-05": {
@@ -500,40 +500,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-03-08": {
-      "commits": 25,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 620,
-    "overtime_commits": 312,
+    "total_commits": 595,
+    "overtime_commits": 287,
     "regular_commits": 308,
-    "overtime_rate": 50.3,
-    "weekend_commits": 86,
-    "late_night_commits": 209,
-    "total_hours": 491.6,
-    "regular_hours": 247.3,
-    "overtime_hours": 244.3,
-    "overtime_hour_rate": 49.7,
+    "overtime_rate": 48.2,
+    "weekend_commits": 67,
+    "late_night_commits": 195,
+    "total_hours": 469.3,
+    "regular_hours": 244.1,
+    "overtime_hours": 225.2,
+    "overtime_hour_rate": 48.0,
     "daily_hours": {
-      "2026-03-08": {
-        "regular_hours": 0,
-        "overtime_hours": 13.1,
-        "total_hours": 13.1,
-        "is_weekend": true,
-        "commits": 19
-      },
       "2026-03-09": {
-        "regular_hours": 9,
-        "overtime_hours": 11.7,
-        "total_hours": 20.7,
+        "regular_hours": 5.8,
+        "overtime_hours": 5.7,
+        "total_hours": 11.5,
         "is_weekend": false,
-        "commits": 28
+        "commits": 22
       },
       "2026-03-10": {
         "regular_hours": 9,
@@ -957,8 +943,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-03-08": 13.1,
-      "2026-03-09": 11.7,
+      "2026-03-09": 5.7,
       "2026-03-10": 13.7,
       "2026-03-11": 1.4,
       "2026-03-12": 5.6,
@@ -1015,14 +1000,14 @@
       10,
       20,
       13,
-      10,
+      4,
       3,
       3,
       3,
       1,
       5,
-      3,
-      11,
+      2,
+      7,
       1,
       1,
       4,
@@ -1032,9 +1017,9 @@
       0,
       66,
       47,
-      15,
-      25,
-      33,
+      14,
+      19,
+      26,
       23
     ],
     "work_hours": {
