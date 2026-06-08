@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T00:22:41.611011Z",
+  "updated_at": "2026-06-08T00:24:53.998463Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -47,12 +47,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 595,
+    "total_commits": 567,
     "total_prs": 5,
-    "total_issues": 2,
+    "total_issues": 3,
     "active_days": 64
   },
   "daily": {
+    "2026-06-07": {
+      "commits": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-06-05": {
       "commits": 2,
       "prs_opened": 0,
@@ -488,14 +495,7 @@
       "issues_closed": 0
     },
     "2026-03-10": {
-      "commits": 9,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-03-09": {
-      "commits": 25,
+      "commits": 6,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -503,30 +503,23 @@
     }
   },
   "overtime": {
-    "total_commits": 595,
-    "overtime_commits": 287,
-    "regular_commits": 308,
-    "overtime_rate": 48.2,
+    "total_commits": 567,
+    "overtime_commits": 272,
+    "regular_commits": 295,
+    "overtime_rate": 48.0,
     "weekend_commits": 67,
-    "late_night_commits": 195,
-    "total_hours": 469.3,
-    "regular_hours": 244.1,
-    "overtime_hours": 225.2,
-    "overtime_hour_rate": 48.0,
+    "late_night_commits": 183,
+    "total_hours": 447.7,
+    "regular_hours": 237.0,
+    "overtime_hours": 210.7,
+    "overtime_hour_rate": 47.1,
     "daily_hours": {
-      "2026-03-09": {
-        "regular_hours": 5.8,
-        "overtime_hours": 5.7,
-        "total_hours": 11.5,
-        "is_weekend": false,
-        "commits": 22
-      },
       "2026-03-10": {
-        "regular_hours": 9,
-        "overtime_hours": 13.7,
-        "total_hours": 22.7,
+        "regular_hours": 7.7,
+        "overtime_hours": 4.9,
+        "total_hours": 12.6,
         "is_weekend": false,
-        "commits": 12
+        "commits": 6
       },
       "2026-03-11": {
         "regular_hours": 0,
@@ -943,8 +936,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-03-09": 5.7,
-      "2026-03-10": 13.7,
+      "2026-03-10": 4.9,
       "2026-03-11": 1.4,
       "2026-03-12": 5.6,
       "2026-03-13": 9.3,
@@ -997,14 +989,14 @@
       "2026-06-02": 0.5
     },
     "overtime_by_hour": [
-      10,
-      20,
+      9,
+      19,
       13,
       4,
       3,
       3,
       3,
-      1,
+      0,
       5,
       2,
       7,
@@ -1015,12 +1007,12 @@
       0,
       1,
       0,
-      66,
+      60,
       47,
       14,
       19,
-      26,
-      23
+      25,
+      18
     ],
     "work_hours": {
       "start": 9,
@@ -2687,6 +2679,21 @@
     }
   ],
   "issues": [
+    {
+      "number": 8,
+      "title": "[SEO] sitemap 정합성 이슈 25건 — 2026-06-07",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-06-07T00:35:31Z",
+      "updated_at": "2026-06-07T00:35:31Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/8",
+      "repo": "busungtk-landing"
+    },
     {
       "number": 7,
       "title": "[SEO] sitemap 정합성 이슈 25건 — 2026-05-31",
