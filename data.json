@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-06-08T00:24:53.998463Z",
+  "updated_at": "2026-06-09T00:20:09.627226Z",
   "repos": [
+    "busungtk-as-diagnosis",
     "busungtk-landing",
     "busungtk-asms",
     "busungtk-daily-report",
@@ -25,7 +26,6 @@
     "busungtk-sales-pipeline",
     "busungtk-equipment",
     "busungtk-kitchen-resource",
-    "busungtk-as-diagnosis",
     "busungtk-kitchen-quote",
     "busungtk-marketing",
     "busungtk-seo-agent",
@@ -34,6 +34,7 @@
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
+    "busungtk-ai-workflow-office",
     "claude-dotfiles",
     "busungtk-brand-config",
     "channeltalk-downloader",
@@ -47,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 567,
+    "total_commits": 573,
     "total_prs": 5,
     "total_issues": 3,
     "active_days": 64
   },
   "daily": {
+    "2026-06-08": {
+      "commits": 12,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-07": {
       "commits": 0,
       "prs_opened": 0,
@@ -493,34 +501,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-03-10": {
-      "commits": 6,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 567,
-    "overtime_commits": 272,
-    "regular_commits": 295,
-    "overtime_rate": 48.0,
+    "total_commits": 573,
+    "overtime_commits": 274,
+    "regular_commits": 299,
+    "overtime_rate": 47.8,
     "weekend_commits": 67,
-    "late_night_commits": 183,
-    "total_hours": 447.7,
-    "regular_hours": 237.0,
-    "overtime_hours": 210.7,
-    "overtime_hour_rate": 47.1,
+    "late_night_commits": 185,
+    "total_hours": 440.8,
+    "regular_hours": 233.6,
+    "overtime_hours": 207.2,
+    "overtime_hour_rate": 47.0,
     "daily_hours": {
-      "2026-03-10": {
-        "regular_hours": 7.7,
-        "overtime_hours": 4.9,
-        "total_hours": 12.6,
-        "is_weekend": false,
-        "commits": 6
-      },
       "2026-03-11": {
         "regular_hours": 0,
         "overtime_hours": 1.4,
@@ -933,10 +927,16 @@
         "total_hours": 5.0,
         "is_weekend": false,
         "commits": 2
+      },
+      "2026-06-08": {
+        "regular_hours": 4.3,
+        "overtime_hours": 1.4,
+        "total_hours": 5.7,
+        "is_weekend": false,
+        "commits": 12
       }
     },
     "overtime_by_date": {
-      "2026-03-10": 4.9,
       "2026-03-11": 1.4,
       "2026-03-12": 5.6,
       "2026-03-13": 9.3,
@@ -986,7 +986,8 @@
       "2026-05-18": 1.4,
       "2026-05-20": 0.1,
       "2026-06-01": 1.8,
-      "2026-06-02": 0.5
+      "2026-06-02": 0.5,
+      "2026-06-08": 1.4
     },
     "overtime_by_hour": [
       9,
@@ -1008,10 +1009,10 @@
       1,
       0,
       60,
-      47,
+      50,
       14,
       19,
-      25,
+      24,
       18
     ],
     "work_hours": {
@@ -1020,6 +1021,102 @@
     }
   },
   "commits": [
+    {
+      "sha": "b973c2f",
+      "message": "fix: 흡수 완료된 '릴레이 통합' 카드 제거 + UI 정리",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T10:23:39Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/b973c2f6ec18d21e4c1591e83cc24ac23d6e350f",
+      "repo": "busungtk-ai-workflow-office"
+    },
+    {
+      "sha": "1090af3",
+      "message": "feat(inspection): 보온배식대 점검 개편 — 부품 카드 시각화 + 고장 모델",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T10:23:37Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/1090af3bffcca89ce498d95feb776aaf3ab8431e",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "05717f1",
+      "message": "feat(asms): 거래처·품목 asms 읽기전용 조회 연동",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T10:23:36Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/05717f15084dc40b47a66e42e0d48964766f6bbf",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "76af812",
+      "message": "chore: busungtk-office 스킬 경로 갱신 (앱 git 레포로 분리)",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T07:22:53Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/76af812265c3a3262c90129cafa18a7015af72b0",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "0f68d81",
+      "message": "feat: AI Workflow Office 앱 — OneDrive vault에서 분리한 코드 레포",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T07:21:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/0f68d810618f1927f893b24f0544848984947bc5",
+      "repo": "busungtk-ai-workflow-office"
+    },
+    {
+      "sha": "24c1351",
+      "message": "feat: busungtk-office 스킬 추가 (AI Workflow Office 작업 시작점)",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T07:02:20Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/24c1351fc89f574a48abcd2f8bc278f3d8fa1188",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "84137d8",
+      "message": "fix(auth): 설비·단가 조회(GET)는 공개, 변경만 보호",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T05:27:02Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/84137d86317bda740afa0d193957f214d34003d8",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "ea01577",
+      "message": "chore: brand-config 의존성 링크 복구 (npm install)",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T05:16:33Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/ea01577d483a905d3e5a4c8458d6d34f4e2db81a",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "530347e",
+      "message": "feat(auth): admin 화면 보호 — proxy 인증 (Next16 proxy 규약)",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T05:16:32Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/530347e462d7c37a6aa2bbc208860a6df233ff21",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "3d9466c",
+      "message": "feat(pwa): PWA 아이콘 추가 — 홈화면 설치 지원",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T05:16:32Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/3d9466c90529a601514a92109ca71faa3bf0d5a5",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "adeda42",
+      "message": "fix(share): 공유 견적서 PDF 다운로드를 작동하는 엔드포인트로 연결",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T05:16:32Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/adeda429fa8378108da887015c092ffab5740564",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "2524f05",
+      "message": "refactor: 자율성 레벨 시스템(HOOTL/HOTL/HITL) 전면 폐기",
+      "author": "junyoungjang976",
+      "date": "2026-06-08T04:43:42Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/2524f05d38cfbb4146d7715f1e283bbcc03c369c",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "bcccd1c",
       "message": "docs(geo): GEO 전략 기획서 (프린스턴 연구·G2 2026 근거, A안 채택)",
@@ -2523,102 +2620,6 @@
       "date": "2026-05-08T05:31:07Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/3e729e9508b13d047d7b985fc7b18fd34ac516a3",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "0d88d09",
-      "message": "fix: 신규 PDF(1성미관/2성미관) 데이터 정렬에 맞춘 hardcoded boundary — 11/11 통과",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T05:11:50Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/0d88d093488b9453e14a761f90dfd4564584062f",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "7b4978f",
-      "message": "feat: PDF 신규 형식 지원(동적 컬럼) + 일괄 담당자 + 견적일자 notes (PR6)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T05:07:53Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/7b4978f2b8f22e58ba777ecb2cae43fc183b2497",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "0de666d",
-      "message": "fix: PDF 제목 줄에 끼어든 공급자 영역 키워드(스 관리·시설물관리·종 목 등) 잔재 제거",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T04:52:43Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/0de666d9f57e0eb3450e2e9d0edca437b8819da8",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b7c0bfd",
-      "message": "feat: 일괄 모달 제목 인라인 편집 + 담당자 지정 (PR5)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T04:44:24Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/b7c0bfda54a9a8a23fa38b644d09cceda3659856",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "9926c3d",
-      "message": "fix: QuoteItemInput에 amount 필드 없음 (빌드 오류 수정)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T04:06:16Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/9926c3da1b0aeb3a41417a157aa1337e2dd0066f",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b245c05",
-      "message": "fix: 일괄 import INSERT 실패 핫픽스",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T04:04:46Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/b245c05593a7677492df59b14e4c413e9a121477",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "d8c92fe",
-      "message": "feat: 경리나라 견적서 일괄 import 모달 (PR4)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T03:56:09Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/d8c92fe37334e7cb5507076a1b9eb0acf9907624",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "f1d2b0b",
-      "message": "feat(skills): IG 두 스킬 헌장 정합 업그레이드",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T03:04:10Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f1d2b0b6c3d20092503dec9f3a4d3613aafa9790",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "1d3aabe",
-      "message": "feat: 경리나라 견적서 import QuoteForm 통합 (PR2)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T03:03:47Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/1d3aabef9ff0cfe444bc727f706fb20df0a34966",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a613198",
-      "message": "feat: 경리나라 견적서 import 파서 인프라 (PR1)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T02:25:07Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a613198854859429b95754c33772975e418ffd59",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "c697c24",
-      "message": "feat: 견적서 수정 이력에 상태 변경 통합 기록",
-      "author": "junyoungjang976",
-      "date": "2026-05-07T02:30:16Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/c697c2444534b104306421eb2a11d5d7a3ec1b52",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "bd9a94b",
-      "message": "sync(skills): sync-pull — 메인 vault busungtk-renewal 1순위 추적",
-      "author": "jangjoonyoung",
-      "date": "2026-05-06T14:09:51Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/bd9a94b48f155176358b48ccb2eb568f9444530c",
-      "repo": "claude-dotfiles"
     }
   ],
   "pull_requests": [
