@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T00:20:09.627226Z",
+  "updated_at": "2026-06-10T00:26:00.549049Z",
   "repos": [
     "busungtk-as-diagnosis",
     "busungtk-landing",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 573,
+    "total_commits": 567,
     "total_prs": 5,
     "total_issues": 3,
     "active_days": 64
   },
   "daily": {
+    "2026-06-09": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-08": {
       "commits": 12,
       "prs_opened": 0,
@@ -494,34 +501,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-03-11": {
-      "commits": 11,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 573,
-    "overtime_commits": 274,
-    "regular_commits": 299,
-    "overtime_rate": 47.8,
+    "total_commits": 567,
+    "overtime_commits": 267,
+    "regular_commits": 300,
+    "overtime_rate": 47.1,
     "weekend_commits": 67,
-    "late_night_commits": 185,
-    "total_hours": 440.8,
-    "regular_hours": 233.6,
-    "overtime_hours": 207.2,
-    "overtime_hour_rate": 47.0,
+    "late_night_commits": 178,
+    "total_hours": 440.2,
+    "regular_hours": 233.7,
+    "overtime_hours": 206.5,
+    "overtime_hour_rate": 46.9,
     "daily_hours": {
-      "2026-03-11": {
-        "regular_hours": 0,
-        "overtime_hours": 1.4,
-        "total_hours": 1.4,
-        "is_weekend": false,
-        "commits": 11
-      },
       "2026-03-12": {
         "regular_hours": 0,
         "overtime_hours": 5.6,
@@ -934,10 +927,16 @@
         "total_hours": 5.7,
         "is_weekend": false,
         "commits": 12
+      },
+      "2026-06-09": {
+        "regular_hours": 0.1,
+        "overtime_hours": 0.7,
+        "total_hours": 0.8,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
-      "2026-03-11": 1.4,
       "2026-03-12": 5.6,
       "2026-03-13": 9.3,
       "2026-03-14": 12.4,
@@ -987,7 +986,8 @@
       "2026-05-20": 0.1,
       "2026-06-01": 1.8,
       "2026-06-02": 0.5,
-      "2026-06-08": 1.4
+      "2026-06-08": 1.4,
+      "2026-06-09": 0.7
     },
     "overtime_by_hour": [
       9,
@@ -1008,11 +1008,11 @@
       0,
       1,
       0,
-      60,
+      64,
       50,
       14,
-      19,
-      24,
+      18,
+      14,
       18
     ],
     "work_hours": {
@@ -1021,6 +1021,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "10b9790",
+      "message": "fix(ux): 버튼 겹침·진단 저장조건·증상트리 되돌리기·이력 표시",
+      "author": "junyoungjang976",
+      "date": "2026-06-09T09:45:06Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/10b97906b307b94218d57da7805a13a99e5b43e1",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "e02c607",
+      "message": "feat(inspection): 계통 아코디언 하이브리드 점검 + Pretendard·브랜드 블루 디자인",
+      "author": "junyoungjang976",
+      "date": "2026-06-09T09:45:06Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/e02c6073449c51419d48e2e86adbb67ab0c8a538",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "e1875ad",
+      "message": "feat(field): 현장 부품 추가 + 사진 첨부(점검·부품)",
+      "author": "junyoungjang976",
+      "date": "2026-06-09T09:45:06Z",
+      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/e1875addee7b8847124863ae843484597869bcf4",
+      "repo": "busungtk-as-diagnosis"
+    },
+    {
+      "sha": "cc35c5c",
+      "message": "feat: 가상 사무실 6방 → 실제 6상태 보드 + 로그 펼치기 버그 수정",
+      "author": "junyoungjang976",
+      "date": "2026-06-09T09:29:27Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/cc35c5c2f066a0321135272c4d512ad191160d58",
+      "repo": "busungtk-ai-workflow-office"
+    },
+    {
+      "sha": "c59ca54",
+      "message": "feat: busungtk-worklog 스킬 추가 (작업 완료 자동 기록)",
+      "author": "junyoungjang976",
+      "date": "2026-06-09T08:57:48Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c59ca54227967b8527507bd8e53e38f61d30eb8f",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "b973c2f",
       "message": "fix: 흡수 완료된 '릴레이 통합' 카드 제거 + UI 정리",
@@ -2580,46 +2620,6 @@
       "date": "2026-05-08T07:32:58Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b47cebcaf8b39d886efc69ea9db02577dc0b8f79",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "47e19f0",
-      "message": "feat: 견적서 상세 페이지 단위·내부메모 컬럼 표시",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T07:24:33Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/47e19f0c97f1f80de09b538f612df1f6fc8e7ad7",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "f70570d",
-      "message": "fix: 견적서 품목 헤더에 단위·내부메모 별도 컬럼 추가 (grid-cols-16/18)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T06:13:38Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/f70570d0f39a4f78db7a59ad0612935e5932d43b",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "6a4f1cc",
-      "message": "fix: 수량/단위 한 셀 flex 배치 (grid-cols-14 유지)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T06:06:13Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/6a4f1ccf614db1c078068eb0a86b1bf0a488dd95",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "c60085a",
-      "message": "fix: tailwind grid-cols-15·16·17 추가 (단위·내부 메모 칸 깨짐 수정)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T06:01:56Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/c60085a94340424fbffdd358542bf50b404c52cf",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "3e729e9",
-      "message": "feat: 단위 입력·내부 메모·견적일자 자동 (PR7)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T05:31:07Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/3e729e9508b13d047d7b985fc7b18fd34ac516a3",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
