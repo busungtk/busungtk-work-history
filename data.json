@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-11T00:28:34.312628Z",
+  "updated_at": "2026-06-12T00:27:33.242339Z",
   "repos": [
-    "busungtk-as-diagnosis",
     "busungtk-landing",
+    "busungtk-as-diagnosis",
     "busungtk-asms",
     "busungtk-daily-report",
     "busungtk-portal",
@@ -34,8 +34,8 @@
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
-    "busungtk-ai-workflow-office",
     "claude-dotfiles",
+    "busungtk-ai-workflow-office",
     "busungtk-brand-config",
     "channeltalk-downloader",
     "gumi-church-ai",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 542,
+    "total_commits": 530,
     "total_prs": 5,
     "total_issues": 3,
     "active_days": 64
   },
   "daily": {
+    "2026-06-11": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-09": {
       "commits": 5,
       "prs_opened": 0,
@@ -167,7 +174,7 @@
       "issues_closed": 0
     },
     "2026-05-11": {
-      "commits": 19,
+      "commits": 18,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -488,13 +495,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-13": {
-      "commits": 14,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -504,16 +504,16 @@
     }
   },
   "overtime": {
-    "total_commits": 542,
+    "total_commits": 530,
     "overtime_commits": 245,
-    "regular_commits": 297,
-    "overtime_rate": 45.2,
+    "regular_commits": 285,
+    "overtime_rate": 46.2,
     "weekend_commits": 67,
-    "late_night_commits": 165,
-    "total_hours": 425.5,
-    "regular_hours": 232.4,
+    "late_night_commits": 164,
+    "total_hours": 412.3,
+    "regular_hours": 219.2,
     "overtime_hours": 193.1,
-    "overtime_hour_rate": 45.4,
+    "overtime_hour_rate": 46.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -521,13 +521,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-13": {
-        "regular_hours": 7.7,
-        "overtime_hours": 1.0,
-        "total_hours": 8.7,
-        "is_weekend": false,
-        "commits": 14
       },
       "2026-03-14": {
         "regular_hours": 0,
@@ -831,11 +824,11 @@
         "commits": 25
       },
       "2026-05-11": {
-        "regular_hours": 6.3,
+        "regular_hours": 0.8,
         "overtime_hours": 1.2,
-        "total_hours": 7.5,
+        "total_hours": 2.0,
         "is_weekend": false,
-        "commits": 19
+        "commits": 18
       },
       "2026-05-12": {
         "regular_hours": 2.6,
@@ -934,11 +927,24 @@
         "total_hours": 0.8,
         "is_weekend": false,
         "commits": 5
+      },
+      "2026-06-11": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
+      },
+      "2026-06-12": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-13": 1.0,
       "2026-03-14": 12.4,
       "2026-03-15": 0.5,
       "2026-03-16": 0.9,
@@ -987,7 +993,9 @@
       "2026-06-01": 1.8,
       "2026-06-02": 0.5,
       "2026-06-08": 1.4,
-      "2026-06-09": 0.7
+      "2026-06-09": 0.7,
+      "2026-06-11": 0.5,
+      "2026-06-12": 0.5
     },
     "overtime_by_hour": [
       8,
@@ -998,7 +1006,7 @@
       3,
       3,
       0,
-      4,
+      5,
       2,
       7,
       1,
@@ -1009,7 +1017,7 @@
       1,
       0,
       63,
-      49,
+      48,
       12,
       12,
       14,
@@ -1021,6 +1029,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "52fea66",
+      "message": "fix: 전환 기록 칸 이름 불일치 수리 (ip → ip_address) — 전화클릭·CTA 기록 5/18부터 전체 거부되던 원인",
+      "author": "junyoungjang976",
+      "date": "2026-06-11T23:59:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/52fea666c643d07a165b0c5ea3b9d9422bc385dd",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "33c3078",
+      "message": "feat: LLM 위키 스킬 + 위키 참조 규칙 + worklog 위키 연결 단계 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-06-11T07:55:30Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/33c3078323090a6ce6a271e82dace23237aead5c",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "403aa97",
+      "message": "feat: 보드 11건 개선 + 라이브 에이전트 실시간 시각화",
+      "author": "junyoungjang976",
+      "date": "2026-06-11T07:54:04Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/403aa97b4cbefa43c18d9e1cdd31dd0bcd17e74d",
+      "repo": "busungtk-ai-workflow-office"
+    },
     {
       "sha": "10b9790",
       "message": "fix(ux): 버튼 겹침·진단 저장조건·증상트리 되돌리기·이력 표시",
@@ -2534,14 +2566,6 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "e37cb73",
-      "message": "refactor(industry): hub 9→5 카드 변형 + 9 페이지 redirect",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T02:42:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e37cb73e58fb928d536327f19ce42ed707a112a2",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "130630e",
       "message": "feat(skills): B 라인 외곽 여백 80→120px + 가운데 정렬 절대 패턴",
       "author": "junyoungjang976",
@@ -2603,22 +2627,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-08T07:39:43Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/0e4b4f3bbb9f098df2016f38f27cf81219d7d63f",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "67f866f",
-      "message": "fix: A/S 드로어 닫을 때 service-requests cache 강제 무효화 (인라인 수정 stale 방지)",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T07:35:15Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/67f866f7e80bf5d1af027617860a158d387a2bf6",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b47cebc",
-      "message": "feat(skills): IG 모바일 가독성 + 그리드 뷰 안전영역 + 라인별 분기",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T07:32:58Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b47cebcaf8b39d886efc69ea9db02577dc0b8f79",
       "repo": "claude-dotfiles"
     }
   ],
