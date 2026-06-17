@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-16T00:31:45.553923Z",
+  "updated_at": "2026-06-17T00:27:14.525489Z",
   "repos": [
-    "busungtk-asms",
     "busungtk-landing",
+    "busungtk-asms",
     "busungtk-as-diagnosis",
     "busungtk-daily-report",
     "busungtk-portal",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 527,
+    "total_commits": 526,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 64
   },
   "daily": {
+    "2026-06-16": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-14": {
       "commits": 0,
       "prs_opened": 0,
@@ -181,7 +188,7 @@
       "issues_closed": 0
     },
     "2026-05-12": {
-      "commits": 32,
+      "commits": 30,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -488,13 +495,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-18": {
-      "commits": 1,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -504,16 +504,16 @@
     }
   },
   "overtime": {
-    "total_commits": 527,
-    "overtime_commits": 237,
+    "total_commits": 526,
+    "overtime_commits": 236,
     "regular_commits": 290,
-    "overtime_rate": 45.0,
+    "overtime_rate": 44.9,
     "weekend_commits": 64,
     "late_night_commits": 158,
-    "total_hours": 400.6,
-    "regular_hours": 221.8,
-    "overtime_hours": 178.8,
-    "overtime_hour_rate": 44.6,
+    "total_hours": 389.2,
+    "regular_hours": 218.8,
+    "overtime_hours": 170.4,
+    "overtime_hour_rate": 43.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -523,11 +523,11 @@
         "commits": 1
       },
       "2026-03-19": {
-        "regular_hours": 8.7,
-        "overtime_hours": 8.7,
-        "total_hours": 17.4,
+        "regular_hours": 5.4,
+        "overtime_hours": 0.1,
+        "total_hours": 5.5,
         "is_weekend": false,
-        "commits": 9
+        "commits": 8
       },
       "2026-03-20": {
         "regular_hours": 5.7,
@@ -814,7 +814,7 @@
         "overtime_hours": 2.4,
         "total_hours": 5.0,
         "is_weekend": false,
-        "commits": 32
+        "commits": 30
       },
       "2026-05-13": {
         "regular_hours": 8.4,
@@ -920,11 +920,18 @@
         "total_hours": 8.8,
         "is_weekend": false,
         "commits": 13
+      },
+      "2026-06-16": {
+        "regular_hours": 0.3,
+        "overtime_hours": 0.2,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-19": 8.7,
+      "2026-03-19": 0.1,
       "2026-03-21": 0.5,
       "2026-03-22": 4.7,
       "2026-03-23": 8.9,
@@ -970,10 +977,11 @@
       "2026-06-02": 0.5,
       "2026-06-08": 1.4,
       "2026-06-09": 0.7,
-      "2026-06-11": 0.5
+      "2026-06-11": 0.5,
+      "2026-06-16": 0.2
     },
     "overtime_by_hour": [
-      8,
+      7,
       19,
       6,
       4,
@@ -1004,6 +1012,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "86241a0",
+      "message": "feat: 사례 12건 발행 + 사례 생성기 보강(중간형 표준)",
+      "author": "junyoungjang976",
+      "date": "2026-06-16T04:39:35Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/86241a07dde719ddb03861fff3cffd2c118e4de9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e2d8236",
+      "message": "feat: A/S 사례 2건 추가 — 쇼케이스 콤프 교체·제면기 핸들축 수리",
+      "author": "junyoungjang976",
+      "date": "2026-06-16T04:18:41Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e2d8236b94aff82bd2a3d470f501a4b287278c79",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "55526cd",
       "message": "fix(dashboard): 세금계산서 배너를 실제 누락 기준으로 + 자동 동기화",
@@ -2474,22 +2498,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-12T07:38:01Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/c408ea7ce2c9c3c8435a7d1b7618d878f931a305",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e01c1d6",
-      "message": "feat(tracking): naver CTS 표준 모듈 통합 + 인라인 폼 검수 대응",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:37:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e01c1d64dde56ff547caff033316d9439fe2043f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c9c9484",
-      "message": "feat(persona/franchise): WHY → SVG 인포그래픽 한 컷 (카드 X · 텍스트 ↓)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:31:14Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c9c9484873575574b94b44b349820e8fcb96738f",
       "repo": "busungtk-landing"
     },
     {
