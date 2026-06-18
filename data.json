@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-17T00:27:14.525489Z",
+  "updated_at": "2026-06-18T00:28:04.979105Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-asms",
+    "busungtk-landing",
+    "busungtk-order-tracker",
     "busungtk-as-diagnosis",
     "busungtk-daily-report",
     "busungtk-portal",
     "busungtk-sales-crm",
-    "busungtk-order-tracker",
     "busungtk-purchase-data",
     "busungtk-kitchen-consulting",
     "busungtk-marketing-v2",
@@ -34,8 +34,8 @@
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
-    "busungtk-ai-workflow-office",
     "claude-dotfiles",
+    "busungtk-ai-workflow-office",
     "busungtk-brand-config",
     "channeltalk-downloader",
     "gumi-church-ai",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 526,
+    "total_commits": 520,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 64
   },
   "daily": {
+    "2026-06-17": {
+      "commits": 9,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-16": {
       "commits": 2,
       "prs_opened": 0,
@@ -188,7 +195,7 @@
       "issues_closed": 0
     },
     "2026-05-12": {
-      "commits": 30,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -342,7 +349,7 @@
       "issues_closed": 0
     },
     "2026-04-13": {
-      "commits": 18,
+      "commits": 17,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -363,7 +370,7 @@
       "issues_closed": 0
     },
     "2026-04-09": {
-      "commits": 22,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -488,13 +495,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-19": {
-      "commits": 8,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -504,16 +504,16 @@
     }
   },
   "overtime": {
-    "total_commits": 526,
+    "total_commits": 520,
     "overtime_commits": 236,
-    "regular_commits": 290,
-    "overtime_rate": 44.9,
+    "regular_commits": 284,
+    "overtime_rate": 45.4,
     "weekend_commits": 64,
     "late_night_commits": 158,
-    "total_hours": 389.2,
-    "regular_hours": 218.8,
-    "overtime_hours": 170.4,
-    "overtime_hour_rate": 43.8,
+    "total_hours": 387.0,
+    "regular_hours": 216.7,
+    "overtime_hours": 170.3,
+    "overtime_hour_rate": 44.0,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -521,13 +521,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-19": {
-        "regular_hours": 5.4,
-        "overtime_hours": 0.1,
-        "total_hours": 5.5,
-        "is_weekend": false,
-        "commits": 8
       },
       "2026-03-20": {
         "regular_hours": 5.7,
@@ -653,7 +646,7 @@
         "overtime_hours": 5.3,
         "total_hours": 13.9,
         "is_weekend": false,
-        "commits": 16
+        "commits": 14
       },
       "2026-04-10": {
         "regular_hours": 8.9,
@@ -674,7 +667,7 @@
         "overtime_hours": 0.4,
         "total_hours": 7.8,
         "is_weekend": false,
-        "commits": 18
+        "commits": 17
       },
       "2026-04-14": {
         "regular_hours": 0.0,
@@ -814,7 +807,7 @@
         "overtime_hours": 2.4,
         "total_hours": 5.0,
         "is_weekend": false,
-        "commits": 30
+        "commits": 26
       },
       "2026-05-13": {
         "regular_hours": 8.4,
@@ -927,11 +920,17 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 2
+      },
+      "2026-06-17": {
+        "regular_hours": 3.3,
+        "overtime_hours": 0,
+        "total_hours": 3.3,
+        "is_weekend": false,
+        "commits": 9
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-19": 0.1,
       "2026-03-21": 0.5,
       "2026-03-22": 4.7,
       "2026-03-23": 8.9,
@@ -1012,6 +1011,78 @@
     }
   },
   "commits": [
+    {
+      "sha": "32b0a29",
+      "message": "fix(quotes/service-requests): 인라인 상태변경이 저장 안 되던 버그 수정 (낙관적 업데이트 캐시 모양 가드)",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T04:39:31Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/32b0a290787e6e00cf999bac1a8d5656caaed94f",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "3976920",
+      "message": "fix(transaction-statement): 거래명세표 PDF를 견적서와 동일한 다페이지 분할 구조로 교체",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T04:08:08Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/3976920c9165fa09ff68204f44adc1e5d1439400",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "22a1605",
+      "message": "feat: 시공사례 8건 추가 발행 (중간형 표준·FAQ 포함)",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T03:03:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/22a16050e17fc206749d2f4f242464a2749ebe19",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "65cea2c",
+      "message": "feat: 사례 10건 추가 발행 (5월분, 중간형 표준·FAQ 포함)",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T02:45:19Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/65cea2c7108dc748264162474697b6127083bca9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b61132c",
+      "message": "feat: 가드레일 훅 + 비용 가계부 스크립트 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T02:16:44Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b61132ce65dd3f3eb56b7f16e117cd219f169070",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "26de687",
+      "message": "test: vitest 도입 + 핵심 유틸 테스트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T02:15:25Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/26de6870becde01d2d5561b55642b6ae4bc77283",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "68bd7fc",
+      "message": "test: 부가세 환산(견적 핵심) 단위 테스트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T02:15:09Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/68bd7fc58ce87d3cfa24c611c60b11fb7f0c42fb",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a396201",
+      "message": "feat: GEO Phase2 — 사례별 미니 FAQ + FAQPage 구조화 데이터 + llms.txt 대표 사례",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T02:08:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a396201d16c0db6f5b9910182bef9447a3f5f518",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b68b495",
+      "message": "refactor: 기존 사례 145건 본문 중간형 표준으로 통일",
+      "author": "junyoungjang976",
+      "date": "2026-06-17T01:22:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b68b4958eedbdc9c7856d6b9352661fc90ae4893",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "86241a0",
       "message": "feat: 사례 12건 발행 + 사례 생성기 보강(중간형 표준)",
@@ -2461,44 +2532,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "740a586",
-      "message": "fix(persona/franchise): SVG 하단 텍스트 위치 정정 (사장님 5/12 '카드 기준 중앙정렬 + 하단 글씨 좀 밑에')",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:56:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/740a586cf8045ad2b5c7a2bf8fc0fc56bd424c81",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "420dfa4",
       "message": "refactor: 선금 발주 흐름 순서 변경 (발주 확정 → 입금 대기 → 입금 완료)",
       "author": "junyoungjang976",
       "date": "2026-05-12T07:54:48Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/420dfa44a45938255c1f07f0a9b09b25446d8092",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "859a0f1",
-      "message": "fix(persona/franchise): SVG 라인 겹침 정정 (사장님 5/12 캡처 지적)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:54:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/859a0f16223c1e24c0a112d695c09acac274ea35",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e277ae0",
-      "message": "feat(tracking): thank-you-inline 완료 페이지 신설 + 진짜 navigation 전환",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:53:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e277ae08234899e01852384cf904c6d9d86eadfc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c408ea7",
-      "message": "fix(persona/franchise): SVG 인포그래픽 어휘 정정 (사장님 5/12 '결재 1회·박힘·흐트러지지 어색')",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:38:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c408ea7ce2c9c3c8435a7d1b7618d878f931a305",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "0d815c3",
@@ -2571,46 +2610,6 @@
       "date": "2026-05-11T08:45:22Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/6139418889de2e25f98fec5588a0778e3c253d72",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "fdfc062",
-      "message": "feat(skills): ig-carousel 룰 R6·R7 + B01 깨짐 사례 추가",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:12:48Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fdfc0620319b0bf9ca34184f623584ebf321ea91",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "2bee877",
-      "message": "feat(skills): asms-purchase-import 스킬 추가",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:11:40Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/2bee877f1ab1e73fae0aeb60aa9fe2bc25a92d13",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "a3ce583",
-      "message": "fix: 견적서 PDF/엑셀 다운로드에 '단위' 컬럼 추가",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:11:07Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a3ce583324cd417cc1bc2c6f0ab67b97eaeb0ca3",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "4d5ae64",
-      "message": "feat: 매입 거래명세표 파일 자동 파싱 (PDF/엑셀/스캔본 OCR)",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:10:52Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/4d5ae6462d3ac582570ff3d55fe8d53143833307",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "130630e",
-      "message": "feat(skills): B 라인 외곽 여백 80→120px + 가운데 정렬 절대 패턴",
-      "author": "junyoungjang976",
-      "date": "2026-05-08T09:51:10Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/130630e99c2b3333def3d903d36ac62274cb98ee",
-      "repo": "claude-dotfiles"
     }
   ],
   "pull_requests": [
