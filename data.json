@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T00:28:04.979105Z",
+  "updated_at": "2026-06-19T00:30:58.185866Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 520,
+    "total_commits": 513,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 64
+    "active_days": 63
   },
   "daily": {
     "2026-06-17": {
@@ -488,13 +488,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-20": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -504,16 +497,16 @@
     }
   },
   "overtime": {
-    "total_commits": 520,
+    "total_commits": 513,
     "overtime_commits": 236,
-    "regular_commits": 284,
-    "overtime_rate": 45.4,
+    "regular_commits": 277,
+    "overtime_rate": 46.0,
     "weekend_commits": 64,
     "late_night_commits": 158,
-    "total_hours": 387.0,
-    "regular_hours": 216.7,
+    "total_hours": 381.3,
+    "regular_hours": 211.0,
     "overtime_hours": 170.3,
-    "overtime_hour_rate": 44.0,
+    "overtime_hour_rate": 44.7,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -521,13 +514,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-20": {
-        "regular_hours": 5.7,
-        "overtime_hours": 0,
-        "total_hours": 5.7,
-        "is_weekend": false,
-        "commits": 7
       },
       "2026-03-21": {
         "regular_hours": 0,
