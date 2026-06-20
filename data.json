@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T00:30:58.185866Z",
+  "updated_at": "2026-06-20T00:23:44.243520Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 513,
+    "total_commits": 494,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 63
+    "active_days": 62
   },
   "daily": {
     "2026-06-17": {
@@ -481,13 +481,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-21": {
-      "commits": 19,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -497,16 +490,16 @@
     }
   },
   "overtime": {
-    "total_commits": 513,
-    "overtime_commits": 236,
+    "total_commits": 494,
+    "overtime_commits": 217,
     "regular_commits": 277,
-    "overtime_rate": 46.0,
-    "weekend_commits": 64,
-    "late_night_commits": 158,
-    "total_hours": 381.3,
+    "overtime_rate": 43.9,
+    "weekend_commits": 45,
+    "late_night_commits": 157,
+    "total_hours": 376.1,
     "regular_hours": 211.0,
-    "overtime_hours": 170.3,
-    "overtime_hour_rate": 44.7,
+    "overtime_hours": 165.1,
+    "overtime_hour_rate": 43.9,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -514,20 +507,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-21": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 1
-      },
-      "2026-03-22": {
-        "regular_hours": 0,
-        "overtime_hours": 4.7,
-        "total_hours": 4.7,
-        "is_weekend": true,
-        "commits": 18
       },
       "2026-03-23": {
         "regular_hours": 9,
@@ -917,8 +896,6 @@
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-21": 0.5,
-      "2026-03-22": 4.7,
       "2026-03-23": 8.9,
       "2026-03-25": 2.3,
       "2026-03-26": 0.5,
@@ -967,12 +944,12 @@
     },
     "overtime_by_hour": [
       7,
-      19,
-      6,
-      4,
+      9,
+      3,
+      3,
+      0,
       2,
-      3,
-      3,
+      2,
       0,
       5,
       2,
@@ -989,7 +966,7 @@
       12,
       12,
       14,
-      14
+      13
     ],
     "work_hours": {
       "start": 9,
