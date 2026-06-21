@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T00:23:44.243520Z",
+  "updated_at": "2026-06-21T00:24:01.477822Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 494,
+    "total_commits": 492,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 62
+    "active_days": 61
   },
   "daily": {
     "2026-06-17": {
@@ -468,14 +468,7 @@
       "issues_closed": 0
     },
     "2026-03-23": {
-      "commits": 12,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-03-22": {
-      "commits": 1,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -490,16 +483,16 @@
     }
   },
   "overtime": {
-    "total_commits": 494,
-    "overtime_commits": 217,
-    "regular_commits": 277,
+    "total_commits": 492,
+    "overtime_commits": 216,
+    "regular_commits": 276,
     "overtime_rate": 43.9,
     "weekend_commits": 45,
     "late_night_commits": 157,
-    "total_hours": 376.1,
-    "regular_hours": 211.0,
-    "overtime_hours": 165.1,
-    "overtime_hour_rate": 43.9,
+    "total_hours": 367.6,
+    "regular_hours": 210.3,
+    "overtime_hours": 157.3,
+    "overtime_hour_rate": 42.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -509,11 +502,11 @@
         "commits": 1
       },
       "2026-03-23": {
-        "regular_hours": 9,
-        "overtime_hours": 8.9,
-        "total_hours": 17.9,
+        "regular_hours": 8.3,
+        "overtime_hours": 1.1,
+        "total_hours": 9.4,
         "is_weekend": false,
-        "commits": 13
+        "commits": 11
       },
       "2026-03-24": {
         "regular_hours": 3.5,
@@ -896,7 +889,7 @@
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-23": 8.9,
+      "2026-03-23": 1.1,
       "2026-03-25": 2.3,
       "2026-03-26": 0.5,
       "2026-03-28": 0.5,
@@ -944,7 +937,7 @@
     },
     "overtime_by_hour": [
       7,
-      9,
+      8,
       3,
       3,
       0,
