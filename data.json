@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-21T00:24:01.477822Z",
+  "updated_at": "2026-06-22T00:25:12.283912Z",
   "repos": [
-    "busungtk-asms",
     "busungtk-landing",
+    "busungtk-asms",
     "busungtk-order-tracker",
     "busungtk-as-diagnosis",
     "busungtk-daily-report",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 492,
+    "total_commits": 483,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 61
   },
   "daily": {
+    "2026-06-21": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-17": {
       "commits": 9,
       "prs_opened": 0,
@@ -195,7 +202,7 @@
       "issues_closed": 0
     },
     "2026-05-12": {
-      "commits": 26,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -467,13 +474,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-23": {
-      "commits": 11,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -483,16 +483,16 @@
     }
   },
   "overtime": {
-    "total_commits": 492,
-    "overtime_commits": 216,
-    "regular_commits": 276,
+    "total_commits": 483,
+    "overtime_commits": 212,
+    "regular_commits": 271,
     "overtime_rate": 43.9,
-    "weekend_commits": 45,
-    "late_night_commits": 157,
-    "total_hours": 367.6,
-    "regular_hours": 210.3,
-    "overtime_hours": 157.3,
-    "overtime_hour_rate": 42.8,
+    "weekend_commits": 49,
+    "late_night_commits": 151,
+    "total_hours": 359.8,
+    "regular_hours": 202.0,
+    "overtime_hours": 157.8,
+    "overtime_hour_rate": 43.9,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -500,13 +500,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-23": {
-        "regular_hours": 8.3,
-        "overtime_hours": 1.1,
-        "total_hours": 9.4,
-        "is_weekend": false,
-        "commits": 11
       },
       "2026-03-24": {
         "regular_hours": 3.5,
@@ -765,7 +758,7 @@
         "overtime_hours": 2.4,
         "total_hours": 5.0,
         "is_weekend": false,
-        "commits": 26
+        "commits": 24
       },
       "2026-05-13": {
         "regular_hours": 8.4,
@@ -885,11 +878,17 @@
         "total_hours": 3.3,
         "is_weekend": false,
         "commits": 9
+      },
+      "2026-06-21": {
+        "regular_hours": 0,
+        "overtime_hours": 1.6,
+        "total_hours": 1.6,
+        "is_weekend": true,
+        "commits": 4
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-23": 1.1,
       "2026-03-25": 2.3,
       "2026-03-26": 0.5,
       "2026-03-28": 0.5,
@@ -933,7 +932,8 @@
       "2026-06-08": 1.4,
       "2026-06-09": 0.7,
       "2026-06-11": 0.5,
-      "2026-06-16": 0.2
+      "2026-06-16": 0.2,
+      "2026-06-21": 1.6
     },
     "overtime_by_hour": [
       7,
@@ -953,8 +953,8 @@
       14,
       0,
       1,
-      0,
-      58,
+      2,
+      52,
       48,
       12,
       12,
@@ -967,6 +967,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "12f5402",
+      "message": "feat: 하위 4페이지 문의 폼에도 referrer 기반 UTM 감지 추가",
+      "author": "junyoungjang976",
+      "date": "2026-06-21T10:18:48Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/12f54028c8194c0727ea5d582b25d46968289fa0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "511c4de",
+      "message": "feat: 문의 유입 경로 추적 — referrer 감지 + 어드민 채널별 표시",
+      "author": "junyoungjang976",
+      "date": "2026-06-21T10:13:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/511c4de034dffdbce4250aae1a2b78e2e17d9dd2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "174fab3",
+      "message": "refactor: 페르소나 축소 — 5본부 표 + 스킬 매핑표만 유지 (100→55줄)",
+      "author": "junyoungjang976",
+      "date": "2026-06-21T08:46:25Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/174fab3ff081c0e91e32fc88d933992062e5d167",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "6d8ddf7",
+      "message": "refactor: room 필드 폐기 + weak reason 추가 + dormant 프로젝트 분류",
+      "author": "junyoungjang976",
+      "date": "2026-06-21T08:43:05Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/6d8ddf7a9aabe3a43e1fedb99f11e16dacd19b9b",
+      "repo": "busungtk-ai-workflow-office"
+    },
     {
       "sha": "32b0a29",
       "message": "fix(quotes/service-requests): 인라인 상태변경이 저장 안 되던 버그 수정 (낙관적 업데이트 캐시 모양 가드)",
@@ -2416,14 +2448,6 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "f6608ae",
-      "message": "fix(persona/franchise): Hero h1·sub 효익 직접 카피 (K3+Y1)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T09:39:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f6608ae936431d49f6c22d4e509625a7b7a01b52",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "1121b63",
       "message": "fix: 단가표 업로드 한글 키 거부 + 미사용 toggleSelect 제거",
       "author": "junyoungjang976",
@@ -2470,14 +2494,6 @@
       "date": "2026-05-12T08:41:39Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/a484dcec00d795cb3097f2d5d32d429ea30c357e",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b1e4101",
-      "message": "feat(thank-you): D/E 변형별 CTA 분기 — 시공사례·홈 경로 일관성",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T08:01:19Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b1e4101cf1a0e502cb009744ea30d71ab05bc41c",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "386c0e8",
@@ -2549,22 +2565,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-11T09:20:35Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/a774499f68eef1bfd34a4e7b9bda686c7f25ca04",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "244af69",
-      "message": "feat: 매입 거래명세표 등록일 노출 + 수동 첨부 + title INSERT 버그 수정",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:59:47Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/244af6962a48b9109bde6885a6131e0d51be922a",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "6139418",
-      "message": "feat: 매입 거래명세표 원본 파일 첨부 보관 (Supabase Storage)",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T08:45:22Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/6139418889de2e25f98fec5588a0778e3c253d72",
       "repo": "busungtk-asms"
     }
   ],
