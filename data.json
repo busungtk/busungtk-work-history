@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T00:23:49.939761Z",
+  "updated_at": "2026-06-24T00:19:07.250393Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 481,
+    "total_commits": 474,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 60
   },
   "daily": {
+    "2026-06-23": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-21": {
       "commits": 4,
       "prs_opened": 0,
@@ -202,7 +209,7 @@
       "issues_closed": 0
     },
     "2026-05-12": {
-      "commits": 24,
+      "commits": 18,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -460,13 +467,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-25": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -476,16 +476,16 @@
     }
   },
   "overtime": {
-    "total_commits": 481,
-    "overtime_commits": 212,
-    "regular_commits": 269,
-    "overtime_rate": 44.1,
+    "total_commits": 474,
+    "overtime_commits": 206,
+    "regular_commits": 268,
+    "overtime_rate": 43.5,
     "weekend_commits": 49,
-    "late_night_commits": 151,
-    "total_hours": 356.3,
-    "regular_hours": 198.5,
-    "overtime_hours": 157.8,
-    "overtime_hour_rate": 44.3,
+    "late_night_commits": 145,
+    "total_hours": 360.7,
+    "regular_hours": 202.8,
+    "overtime_hours": 157.9,
+    "overtime_hour_rate": 43.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -493,13 +493,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-25": {
-        "regular_hours": 3.5,
-        "overtime_hours": 2.3,
-        "total_hours": 5.8,
-        "is_weekend": false,
-        "commits": 7
       },
       "2026-03-26": {
         "regular_hours": 0,
@@ -744,7 +737,7 @@
         "overtime_hours": 2.4,
         "total_hours": 5.0,
         "is_weekend": false,
-        "commits": 24
+        "commits": 18
       },
       "2026-05-13": {
         "regular_hours": 8.4,
@@ -871,11 +864,17 @@
         "total_hours": 1.6,
         "is_weekend": true,
         "commits": 4
+      },
+      "2026-06-23": {
+        "regular_hours": 7.8,
+        "overtime_hours": 2.4,
+        "total_hours": 10.2,
+        "is_weekend": false,
+        "commits": 6
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-25": 2.3,
       "2026-03-26": 0.5,
       "2026-03-28": 0.5,
       "2026-03-29": 1.5,
@@ -919,7 +918,8 @@
       "2026-06-09": 0.7,
       "2026-06-11": 0.5,
       "2026-06-16": 0.2,
-      "2026-06-21": 1.6
+      "2026-06-21": 1.6,
+      "2026-06-23": 2.4
     },
     "overtime_by_hour": [
       7,
@@ -940,8 +940,8 @@
       0,
       1,
       2,
-      52,
-      48,
+      54,
+      40,
       12,
       12,
       14,
@@ -953,6 +953,54 @@
     }
   },
   "commits": [
+    {
+      "sha": "bb13c21",
+      "message": "fix: 사례 목록 필터 UI 삽입 NotFoundError 수정 (실제 부모 기준 insertBefore)",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T11:21:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bb13c213b3860b339bf45a4b1213dd717c70f518",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f534e42",
+      "message": "fix: 업종 분류에 기업·사업장 키워드 추가 (미분류 축소)",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T09:45:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f534e4213c3ad79d568907e001595080945e4f8f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3889eb5",
+      "message": "fix: 사례 정정 구URL 301 리다이렉트 source 퍼센트인코딩 (한글 슬러그 매칭)",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T09:43:47Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3889eb5aced834a73020c9729a417c927074155e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cf17f69",
+      "message": "feat: 사례 목록 검색·업종필터·카드강화 + 오인식 2건 정정",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T09:40:33Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cf17f696945da4a75f195b76545f46ac43a81da6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bf92a43",
+      "message": "fix: 사례 목록 최신일자순 정렬 (신규 발행 사례가 상단 노출)",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T01:52:48Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bf92a43cbeae9dbb71147179f4b8e7999da264c5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "308f1ec",
+      "message": "feat: 사례 15건 발행 (시공5·납품5·A/S5) — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-23T01:12:17Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/308f1ecd4719f502d39d5727a88c0fa4e944a9b0",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "12f5402",
       "message": "feat: 하위 4페이지 문의 폼에도 referrer 기반 UTM 감지 추가",
@@ -2354,44 +2402,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "db57b98",
-      "message": "fix(persona/franchise): WHY SVG 모바일 가로 스크롤 (사장님 5/12 \"2번섹션 svg 너무 작음\")",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:24:11Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/db57b98e9f95944b9a20958b955879b669d62b6a",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "b47fc33",
       "message": "fix: 폼 저장 후 navigate에 replace 적용 — 뒤로 가기 시 폼 페이지로 돌아가지 않도록",
       "author": "junyoungjang976",
       "date": "2026-05-12T10:22:42Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/b47fc3373a728df93d083f58e79a80d30c92d6a3",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "8999c42",
-      "message": "fix(persona/franchise): Hero 상단 여백 ↓↓ + WHY SVG 폰트·박스 키움",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:19:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8999c42ae2489954c36b1757d1b2a6179bc74d90",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6e64272",
-      "message": "fix(persona/franchise): Hero 4 정정 (사장님 5/12 캡처 추가 지적)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:15:38Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6e64272c03793572bc3ff67906872f6aa98fa601",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a6ada13",
-      "message": "fix(persona/franchise): Hero 여백·SVG 크기·모바일 순서 정정 (사장님 5/12 캡처 지적)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:12:21Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a6ada13ff98dd9836c56393ea95bf1e1e7436f52",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "feb59d8",
@@ -2402,28 +2418,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "24b115c",
-      "message": "feat(persona/franchise): 페이지 전체 리디자인 (카드 X · 시각 중심 · 텍스트 ↓)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:05:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/24b115c0d0130d2b06e58ccb51b525f7e7ecbff0",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "a6bd851",
       "message": "chore: 단가표 등록 단계별 에러 메시지 분리 (1단계 보관함 / 2단계 품목 INSERT)",
       "author": "junyoungjang976",
       "date": "2026-05-12T09:54:02Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/a6bd851c28c0e82714d2ec3975eb3bc3e07f31cc",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "145e379",
-      "message": "feat(persona/franchise): Hero 인포그래픽 풀블리드 (사진 X) — 사장님 5/12 결재 ㄹ",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T09:53:59Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/145e379228b0b6b7e1ad5ce8b25d4a159e36c083",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "7621610",
