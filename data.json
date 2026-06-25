@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T00:19:07.250393Z",
+  "updated_at": "2026-06-25T00:24:02.989904Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 474,
+    "total_commits": 471,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 60
   },
   "daily": {
+    "2026-06-24": {
+      "commits": 7,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-23": {
       "commits": 6,
       "prs_opened": 0,
@@ -202,14 +209,14 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 31,
+      "commits": 28,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-05-12": {
-      "commits": 18,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -363,7 +370,7 @@
       "issues_closed": 0
     },
     "2026-04-13": {
-      "commits": 17,
+      "commits": 15,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -460,13 +467,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-26": {
-      "commits": 3,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -476,16 +476,16 @@
     }
   },
   "overtime": {
-    "total_commits": 474,
-    "overtime_commits": 206,
-    "regular_commits": 268,
-    "overtime_rate": 43.5,
+    "total_commits": 471,
+    "overtime_commits": 202,
+    "regular_commits": 269,
+    "overtime_rate": 42.9,
     "weekend_commits": 49,
-    "late_night_commits": 145,
-    "total_hours": 360.7,
-    "regular_hours": 202.8,
-    "overtime_hours": 157.9,
-    "overtime_hour_rate": 43.8,
+    "late_night_commits": 140,
+    "total_hours": 360.5,
+    "regular_hours": 203.3,
+    "overtime_hours": 157.2,
+    "overtime_hour_rate": 43.6,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -493,13 +493,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-26": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 3
       },
       "2026-03-28": {
         "regular_hours": 0,
@@ -597,7 +590,7 @@
         "overtime_hours": 0.4,
         "total_hours": 7.8,
         "is_weekend": false,
-        "commits": 17
+        "commits": 15
       },
       "2026-04-14": {
         "regular_hours": 0.0,
@@ -734,17 +727,17 @@
       },
       "2026-05-12": {
         "regular_hours": 2.6,
-        "overtime_hours": 2.4,
-        "total_hours": 5.0,
+        "overtime_hours": 1.7,
+        "total_hours": 4.3,
         "is_weekend": false,
-        "commits": 18
+        "commits": 16
       },
       "2026-05-13": {
         "regular_hours": 8.4,
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 31
+        "commits": 28
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -871,11 +864,24 @@
         "total_hours": 10.2,
         "is_weekend": false,
         "commits": 6
+      },
+      "2026-06-24": {
+        "regular_hours": 0.5,
+        "overtime_hours": 0.0,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 6
+      },
+      "2026-06-25": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-26": 0.5,
       "2026-03-28": 0.5,
       "2026-03-29": 1.5,
       "2026-03-30": 1.3,
@@ -908,7 +914,7 @@
       "2026-05-07": 0.5,
       "2026-05-08": 0.8,
       "2026-05-11": 1.2,
-      "2026-05-12": 2.4,
+      "2026-05-12": 1.7,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
       "2026-05-20": 0.1,
@@ -919,7 +925,8 @@
       "2026-06-11": 0.5,
       "2026-06-16": 0.2,
       "2026-06-21": 1.6,
-      "2026-06-23": 2.4
+      "2026-06-23": 2.4,
+      "2026-06-25": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -930,7 +937,7 @@
       2,
       2,
       0,
-      5,
+      6,
       2,
       7,
       0,
@@ -940,9 +947,9 @@
       0,
       1,
       2,
-      54,
-      40,
-      12,
+      51,
+      39,
+      11,
       12,
       14,
       13
@@ -953,6 +960,62 @@
     }
   },
   "commits": [
+    {
+      "sha": "38809ca",
+      "message": "feat: A/S 사례 3건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T23:38:09Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/38809ca406417e994d2709c122d771e987b48f1f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cd44113",
+      "message": "feat: 사례 1건 발행 — 봉담 염소탕 전문점 시공",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:55:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cd44113f98b49d46fb047b7a95ad333972811d05",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "79a5951",
+      "message": "chore(supabase): 채널톡 sync 1시간 자동실행 pg_cron 설정 SQL 추가",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:50:15Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/79a5951b978b0dd1370fbc8b26719a5d1890709b",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "e30f6f1",
+      "message": "fix(service-request): A/S 접수 목록 기본 정렬을 접수일(received_at) 최신순으로 변경",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:50:02Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/e30f6f120f9792076de1eb92af28f7a77b1bb4fe",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "cbb4303",
+      "message": "fix: 중복 거래처 사례 회수 — 스시태양(일식) 중복 발행 ct2604031 제거",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:38:07Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cbb4303993d1d8755c5a5920c747656b23cb40f8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c55a871",
+      "message": "chore: 신규 사례 3건 반영에 따른 e-variant 관련사례 링크 재생성",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:31:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c55a871f85935007d898ace6eb1eb0443bcebaf4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2af877e",
+      "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-24T01:26:27Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2af877eebbfc63aa28eb26c59b613b15f4029095",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "bb13c21",
       "message": "fix: 사례 목록 필터 UI 삽입 NotFoundError 수정 (실제 부모 기준 insertBefore)",
@@ -2274,36 +2337,12 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "2323b2a",
-      "message": "feat(e-variant/segments): 5 페르소나 카드 사진 추가 + PC 5컬럼 줄 맞춤 균일화",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T03:49:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2323b2a1333c291089a7e81ea4cf7815895b1615",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "7109d4f",
       "message": "fix: 매입 명세표 품목 매칭 — supplier 불일치/명시 선택 시 신규 중복 등록 방지",
       "author": "junyoungjang976",
       "date": "2026-05-13T03:45:43Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/7109d4fa02e87730f727439adc0266891ba09b3c",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a39ab3c",
-      "message": "feat(e-variant/care): FLOW SVG + 인프라 6→ONE-CARE + PARTNERSHIP 시공이후 5단계",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T03:15:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a39ab3c439f4cd4cb32237f084f98f55ea878852",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4730b07",
-      "message": "feat(e-variant): 메인 + NAV 전 페이지 페르소나 톤 통일 + 어휘 평이화",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T02:24:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4730b07f807afe856cf5fe0212a4769283758fd4",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "554aaf6",
@@ -2362,14 +2401,6 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "88759c0",
-      "message": "feat(e-variant/persona): 4 페르소나 SVG 시각 메타포 차별화",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T11:20:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/88759c0ecf6d1084d03c1f915cd0289406c798ff",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "ff3870c",
       "message": "fix: 견적서 내부 메모를 사이드바에서 본문 품목 하단으로 이동 — 잘 보이도록 강조",
       "author": "junyoungjang976",
@@ -2384,14 +2415,6 @@
       "date": "2026-05-12T10:35:05Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/c56a5b7f741615dd58284064a67ec968a552d0be",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "bad0bf6",
-      "message": "fix(persona/franchise): 3번·5번 섹션 카피 흐름 정합 (사장님 5/12 결재)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T10:30:57Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/bad0bf6baaac3bc91794ea4c20b7408697063e39",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "d8bb41a",
@@ -2536,22 +2559,6 @@
       "date": "2026-05-11T09:37:07Z",
       "url": "https://github.com/busungtk/busungtk-purchase-data/commit/cc41881cd258d33c1a85f04d63d5317d7cacfa7f",
       "repo": "busungtk-purchase-data"
-    },
-    {
-      "sha": "fc7fc33",
-      "message": "feat: 한식 20평 표준 도면·견적 프로토타입 + 토스 인앱 스타일 미끼 콘텐츠",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T09:36:59Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fc7fc338e17b1bbc893394f15a74b780866bfb88",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a774499",
-      "message": "feat: 매입 거래명세표 등록자(담당자) 선택 기능",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T09:20:35Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a774499f68eef1bfd34a4e7b9bda686c7f25ca04",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
