@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T00:24:02.989904Z",
+  "updated_at": "2026-06-26T00:25:08.205412Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -51,9 +51,16 @@
     "total_commits": 471,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 60
+    "active_days": 61
   },
   "daily": {
+    "2026-06-25": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-24": {
       "commits": 7,
       "prs_opened": 0,
@@ -209,7 +216,7 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 28,
+      "commits": 27,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -477,15 +484,15 @@
   },
   "overtime": {
     "total_commits": 471,
-    "overtime_commits": 202,
-    "regular_commits": 269,
-    "overtime_rate": 42.9,
+    "overtime_commits": 203,
+    "regular_commits": 268,
+    "overtime_rate": 43.1,
     "weekend_commits": 49,
     "late_night_commits": 140,
-    "total_hours": 360.5,
+    "total_hours": 361.0,
     "regular_hours": 203.3,
-    "overtime_hours": 157.2,
-    "overtime_hour_rate": 43.6,
+    "overtime_hours": 157.7,
+    "overtime_hour_rate": 43.7,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -737,7 +744,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 28
+        "commits": 27
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -878,6 +885,13 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
+      },
+      "2026-06-26": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
@@ -926,7 +940,8 @@
       "2026-06-16": 0.2,
       "2026-06-21": 1.6,
       "2026-06-23": 2.4,
-      "2026-06-25": 0.5
+      "2026-06-25": 0.5,
+      "2026-06-26": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -937,7 +952,7 @@
       2,
       2,
       0,
-      6,
+      7,
       2,
       7,
       0,
@@ -960,6 +975,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "676746a",
+      "message": "feat: 사례 2건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-25T23:40:02Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/676746a215633fc2a75100455a0a170f609ea937",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "38809ca",
       "message": "feat: A/S 사례 3건 발행 — 채널톡 자동 파이프라인",
@@ -2327,14 +2350,6 @@
       "date": "2026-05-13T04:02:26Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/6c0fe9a0ac67dae0b2af16a9f57aa46e5c995c1f",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "97e8bfb",
-      "message": "feat(inquiry): 문의 유형 필드 추가 (5분류 + 기타)",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T04:02:12Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/97e8bfb6e9606448133adc852cef0ca32c6b4f4a",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "7109d4f",
