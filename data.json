@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T00:25:08.205412Z",
+  "updated_at": "2026-06-27T00:23:19.295374Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 471,
+    "total_commits": 467,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 61
   },
   "daily": {
+    "2026-06-26": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-25": {
       "commits": 1,
       "prs_opened": 0,
@@ -216,7 +223,7 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 27,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -461,14 +468,7 @@
       "issues_closed": 0
     },
     "2026-03-29": {
-      "commits": 8,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-03-28": {
-      "commits": 2,
+      "commits": 6,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -483,16 +483,16 @@
     }
   },
   "overtime": {
-    "total_commits": 471,
-    "overtime_commits": 203,
-    "regular_commits": 268,
-    "overtime_rate": 43.1,
-    "weekend_commits": 49,
-    "late_night_commits": 140,
-    "total_hours": 361.0,
+    "total_commits": 467,
+    "overtime_commits": 200,
+    "regular_commits": 267,
+    "overtime_rate": 42.8,
+    "weekend_commits": 46,
+    "late_night_commits": 139,
+    "total_hours": 360.0,
     "regular_hours": 203.3,
-    "overtime_hours": 157.7,
-    "overtime_hour_rate": 43.7,
+    "overtime_hours": 156.7,
+    "overtime_hour_rate": 43.5,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -501,19 +501,12 @@
         "is_weekend": false,
         "commits": 1
       },
-      "2026-03-28": {
+      "2026-03-29": {
         "regular_hours": 0,
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 1
-      },
-      "2026-03-29": {
-        "regular_hours": 0,
-        "overtime_hours": 1.5,
-        "total_hours": 1.5,
-        "is_weekend": true,
-        "commits": 9
+        "commits": 6
       },
       "2026-03-30": {
         "regular_hours": 3.6,
@@ -744,7 +737,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 27
+        "commits": 26
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -892,12 +885,18 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
+      },
+      "2026-06-27": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": true,
+        "commits": 1
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-28": 0.5,
-      "2026-03-29": 1.5,
+      "2026-03-29": 0.5,
       "2026-03-30": 1.3,
       "2026-04-02": 1.6,
       "2026-04-03": 0.1,
@@ -941,7 +940,8 @@
       "2026-06-21": 1.6,
       "2026-06-23": 2.4,
       "2026-06-25": 0.5,
-      "2026-06-26": 0.5
+      "2026-06-26": 0.5,
+      "2026-06-27": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -953,7 +953,7 @@
       2,
       0,
       7,
-      2,
+      0,
       7,
       0,
       1,
@@ -962,7 +962,7 @@
       0,
       1,
       2,
-      51,
+      50,
       39,
       11,
       12,
@@ -975,6 +975,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "f1fd3cd",
+      "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-26T23:46:47Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f1fd3cdd4ea276623c5afdefd85843de008b5008",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "676746a",
       "message": "feat: 사례 2건 발행 — 채널톡 자동 파이프라인",
@@ -2334,14 +2342,6 @@
       "date": "2026-05-13T04:10:26Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/df03bc88333aa0b33af48b0f44cfa85459694bef",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "eccfb07",
-      "message": "feat(admin): 문의유형 컬럼 노출 (테이블·상세·CSV)",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T04:07:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/eccfb0707e79611a04c5cdd12e32003bc08196ca",
-      "repo": "busungtk-landing"
     },
     {
       "sha": "6c0fe9a",
