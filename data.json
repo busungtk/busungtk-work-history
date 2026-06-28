@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T00:23:19.295374Z",
+  "updated_at": "2026-06-28T00:21:02.483849Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 467,
+    "total_commits": 461,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 61
   },
   "daily": {
+    "2026-06-27": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-26": {
       "commits": 1,
       "prs_opened": 0,
@@ -223,7 +230,7 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 26,
+      "commits": 25,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -467,13 +474,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-29": {
-      "commits": 6,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -483,11 +483,11 @@
     }
   },
   "overtime": {
-    "total_commits": 467,
-    "overtime_commits": 200,
-    "regular_commits": 267,
-    "overtime_rate": 42.8,
-    "weekend_commits": 46,
+    "total_commits": 461,
+    "overtime_commits": 195,
+    "regular_commits": 266,
+    "overtime_rate": 42.3,
+    "weekend_commits": 41,
     "late_night_commits": 139,
     "total_hours": 360.0,
     "regular_hours": 203.3,
@@ -500,13 +500,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-29": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 6
       },
       "2026-03-30": {
         "regular_hours": 3.6,
@@ -737,7 +730,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 26
+        "commits": 25
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -892,11 +885,17 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 1
+      },
+      "2026-06-28": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": true,
+        "commits": 1
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-29": 0.5,
       "2026-03-30": 1.3,
       "2026-04-02": 1.6,
       "2026-04-03": 0.1,
@@ -941,7 +940,8 @@
       "2026-06-23": 2.4,
       "2026-06-25": 0.5,
       "2026-06-26": 0.5,
-      "2026-06-27": 0.5
+      "2026-06-27": 0.5,
+      "2026-06-28": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -952,9 +952,9 @@
       2,
       2,
       0,
-      7,
+      8,
       0,
-      7,
+      1,
       0,
       1,
       4,
@@ -975,6 +975,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "0b6d9d5",
+      "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-27T23:44:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0b6d9d58410712aae524d40201603ec136f19c8d",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "f1fd3cd",
       "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
@@ -2317,14 +2325,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-13T05:43:15Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/93af4194d11c610dc2ee38e93ff063ce773179a9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d1d1313",
-      "message": "feat(e-variant): 인터랙션 행동 촉진 (Exit Intent + Scroll Pause + Hover Tooltip) + 어휘 일괄 정정",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T05:31:03Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d1d1313a027167545fcb7663701344ecf200b3e3",
       "repo": "busungtk-landing"
     },
     {
