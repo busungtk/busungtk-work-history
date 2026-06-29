@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T00:21:02.483849Z",
+  "updated_at": "2026-06-29T00:22:38.479209Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 461,
+    "total_commits": 452,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 61
+    "active_days": 60
   },
   "daily": {
     "2026-06-27": {
@@ -467,13 +467,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-03-30": {
-      "commits": 9,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -483,16 +476,16 @@
     }
   },
   "overtime": {
-    "total_commits": 461,
-    "overtime_commits": 195,
-    "regular_commits": 266,
-    "overtime_rate": 42.3,
+    "total_commits": 452,
+    "overtime_commits": 192,
+    "regular_commits": 260,
+    "overtime_rate": 42.5,
     "weekend_commits": 41,
-    "late_night_commits": 139,
-    "total_hours": 360.0,
-    "regular_hours": 203.3,
-    "overtime_hours": 156.7,
-    "overtime_hour_rate": 43.5,
+    "late_night_commits": 136,
+    "total_hours": 355.1,
+    "regular_hours": 199.7,
+    "overtime_hours": 155.4,
+    "overtime_hour_rate": 43.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -500,13 +493,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-03-30": {
-        "regular_hours": 3.6,
-        "overtime_hours": 1.3,
-        "total_hours": 4.9,
-        "is_weekend": false,
-        "commits": 9
       },
       "2026-04-02": {
         "regular_hours": 8.2,
@@ -896,7 +882,6 @@
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-03-30": 1.3,
       "2026-04-02": 1.6,
       "2026-04-03": 0.1,
       "2026-04-04": 10.7,
@@ -962,8 +947,8 @@
       0,
       1,
       2,
-      50,
-      39,
+      48,
+      38,
       11,
       12,
       14,
