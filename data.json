@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T00:22:38.479209Z",
+  "updated_at": "2026-06-30T00:22:43.371882Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -34,8 +34,8 @@
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
-    "claude-dotfiles",
     "busungtk-ai-workflow-office",
+    "claude-dotfiles",
     "busungtk-brand-config",
     "channeltalk-downloader",
     "gumi-church-ai",
@@ -48,12 +48,26 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 452,
+    "total_commits": 454,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 60
+    "active_days": 62
   },
   "daily": {
+    "2026-06-30": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-06-29": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-06-27": {
       "commits": 1,
       "prs_opened": 0,
@@ -230,7 +244,7 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 25,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -476,16 +490,16 @@
     }
   },
   "overtime": {
-    "total_commits": 452,
+    "total_commits": 454,
     "overtime_commits": 192,
-    "regular_commits": 260,
-    "overtime_rate": 42.5,
+    "regular_commits": 262,
+    "overtime_rate": 42.3,
     "weekend_commits": 41,
     "late_night_commits": 136,
-    "total_hours": 355.1,
-    "regular_hours": 199.7,
-    "overtime_hours": 155.4,
-    "overtime_hour_rate": 43.8,
+    "total_hours": 356.1,
+    "regular_hours": 199.8,
+    "overtime_hours": 156.3,
+    "overtime_hour_rate": 43.9,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -716,7 +730,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 25
+        "commits": 24
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -878,6 +892,20 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 1
+      },
+      "2026-06-29": {
+        "regular_hours": 0.1,
+        "overtime_hours": 0.4,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
+      },
+      "2026-06-30": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
@@ -926,7 +954,9 @@
       "2026-06-25": 0.5,
       "2026-06-26": 0.5,
       "2026-06-27": 0.5,
-      "2026-06-28": 0.5
+      "2026-06-28": 0.5,
+      "2026-06-29": 0.4,
+      "2026-06-30": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -960,6 +990,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "fe0d5d7",
+      "message": "docs: SEO/GEO 기술 건강도 점검 보고서 (2026-06-30)",
+      "author": "Claude",
+      "date": "2026-06-30T00:08:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/fe0d5d72f98205e35811690d930687ba0ba45fcf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "807c4d0",
+      "message": "fix: 관제 보고 '시켰던 일' 큰 숫자를 최근 완료 기준으로 일치",
+      "author": "junyoungjang976",
+      "date": "2026-06-29T04:40:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/807c4d0c1091f690ff1f271032a4e4cd85e647f3",
+      "repo": "busungtk-ai-workflow-office"
+    },
+    {
+      "sha": "e4150fd",
+      "message": "feat: 관제 보고 탭 추가 — 5칸 노선판으로 회사 상태 한눈에",
+      "author": "junyoungjang976",
+      "date": "2026-06-29T04:36:12Z",
+      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/e4150fdbfa09bc932ab2187d4da220e1320e0690",
+      "repo": "busungtk-ai-workflow-office"
+    },
     {
       "sha": "0b6d9d5",
       "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
@@ -2305,14 +2359,6 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "93af419",
-      "message": "fix(e-variant): 무료 문의 한국어 조사 정정 (으로→로 등)",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T05:43:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/93af4194d11c610dc2ee38e93ff063ce773179a9",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "2b48943",
       "message": "feat: A/S 접수·견적서 목록 기본 정렬을 작성일(created_at) 기준으로 변경",
       "author": "junyoungjang976",
@@ -2543,22 +2589,6 @@
       "date": "2026-05-11T10:05:37Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/20344a80deb50b5898338dbdff5f9adf1d8587e0",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "5cb1a5e",
-      "message": "feat: 매입 거래명세표 품명 검색 (견적서와 동일 asms_products 데이터)",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T09:57:12Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/5cb1a5ed001489dc5ec901d4fac651a2ffe96ddb",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "cc41881",
-      "message": "feat: 한식 20평 26 품목 매입 자산 매칭 추출 스크립트",
-      "author": "junyoungjang976",
-      "date": "2026-05-11T09:37:07Z",
-      "url": "https://github.com/busungtk/busungtk-purchase-data/commit/cc41881cd258d33c1a85f04d63d5317d7cacfa7f",
-      "repo": "busungtk-purchase-data"
     }
   ],
   "pull_requests": [
