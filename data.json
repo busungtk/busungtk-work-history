@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T00:22:43.371882Z",
+  "updated_at": "2026-07-01T00:24:16.109361Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -55,7 +55,7 @@
   },
   "daily": {
     "2026-06-30": {
-      "commits": 1,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -244,7 +244,7 @@
       "issues_closed": 0
     },
     "2026-05-13": {
-      "commits": 24,
+      "commits": 23,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -491,15 +491,15 @@
   },
   "overtime": {
     "total_commits": 454,
-    "overtime_commits": 192,
-    "regular_commits": 262,
-    "overtime_rate": 42.3,
+    "overtime_commits": 193,
+    "regular_commits": 261,
+    "overtime_rate": 42.5,
     "weekend_commits": 41,
     "late_night_commits": 136,
-    "total_hours": 356.1,
+    "total_hours": 356.6,
     "regular_hours": 199.8,
-    "overtime_hours": 156.3,
-    "overtime_hour_rate": 43.9,
+    "overtime_hours": 156.8,
+    "overtime_hour_rate": 44.0,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -730,7 +730,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.4,
         "is_weekend": false,
-        "commits": 24
+        "commits": 23
       },
       "2026-05-14": {
         "regular_hours": 2.2,
@@ -906,6 +906,13 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
+      },
+      "2026-07-01": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
@@ -956,7 +963,8 @@
       "2026-06-27": 0.5,
       "2026-06-28": 0.5,
       "2026-06-29": 0.4,
-      "2026-06-30": 0.5
+      "2026-06-30": 0.5,
+      "2026-07-01": 0.5
     },
     "overtime_by_hour": [
       7,
@@ -967,7 +975,7 @@
       2,
       2,
       0,
-      8,
+      9,
       0,
       1,
       0,
@@ -990,6 +998,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "ef0b618",
+      "message": "feat: 사례 2건 발행 — 채널톡 자동 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-06-30T23:46:09Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ef0b6184fde01d17fa8506a963654c3cea71eb10",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "fe0d5d7",
       "message": "docs: SEO/GEO 기술 건강도 점검 보고서 (2026-06-30)",
@@ -2348,14 +2364,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-13T05:58:39Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/ae44784cc87d5ce3a7d6f37116a885df46c82aa6",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "552ba1e",
-      "message": "fix(e-variant): sticky-cta 디자인 CSS 신규 + 옵션 A·B 카피 정확한 액션으로",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T05:54:19Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/552ba1ef4bab3f2448bdd0cd7d4be2c95b03654d",
       "repo": "busungtk-landing"
     },
     {
