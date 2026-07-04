@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-07-03T01:28:20.681818Z",
+  "updated_at": "2026-07-04T01:28:07.629508Z",
   "repos": [
+    "busungtk-kitchen-consulting",
+    "busungtk-sales-pipeline",
     "busungtk-landing",
     "busungtk-asms",
-    "busungtk-kitchen-consulting",
     "busungtk-order-tracker",
     "busungtk-as-diagnosis",
     "busungtk-daily-report",
@@ -23,7 +24,6 @@
     "busungtk-relay-board",
     "busungtk-ui",
     "busungtk-partner-map",
-    "busungtk-sales-pipeline",
     "busungtk-equipment",
     "busungtk-kitchen-resource",
     "busungtk-kitchen-quote",
@@ -48,12 +48,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 448,
+    "total_commits": 433,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 62
   },
   "daily": {
+    "2026-07-03": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-02": {
       "commits": 6,
       "prs_opened": 0,
@@ -474,13 +481,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-04-04": {
-      "commits": 18,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-03-12": {
       "commits": 1,
       "prs_opened": 0,
@@ -490,16 +490,16 @@
     }
   },
   "overtime": {
-    "total_commits": 448,
-    "overtime_commits": 201,
-    "regular_commits": 247,
-    "overtime_rate": 44.9,
-    "weekend_commits": 41,
-    "late_night_commits": 143,
-    "total_hours": 370.6,
-    "regular_hours": 205.6,
-    "overtime_hours": 165.0,
-    "overtime_hour_rate": 44.5,
+    "total_commits": 433,
+    "overtime_commits": 183,
+    "regular_commits": 250,
+    "overtime_rate": 42.3,
+    "weekend_commits": 23,
+    "late_night_commits": 142,
+    "total_hours": 368.3,
+    "regular_hours": 214.2,
+    "overtime_hours": 154.1,
+    "overtime_hour_rate": 41.8,
     "daily_hours": {
       "2026-03-12": {
         "regular_hours": 0,
@@ -507,13 +507,6 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-04-04": {
-        "regular_hours": 0,
-        "overtime_hours": 10.7,
-        "total_hours": 10.7,
-        "is_weekend": true,
-        "commits": 18
       },
       "2026-04-05": {
         "regular_hours": 0,
@@ -908,16 +901,15 @@
         "commits": 5
       },
       "2026-07-03": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "regular_hours": 8.6,
+        "overtime_hours": 0.3,
+        "total_hours": 8.9,
         "is_weekend": false,
-        "commits": 1
+        "commits": 4
       }
     },
     "overtime_by_date": {
       "2026-03-12": 0.5,
-      "2026-04-04": 10.7,
       "2026-04-05": 0.5,
       "2026-04-06": 5.6,
       "2026-04-07": 0.5,
@@ -964,7 +956,7 @@
       "2026-06-30": 0.5,
       "2026-07-01": 6.0,
       "2026-07-02": 3.9,
-      "2026-07-03": 0.5
+      "2026-07-03": 0.3
     },
     "overtime_by_hour": [
       7,
@@ -979,9 +971,9 @@
       0,
       1,
       0,
-      1,
-      4,
-      14,
+      0,
+      2,
+      0,
       0,
       1,
       2,
@@ -990,7 +982,7 @@
       12,
       16,
       15,
-      15
+      14
     ],
     "work_hours": {
       "start": 9,
@@ -998,6 +990,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "4a20361",
+      "message": "feat: 주방 표준 셀 시스템 — 표 치수→도면 자동생성 + 기계검증, 한식 20평 v2·10평 v1 + 고객 페이지",
+      "author": "junyoungjang976",
+      "date": "2026-07-03T08:39:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4a2036101ca448ff606b4d146a88ace6c9bd866f",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ef57978",
+      "message": "feat: 장비 단가·타입·구역 정의 확장 + 레이아웃 엔진 v2 설계 문서 (7/1 표준화 세션분)",
+      "author": "junyoungjang976",
+      "date": "2026-07-03T08:39:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef57978661c8ecb792a86e72cb2d1256b008d494",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a5bc0e8",
+      "message": "docs: 제안서 패키지 v0.2 — 파트너용 2부 신규 + 사실 정정",
+      "author": "junyoungjang976",
+      "date": "2026-07-03T08:36:20Z",
+      "url": "https://github.com/busungtk/busungtk-sales-pipeline/commit/a5bc0e88b411de59c66988f0aa45c90bbf328a83",
+      "repo": "busungtk-sales-pipeline"
+    },
     {
       "sha": "251cede",
       "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인 (동탄 반찬가게 기물·에버랜드 일식코너 납품·물류센터 온장고 트랜스 A/S)",
@@ -2572,30 +2588,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-12T08:43:04Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/aecee583267d01d82173afa5f0ce14720e2248bb",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "a484dce",
-      "message": "feat: 거래처 단가표(Excel/PDF) 파싱 일괄 등록 + 품목 등록일 표시",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T08:41:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a484dcec00d795cb3097f2d5d32d429ea30c357e",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "386c0e8",
-      "message": "feat: 품목 카테고리 3단계(대/중/소) + 체크박스 일괄 관리 UI",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:58:44Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/386c0e8aef60480ea77bc09e1fc3518474c63f5d",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "420dfa4",
-      "message": "refactor: 선금 발주 흐름 순서 변경 (발주 확정 → 입금 대기 → 입금 완료)",
-      "author": "junyoungjang976",
-      "date": "2026-05-12T07:54:48Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/420dfa44a45938255c1f07f0a9b09b25446d8092",
       "repo": "busungtk-order-tracker"
     }
   ],
