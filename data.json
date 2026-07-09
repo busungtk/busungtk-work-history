@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T01:19:00.166607Z",
+  "updated_at": "2026-07-09T01:27:22.283030Z",
   "repos": [
     "busungtk-ai-ideation",
     "busungtk-kitchen-consulting",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 431,
+    "total_commits": 413,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 61
+    "active_days": 59
   },
   "daily": {
     "2026-07-06": {
@@ -466,54 +466,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-09": {
-      "commits": 17,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-03-12": {
-      "commits": 1,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 431,
-    "overtime_commits": 195,
-    "regular_commits": 236,
-    "overtime_rate": 45.2,
+    "total_commits": 413,
+    "overtime_commits": 183,
+    "regular_commits": 230,
+    "overtime_rate": 44.3,
     "weekend_commits": 29,
-    "late_night_commits": 147,
-    "total_hours": 365.6,
-    "regular_hours": 204.7,
-    "overtime_hours": 160.9,
-    "overtime_hour_rate": 44.0,
+    "late_night_commits": 141,
+    "total_hours": 338.7,
+    "regular_hours": 190.6,
+    "overtime_hours": 148.1,
+    "overtime_hour_rate": 43.7,
     "daily_hours": {
-      "2026-03-12": {
-        "regular_hours": 0,
+      "2026-04-10": {
+        "regular_hours": 0.0,
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 1
-      },
-      "2026-04-09": {
-        "regular_hours": 5.2,
-        "overtime_hours": 5.4,
-        "total_hours": 10.6,
-        "is_weekend": false,
-        "commits": 11
-      },
-      "2026-04-10": {
-        "regular_hours": 8.9,
-        "overtime_hours": 7.4,
-        "total_hours": 16.3,
-        "is_weekend": false,
-        "commits": 7
       },
       "2026-04-11": {
         "regular_hours": 0,
@@ -895,9 +867,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-03-12": 0.5,
-      "2026-04-09": 5.4,
-      "2026-04-10": 7.4,
+      "2026-04-10": 0.5,
       "2026-04-11": 3.6,
       "2026-04-13": 0.4,
       "2026-04-14": 0.5,
@@ -945,7 +915,7 @@
     },
     "overtime_by_hour": [
       7,
-      11,
+      5,
       3,
       4,
       0,
@@ -966,8 +936,8 @@
       37,
       11,
       19,
-      16,
-      16
+      14,
+      12
     ],
     "work_hours": {
       "start": 9,
