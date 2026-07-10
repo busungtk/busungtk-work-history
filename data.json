@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T01:27:22.283030Z",
+  "updated_at": "2026-07-10T01:24:17.157542Z",
   "repos": [
     "busungtk-ai-ideation",
     "busungtk-kitchen-consulting",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 413,
+    "total_commits": 411,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 59
+    "active_days": 58
   },
   "daily": {
     "2026-07-06": {
@@ -454,14 +454,7 @@
       "issues_closed": 0
     },
     "2026-04-11": {
-      "commits": 3,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-04-10": {
-      "commits": 1,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -469,30 +462,23 @@
     }
   },
   "overtime": {
-    "total_commits": 413,
-    "overtime_commits": 183,
-    "regular_commits": 230,
+    "total_commits": 411,
+    "overtime_commits": 182,
+    "regular_commits": 229,
     "overtime_rate": 44.3,
-    "weekend_commits": 29,
+    "weekend_commits": 28,
     "late_night_commits": 141,
-    "total_hours": 338.7,
+    "total_hours": 335.1,
     "regular_hours": 190.6,
-    "overtime_hours": 148.1,
-    "overtime_hour_rate": 43.7,
+    "overtime_hours": 144.5,
+    "overtime_hour_rate": 43.1,
     "daily_hours": {
-      "2026-04-10": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
       "2026-04-11": {
         "regular_hours": 0,
-        "overtime_hours": 3.6,
-        "total_hours": 3.6,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 3
+        "commits": 2
       },
       "2026-04-13": {
         "regular_hours": 7.4,
@@ -867,8 +853,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-04-10": 0.5,
-      "2026-04-11": 3.6,
+      "2026-04-11": 0.5,
       "2026-04-13": 0.4,
       "2026-04-14": 0.5,
       "2026-04-15": 0.9,
@@ -924,7 +909,7 @@
       5,
       10,
       0,
-      1,
+      0,
       0,
       1,
       2,
