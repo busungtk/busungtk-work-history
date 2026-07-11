@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T01:24:17.157542Z",
+  "updated_at": "2026-07-11T01:18:01.884570Z",
   "repos": [
     "busungtk-ai-ideation",
     "busungtk-kitchen-consulting",
@@ -48,10 +48,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 411,
+    "total_commits": 409,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 58
+    "active_days": 57
   },
   "daily": {
     "2026-07-06": {
@@ -452,34 +452,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-11": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 411,
-    "overtime_commits": 182,
+    "total_commits": 409,
+    "overtime_commits": 180,
     "regular_commits": 229,
-    "overtime_rate": 44.3,
-    "weekend_commits": 28,
+    "overtime_rate": 44.0,
+    "weekend_commits": 26,
     "late_night_commits": 141,
-    "total_hours": 335.1,
+    "total_hours": 334.6,
     "regular_hours": 190.6,
-    "overtime_hours": 144.5,
-    "overtime_hour_rate": 43.1,
+    "overtime_hours": 144.0,
+    "overtime_hour_rate": 43.0,
     "daily_hours": {
-      "2026-04-11": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-04-13": {
         "regular_hours": 7.4,
         "overtime_hours": 0.4,
@@ -853,7 +839,6 @@
       }
     },
     "overtime_by_date": {
-      "2026-04-11": 0.5,
       "2026-04-13": 0.4,
       "2026-04-14": 0.5,
       "2026-04-15": 0.9,
@@ -912,7 +897,7 @@
       0,
       0,
       1,
-      2,
+      0,
       0,
       0,
       0,
