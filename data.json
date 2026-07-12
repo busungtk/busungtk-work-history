@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-11T01:18:01.884570Z",
+  "updated_at": "2026-07-12T01:19:47.310729Z",
   "repos": [
+    "busungtk-marketing-v2",
     "busungtk-ai-ideation",
     "busungtk-kitchen-consulting",
-    "busungtk-marketing-v2",
     "busungtk-landing",
     "busungtk-sales-pipeline",
     "busungtk-asms",
@@ -48,12 +48,26 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 409,
+    "total_commits": 421,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 57
+    "active_days": 59
   },
   "daily": {
+    "2026-07-11": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-07-10": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-06": {
       "commits": 5,
       "prs_opened": 0,
@@ -455,16 +469,16 @@
     }
   },
   "overtime": {
-    "total_commits": 409,
-    "overtime_commits": 180,
+    "total_commits": 421,
+    "overtime_commits": 192,
     "regular_commits": 229,
-    "overtime_rate": 44.0,
-    "weekend_commits": 26,
+    "overtime_rate": 45.6,
+    "weekend_commits": 38,
     "late_night_commits": 141,
-    "total_hours": 334.6,
+    "total_hours": 341.8,
     "regular_hours": 190.6,
-    "overtime_hours": 144.0,
-    "overtime_hour_rate": 43.0,
+    "overtime_hours": 151.2,
+    "overtime_hour_rate": 44.2,
     "daily_hours": {
       "2026-04-13": {
         "regular_hours": 7.4,
@@ -836,6 +850,20 @@
         "total_hours": 2.0,
         "is_weekend": false,
         "commits": 5
+      },
+      "2026-07-11": {
+        "regular_hours": 0,
+        "overtime_hours": 5.9,
+        "total_hours": 5.9,
+        "is_weekend": true,
+        "commits": 8
+      },
+      "2026-07-12": {
+        "regular_hours": 0,
+        "overtime_hours": 1.3,
+        "total_hours": 1.3,
+        "is_weekend": true,
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -881,20 +909,22 @@
       "2026-07-03": 0.3,
       "2026-07-04": 11.0,
       "2026-07-06": 0.5,
-      "2026-07-07": 2.0
+      "2026-07-07": 2.0,
+      "2026-07-11": 5.9,
+      "2026-07-12": 1.3
     },
     "overtime_by_hour": [
       7,
       5,
-      3,
       4,
-      0,
-      1,
+      6,
+      5,
+      3,
       1,
       5,
       10,
       0,
-      0,
+      2,
       0,
       1,
       0,
@@ -915,6 +945,102 @@
     }
   },
   "commits": [
+    {
+      "sha": "e8b7dc2",
+      "message": "fix: sync-prepare 동기화 로그 경로 현행화 (구 ai-ideation/10-동기화 → renewal/13-동기화)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T19:16:48Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e8b7dc2809dadaf8b1c8838d61ebdc46447610b5",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "3452088",
+      "message": "feat: 07-12 시스템 업데이트 동기화 — 판단 위임 조항·Codex 모델 선택(GPT-5.6)·브리핑 갭 백필 규칙",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T18:44:43Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/345208824a127a2b866af47f52b3c6159f131ea9",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "b5763a8",
+      "message": "chore: 네이버 전환 점검 스크립트 + 콘텐츠 생성물(output) 백업",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T18:43:01Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/b5763a83effd157694d5001af48e2f1c7c18f37f",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "83afcd7",
+      "message": "chore: PC간 사용자명 하드코딩 제거 + 중복·폐기 참조 정리 (07-12 AX 감사 트랙1)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T17:56:00Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/83afcd73fdfaf041db2354c4340f8551459fb9db",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "d84b50f",
+      "message": "feat: ig-feed 커버 카피 기준서 v1 반영 — 증거 캡션 문법, 훅 템플릿·변주 풀 폐지, 규격 통일",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T01:28:55Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/d84b50fdde1b2618490aa5cce1996c6b9a2cc5a4",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "56cff29",
+      "message": "feat: 커버 카피 기준서 v1 (증거 캡션 문법) + 커버 5장 재제작 — 규격 3항목 정정, 슬로건 풀 폐지",
+      "author": "jangjoonyoung",
+      "date": "2026-07-11T01:28:54Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/56cff29e428bdad50d01c6db9f9b135309a79116",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "44cbd5b",
+      "message": "fix: 사장님 검수 3지적 반영 — 제목-사진 일치(C01·A02 커버), 자산라벨 7건 제거(C01 8장·C02 6장), A02 리모델링 서사 재프레임",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T20:26:19Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/44cbd5bc902de5fb4575434571f9eb2fa5e3929f",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "fe88a26",
+      "message": "feat: ig-feed 검수 룰 3종 추가 — 제목-사진 일치, 자산라벨 전수 제외, 커버 카피 이해도 (2026-07-11 사장님 지적)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T20:26:19Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fe88a2686f6097749ecbda86e520d0c64b515f42",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "f072a8a",
+      "message": "feat: IG 채널 역할 재정의 + 사례 가치 게이트 + 문장 5구조 + 독립 검수 의무 (2026-07-11 결재)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T19:34:45Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f072a8a9d328cb1a7486e4feef45b7dd570b5343",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c94c0bc",
+      "message": "docs: IG 성과 측정 설계 (저장 수 1차 지표, 축별 성과 비교)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T19:34:26Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/c94c0bc8cd87adf52e1eafa038f060d31d1a8a2c",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "39a61ad",
+      "message": "feat: S급 사례 1차 배치 5건 산출 (슬라이드+커버+캡션, gate_axis 태깅, 게시 대기)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T19:34:26Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/39a61adfd6c4737e5c550a37a51835d243010a04",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "e2e8a4e",
+      "message": "feat: IG 사례 가치 게이트 스캔 스크립트 + 대기열 정리 (탈락 4건 _archived-simple 보관)",
+      "author": "jangjoonyoung",
+      "date": "2026-07-10T19:34:25Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/e2e8a4e24c0f96c307086bcd70434a112201d4a4",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "2b70fda",
       "message": "feat: AI 창업 주방 리포트 P0 샘플 실물 (한식 20평 x 인계동) + 원료 2종",
@@ -2417,102 +2543,6 @@
       "author": "junyoungjang976",
       "date": "2026-05-14T06:46:36Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/178728aebe94ff9282386543d86aa2fa4673a5c2",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1dc4370",
-      "message": "feat: 단가표 부가세 정책 + 소비자가 컬럼 + 보관함 재분석",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T08:48:35Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/1dc4370121a018e83049e1789581b71076e16649",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "6366618",
-      "message": "feat: 대시보드 활동 이력 위젯 + 발행요청 작업자 모달 통합",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T08:48:18Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/6366618ad29df731de6810c4d52ef9168f609f7e",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b5e3338",
-      "message": "feat(outbound): 2026 B2B 벤치마크 리포트 인사이트 적용 — 콜드메일 12개 + P2/P4 사례 PDF v0.1",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T08:44:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b5e3338d126d65de11882592a8561d1cf588cac4",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2b48943",
-      "message": "feat: A/S 접수·견적서 목록 기본 정렬을 작성일(created_at) 기준으로 변경",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T04:19:21Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/2b489431b1e1d57c69eb592db10557fdf6429aac",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "df03bc8",
-      "message": "feat: 매입 명세표 행 명시 매칭 product ID 영구 보존",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T04:10:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/df03bc88333aa0b33af48b0f44cfa85459694bef",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "6c0fe9a",
-      "message": "fix: 매입 명세표 매칭 — supplier=null 기준가 마스터 흡수 + sync dedupe",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T04:02:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/6c0fe9a0ac67dae0b2af16a9f57aa46e5c995c1f",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "7109d4f",
-      "message": "fix: 매입 명세표 품목 매칭 — supplier 불일치/명시 선택 시 신규 중복 등록 방지",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T03:45:43Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/7109d4fa02e87730f727439adc0266891ba09b3c",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "554aaf6",
-      "message": "fix: 수량 0.5 단위 입력 + 숫자 input 드래그 선택 유지",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T02:16:25Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/554aaf6f45842cb587faa9708a0f63b92e73a769",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a976a67",
-      "message": "feat: 매입 거래명세표 → 품목 마스터 자동 동기화 (옵션 C — 체크박스)",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T02:06:01Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a976a6716ec6f9d19e91ef9de048909b3e49dba1",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "089e8e7",
-      "message": "feat: 단가표 매칭 정규화 강화 + name-only 폴백 (배기덕트 자바라 케이스)",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T01:20:19Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/089e8e722994d007bb8e5283c6a846e0668a8fe6",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "3c4b74b",
-      "message": "feat: 단가표 미리보기에 동일 상태 분리 — 신규/갱신/동일 3분기",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T01:06:28Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/3c4b74beeee536cd28d5795af5d02b4417d6ebda",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "72c36ee",
-      "message": "feat: 단가표 매칭 정규화 폴백 + 진단 가시성",
-      "author": "junyoungjang976",
-      "date": "2026-05-13T00:57:48Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/72c36ee692b8cbfc6c49b94dc9acd2ee933d54b8",
       "repo": "busungtk-asms"
     }
   ],
