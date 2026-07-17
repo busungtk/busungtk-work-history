@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-16T01:16:18.348068Z",
+  "updated_at": "2026-07-17T01:20:32.512652Z",
   "repos": [
-    "busungtk-landing",
-    "busungtk-sales-crm",
-    "busungtk-price-library",
+    "busungtk-marketing-v2",
     "busungtk-asms",
+    "busungtk-sales-crm",
+    "busungtk-landing",
+    "busungtk-price-library",
     "busungtk-ui",
     "busungtk-purchase-data",
-    "busungtk-marketing-v2",
     "busungtk-ai-ideation",
     "busungtk-kitchen-consulting",
     "busungtk-sales-pipeline",
@@ -35,9 +35,10 @@
     "busungtk-kitchen-planner",
     "busungtk-training",
     "busungtk-supabase-types",
+    "busungtk-cockpit",
     "claude-dotfiles",
-    "busungtk-ai-workflow-office",
     "busungtk-brand-config",
+    "busungtk-ai-workflow-office",
     "channeltalk-downloader",
     "gumi-church-ai",
     "dev-journey",
@@ -49,14 +50,21 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 467,
+    "total_commits": 474,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 58
   },
   "daily": {
+    "2026-07-16": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-15": {
-      "commits": 58,
+      "commits": 65,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -357,7 +365,7 @@
       "issues_closed": 0
     },
     "2026-05-06": {
-      "commits": 4,
+      "commits": 6,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -413,14 +421,14 @@
       "issues_closed": 0
     },
     "2026-04-23": {
-      "commits": 9,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-04-22": {
-      "commits": 26,
+      "commits": 23,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -453,40 +461,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-17": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 467,
-    "overtime_commits": 215,
-    "regular_commits": 252,
-    "overtime_rate": 46.0,
-    "weekend_commits": 38,
-    "late_night_commits": 163,
-    "total_hours": 346.9,
-    "regular_hours": 187.9,
-    "overtime_hours": 159.0,
-    "overtime_hour_rate": 45.8,
+    "total_commits": 474,
+    "overtime_commits": 223,
+    "regular_commits": 251,
+    "overtime_rate": 47.0,
+    "weekend_commits": 37,
+    "late_night_commits": 172,
+    "total_hours": 329.6,
+    "regular_hours": 187.5,
+    "overtime_hours": 142.1,
+    "overtime_hour_rate": 43.1,
     "daily_hours": {
-      "2026-04-17": {
+      "2026-04-18": {
         "regular_hours": 0,
         "overtime_hours": 0.5,
         "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
-      "2026-04-18": {
-        "regular_hours": 0,
-        "overtime_hours": 17.4,
-        "total_hours": 17.4,
         "is_weekend": true,
-        "commits": 7
+        "commits": 6
       },
       "2026-04-19": {
         "regular_hours": 0,
@@ -514,14 +508,14 @@
         "overtime_hours": 4.9,
         "total_hours": 10.1,
         "is_weekend": false,
-        "commits": 26
+        "commits": 23
       },
       "2026-04-23": {
-        "regular_hours": 7.1,
+        "regular_hours": 6.7,
         "overtime_hours": 1.9,
-        "total_hours": 9.0,
+        "total_hours": 8.6,
         "is_weekend": false,
-        "commits": 9
+        "commits": 8
       },
       "2026-04-27": {
         "regular_hours": 9,
@@ -563,7 +557,7 @@
         "overtime_hours": 5.1,
         "total_hours": 13.9,
         "is_weekend": false,
-        "commits": 4
+        "commits": 6
       },
       "2026-05-07": {
         "regular_hours": 0.0,
@@ -850,12 +844,18 @@
         "overtime_hours": 4.9,
         "total_hours": 13.7,
         "is_weekend": false,
-        "commits": 58
+        "commits": 65
+      },
+      "2026-07-16": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
-      "2026-04-17": 0.5,
-      "2026-04-18": 17.4,
+      "2026-04-18": 0.5,
       "2026-04-19": 19.5,
       "2026-04-20": 14.0,
       "2026-04-21": 14.2,
@@ -898,11 +898,12 @@
       "2026-07-12": 1.3,
       "2026-07-13": 0.9,
       "2026-07-14": 3.8,
-      "2026-07-15": 4.9
+      "2026-07-15": 4.9,
+      "2026-07-16": 0.5
     },
     "overtime_by_hour": [
       7,
-      5,
+      4,
       4,
       6,
       5,
@@ -919,11 +920,11 @@
       0,
       0,
       2,
-      50,
+      53,
       52,
-      11,
-      22,
-      16,
+      13,
+      25,
+      17,
       12
     ],
     "work_hours": {
@@ -932,6 +933,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "e8d21e7",
+      "message": "chore: 07-16 스킬·CLAUDE.md 동기화 (회사 PC → 집 PC)",
+      "author": "junyoungjang976",
+      "date": "2026-07-16T09:41:04Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e8d21e7d3900954c27e65cf07433206dab296c77",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "0529db4",
+      "message": "chore: package-lock 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-07-16T09:39:44Z",
+      "url": "https://github.com/junyoungjang976/busungtk-brand-config/commit/0529db490f52ec24d2b6ac461346be5a7c998afe",
+      "repo": "busungtk-brand-config"
+    },
+    {
+      "sha": "f3a5e68",
+      "message": "docs: 유입 경로 수집 계획 (renewal-v2)",
+      "author": "junyoungjang976",
+      "date": "2026-07-16T09:39:42Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/f3a5e68393d9cbac1c587c248856a2dedf81b986",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "237e1d3",
+      "message": "feat: IG 07-15 배치 제작·발행 파이프라인 + 디자인 후보 렌더 + 텔레그램 검수",
+      "author": "junyoungjang976",
+      "date": "2026-07-16T09:39:28Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/237e1d3c0da8cdc20f6bbb15b1f4a29db9a31deb",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "976d2fd",
       "message": "feat: 사례 발행 텔레그램 버튼 승인 시스템 — 무인 발행 폐기",
@@ -949,6 +982,14 @@
       "repo": "busungtk-landing"
     },
     {
+      "sha": "fdf7903",
+      "message": "feat: 신규 시공 견적서 탭 UI 개선 — 단계별 색상 배지·필터 칩·기본 목록 표시",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T13:05:12Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/fdf790344dbde60fe4a23778a310fb6186afdc3b",
+      "repo": "busungtk-asms"
+    },
+    {
       "sha": "508bb67",
       "message": "fix: 회신 약속 \"영업일 1일 내\" 복원 — 시간을 앞으로, 정본 단일화",
       "author": "junyoungjang976",
@@ -957,12 +998,60 @@
       "repo": "busungtk-landing"
     },
     {
+      "sha": "d08e73c",
+      "message": "fix: 웹훅 트리거가 crm_inquiry_id도 CRM에 같이 전달하도록 업데이트",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T12:45:14Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/d08e73cfb9e625c46bedaa10f1cdd097ce728af2",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "5ce6558",
+      "message": "feat: ASMS 동기화가 crm_inquiry_id 직접 링크 우선 사용하도록 업데이트",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T12:44:03Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5ce655890754c419f384f82e3cf32ad5a41872d5",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "1b3b7fa",
+      "message": "feat: 신규 시공 견적서 탭 — CRM 리드 직접 연결 (전화번호 추측 매칭 대체)",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T12:41:29Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/1b3b7fa381c9daf1880b80a58a3452deddcae90b",
+      "repo": "busungtk-asms"
+    },
+    {
       "sha": "eb03128",
       "message": "fix: 지킬 수 없는 회신 속도 약속 제거 + 재발 방지 게이트 확장",
       "author": "junyoungjang976",
       "date": "2026-07-15T12:37:44Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/eb031287773723c6a37719f6a70e007f3f16b718",
       "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9d6856e",
+      "message": "feat: CRM(busungtk-sales-crm) 웹훅 트리거 SQL — asms_quotes 진행상황 즉시 알림",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T11:59:49Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/9d6856e557b44adc6d2591f19b1db8f90f1dec38",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "6669ff1",
+      "message": "feat: ASMS 견적 연동 이벤트 방식 추가 — 웹훅 즉시 반영 + 30분 크론은 백업으로 전환",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T11:59:03Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/6669ff1e9191368ffbe7a387702709651aa435ab",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "f3a922c",
+      "message": "feat: ASMS 견적 연동 크론 등록 — 30분 간격",
+      "author": "junyoungjang976",
+      "date": "2026-07-15T10:57:36Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/f3a922c0a10f8c5327f23389cca832571687571e",
+      "repo": "busungtk-sales-crm"
     },
     {
       "sha": "93ac43c",
@@ -2443,94 +2532,6 @@
       "date": "2026-06-11T07:55:30Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/33c3078323090a6ce6a271e82dace23237aead5c",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "403aa97",
-      "message": "feat: 보드 11건 개선 + 라이브 에이전트 실시간 시각화",
-      "author": "junyoungjang976",
-      "date": "2026-06-11T07:54:04Z",
-      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/403aa97b4cbefa43c18d9e1cdd31dd0bcd17e74d",
-      "repo": "busungtk-ai-workflow-office"
-    },
-    {
-      "sha": "10b9790",
-      "message": "fix(ux): 버튼 겹침·진단 저장조건·증상트리 되돌리기·이력 표시",
-      "author": "junyoungjang976",
-      "date": "2026-06-09T09:45:06Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/10b97906b307b94218d57da7805a13a99e5b43e1",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "e02c607",
-      "message": "feat(inspection): 계통 아코디언 하이브리드 점검 + Pretendard·브랜드 블루 디자인",
-      "author": "junyoungjang976",
-      "date": "2026-06-09T09:45:06Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/e02c6073449c51419d48e2e86adbb67ab0c8a538",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "e1875ad",
-      "message": "feat(field): 현장 부품 추가 + 사진 첨부(점검·부품)",
-      "author": "junyoungjang976",
-      "date": "2026-06-09T09:45:06Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/e1875addee7b8847124863ae843484597869bcf4",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "cc35c5c",
-      "message": "feat: 가상 사무실 6방 → 실제 6상태 보드 + 로그 펼치기 버그 수정",
-      "author": "junyoungjang976",
-      "date": "2026-06-09T09:29:27Z",
-      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/cc35c5c2f066a0321135272c4d512ad191160d58",
-      "repo": "busungtk-ai-workflow-office"
-    },
-    {
-      "sha": "c59ca54",
-      "message": "feat: busungtk-worklog 스킬 추가 (작업 완료 자동 기록)",
-      "author": "junyoungjang976",
-      "date": "2026-06-09T08:57:48Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c59ca54227967b8527507bd8e53e38f61d30eb8f",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "b973c2f",
-      "message": "fix: 흡수 완료된 '릴레이 통합' 카드 제거 + UI 정리",
-      "author": "junyoungjang976",
-      "date": "2026-06-08T10:23:39Z",
-      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/b973c2f6ec18d21e4c1591e83cc24ac23d6e350f",
-      "repo": "busungtk-ai-workflow-office"
-    },
-    {
-      "sha": "1090af3",
-      "message": "feat(inspection): 보온배식대 점검 개편 — 부품 카드 시각화 + 고장 모델",
-      "author": "junyoungjang976",
-      "date": "2026-06-08T10:23:37Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/1090af3bffcca89ce498d95feb776aaf3ab8431e",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "05717f1",
-      "message": "feat(asms): 거래처·품목 asms 읽기전용 조회 연동",
-      "author": "junyoungjang976",
-      "date": "2026-06-08T10:23:36Z",
-      "url": "https://github.com/busungtk/busungtk-as-diagnosis/commit/05717f15084dc40b47a66e42e0d48964766f6bbf",
-      "repo": "busungtk-as-diagnosis"
-    },
-    {
-      "sha": "76af812",
-      "message": "chore: busungtk-office 스킬 경로 갱신 (앱 git 레포로 분리)",
-      "author": "junyoungjang976",
-      "date": "2026-06-08T07:22:53Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/76af812265c3a3262c90129cafa18a7015af72b0",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "0f68d81",
-      "message": "feat: AI Workflow Office 앱 — OneDrive vault에서 분리한 코드 레포",
-      "author": "junyoungjang976",
-      "date": "2026-06-08T07:21:41Z",
-      "url": "https://github.com/junyoungjang976/busungtk-ai-workflow-office/commit/0f68d810618f1927f893b24f0544848984947bc5",
-      "repo": "busungtk-ai-workflow-office"
     }
   ],
   "pull_requests": [
