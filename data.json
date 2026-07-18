@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T01:20:32.512652Z",
+  "updated_at": "2026-07-18T01:12:31.357026Z",
   "repos": [
     "busungtk-marketing-v2",
     "busungtk-asms",
@@ -50,10 +50,10 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 474,
+    "total_commits": 464,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 58
+    "active_days": 57
   },
   "daily": {
     "2026-07-16": {
@@ -454,40 +454,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-18": {
-      "commits": 10,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 474,
-    "overtime_commits": 223,
+    "total_commits": 464,
+    "overtime_commits": 213,
     "regular_commits": 251,
-    "overtime_rate": 47.0,
-    "weekend_commits": 37,
-    "late_night_commits": 172,
-    "total_hours": 329.6,
+    "overtime_rate": 45.9,
+    "weekend_commits": 27,
+    "late_night_commits": 166,
+    "total_hours": 310.1,
     "regular_hours": 187.5,
-    "overtime_hours": 142.1,
-    "overtime_hour_rate": 43.1,
+    "overtime_hours": 122.6,
+    "overtime_hour_rate": 39.5,
     "daily_hours": {
-      "2026-04-18": {
+      "2026-04-19": {
         "regular_hours": 0,
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 6
-      },
-      "2026-04-19": {
-        "regular_hours": 0,
-        "overtime_hours": 19.5,
-        "total_hours": 19.5,
-        "is_weekend": true,
-        "commits": 6
+        "commits": 2
       },
       "2026-04-20": {
         "regular_hours": 9,
@@ -855,8 +841,7 @@
       }
     },
     "overtime_by_date": {
-      "2026-04-18": 0.5,
-      "2026-04-19": 19.5,
+      "2026-04-19": 0.5,
       "2026-04-20": 14.0,
       "2026-04-21": 14.2,
       "2026-04-22": 4.9,
@@ -905,10 +890,10 @@
       7,
       4,
       4,
-      6,
+      4,
       5,
-      3,
-      1,
+      2,
+      0,
       5,
       11,
       0,
@@ -921,7 +906,7 @@
       0,
       2,
       53,
-      52,
+      46,
       13,
       25,
       17,
