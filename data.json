@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T01:21:12.842832Z",
+  "updated_at": "2026-07-21T01:18:01.338349Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-asms",
     "busungtk-kitchen-simulator",
     "busungtk-price-library",
     "busungtk-marketing-v2",
-    "busungtk-landing",
     "busungtk-kitchen-consulting",
     "busungtk-sales-crm",
     "busungtk-ui",
@@ -50,12 +50,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 468,
+    "total_commits": 461,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 57
   },
   "daily": {
+    "2026-07-21": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-19": {
       "commits": 19,
       "prs_opened": 0,
@@ -316,7 +323,7 @@
       "issues_closed": 0
     },
     "2026-05-19": {
-      "commits": 3,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -447,34 +454,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-21": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 468,
-    "overtime_commits": 222,
+    "total_commits": 461,
+    "overtime_commits": 215,
     "regular_commits": 246,
-    "overtime_rate": 47.4,
+    "overtime_rate": 46.6,
     "weekend_commits": 52,
-    "late_night_commits": 150,
-    "total_hours": 300.5,
-    "regular_hours": 166.9,
-    "overtime_hours": 133.6,
-    "overtime_hour_rate": 44.5,
+    "late_night_commits": 143,
+    "total_hours": 295.5,
+    "regular_hours": 166.6,
+    "overtime_hours": 128.9,
+    "overtime_hour_rate": 43.6,
     "daily_hours": {
-      "2026-04-21": {
-        "regular_hours": 0,
-        "overtime_hours": 5.5,
-        "total_hours": 5.5,
-        "is_weekend": false,
-        "commits": 7
-      },
       "2026-04-22": {
         "regular_hours": 5.2,
         "overtime_hours": 4.9,
@@ -588,11 +581,11 @@
         "commits": 2
       },
       "2026-05-19": {
-        "regular_hours": 0.5,
-        "overtime_hours": 0.0,
+        "regular_hours": 0.2,
+        "overtime_hours": 0.3,
         "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 3
+        "commits": 2
       },
       "2026-05-20": {
         "regular_hours": 3.2,
@@ -845,10 +838,16 @@
         "total_hours": 0.5,
         "is_weekend": false,
         "commits": 8
+      },
+      "2026-07-21": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
-      "2026-04-21": 5.5,
       "2026-04-22": 4.9,
       "2026-04-23": 1.9,
       "2026-04-27": 2.0,
@@ -863,6 +862,7 @@
       "2026-05-12": 1.7,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
+      "2026-05-19": 0.3,
       "2026-05-20": 0.1,
       "2026-06-01": 1.8,
       "2026-06-02": 0.5,
@@ -892,7 +892,8 @@
       "2026-07-16": 0.5,
       "2026-07-18": 11.9,
       "2026-07-19": 21.8,
-      "2026-07-20": 0.5
+      "2026-07-20": 0.5,
+      "2026-07-21": 0.5
     },
     "overtime_by_hour": [
       2,
@@ -913,12 +914,12 @@
       0,
       0,
       2,
-      40,
+      38,
       44,
       13,
-      25,
-      15,
-      13
+      24,
+      14,
+      10
     ],
     "work_hours": {
       "start": 9,
@@ -926,6 +927,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "8f80293",
+      "message": "fix: 네이버 서브링크 구 경로 5종 301 리다이렉트 추가",
+      "author": "junyoungjang976",
+      "date": "2026-07-21T00:55:40Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8f8029368a30018872481b82102f4504facef5ae",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "62589f1",
       "message": "chore: .gitignore 중복 .env.prod 줄 제거",
@@ -2516,14 +2525,6 @@
       "author": "junyoungjang976",
       "date": "2026-06-24T01:31:31Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/c55a871f85935007d898ace6eb1eb0443bcebaf4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2af877e",
-      "message": "feat: 사례 3건 발행 — 채널톡 자동 파이프라인",
-      "author": "junyoungjang976",
-      "date": "2026-06-24T01:26:27Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2af877eebbfc63aa28eb26c59b613b15f4029095",
       "repo": "busungtk-landing"
     }
   ],
