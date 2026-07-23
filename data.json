@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T01:16:49.013843Z",
+  "updated_at": "2026-07-23T01:23:24.743472Z",
   "repos": [
     "busungtk-landing",
     "busungtk-ad-videos",
@@ -50,12 +50,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 463,
+    "total_commits": 458,
     "total_prs": 5,
     "total_issues": 4,
-    "active_days": 55
+    "active_days": 54
   },
   "daily": {
+    "2026-07-23": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-21": {
       "commits": 34,
       "prs_opened": 0,
@@ -315,13 +322,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-05-20": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-05-18": {
       "commits": 2,
       "prs_opened": 5,
@@ -433,34 +433,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-04-23": {
-      "commits": 5,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 463,
-    "overtime_commits": 217,
-    "regular_commits": 246,
-    "overtime_rate": 46.9,
+    "total_commits": 458,
+    "overtime_commits": 216,
+    "regular_commits": 242,
+    "overtime_rate": 47.2,
     "weekend_commits": 52,
-    "late_night_commits": 145,
-    "total_hours": 292.4,
-    "regular_hours": 166.3,
-    "overtime_hours": 126.1,
-    "overtime_hour_rate": 43.1,
+    "late_night_commits": 144,
+    "total_hours": 283.8,
+    "regular_hours": 159.4,
+    "overtime_hours": 124.4,
+    "overtime_hour_rate": 43.8,
     "daily_hours": {
-      "2026-04-23": {
-        "regular_hours": 6.7,
-        "overtime_hours": 1.9,
-        "total_hours": 8.6,
-        "is_weekend": false,
-        "commits": 5
-      },
       "2026-04-27": {
         "regular_hours": 9,
         "overtime_hours": 2.0,
@@ -556,13 +542,6 @@
         "regular_hours": 3.9,
         "overtime_hours": 1.4,
         "total_hours": 5.3,
-        "is_weekend": false,
-        "commits": 2
-      },
-      "2026-05-20": {
-        "regular_hours": 0.2,
-        "overtime_hours": 0.3,
-        "total_hours": 0.5,
         "is_weekend": false,
         "commits": 2
       },
@@ -817,10 +796,16 @@
         "total_hours": 10.8,
         "is_weekend": false,
         "commits": 34
+      },
+      "2026-07-23": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
-      "2026-04-23": 1.9,
       "2026-04-27": 2.0,
       "2026-04-28": 4.8,
       "2026-04-30": 1.3,
@@ -833,7 +818,6 @@
       "2026-05-12": 1.7,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
-      "2026-05-20": 0.3,
       "2026-06-01": 1.8,
       "2026-06-02": 0.5,
       "2026-06-08": 1.4,
@@ -863,7 +847,8 @@
       "2026-07-18": 11.9,
       "2026-07-19": 21.8,
       "2026-07-20": 0.5,
-      "2026-07-21": 2.7
+      "2026-07-21": 2.7,
+      "2026-07-23": 0.5
     },
     "overtime_by_hour": [
       2,
@@ -885,7 +870,7 @@
       0,
       2,
       38,
-      46,
+      45,
       17,
       23,
       11,
@@ -897,6 +882,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "8093068",
+      "message": "docs: 히어로 후보 문서에 A1 채택 결정·검수 반영·검증 결과 기록",
+      "author": "junyoungjang976",
+      "date": "2026-07-23T01:10:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/809306856dcef9fc1128ddb5d01933206a6f34e4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "07a43c7",
+      "message": "feat: F안 히어로 A1 교체 — \"주방기기 1식 ○원, 저희 견적서에 이 줄은 없습니다\" (관행 폐지형)",
+      "author": "junyoungjang976",
+      "date": "2026-07-23T01:07:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/07a43c7b601f041e9b32389978f74d38c7fe0f33",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "bc8c6af",
       "message": "docs: F안 히어로 카피 후보 19개 + 판단 기준 7개 보존 (07-21 탐구 세션, 선택 대기)",
@@ -2480,22 +2481,6 @@
       "date": "2026-07-05T22:05:39Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3d4ca9248ba88a47de4c7948852a8ecbc9d06761",
       "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0d2f7fc",
-      "message": "fix: 채널톡 인덱서 경로를 홈 디렉토리 기준으로 수정 + 인덱스 재생성 (1,284건/사진 8,821장)",
-      "author": "jangjoonyoung",
-      "date": "2026-07-05T22:04:58Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/0d2f7fc350be5d26b627b2476c76976ce87b633a",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "4dbacc1",
-      "message": "feat: 시공사례 2건 발행 준비 — 에버랜드 식당 작업대·배식대 선반 / 여주자영농고 수전·그리들·오븐 (Day 1)",
-      "author": "jangjoonyoung",
-      "date": "2026-07-05T22:04:42Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4dbacc11a8babae44be178bebc244d54bfc1d019",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
