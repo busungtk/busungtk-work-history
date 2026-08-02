@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-08-01T01:25:22.252569Z",
+  "updated_at": "2026-08-02T01:22:54.025090Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-marketing-v2",
     "busungtk-ad-videos",
     "busungtk-partner-map",
@@ -8,7 +9,6 @@
     "busungtk-sales-crm",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
-    "busungtk-landing",
     "busungtk-training",
     "busungtk-hvac-mentor",
     "busungtk-portal",
@@ -51,12 +51,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 541,
+    "total_commits": 537,
     "total_prs": 5,
     "total_issues": 4,
     "active_days": 48
   },
   "daily": {
+    "2026-08-01": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-07-31": {
       "commits": 32,
       "prs_opened": 0,
@@ -86,7 +93,7 @@
       "issues_closed": 0
     },
     "2026-07-27": {
-      "commits": 25,
+      "commits": 23,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -385,33 +392,26 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-05-03": {
-      "commits": 6,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 541,
-    "overtime_commits": 252,
-    "regular_commits": 289,
+    "total_commits": 537,
+    "overtime_commits": 250,
+    "regular_commits": 287,
     "overtime_rate": 46.6,
-    "weekend_commits": 39,
-    "late_night_commits": 195,
-    "total_hours": 235.0,
-    "regular_hours": 126.3,
-    "overtime_hours": 108.7,
-    "overtime_hour_rate": 46.3,
+    "weekend_commits": 43,
+    "late_night_commits": 196,
+    "total_hours": 224.3,
+    "regular_hours": 117.6,
+    "overtime_hours": 106.7,
+    "overtime_hour_rate": 47.6,
     "daily_hours": {
       "2026-05-04": {
-        "regular_hours": 9,
-        "overtime_hours": 11.0,
-        "total_hours": 20.0,
+        "regular_hours": 0.8,
+        "overtime_hours": 2.7,
+        "total_hours": 3.5,
         "is_weekend": false,
-        "commits": 18
+        "commits": 12
       },
       "2026-05-05": {
         "regular_hours": 0,
@@ -680,11 +680,11 @@
         "commits": 2
       },
       "2026-07-27": {
-        "regular_hours": 7.7,
+        "regular_hours": 7.2,
         "overtime_hours": 1.5,
-        "total_hours": 9.2,
+        "total_hours": 8.7,
         "is_weekend": false,
-        "commits": 25
+        "commits": 23
       },
       "2026-07-28": {
         "regular_hours": 4.8,
@@ -713,10 +713,24 @@
         "total_hours": 9.6,
         "is_weekend": false,
         "commits": 32
+      },
+      "2026-08-01": {
+        "regular_hours": 0,
+        "overtime_hours": 5.8,
+        "total_hours": 5.8,
+        "is_weekend": true,
+        "commits": 2
+      },
+      "2026-08-02": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": true,
+        "commits": 2
       }
     },
     "overtime_by_date": {
-      "2026-05-04": 11.0,
+      "2026-05-04": 2.7,
       "2026-05-05": 0.5,
       "2026-05-06": 5.1,
       "2026-05-08": 0.9,
@@ -753,18 +767,20 @@
       "2026-07-28": 4.9,
       "2026-07-29": 4.4,
       "2026-07-30": 2.4,
-      "2026-07-31": 0.7
+      "2026-07-31": 0.7,
+      "2026-08-01": 5.8,
+      "2026-08-02": 0.5
     },
     "overtime_by_hour": [
-      2,
-      13,
-      4,
+      0,
+      12,
+      1,
       9,
       6,
       2,
       1,
       4,
-      1,
+      3,
       0,
       2,
       3,
@@ -772,13 +788,13 @@
       0,
       1,
       0,
-      0,
+      1,
       2,
       49,
       51,
       39,
       28,
-      21,
+      22,
       7
     ],
     "work_hours": {
@@ -787,6 +803,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "928d327",
+      "message": "chore: 홈 사례 건수 250 → 251 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-08-01T23:02:01Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/928d32788b8a43ddd4a63c8314fb045a1598d96e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "fc6c559",
+      "message": "feat: A/S 사례 발행 — 기업 구내식당 커피머신 급수 이음쇠 교체",
+      "author": "junyoungjang976",
+      "date": "2026-08-01T23:01:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/fc6c5592bfcf24bb89182e98381696e9961e78f0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "825f59f",
+      "message": "feat: 2026-08-01 IG 3건 발행 + A/S 1,119건 집계 방식 도입",
+      "author": "junyoungjang976",
+      "date": "2026-08-01T13:41:09Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/825f59f23d288ee6e4f8d81e7158499257efc16d",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "bdbe55e",
+      "message": "fix: sync-pull Step 3.5 의 빈 판정 기준 두 곳 — mtime 과 건너뜀",
+      "author": "jangjoonyoung",
+      "date": "2026-08-01T07:53:37Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/bdbe55ea194cb6205fd930b5349d584e468a5144",
+      "repo": "claude-dotfiles"
+    },
     {
       "sha": "7df9155",
       "message": "feat: 브랜드필름·케이스릴 콘티 스펙 + 영상 소재(오디오·브랜드·케이스 이미지)",
@@ -2252,22 +2300,6 @@
       "repo": "busungtk-sales-crm"
     },
     {
-      "sha": "9a26f39",
-      "message": "fix: 밝은 배경 서브페이지 6종 nav 가시성 전수 수정 + G안 method 경력 정정",
-      "author": "junyoungjang976",
-      "date": "2026-07-27T01:31:45Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9a26f39938c6931263aa1e18deec85609c25ec19",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "92a97d6",
-      "message": "fix: 사례 페이지 nav 가시성 + 푸터에 회사소개·업종별·ONE-CARE·팀 링크 복원",
-      "author": "junyoungjang976",
-      "date": "2026-07-27T01:21:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/92a97d6b3d4b3eab331c4643018e37afdd220235",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "4a0bd7c",
       "message": "feat: 끝단 문의 유도(미끼) 강화 — 자료조사+교차검증 반영",
       "author": "jangjoonyoung",
@@ -2370,22 +2402,6 @@
       "date": "2026-07-24T03:52:07Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/f6192c54c66b889d1ffde1916cf282363b2b2c5f",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "10b460c",
-      "message": "fix: IG 제안 크론 가드 — \"발송 0건 정상 종료\"를 완료로 오판하던 문제",
-      "author": "junyoungjang976",
-      "date": "2026-07-24T03:09:41Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/10b460cca8ea0a03a4e7e44bc0187c50669bba9c",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "3650e66",
-      "message": "feat: IG 07-24 세트 3건 발행 (C 마그네트·B 창업 전기가스·A 기숙사 철거)",
-      "author": "junyoungjang976",
-      "date": "2026-07-24T03:08:58Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/3650e663b10b9f717a84cf3c5a43e15e9f8ab660",
-      "repo": "busungtk-marketing-v2"
     }
   ],
   "pull_requests": [
