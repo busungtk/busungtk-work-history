@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-06T01:13:22.584637Z",
+  "updated_at": "2026-08-07T01:56:41.035796Z",
   "repos": [
+    "busungtk-portal",
+    "busungtk-price-library",
     "busungtk-marketing-v2",
     "busungtk-sales-pipeline",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
     "busungtk-landing",
     "busungtk-sales-crm",
-    "busungtk-price-library",
     "busungtk-ad-videos",
     "busungtk-partner-map",
     "busungtk-training",
     "busungtk-hvac-mentor",
-    "busungtk-portal",
     "busungtk-daily-report",
     "busungtk-kitchen-simulator",
     "busungtk-ui",
@@ -35,8 +35,8 @@
     "busungtk-field-check",
     "busungtk-kitchen-planner",
     "busungtk-supabase-types",
-    "claude-dotfiles",
     "busungtk-equipment-survey",
+    "claude-dotfiles",
     "busungtk-brand-config",
     "busungtk-quick-estimate",
     "busungtk-ai-workflow-office",
@@ -53,11 +53,25 @@
   ],
   "summary": {
     "total_commits": 570,
-    "total_prs": 5,
+    "total_prs": 6,
     "total_issues": 5,
-    "active_days": 49
+    "active_days": 50
   },
   "daily": {
+    "2026-08-07": {
+      "commits": 3,
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-08-06": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-08-05": {
       "commits": 12,
       "prs_opened": 0,
@@ -393,13 +407,6 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-05-08": {
-      "commits": 6,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
@@ -408,19 +415,12 @@
     "regular_commits": 285,
     "overtime_rate": 50.0,
     "weekend_commits": 53,
-    "late_night_commits": 225,
-    "total_hours": 251.5,
-    "regular_hours": 132.6,
-    "overtime_hours": 118.9,
-    "overtime_hour_rate": 47.3,
+    "late_night_commits": 224,
+    "total_hours": 246.9,
+    "regular_hours": 128.6,
+    "overtime_hours": 118.3,
+    "overtime_hour_rate": 47.9,
     "daily_hours": {
-      "2026-05-08": {
-        "regular_hours": 5.9,
-        "overtime_hours": 0.9,
-        "total_hours": 6.8,
-        "is_weekend": false,
-        "commits": 6
-      },
       "2026-05-11": {
         "regular_hours": 0.8,
         "overtime_hours": 1.2,
@@ -735,10 +735,23 @@
         "total_hours": 9.5,
         "is_weekend": false,
         "commits": 12
+      },
+      "2026-08-06": {
+        "regular_hours": 0.2,
+        "overtime_hours": 0.3,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
+      },
+      "2026-08-07": {
+        "regular_hours": 1.7,
+        "overtime_hours": 0,
+        "total_hours": 1.7,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
-      "2026-05-08": 0.9,
       "2026-05-11": 1.2,
       "2026-05-12": 1.7,
       "2026-05-14": 3.7,
@@ -777,7 +790,8 @@
       "2026-08-02": 15.6,
       "2026-08-03": 1.4,
       "2026-08-04": 1.8,
-      "2026-08-05": 2.2
+      "2026-08-05": 2.2,
+      "2026-08-06": 0.3
     },
     "overtime_by_hour": [
       0,
@@ -788,7 +802,7 @@
       2,
       1,
       4,
-      5,
+      6,
       0,
       2,
       5,
@@ -798,7 +812,7 @@
       0,
       1,
       2,
-      60,
+      59,
       65,
       40,
       28,
@@ -811,6 +825,54 @@
     }
   },
   "commits": [
+    {
+      "sha": "fb31ee2",
+      "message": "fix: 올라간 사진은 폰에서 비운다 + 사진 없는 항목 필터",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T01:39:08Z",
+      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/fb31ee2de242eade271710ee5a901b5829463ddd",
+      "repo": "busungtk-equipment-survey"
+    },
+    {
+      "sha": "2ce4586",
+      "message": "feat: 팀 공유 켜기 - 입력하면 팀원 목록에 바로 뜬다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T00:25:27Z",
+      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/2ce4586c7ff3c9caa25e9d0bef63f5b827bbb6ff",
+      "repo": "busungtk-equipment-survey"
+    },
+    {
+      "sha": "90f4293",
+      "message": "fix: 공유 켜기 전에 조사해둔 것도 올라가게 한다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T00:14:12Z",
+      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/90f4293f7ff051582b26b004d5c4c2311a28f40a",
+      "repo": "busungtk-equipment-survey"
+    },
+    {
+      "sha": "8c8dc1a",
+      "message": "feat: 팀 공유 동기화 뼈대 (키 넣기 전까지는 꺼진 채로 동작)",
+      "author": "junyoungjang976",
+      "date": "2026-08-06T23:57:58Z",
+      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/8c8dc1a4083b1519040cbe7187731e99610265f9",
+      "repo": "busungtk-equipment-survey"
+    },
+    {
+      "sha": "c512d3a",
+      "message": "feat: 업무포털에 단가 라이브러리 카드 추가",
+      "author": "junyoungjang976",
+      "date": "2026-08-06T08:36:36Z",
+      "url": "https://github.com/busungtk/busungtk-portal/commit/c512d3ad725e7c64b2c2a7392868f96f3d8641fc",
+      "repo": "busungtk-portal"
+    },
+    {
+      "sha": "de8969d",
+      "message": "fix: 안 쓰는 file: 의존성 제거 — 배포를 git push 원격 빌드로 되돌림",
+      "author": "junyoungjang976",
+      "date": "2026-08-06T08:26:54Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/de8969db80852ece8256bec40b8360cff3a6f3a5",
+      "repo": "busungtk-price-library"
+    },
     {
       "sha": "3078041",
       "message": "feat: 핵심 키워드 월별 클릭률 분석 스크립트",
@@ -2362,57 +2424,20 @@
       "date": "2026-07-28T12:33:58Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/b52a775a0c1e69588ec1ced6662009a1c2298aad",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b10351b",
-      "message": "fix: 우측 쏠림 + 모바일 히어로가 1.4화면으로 늘어나던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:32:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b10351ba26f508ec73450b14871ffe9ab4fb9aff",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4023046",
-      "message": "fix: 모바일에서 숫자를 원 밖으로 분리",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:27:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/40230466a40e18c1b1dd6c6f3214cb95829a025e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "90f47c2",
-      "message": "fix: 모바일 허브 넘침 잔여 4px 해소 — 원 44% 로 확대 + 글자 추가 축소",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:25:17Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/90f47c2ff19c8955714fb6d77b7e24583956c328",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a53537c",
-      "message": "fix: 모바일에서 중앙 숫자가 원 밖으로 넘치던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:23:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a53537c4137ac413c25f95531c0478c16ce156fa",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6142bd4",
-      "message": "fix: 중앙 숫자가 0 에 머물던 것 — IntersectionObserver 제거",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:21:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6142bd4d5ee5f29ee4b50ba4ae4f9607aacc65b4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6d80471",
-      "message": "fix: 숫자보다 단위(년·건·곳)가 더 크게 나오던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:18:07Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6d804718216620d435bc875290e1d8d1e2d96ecf",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
+    {
+      "number": 1,
+      "title": "feat(outlier-lab): 수집기 + 정적 열람 페이지 분리 구조",
+      "state": "open",
+      "author": "junyoungjang976",
+      "created_at": "2026-08-07T01:05:34Z",
+      "updated_at": "2026-08-07T01:05:34Z",
+      "merged_at": null,
+      "url": "https://github.com/junyoungjang976/every-job-instagram/pull/1",
+      "repo": "every-job-instagram"
+    },
     {
       "number": 5,
       "title": "fix(seo): cases Block 정정 — CTA 안전망 + 인터뷰 noindex",
