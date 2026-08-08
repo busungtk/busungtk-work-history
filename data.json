@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-07T01:56:41.035796Z",
+  "updated_at": "2026-08-08T00:39:31.166973Z",
   "repos": [
-    "busungtk-portal",
-    "busungtk-price-library",
     "busungtk-marketing-v2",
-    "busungtk-sales-pipeline",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
+    "busungtk-portal",
+    "busungtk-price-library",
+    "busungtk-sales-pipeline",
     "busungtk-landing",
     "busungtk-sales-crm",
     "busungtk-ad-videos",
@@ -35,8 +35,8 @@
     "busungtk-field-check",
     "busungtk-kitchen-planner",
     "busungtk-supabase-types",
-    "busungtk-equipment-survey",
     "claude-dotfiles",
+    "busungtk-equipment-survey",
     "busungtk-brand-config",
     "busungtk-quick-estimate",
     "busungtk-ai-workflow-office",
@@ -52,14 +52,14 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 570,
+    "total_commits": 584,
     "total_prs": 6,
     "total_issues": 5,
     "active_days": 50
   },
   "daily": {
     "2026-08-07": {
-      "commits": 3,
+      "commits": 19,
       "prs_opened": 1,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -402,7 +402,7 @@
       "issues_closed": 0
     },
     "2026-05-11": {
-      "commits": 12,
+      "commits": 10,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -410,23 +410,23 @@
     }
   },
   "overtime": {
-    "total_commits": 570,
-    "overtime_commits": 285,
-    "regular_commits": 285,
-    "overtime_rate": 50.0,
+    "total_commits": 584,
+    "overtime_commits": 291,
+    "regular_commits": 293,
+    "overtime_rate": 49.8,
     "weekend_commits": 53,
-    "late_night_commits": 224,
-    "total_hours": 246.9,
-    "regular_hours": 128.6,
-    "overtime_hours": 118.3,
-    "overtime_hour_rate": 47.9,
+    "late_night_commits": 230,
+    "total_hours": 255.3,
+    "regular_hours": 135.9,
+    "overtime_hours": 119.4,
+    "overtime_hour_rate": 46.8,
     "daily_hours": {
       "2026-05-11": {
         "regular_hours": 0.8,
         "overtime_hours": 1.2,
         "total_hours": 2.0,
         "is_weekend": false,
-        "commits": 12
+        "commits": 10
       },
       "2026-05-12": {
         "regular_hours": 2.6,
@@ -744,11 +744,11 @@
         "commits": 2
       },
       "2026-08-07": {
-        "regular_hours": 1.7,
-        "overtime_hours": 0,
-        "total_hours": 1.7,
+        "regular_hours": 9,
+        "overtime_hours": 1.1,
+        "total_hours": 10.1,
         "is_weekend": false,
-        "commits": 4
+        "commits": 20
       }
     },
     "overtime_by_date": {
@@ -791,7 +791,8 @@
       "2026-08-03": 1.4,
       "2026-08-04": 1.8,
       "2026-08-05": 2.2,
-      "2026-08-06": 0.3
+      "2026-08-06": 0.3,
+      "2026-08-07": 1.1
     },
     "overtime_by_hour": [
       0,
@@ -812,8 +813,8 @@
       0,
       1,
       2,
-      59,
-      65,
+      64,
+      66,
       40,
       28,
       21,
@@ -825,6 +826,134 @@
     }
   },
   "commits": [
+    {
+      "sha": "c89d520",
+      "message": "fix(ko-lint): 사후 기록은 검사에서 건너뛴다 — agent-status · 학습-코퍼스",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T10:06:41Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c89d5207b9f00234e73855379f7b627353b58848",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "fb4041f",
+      "message": "fix: 활성 스킬의 카피 예시 정리 — 22년·삼성 실명·없는 서비스",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T09:59:26Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fb4041fa2a2da62c073189370873fca25f5acced",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "4601ba4",
+      "message": "feat: IG 콘텐츠 — 08-06·08-07 일일 6건 + SPECIAL #5~#8",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T09:57:17Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/4601ba4b535db01addd6e4100cf9960b3a522b02",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "2d1c896",
+      "message": "feat: 카드 빌드 자동 검사 + IG 규격 정본화",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T09:56:47Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/2d1c89659bf634372eec22e087d886142b1188b3",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "6c79ea9",
+      "message": "fix: 플레이팅 작업대 700→900 (사장님 확정) — western-15 · casual-15",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T09:37:39Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6c79ea9f14d928c948ba2f7a2cf7feb8810a42af",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e588fe8",
+      "message": "feat: 규격을 '가까운 것'이 아니라 '방에 들어가는 것'으로 고른다 — 4건 추가 해결",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T09:00:45Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/e588fe82c35b543dae5c7d742fe467940ffa5280",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "239d5e3",
+      "message": "fix: 오설록 견적서 판매가를 언제나 직접 입력할 수 있게",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T08:51:21Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/239d5e35da7c314a8a062a4f9b04447234b51cb6",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "c293e03",
+      "message": "fix: 이웃까지 밀어야 들어가는 규격 교정 3건 — 두 축 연쇄 이동",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T08:40:28Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c293e0312eec082f65629b98d3120924c5ddb91e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "61ebbaf",
+      "message": "fix: 견적서 상세 패널에 판매·마진 단가 표시",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T08:37:32Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/61ebbafd29d93adbae8a01ca53d025f9c57fdeb8",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "fe15393",
+      "message": "fix: 규격 칸의 띄어쓰기·자릿수 쉼표 때문에 치수를 잘못 읽던 것",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T08:33:18Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fe153935f90e29d74143e614795fb4b8969f618e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e8eb8c4",
+      "message": "fix: 규칙 파일의 카피 예시에서 금칙어·거래처명 제거 + 작성일 정정",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T04:57:54Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e8eb8c4982a7ecc9975b9f3e0914c90fc4e54ae7",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "c3d375b",
+      "message": "docs: 정본 단일화에 \"예시가 규칙을 이긴다\" 추가 — 목록만 고치면 무력화된다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T04:44:29Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/c3d375b85b4b7451ae0aa458080ad766319ba562",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "cb60460",
+      "message": "feat: 금칙어 검사 기계화 — 게이트가 명령하던 grep 을 실제로 돌린다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T04:26:03Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/cb60460ef414df4f9a4bf9d02bf8ee0f5f8baada",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "b0f11ee",
+      "message": "feat: 학습 코퍼스 조회 도구 — 쌓기만 하고 안 꺼내던 것을 꺼낸다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T04:11:47Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b0f11ee9cde1bc7d340388a457cc449521922b0f",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "ce74a5d",
+      "message": "fix(ko-lint): 검사 범위를 고객 산출물로 좁힘 — 내부 문서 오탐 제거",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T04:11:47Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/ce74a5d61d4b4478251dcf80886a123ce36650be",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "9fd077e",
+      "message": "fix: 사진을 앨범에서도 고를 수 있게 한다",
+      "author": "junyoungjang976",
+      "date": "2026-08-07T03:20:56Z",
+      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/9fd077ef6215843a03a8c8bf15152f590e368370",
+      "repo": "busungtk-equipment-survey"
+    },
     {
       "sha": "fb31ee2",
       "message": "fix: 올라간 사진은 폰에서 비운다 + 사진 없는 항목 필터",
@@ -2296,134 +2425,6 @@
       "date": "2026-07-28T13:42:10Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/4aad29657f83e9edeefece41543ff79d2405c540",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c9710af",
-      "message": "feat: 라벨 균등 배치 + 점 확대",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:36:57Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c9710af02394d717b9060d8bc733bc30e0307cfc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7ec7d42",
-      "message": "fix: 촘촘판이 넓어 카피와 33px 까지 붙던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:31:33Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7ec7d429887479d4b7deff9625afe9027e55dda3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a1d0b1c",
-      "message": "fix: 촘촘판 교체로 어긋난 좌우 정렬 상수 재조정",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:29:59Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a1d0b1c7623152ca1afb15d830109beb5570cebc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c2b1872",
-      "message": "feat: 데스크톱도 465점 촘촘판으로 — 라벨은 유지",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:28:25Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c2b18723d341a2d09186db3f04eed7ba770cc59e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e23e6b",
-      "message": "fix: 모바일 SVG width 205% 가 flex 축소로 무시되던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:21:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5e23e6bb1f75b48ccd05d19394a99380a8f0dd9d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "19a3852",
-      "message": "fix: 모바일 방사형이 안 보이던 근본 원인 — 점이 1px 로 렌더됐다",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:20:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/19a38521b881b91ed53c12983f365a6b76934cac",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "db8c3f0",
-      "message": "fix: 데스크톱이 깨지던 것 — 모바일 465점 판 기본 숨김 누락",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:11:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/db8c3f0c98b7201c20cd423ea9b2e7989b0346b8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1c89726",
-      "message": "fix: 반짝임 규칙과 키프레임이 누락돼 점이 정지해 있던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:07:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1c89726349f5e5943079144d1f902f3796dcfa35",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "920d0e3",
-      "message": "fix: 모바일 465점 SVG 가 엉뚱한 위치에 들어가고 클래스가 빠지던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:05:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/920d0e308d972ff3d8a0db7c8759ecebf8037192",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3234109",
-      "message": "feat: 모바일 배경 — 465점 개별 반짝임 + nav 간격 축소 + 진하게",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:03:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/32341096c670b2ea1566eee344252f1f9cff2109",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ddd0f3d",
-      "message": "feat: 모바일 배경 방사형에 느린 모션 부여",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:57:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ddd0f3d358808d966a96ae3544873dc67ee8c2fd",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "701c7b2",
-      "message": "feat: 모바일 배경을 465점 버전으로 교체 + 더 잘 보이게",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:55:25Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/701c7b266b064545e41d026f6ea036d4d0e44fdc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c88ccef",
-      "message": "fix: 균형 유지한 채 원 크기 회복 (카피 46→42%, 원 47→53vw)",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:44:08Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c88ccef6837dd3b3b80a52e05f2bbaa3c32ce100",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "95b46de",
-      "message": "fix: 방사형이 컨테이너를 벗어나 좌우가 어긋나던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:42:24Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/95b46deab46f5adedbce231d6e64b643cdf3ed7a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "06f6f8f",
-      "message": "fix: 모바일에서 되살린 히어로 지표가 0 으로 머물던 것",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:36:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/06f6f8fe28ae724c054d0383bc2ddd3e5ef6cf3f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b52a775",
-      "message": "fix: 카피 확대가 과해 라벨이 카피를 침범 — 폭 원복 후 원 위치만 조정",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T12:33:58Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b52a775a0c1e69588ec1ced6662009a1c2298aad",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
@@ -2433,7 +2434,7 @@
       "state": "open",
       "author": "junyoungjang976",
       "created_at": "2026-08-07T01:05:34Z",
-      "updated_at": "2026-08-07T01:05:34Z",
+      "updated_at": "2026-08-07T10:33:16Z",
       "merged_at": null,
       "url": "https://github.com/junyoungjang976/every-job-instagram/pull/1",
       "repo": "every-job-instagram"
