@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-09T00:41:39.194209Z",
+  "updated_at": "2026-08-10T00:43:29.924236Z",
   "repos": [
     "busungtk-marketing-v2",
+    "busungtk-landing",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
     "busungtk-portal",
     "busungtk-price-library",
     "busungtk-sales-pipeline",
-    "busungtk-landing",
     "busungtk-sales-crm",
     "busungtk-ad-videos",
     "busungtk-partner-map",
@@ -52,12 +52,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 584,
+    "total_commits": 576,
     "total_prs": 6,
-    "total_issues": 5,
+    "total_issues": 6,
     "active_days": 50
   },
   "daily": {
+    "2026-08-09": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-08-07": {
       "commits": 19,
       "prs_opened": 1,
@@ -136,7 +143,7 @@
       "issues_closed": 0
     },
     "2026-07-27": {
-      "commits": 18,
+      "commits": 17,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -400,34 +407,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-05-11": {
-      "commits": 10,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 584,
-    "overtime_commits": 291,
-    "regular_commits": 293,
-    "overtime_rate": 49.8,
+    "total_commits": 576,
+    "overtime_commits": 288,
+    "regular_commits": 288,
+    "overtime_rate": 50.0,
     "weekend_commits": 53,
-    "late_night_commits": 230,
-    "total_hours": 255.3,
-    "regular_hours": 135.9,
-    "overtime_hours": 119.4,
-    "overtime_hour_rate": 46.8,
+    "late_night_commits": 224,
+    "total_hours": 254.3,
+    "regular_hours": 135.1,
+    "overtime_hours": 119.2,
+    "overtime_hour_rate": 46.9,
     "daily_hours": {
-      "2026-05-11": {
-        "regular_hours": 0.8,
-        "overtime_hours": 1.2,
-        "total_hours": 2.0,
-        "is_weekend": false,
-        "commits": 10
-      },
       "2026-05-12": {
         "regular_hours": 2.6,
         "overtime_hours": 1.7,
@@ -671,7 +664,7 @@
         "overtime_hours": 1.5,
         "total_hours": 8.7,
         "is_weekend": false,
-        "commits": 18
+        "commits": 17
       },
       "2026-07-28": {
         "regular_hours": 4.8,
@@ -749,10 +742,16 @@
         "total_hours": 10.1,
         "is_weekend": false,
         "commits": 20
+      },
+      "2026-08-10": {
+        "regular_hours": 0,
+        "overtime_hours": 1.0,
+        "total_hours": 1.0,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
-      "2026-05-11": 1.2,
       "2026-05-12": 1.7,
       "2026-05-14": 3.7,
       "2026-05-18": 1.4,
@@ -792,7 +791,8 @@
       "2026-08-04": 1.8,
       "2026-08-05": 2.2,
       "2026-08-06": 0.3,
-      "2026-08-07": 1.1
+      "2026-08-07": 1.1,
+      "2026-08-10": 1.0
     },
     "overtime_by_hour": [
       0,
@@ -802,8 +802,8 @@
       6,
       2,
       1,
-      4,
       6,
+      7,
       0,
       2,
       5,
@@ -813,8 +813,8 @@
       0,
       1,
       2,
+      60,
       64,
-      66,
       40,
       28,
       21,
@@ -826,6 +826,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "dc8e7e4",
+      "message": "docs: A·C라인 카피 프레임 확정본 — 문법 자질 × 의미 관계",
+      "author": "junyoungjang976",
+      "date": "2026-08-09T23:28:59Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/dc8e7e4c37ada5807ea9673aa6c174a711390df5",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "ee36b7a",
+      "message": "feat: 08-08 IG 3건 + 홈페이지 사례 3건 + 거래처 겹침 판정",
+      "author": "junyoungjang976",
+      "date": "2026-08-09T22:27:09Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/ee36b7a9141c4c24a542acfe97aaee540d61c61c",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "13406c5",
+      "message": "feat: 홈페이지 사례 3건 — 시공·납품·A/S",
+      "author": "junyoungjang976",
+      "date": "2026-08-09T22:26:27Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/13406c5bbc921eeb7c749d5a408fe366e8ab21ea",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "c89d520",
       "message": "fix(ko-lint): 사후 기록은 검사에서 건너뛴다 — agent-status · 학습-코퍼스",
@@ -2401,30 +2425,6 @@
       "date": "2026-07-28T13:53:52Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/95d25ece9eeab222d64150259f1e73e5b4d35f6e",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "50ffc3c",
-      "message": "feat: 히어로에 공급 거래선 방사형 반영 (라이브)",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:47:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/50ffc3ce738ef2bd4fa3fb5111a7e9f2dc67a737",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "17361c9",
-      "message": "fix: 통합 후 모바일에서 SVG 가 사라지던 것 — 잔존 display:none 제거",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:44:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/17361c9ea2062c2b6e171099d132aab03fd95785",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4aad296",
-      "message": "refactor: 데스크톱·모바일 SVG 두 벌을 한 벌로 통합",
-      "author": "junyoungjang976",
-      "date": "2026-07-28T13:42:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4aad29657f83e9edeefece41543ff79d2405c540",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
@@ -2496,6 +2496,21 @@
     }
   ],
   "issues": [
+    {
+      "number": 11,
+      "title": "[SEO] sitemap 정합성 이슈 255건 — 2026-08-09",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-08-09T01:03:51Z",
+      "updated_at": "2026-08-09T01:03:51Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/11",
+      "repo": "busungtk-landing"
+    },
     {
       "number": 10,
       "title": "[SEO] sitemap 정합성 이슈 251건 — 2026-08-02",
