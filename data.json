@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-12T00:50:45.434107Z",
+  "updated_at": "2026-08-13T00:52:04.278454Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-marketing-v2",
     "busungtk-price-library",
     "busungtk-order-tracker",
     "busungtk-asms",
     "busungtk-kitchen-consulting",
     "busungtk-sales-crm",
-    "busungtk-landing",
     "busungtk-portal",
     "busungtk-sales-pipeline",
     "busungtk-ad-videos",
@@ -52,12 +52,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 582,
+    "total_commits": 562,
     "total_prs": 6,
     "total_issues": 6,
     "active_days": 50
   },
   "daily": {
+    "2026-08-13": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-08-11": {
       "commits": 14,
       "prs_opened": 0,
@@ -150,7 +157,7 @@
       "issues_closed": 0
     },
     "2026-07-28": {
-      "commits": 60,
+      "commits": 59,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -400,34 +407,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-05-14": {
-      "commits": 24,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 582,
-    "overtime_commits": 282,
-    "regular_commits": 300,
-    "overtime_rate": 48.5,
+    "total_commits": 562,
+    "overtime_commits": 266,
+    "regular_commits": 296,
+    "overtime_rate": 47.3,
     "weekend_commits": 53,
-    "late_night_commits": 218,
-    "total_hours": 260.1,
-    "regular_hours": 140.3,
-    "overtime_hours": 119.8,
-    "overtime_hour_rate": 46.1,
+    "late_night_commits": 202,
+    "total_hours": 254.6,
+    "regular_hours": 138.0,
+    "overtime_hours": 116.6,
+    "overtime_hour_rate": 45.8,
     "daily_hours": {
-      "2026-05-14": {
-        "regular_hours": 2.2,
-        "overtime_hours": 3.7,
-        "total_hours": 5.9,
-        "is_weekend": false,
-        "commits": 24
-      },
       "2026-05-15": {
         "regular_hours": 0.8,
         "overtime_hours": 0,
@@ -653,11 +646,11 @@
         "commits": 11
       },
       "2026-07-28": {
-        "regular_hours": 4.8,
-        "overtime_hours": 4.9,
-        "total_hours": 9.7,
+        "regular_hours": 4.6,
+        "overtime_hours": 5.0,
+        "total_hours": 9.6,
         "is_weekend": false,
-        "commits": 59
+        "commits": 58
       },
       "2026-07-29": {
         "regular_hours": 9,
@@ -742,10 +735,16 @@
         "total_hours": 8.4,
         "is_weekend": false,
         "commits": 14
+      },
+      "2026-08-13": {
+        "regular_hours": 0.1,
+        "overtime_hours": 0.4,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
-      "2026-05-14": 3.7,
       "2026-05-18": 1.4,
       "2026-05-22": 0.5,
       "2026-06-04": 0.5,
@@ -773,7 +772,7 @@
       "2026-07-21": 2.6,
       "2026-07-25": 8.3,
       "2026-07-27": 0.7,
-      "2026-07-28": 4.9,
+      "2026-07-28": 5.0,
       "2026-07-29": 4.4,
       "2026-07-30": 2.4,
       "2026-07-31": 0.7,
@@ -785,7 +784,8 @@
       "2026-08-06": 0.3,
       "2026-08-07": 1.1,
       "2026-08-10": 2.9,
-      "2026-08-11": 1.2
+      "2026-08-11": 1.2,
+      "2026-08-13": 0.4
     },
     "overtime_by_hour": [
       0,
@@ -807,9 +807,9 @@
       1,
       2,
       56,
-      62,
-      40,
-      28,
+      56,
+      36,
+      22,
       21,
       11
     ],
@@ -819,6 +819,46 @@
     }
   },
   "commits": [
+    {
+      "sha": "bed3665",
+      "message": "feat: busungtk-daily-content 스킬 신설 — 오늘자 콘텐츠 6건 파이프라인",
+      "author": "junyoungjang976",
+      "date": "2026-08-13T00:50:32Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/bed3665e5e21e5f7b3c36a38fb65a6e365544e20",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "ec38377",
+      "message": "feat: 홈페이지 사례 3건 발행 — 258 → 261건",
+      "author": "junyoungjang976",
+      "date": "2026-08-13T00:47:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ec38377afbe5d80d83f2b5bd6ca4ba557a7d6592",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ebd4de6",
+      "message": "feat: 08-12 콘텐츠 6건 — IG A/B/C + 홈페이지 사례 3건",
+      "author": "junyoungjang976",
+      "date": "2026-08-13T00:46:44Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/ebd4de61b53847d467833c90041e95da50793fd2",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "e5a3a96",
+      "message": "feat: 소재 선정 4순위를 대조 도구 출력에 반영",
+      "author": "junyoungjang976",
+      "date": "2026-08-13T00:46:10Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/e5a3a9636eafe08377c3a231172325d5a7b09539",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "1c37bf5",
+      "message": "feat: B라인 카드 규격 v2 — 본문 1.7배, 스타일을 lib 한 곳으로",
+      "author": "junyoungjang976",
+      "date": "2026-08-13T00:45:48Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/1c37bf5463aa367ef646c76f611b8b060e47348a",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "1252622",
       "message": "fix: SPECIAL #11 커버 4차 — 소재의 구체적 말로, 사건을 건다",
@@ -2378,46 +2418,6 @@
       "date": "2026-07-29T13:04:51Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/4896720d035d3815f162674befee34d5daebb176",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "db79ddf",
-      "message": "fix: 접수 문자 — 사이트 링크 빼고, 남긴 내용을 되읽어준다",
-      "author": "junyoungjang976",
-      "date": "2026-07-29T12:36:34Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/db79ddf381693f07574fe4fdf961176d05c51d76",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7901d38",
-      "message": "﻿fix: sitemap URL 퍼센트 인코딩 — 구글 사이트맵 제출 실패 원인",
-      "author": "junyoungjang976",
-      "date": "2026-07-29T12:30:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7901d38437d94736418b27346a2439421b5adaac",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5fa1838",
-      "message": "fix: 상담 폼 데스크톱 줄맞춤 — 제출 버튼과 요청사항이 반쪽 칸에 갇혀 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-07-29T11:49:23Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5fa1838e4226f33a7bb3049aab10012421c20d2b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "9aa32c8",
-      "message": "﻿fix: 빌드 실패 복구 — sync-case-counts 패턴을 새 카피에 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-07-29T11:43:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9aa32c8e93c9541a67c6c653f1c11df8122052de",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b4b0267",
-      "message": "fix: 도면 끝단 상담 CTA 가 통째로 안 보이던 것 복구",
-      "author": "junyoungjang976",
-      "date": "2026-07-29T11:42:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b4b026747fbc64e155f1ea6eb5b43e4f4ecfce50",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
