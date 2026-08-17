@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T00:29:26.562173Z",
+  "updated_at": "2026-08-17T00:28:16.879364Z",
   "repos": [
     "busungtk-kitchen-consulting",
     "busungtk-marketing-v2",
@@ -52,12 +52,19 @@
     "every-job-instagram"
   ],
   "summary": {
-    "total_commits": 646,
-    "total_prs": 6,
-    "total_issues": 6,
+    "total_commits": 645,
+    "total_prs": 1,
+    "total_issues": 7,
     "active_days": 49
   },
   "daily": {
+    "2026-08-16": {
+      "commits": 0,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-08-14": {
       "commits": 13,
       "prs_opened": 0,
@@ -393,34 +400,20 @@
       "prs_merged": 0,
       "issues_opened": 1,
       "issues_closed": 0
-    },
-    "2026-05-18": {
-      "commits": 1,
-      "prs_opened": 5,
-      "prs_merged": 5,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 646,
-    "overtime_commits": 299,
+    "total_commits": 645,
+    "overtime_commits": 298,
     "regular_commits": 347,
-    "overtime_rate": 46.3,
+    "overtime_rate": 46.2,
     "weekend_commits": 53,
-    "late_night_commits": 235,
-    "total_hours": 265.6,
+    "late_night_commits": 234,
+    "total_hours": 265.1,
     "regular_hours": 146.9,
-    "overtime_hours": 118.7,
-    "overtime_hour_rate": 44.7,
+    "overtime_hours": 118.2,
+    "overtime_hour_rate": 44.6,
     "daily_hours": {
-      "2026-05-18": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
       "2026-06-04": {
         "regular_hours": 0.0,
         "overtime_hours": 0.5,
@@ -731,7 +724,6 @@
       }
     },
     "overtime_by_date": {
-      "2026-05-18": 0.5,
       "2026-06-04": 0.5,
       "2026-06-08": 1.4,
       "2026-06-09": 0.7,
@@ -792,7 +784,7 @@
       1,
       2,
       57,
-      64,
+      63,
       47,
       35,
       21,
@@ -2416,64 +2408,24 @@
       "merged_at": null,
       "url": "https://github.com/junyoungjang976/every-job-instagram/pull/1",
       "repo": "every-job-instagram"
-    },
-    {
-      "number": 5,
-      "title": "fix(seo): cases Block 정정 — CTA 안전망 + 인터뷰 noindex",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-05-18T09:04:51Z",
-      "updated_at": "2026-05-18T09:56:33Z",
-      "merged_at": "2026-05-18T09:56:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/pull/5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 4,
-      "title": "feat(seo): 시공·납품·A/S 사례 145개 정적 HTML + slug URL 전환",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-05-18T07:53:42Z",
-      "updated_at": "2026-05-18T08:43:47Z",
-      "merged_at": "2026-05-18T08:43:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/pull/4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 3,
-      "title": "fix(seo): portfolio/detail 145개 noindex 적용 + sitemap 제거",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-05-18T06:07:47Z",
-      "updated_at": "2026-05-18T06:08:29Z",
-      "merged_at": "2026-05-18T06:08:28Z",
-      "url": "https://github.com/busungtk/busungtk-landing/pull/3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 2,
-      "title": "feat(seo): 자동화 봇 3종 — sitemap-reality, canonical-guard, meta-og-check",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-05-18T05:00:54Z",
-      "updated_at": "2026-05-18T05:13:05Z",
-      "merged_at": "2026-05-18T05:13:05Z",
-      "url": "https://github.com/busungtk/busungtk-landing/pull/2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 1,
-      "title": "fix: e-variant SEO 불량 4건 수정 (sitemap 정소 + canonical + JSON-LD)",
-      "state": "closed",
-      "author": "junyoungjang976",
-      "created_at": "2026-05-18T04:40:50Z",
-      "updated_at": "2026-05-18T05:12:28Z",
-      "merged_at": "2026-05-18T05:12:28Z",
-      "url": "https://github.com/busungtk/busungtk-landing/pull/1",
-      "repo": "busungtk-landing"
     }
   ],
   "issues": [
+    {
+      "number": 12,
+      "title": "[SEO] sitemap 정합성 이슈 258건 — 2026-08-16",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-08-16T00:48:14Z",
+      "updated_at": "2026-08-16T00:48:14Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/12",
+      "repo": "busungtk-landing"
+    },
     {
       "number": 11,
       "title": "[SEO] sitemap 정합성 이슈 255건 — 2026-08-09",
