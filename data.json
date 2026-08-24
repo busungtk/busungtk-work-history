@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-23T00:30:20.131450Z",
+  "updated_at": "2026-08-24T00:30:08.928962Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-daily-report",
     "busungtk-kitchen-consulting",
     "busungtk-asms",
     "busungtk-marketing-v2",
     "busungtk-sales-crm",
-    "busungtk-landing",
     "busungtk-ui",
     "busungtk-price-library",
     "busungtk-order-tracker",
@@ -53,12 +53,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 685,
+    "total_commits": 692,
     "total_prs": 1,
-    "total_issues": 6,
-    "active_days": 50
+    "total_issues": 7,
+    "active_days": 51
   },
   "daily": {
+    "2026-08-23": {
+      "commits": 8,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-08-22": {
       "commits": 12,
       "prs_opened": 0,
@@ -200,7 +207,7 @@
       "issues_closed": 0
     },
     "2026-07-28": {
-      "commits": 54,
+      "commits": 53,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -411,16 +418,16 @@
     }
   },
   "overtime": {
-    "total_commits": 685,
-    "overtime_commits": 330,
+    "total_commits": 692,
+    "overtime_commits": 337,
     "regular_commits": 355,
-    "overtime_rate": 48.2,
-    "weekend_commits": 65,
-    "late_night_commits": 245,
-    "total_hours": 305.5,
+    "overtime_rate": 48.7,
+    "weekend_commits": 73,
+    "late_night_commits": 244,
+    "total_hours": 316.0,
     "regular_hours": 156.9,
-    "overtime_hours": 148.6,
-    "overtime_hour_rate": 48.6,
+    "overtime_hours": 159.1,
+    "overtime_hour_rate": 50.3,
     "daily_hours": {
       "2026-06-04": {
         "regular_hours": 0.0,
@@ -616,7 +623,7 @@
         "overtime_hours": 5.0,
         "total_hours": 9.4,
         "is_weekend": false,
-        "commits": 53
+        "commits": 52
       },
       "2026-07-29": {
         "regular_hours": 9,
@@ -746,10 +753,10 @@
       },
       "2026-08-23": {
         "regular_hours": 0,
-        "overtime_hours": 1.8,
-        "total_hours": 1.8,
+        "overtime_hours": 12.3,
+        "total_hours": 12.3,
         "is_weekend": true,
-        "commits": 2
+        "commits": 10
       }
     },
     "overtime_by_date": {
@@ -796,7 +803,7 @@
       "2026-08-20": 12.8,
       "2026-08-21": 0.2,
       "2026-08-22": 10.2,
-      "2026-08-23": 1.8
+      "2026-08-23": 12.3
     },
     "overtime_by_hour": [
       5,
@@ -809,16 +816,16 @@
       6,
       8,
       0,
-      2,
-      7,
-      7,
+      4,
+      11,
+      9,
       6,
       1,
       0,
       1,
       3,
       60,
-      67,
+      66,
       47,
       36,
       23,
@@ -830,6 +837,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "afec12e",
+      "message": "fix: Meta 소재 C — 대기업 실명 빼고 실측 개수로 교체",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T03:43:27Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/afec12e04beb05c18a7e5fdaa53dcf6c7ffaac07",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cdb4fe9",
+      "message": "fix: 「아직 못 채운 칸」 안내가 작고 하단에 묻혀 안 보이던 것",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T03:04:18Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/cdb4fe9b8e6214ff5bbae0e523dd0795ea65129d",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "989fa17",
+      "message": "fix: 시간 미정 행만 글씨가 크던 것 + 월간에서 쓰이지도 않는 탭이 눌리던 것",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T02:55:55Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/989fa17987b6f774fb112d28b4df414845194227",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "e763752",
+      "message": "fix: 「시간 필요」 뱃지가 옆 시간 글자보다 훨씬 작던 것 (9px → 이웃과 같게)",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T02:47:12Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e76375294d9f32e4bd39e6ec9ce6413591032105",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "fbffcea",
+      "message": "fix: 고정 차량 없는 사람에게도 빈 차를 추천한다 (유동 사용 3명)",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T02:36:22Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/fbffcea2649b3f80bd0199775c1feb26577591e4",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "bcbc294",
+      "message": "fix: 피드백 두 건을 실제로 푼다 — 기본 화면을 인원별로 + 차량 미기입을 드러냄",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T02:16:44Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/bcbc29401a98620e667e30f4c8400ee59898df2e",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "a8ef6d9",
+      "message": "fix: 주간·월간을 일요일 시작(일~토)으로 통일 — 월간 요일이 하루 밀려 있던 것도 함께 수정",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T01:59:23Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a8ef6d9833e2072c491d094bea337bb8da833b9a",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "a058b09",
+      "message": "feat: 인원별 하루만 보기 + 일정에 마우스 올리면 미리보기",
+      "author": "jangjoonyoung",
+      "date": "2026-08-23T01:09:12Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a058b09f581c0c1fa23ce2eea32a6ea750f6bd16",
+      "repo": "busungtk-daily-report"
+    },
     {
       "sha": "e07b716",
       "message": "fix: 월간에서 날짜와 일정이 구분 안 되던 것 + 폼에서 다른 주 날짜 고르기",
@@ -2365,70 +2436,6 @@
       "date": "2026-08-10T05:13:49Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a49ef1f821e6ee44bb9034d7a5e7915cb83cd898",
       "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "04cbf6d",
-      "message": "fix: 고객이 문의 폼에서 첨부한 파일이 CRM에서 안 열리던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T04:59:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/04cbf6d8af8fcd15631c952bb6eb0e59f6278b48",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "4a9f266",
-      "message": "feat: AI 상담에 실제 관련 사례 매칭 기능 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T04:57:24Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4a9f266767a202ba21c7ba7599fa56ca8c4047a9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "db5e136",
-      "message": "fix: AI 상담 버튼이 하단 고정바와 겹치던 문제 수정",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T02:20:26Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/db5e1361202e2d1792f53d46490856477238cda9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8efc9b2",
-      "message": "fix: AI 상담 답변 잘림 해결 (thinking 토큰이 응답 한도 소진)",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T01:54:34Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8efc9b2945266a2e7048cbc60fc6d16fc4ac3d4f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4205c02",
-      "message": "feat: 남은 20건 자체 판정 — 자동 매칭 0건",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T01:54:11Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4205c029594b4060ccb7debdaab46b9d7efa05e0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a59d7ab",
-      "message": "fix: AI 상담 Gemini 모델명 최신화 (2.0-flash 폐지)",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T01:51:35Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a59d7abfc22e917c5b2e291e4c94fdd55b314f39",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5d9f00b",
-      "message": "improve: AI 상담 가격문의 상담신청 유도 + 첫 이용자 가이드 칩 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T01:44:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5d9f00b219407ee36d577736b8c3ad229c40b0c5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "58b7b4f",
-      "message": "feat: G안 홈에 AI 상담 위젯 연결",
-      "author": "junyoungjang976",
-      "date": "2026-08-10T01:43:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/58b7b4f080da54932a1c7e6ecf1a8eba2dbd256e",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
@@ -2438,13 +2445,28 @@
       "state": "open",
       "author": "junyoungjang976",
       "created_at": "2026-08-07T01:05:34Z",
-      "updated_at": "2026-08-21T04:58:59Z",
+      "updated_at": "2026-08-23T12:11:42Z",
       "merged_at": null,
       "url": "https://github.com/junyoungjang976/every-job-instagram/pull/1",
       "repo": "every-job-instagram"
     }
   ],
   "issues": [
+    {
+      "number": 13,
+      "title": "[SEO] sitemap 정합성 이슈 258건 — 2026-08-23",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-08-23T00:49:45Z",
+      "updated_at": "2026-08-23T00:49:45Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/13",
+      "repo": "busungtk-landing"
+    },
     {
       "number": 12,
       "title": "[SEO] sitemap 정합성 이슈 258건 — 2026-08-16",
