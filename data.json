@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-29T04:27:12.777317Z",
+  "updated_at": "2026-08-30T01:55:20.751515Z",
   "repos": [
+    "busungtk-price-library",
     "busungtk-equipment",
     "busungtk-landing",
     "busungtk-daily-report",
-    "busungtk-price-library",
     "busungtk-marketing-v2",
     "busungtk-order-tracker",
     "busungtk-asms",
@@ -36,6 +36,7 @@
     "busungtk-kitchen-planner",
     "busungtk-supabase-types",
     "claude-dotfiles",
+    "suneung-changsija-promo",
     "eatpch-channel-pilot",
     "every-job-instagram",
     "busungtk-equipment-survey",
@@ -53,12 +54,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 744,
+    "total_commits": 751,
     "total_prs": 1,
     "total_issues": 6,
-    "active_days": 55
+    "active_days": 56
   },
   "daily": {
+    "2026-08-29": {
+      "commits": 8,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-08-28": {
       "commits": 29,
       "prs_opened": 0,
@@ -305,7 +313,7 @@
       "issues_closed": 0
     },
     "2026-07-15": {
-      "commits": 31,
+      "commits": 30,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -446,16 +454,16 @@
     }
   },
   "overtime": {
-    "total_commits": 744,
-    "overtime_commits": 366,
-    "regular_commits": 378,
-    "overtime_rate": 49.2,
-    "weekend_commits": 73,
-    "late_night_commits": 276,
-    "total_hours": 355.7,
+    "total_commits": 751,
+    "overtime_commits": 374,
+    "regular_commits": 377,
+    "overtime_rate": 49.8,
+    "weekend_commits": 81,
+    "late_night_commits": 280,
+    "total_hours": 361.5,
     "regular_hours": 179.1,
-    "overtime_hours": 176.6,
-    "overtime_hour_rate": 49.6,
+    "overtime_hours": 182.4,
+    "overtime_hour_rate": 50.5,
     "daily_hours": {
       "2026-06-04": {
         "regular_hours": 0.0,
@@ -581,7 +589,7 @@
         "overtime_hours": 4.9,
         "total_hours": 13.7,
         "is_weekend": false,
-        "commits": 31
+        "commits": 30
       },
       "2026-07-16": {
         "regular_hours": 0,
@@ -820,6 +828,20 @@
         "total_hours": 6.6,
         "is_weekend": false,
         "commits": 29
+      },
+      "2026-08-29": {
+        "regular_hours": 0,
+        "overtime_hours": 5.2,
+        "total_hours": 5.2,
+        "is_weekend": true,
+        "commits": 5
+      },
+      "2026-08-30": {
+        "regular_hours": 0,
+        "overtime_hours": 0.6,
+        "total_hours": 0.6,
+        "is_weekend": true,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -871,10 +893,12 @@
       "2026-08-25": 6.0,
       "2026-08-26": 4.9,
       "2026-08-27": 3.7,
-      "2026-08-28": 3.4
+      "2026-08-28": 3.4,
+      "2026-08-29": 5.2,
+      "2026-08-30": 0.6
     },
     "overtime_by_hour": [
-      5,
+      8,
       14,
       2,
       9,
@@ -889,12 +913,12 @@
       9,
       6,
       1,
-      0,
+      1,
       1,
       3,
-      63,
+      64,
       72,
-      39,
+      42,
       43,
       27,
       32
@@ -905,6 +929,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "e0641b1",
+      "message": "feat: `digital-performance-report` 스킬을 dotfiles 에 올린다 — 한 PC 에만 있었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T15:46:23Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e0641b1303880e4d645885e72eee6ccfc39b727d",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "03a36ec",
+      "message": "chore: .omc 세션 상태 폴더 무시",
+      "author": "jangjoonyoung",
+      "date": "2026-08-29T15:13:30Z",
+      "url": "https://github.com/junyoungjang976/suneung-changsija-promo/commit/03a36ec7434e084047ece9f4e4521b5b92f731f1",
+      "repo": "suneung-changsija-promo"
+    },
+    {
+      "sha": "1ced7ed",
+      "message": "feat: 다큐 〈수능 창시자〉 개봉 홍보 자산 일체",
+      "author": "jangjoonyoung",
+      "date": "2026-08-29T15:11:20Z",
+      "url": "https://github.com/junyoungjang976/suneung-changsija-promo/commit/1ced7ed73c57c7ea5bcb5c6651f9d19bb8eed60c",
+      "repo": "suneung-changsija-promo"
+    },
+    {
+      "sha": "fb8f4cf",
+      "message": "feat: 카피 「욕구 4축 B2B 번역표」 신설 (탈잉 카피 템플릿 편입)",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T11:57:13Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fb8f4cf31350197d106b08c0d03c77ee336451a6",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "5dc0259",
+      "message": "fix: 책 원문을 옵시디언으로 옮기고 스킬 참조 경로 갱신 (3PC 동기화 구멍)",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T11:57:12Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/5dc02599a0e85969578c088d09be18f41de1dadd",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "2fb8f6a",
+      "message": "fix: 역할 경계 5항 모순 수정 — \"2회 실패 시 방법 변경 → 3회째 보고\"는 성립 불가",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T11:09:37Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/2fb8f6ae2d203136734c5a414a0df979b8529beb",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "487c935",
+      "message": "docs: AI 역할 경계 표 신설 — 혼자/여쭙기/안 함 3단 + 외부 검사원 반출 기준",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T09:42:51Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/487c9356c845c31b4ab930237b2f1c83b104ad3f",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "f01735d",
+      "message": "feat: 이어 붙은 규격을 화면에서 읽어 준다 — 훼미리 146행이 `450450420` 이었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-29T06:45:13Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/f01735d78ca12dbb43158396f3d81c3bbae32f86",
+      "repo": "busungtk-price-library"
+    },
     {
       "sha": "4ffc4d0",
       "message": "feat: 고객 포털 관리 화면 — 협력업체·접수번호·제조사 A/S 창구",
@@ -2440,70 +2528,6 @@
       "date": "2026-08-19T12:24:34Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/6a34bd789cc9ed1e12fb833b0f6b4a8a6c6d3507",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "87cf1b7",
-      "message": "feat: 주간 배차판(/dispatch) 1단계 + 앱 전체 접속 잠금 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T11:01:23Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/87cf1b7134e8a3e01966afa8c6e56d768e92edf6",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "57df889",
-      "message": "fix: 다른 달 자료가 섞여 들어가던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T10:19:17Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/57df889a1fc309129a358e92a22c7a18270e5dd9",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "29de0da",
-      "message": "fix: 견적서를 수정 저장하면 품목별 완료 체크가 풀리던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T10:09:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/29de0dad3ca8ddcd31cc1d02273259c9c453e2ff",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "7507582",
-      "message": "feat: 시트 버튼 하나로 내역서 만들기 — PC 준비 없이 동료가 쓸 수 있게",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T10:07:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/750758224aca2419fa11c6bf592b2b82071aee02",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a1e60ac",
-      "message": "docs: 주간 배차판 인계 — 스펙·프로토타입·설계 검토",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T09:50:44Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a1e60ac4b3de4143fbbb938bbbd4b091936a0db1",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "18e7564",
-      "message": "fix: 상세 패널에서 발행요청으로 넘기면 세금계산서가 안 만들어지던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T09:38:53Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/18e7564aaa73179d85a4d13890b7beca190a247c",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "04aa5ce",
-      "message": "fix: 계산서가 아직 안 만들어졌을 때 바로 실패하던 것 — 기다렸다 다시 찾는다",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T06:04:49Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/04aa5ceaee502a2f3ba9effd0d5914ad8ae55e10",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "ac45edb",
-      "message": "fix: 발행요청 직후 '세금계산서를 찾지 못했습니다' 로 막히던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T06:01:31Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/ac45edb2c083da945c588c664ecb19a575734079",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
@@ -2513,7 +2537,7 @@
       "state": "open",
       "author": "junyoungjang976",
       "created_at": "2026-08-07T01:05:34Z",
-      "updated_at": "2026-08-27T14:43:49Z",
+      "updated_at": "2026-08-29T15:03:38Z",
       "merged_at": null,
       "url": "https://github.com/junyoungjang976/every-job-instagram/pull/1",
       "repo": "every-job-instagram"
