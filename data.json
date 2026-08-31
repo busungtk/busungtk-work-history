@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-30T01:55:20.751515Z",
+  "updated_at": "2026-08-31T01:50:01.976193Z",
   "repos": [
+    "busungtk-marketing-v2",
+    "busungtk-landing",
     "busungtk-price-library",
     "busungtk-equipment",
-    "busungtk-landing",
     "busungtk-daily-report",
-    "busungtk-marketing-v2",
     "busungtk-order-tracker",
     "busungtk-asms",
     "busungtk-ad-videos",
@@ -54,12 +54,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 751,
+    "total_commits": 754,
     "total_prs": 1,
-    "total_issues": 6,
-    "active_days": 56
+    "total_issues": 7,
+    "active_days": 57
   },
   "daily": {
+    "2026-08-30": {
+      "commits": 12,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1,
+      "issues_closed": 0
+    },
     "2026-08-29": {
       "commits": 8,
       "prs_opened": 0,
@@ -229,21 +236,21 @@
       "issues_closed": 0
     },
     "2026-07-31": {
-      "commits": 30,
+      "commits": 29,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-07-30": {
-      "commits": 21,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-07-29": {
-      "commits": 28,
+      "commits": 25,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -454,16 +461,16 @@
     }
   },
   "overtime": {
-    "total_commits": 751,
-    "overtime_commits": 374,
-    "regular_commits": 377,
-    "overtime_rate": 49.8,
-    "weekend_commits": 81,
+    "total_commits": 754,
+    "overtime_commits": 382,
+    "regular_commits": 372,
+    "overtime_rate": 50.7,
+    "weekend_commits": 93,
     "late_night_commits": 280,
-    "total_hours": 361.5,
-    "regular_hours": 179.1,
-    "overtime_hours": 182.4,
-    "overtime_hour_rate": 50.5,
+    "total_hours": 379.2,
+    "regular_hours": 178.0,
+    "overtime_hours": 201.2,
+    "overtime_hour_rate": 53.1,
     "daily_hours": {
       "2026-06-04": {
         "regular_hours": 0.0,
@@ -666,21 +673,21 @@
         "overtime_hours": 4.3,
         "total_hours": 13.0,
         "is_weekend": false,
-        "commits": 28
+        "commits": 25
       },
       "2026-07-30": {
-        "regular_hours": 7.5,
+        "regular_hours": 6.5,
         "overtime_hours": 2.4,
-        "total_hours": 9.9,
+        "total_hours": 8.9,
         "is_weekend": false,
-        "commits": 21
+        "commits": 16
       },
       "2026-07-31": {
-        "regular_hours": 8.9,
+        "regular_hours": 8.8,
         "overtime_hours": 0.7,
-        "total_hours": 9.6,
+        "total_hours": 9.5,
         "is_weekend": false,
-        "commits": 30
+        "commits": 29
       },
       "2026-08-01": {
         "regular_hours": 0,
@@ -838,10 +845,10 @@
       },
       "2026-08-30": {
         "regular_hours": 0,
-        "overtime_hours": 0.6,
-        "total_hours": 0.6,
+        "overtime_hours": 19.4,
+        "total_hours": 19.4,
         "is_weekend": true,
-        "commits": 3
+        "commits": 15
       }
     },
     "overtime_by_date": {
@@ -895,7 +902,7 @@
       "2026-08-27": 3.7,
       "2026-08-28": 3.4,
       "2026-08-29": 5.2,
-      "2026-08-30": 0.6
+      "2026-08-30": 19.4
     },
     "overtime_by_hour": [
       8,
@@ -910,17 +917,17 @@
       0,
       4,
       11,
-      9,
-      6,
+      10,
+      8,
       1,
-      1,
-      1,
+      4,
       3,
-      64,
-      72,
+      3,
+      66,
+      73,
       42,
-      43,
-      27,
+      41,
+      26,
       32
     ],
     "work_hours": {
@@ -929,6 +936,102 @@
     }
   },
   "commits": [
+    {
+      "sha": "5de3255",
+      "message": "docs: 네이버 개선안 발행 파일 — dry-run 9/9 통과, 실행은 안 함",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T10:32:29Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5de3255d297206b16118d18844e133c1ac7217b2",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "4641b6b",
+      "message": "copy: 헤더와 4분할에 2·3축을 넣는다 — 한 축에만 서 있었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T10:29:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4641b6b817841c01a4486beaf3ef40a882ed3613",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e7f37cc",
+      "message": "docs: 네이버 개선안에 욕구 4축 판정 추가 — 내가 한 축만 쓰고 있었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T09:52:34Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/e7f37ccc730e2d290502393735fc4b6bd0480ba1",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "eca2f46",
+      "message": "docs: 네이버 검색광고 개선안 (2026-08-30) — 집행 0, 결재 대기",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T09:31:57Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/eca2f46650be355627abfe953f5bc0a0fa74ebc1",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "19195e9",
+      "message": "copy: care 「동행」 완전 제거 (메타 설명·h2·SVG alt 포함)",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T07:55:53Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/19195e924bf5df0cf5093981434a3856b84a1845",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bfbc41d",
+      "message": "copy: care 본문의 「동행」을 실물로 — 제목과 본문 축을 맞춘다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T07:55:05Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bfbc41dacce6796df7b0c9d5df4a8d18e0740cd3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2bf1882",
+      "message": "fix: 숫자 출처 줄이 DOM 에 안 들어갔다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T06:59:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2bf1882bf9336e65f26fe9b4a493649d2730b1e3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c525368",
+      "message": "copy: 남은 h1 다섯 개를 고객 이야기로 — 13개 전부 정렬 완료",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T06:58:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c525368dc8832839f38a223538a0e36d5f94507a",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cf7c80c",
+      "message": "refactor: 전 페이지를 Challenger 순서로 — 고객 이야기 → 가르침 → 우리",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T06:40:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cf7c80cb3ed5fe84c6a3c0a908b536c669352c20",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ed59dea",
+      "message": "fix: 종이는 다섯 장인데 「여섯 가지」라고 써 있었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T04:15:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ed59dea33cd729ffbfb501a623b205ee70cf7b2e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a18de6e",
+      "message": "refactor: 견적 섹션의 대비 축을 바꾼다 — 업체 대 업체에서 나오는 것 대 안 나오는 것으로",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T04:14:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a18de6eb0dd1852b5962d019b185eb3b6529f84a",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "82de8ae",
+      "message": "copy: 히어로를 Ries 기준으로 다시 — 옛 카테고리에 대비해 자리를 잡는다",
+      "author": "junyoungjang976",
+      "date": "2026-08-30T03:49:52Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/82de8ae825cc07e89b15aab7e224a4472590bdbd",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "e0641b1",
       "message": "feat: `digital-performance-report` 스킬을 dotfiles 에 올린다 — 한 PC 에만 있었다",
@@ -2432,102 +2535,6 @@
       "date": "2026-08-19T16:40:34Z",
       "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/9ee798030e70f93b52780a28aeb7218b879c6f7e",
       "repo": "eatpch-channel-pilot"
-    },
-    {
-      "sha": "4d5a17c",
-      "message": "fix: 라이브 중앙값 1,850→1,750 정정, 통계 표기를 '보통 한 편'으로",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T16:31:35Z",
-      "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/4d5a17ca7a7fc7486b96ab192a18259480596498",
-      "repo": "eatpch-channel-pilot"
-    },
-    {
-      "sha": "5a93f02",
-      "message": "feat: 잇피치 채널 8주 유상 파일럿 제안서 + 실측 데이터",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T16:24:03Z",
-      "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/5a93f02fc4a9c934559e2870abd94de755925e54",
-      "repo": "eatpch-channel-pilot"
-    },
-    {
-      "sha": "499ac38",
-      "message": "chore: .omc·outlier-lab 캐시 제외",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T15:20:31Z",
-      "url": "https://github.com/junyoungjang976/every-job-instagram/commit/499ac38bfa4182ecfbaa2df4d84024337af186e6",
-      "repo": "every-job-instagram"
-    },
-    {
-      "sha": "d10976f",
-      "message": "fix: 아웃바운드 시드에 담당자 실명 반영 + 기존고객 판정을 거래상태 기준으로 좁힘",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T15:20:05Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/d10976f41a5069c6289f9335ba892a49d3107e0d",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "5dc02cc",
-      "message": "feat: 완료보고 폴더를 인자로 받는 컨택트시트 도구 + 08/19 콘택트시트",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T15:19:46Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5dc02ccf195522088a44ff912cb3aaff25b62d7f",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "95228cd",
-      "message": "chore: 엑셀 채우기·데이터 보정 스크립트 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T15:19:32Z",
-      "url": "https://github.com/junyoungjang976/busungtk-equipment-survey/commit/95228cd5d104694b0b7bb705574dd300d7de7afa",
-      "repo": "busungtk-equipment-survey"
-    },
-    {
-      "sha": "866f372",
-      "message": "feat: 배차판에 노션 \"전체 스케줄\" 유형 태그 + 완료 상태 도입",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T14:36:57Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/866f37261c20ee080589ae13376299762e425924",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "c7cb14c",
-      "message": "feat: 주간 일정·배차판 CRUD 완성 + 그리드 클릭 추가 + 버튼식 입력",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T14:03:42Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c7cb14c0eb1b8ea8607aa94b6eb103800aa66645",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "2211159",
-      "message": "feat: 주간 일정·배차판 ?dev=1 게이트 제거 — 정식 노출",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T13:41:15Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/22111599dbcd022ad7f410539feb3ddb855d4fe1",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "7ac3962",
-      "message": "feat: 주간 일정·배차판 1단계 — 입력 폼 + 고정 차량 추천",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T13:28:23Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/7ac396288f1e2043f55647d1fdab93f24405fe09",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "f634646",
-      "message": "fix: admin AI 상담 테이블 페이지 열 폭 제한 누락 수정",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T12:34:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f63464636dcc058592355294df1fd84c2b1d5476",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6a34bd7",
-      "message": "fix: chat_logs에 anon SELECT 정책 추가 (admin 조회 안 되던 문제)",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T12:24:34Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6a34bd789cc9ed1e12fb833b0f6b4a8a6c6d3507",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
@@ -2544,6 +2551,21 @@
     }
   ],
   "issues": [
+    {
+      "number": 14,
+      "title": "[SEO] sitemap 정합성 이슈 258건 — 2026-08-30",
+      "state": "open",
+      "author": "github-actions[bot]",
+      "created_at": "2026-08-30T02:42:36Z",
+      "updated_at": "2026-08-30T02:42:36Z",
+      "closed_at": null,
+      "labels": [
+        "seo",
+        "bot-generated"
+      ],
+      "url": "https://github.com/busungtk/busungtk-landing/issues/14",
+      "repo": "busungtk-landing"
+    },
     {
       "number": 13,
       "title": "[SEO] sitemap 정합성 이슈 258건 — 2026-08-23",
