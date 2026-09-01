@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T01:50:01.976193Z",
+  "updated_at": "2026-09-01T02:13:03.935179Z",
   "repos": [
-    "busungtk-marketing-v2",
     "busungtk-landing",
+    "busungtk-marketing-v2",
     "busungtk-price-library",
     "busungtk-equipment",
     "busungtk-daily-report",
@@ -54,12 +54,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 754,
+    "total_commits": 755,
     "total_prs": 1,
     "total_issues": 7,
-    "active_days": 57
+    "active_days": 58
   },
   "daily": {
+    "2026-08-31": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-08-30": {
       "commits": 12,
       "prs_opened": 0,
@@ -236,7 +243,7 @@
       "issues_closed": 0
     },
     "2026-07-31": {
-      "commits": 29,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -461,16 +468,16 @@
     }
   },
   "overtime": {
-    "total_commits": 754,
+    "total_commits": 755,
     "overtime_commits": 382,
-    "regular_commits": 372,
-    "overtime_rate": 50.7,
+    "regular_commits": 373,
+    "overtime_rate": 50.6,
     "weekend_commits": 93,
     "late_night_commits": 280,
-    "total_hours": 379.2,
-    "regular_hours": 178.0,
+    "total_hours": 383.1,
+    "regular_hours": 181.9,
     "overtime_hours": 201.2,
-    "overtime_hour_rate": 53.1,
+    "overtime_hour_rate": 52.5,
     "daily_hours": {
       "2026-06-04": {
         "regular_hours": 0.0,
@@ -687,7 +694,7 @@
         "overtime_hours": 0.7,
         "total_hours": 9.5,
         "is_weekend": false,
-        "commits": 29
+        "commits": 26
       },
       "2026-08-01": {
         "regular_hours": 0,
@@ -849,6 +856,13 @@
         "total_hours": 19.4,
         "is_weekend": true,
         "commits": 15
+      },
+      "2026-08-31": {
+        "regular_hours": 3.9,
+        "overtime_hours": 0.0,
+        "total_hours": 3.9,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -936,6 +950,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "8cbb1f3",
+      "message": "refactor: corporate 정리 + 남은 페이지 전수 훑기",
+      "author": "junyoungjang976",
+      "date": "2026-08-31T06:55:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8cbb1f35b8a1992324a2aca106ef504d8c9f9694",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1676103",
+      "message": "refactor: quote 페이지 — 같은 일곱 장을 두 번 세고 있었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-31T05:11:23Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1676103fee41aa4a7c12df846f7bebedbb8c4415",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3137aca",
+      "message": "fix: F안에서도 실측 0건 축을 빼고 납기로 바꾼다",
+      "author": "junyoungjang976",
+      "date": "2026-08-31T02:59:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3137acaf35823a2b1444ebe6961ed412674dba4f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8214bae",
+      "message": "fix: 고객이 안 묻는 걱정 3건 폐기 — 문의 본문에서 낱말을 세었다",
+      "author": "junyoungjang976",
+      "date": "2026-08-31T02:58:27Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/8214baeaff5bc57ea41c6c3cd16d98be73c247d3",
+      "repo": "busungtk-marketing-v2"
+    },
     {
       "sha": "5de3255",
       "message": "docs: 네이버 개선안 발행 파일 — dry-run 9/9 통과, 실행은 안 함",
@@ -2503,38 +2549,6 @@
       "date": "2026-08-19T19:00:39Z",
       "url": "https://github.com/busungtk/busungtk-daily-report/commit/8ff2b2c928b1d260b4e7da74bfa291d5e751e07f",
       "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "d49239b",
-      "message": "chore: 배차판 DB 확장 6건 (묶음·휴가·공휴일·자차·유형·시간범위)",
-      "author": "jangjoonyoung",
-      "date": "2026-08-19T19:00:12Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/d49239b92b33716b13dd8faea9976fb0546e827a",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "026ee1d",
-      "message": "chore: 제안서 발신자를 원챔으로 변경 (실명 미표기)",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T16:53:52Z",
-      "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/026ee1dd534d3c44f9790758ebb31ef948b7a4eb",
-      "repo": "eatpch-channel-pilot"
-    },
-    {
-      "sha": "88012f0",
-      "message": "feat: 소재 분류표에 실제 영상 제목·조회수 예시 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T16:50:36Z",
-      "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/88012f01ee8f8ef80d8efbf480aa773b6fb0c43f",
-      "repo": "eatpch-channel-pilot"
-    },
-    {
-      "sha": "9ee7980",
-      "message": "feat: 쇼츠 48편 소재 속성 3축 분류 + 폰트 교체 + 어투 정리",
-      "author": "junyoungjang976",
-      "date": "2026-08-19T16:40:34Z",
-      "url": "https://github.com/junyoungjang976/eatpch-channel-pilot/commit/9ee798030e70f93b52780a28aeb7218b879c6f7e",
-      "repo": "eatpch-channel-pilot"
     }
   ],
   "pull_requests": [
