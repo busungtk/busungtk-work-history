@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T01:36:03.260140Z",
+  "updated_at": "2026-09-03T01:40:17.477365Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
@@ -54,12 +54,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 755,
+    "total_commits": 754,
     "total_prs": 1,
     "total_issues": 7,
     "active_days": 59
   },
   "daily": {
+    "2026-09-03": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-01": {
       "commits": 5,
       "prs_opened": 0,
@@ -215,7 +222,7 @@
       "issues_closed": 0
     },
     "2026-08-05": {
-      "commits": 12,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -243,7 +250,7 @@
       "issues_closed": 0
     },
     "2026-08-01": {
-      "commits": 4,
+      "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -465,34 +472,20 @@
       "prs_merged": 0,
       "issues_opened": 1,
       "issues_closed": 0
-    },
-    "2026-06-04": {
-      "commits": 1,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 755,
-    "overtime_commits": 383,
-    "regular_commits": 372,
-    "overtime_rate": 50.7,
-    "weekend_commits": 93,
+    "total_commits": 754,
+    "overtime_commits": 381,
+    "regular_commits": 373,
+    "overtime_rate": 50.5,
+    "weekend_commits": 91,
     "late_night_commits": 281,
-    "total_hours": 388.1,
-    "regular_hours": 181.9,
-    "overtime_hours": 206.2,
-    "overtime_hour_rate": 53.1,
+    "total_hours": 384.8,
+    "regular_hours": 182.4,
+    "overtime_hours": 202.4,
+    "overtime_hour_rate": 52.6,
     "daily_hours": {
-      "2026-06-04": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
       "2026-06-08": {
         "regular_hours": 4.3,
         "overtime_hours": 1.4,
@@ -712,10 +705,10 @@
       },
       "2026-08-02": {
         "regular_hours": 0,
-        "overtime_hours": 15.6,
-        "total_hours": 15.6,
+        "overtime_hours": 12.3,
+        "total_hours": 12.3,
         "is_weekend": true,
-        "commits": 12
+        "commits": 10
       },
       "2026-08-03": {
         "regular_hours": 9,
@@ -736,7 +729,7 @@
         "overtime_hours": 2.2,
         "total_hours": 9.5,
         "is_weekend": false,
-        "commits": 12
+        "commits": 11
       },
       "2026-08-06": {
         "regular_hours": 0.2,
@@ -877,10 +870,16 @@
         "total_hours": 5.0,
         "is_weekend": false,
         "commits": 5
+      },
+      "2026-09-03": {
+        "regular_hours": 0.5,
+        "overtime_hours": 0.0,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
-      "2026-06-04": 0.5,
       "2026-06-08": 1.4,
       "2026-06-09": 0.7,
       "2026-06-11": 0.5,
@@ -910,7 +909,7 @@
       "2026-07-30": 2.4,
       "2026-07-31": 0.7,
       "2026-08-01": 5.8,
-      "2026-08-02": 15.6,
+      "2026-08-02": 12.3,
       "2026-08-03": 1.4,
       "2026-08-04": 1.8,
       "2026-08-05": 2.2,
@@ -942,7 +941,7 @@
       2,
       1,
       6,
-      7,
+      5,
       0,
       4,
       11,
@@ -965,6 +964,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "1f88c38",
+      "message": "fix: 매입 거래명세표 단가에 소수점을 못 넣던 것",
+      "author": "junyoungjang976",
+      "date": "2026-09-03T00:52:26Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/1f88c389c4740687ede64a5f59e198f5f96f6529",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "722142e",
+      "message": "chore: 사례 264건 재생성 — 새 제목 규칙 반영",
+      "author": "junyoungjang976",
+      "date": "2026-09-03T00:25:36Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/722142ebb526d5b69768b718fefbf250cbe70e78",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "844bd8e",
+      "message": "feat: 페이지 제목에 검증된 검색어와 지역 넣기 (SEO)",
+      "author": "junyoungjang976",
+      "date": "2026-09-03T00:25:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/844bd8e87cf2b0d5d7b281ee30caaa6a02e24d94",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "034ea22",
       "message": "fix: 경리나라 비고가 내부 메모로 들어가던 것",
@@ -2539,30 +2562,6 @@
       "author": "junyoungjang976",
       "date": "2026-08-20T23:49:04Z",
       "url": "https://github.com/busungtk/busungtk-daily-report/commit/b6fe85d672a679632991c8a9986672947dfa4afa",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "aa7e157",
-      "message": "feat: 배차판 상세보기/사이드패널/실시간 현황판 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-20T13:08:53Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/aa7e157cc27e2393053dfcb008e338f2683336c2",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "2d42549",
-      "message": "feat: 전체/개인별 보기+메모 유형, 카드 레이아웃 개선, 카드 삭제, 행 호버, 차량별 중복 수정",
-      "author": "junyoungjang976",
-      "date": "2026-08-20T10:02:22Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/2d42549fbae10e3e705f31a33b5c695ee79a2264",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "a3859da",
-      "message": "feat: 일정별 뷰를 진짜 시간축 캘린더로 재설계 + 납품 유형 + 차량색 수정",
-      "author": "junyoungjang976",
-      "date": "2026-08-20T09:30:26Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a3859da9987019255c7724f9739afa21cf3b40cb",
       "repo": "busungtk-daily-report"
     }
   ],
