@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T01:33:43.044217Z",
+  "updated_at": "2026-09-05T01:34:51.868647Z",
   "repos": [
     "busungtk-asms",
     "busungtk-landing",
@@ -56,8 +56,8 @@
   "summary": {
     "total_commits": 754,
     "total_prs": 1,
-    "total_issues": 7,
-    "active_days": 59
+    "total_issues": 6,
+    "active_days": 58
   },
   "daily": {
     "2026-09-03": {
@@ -464,13 +464,6 @@
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-06-07": {
-      "commits": 0,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 1,
       "issues_closed": 0
     }
   },
@@ -2667,21 +2660,6 @@
         "bot-generated"
       ],
       "url": "https://github.com/busungtk/busungtk-landing/issues/9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 8,
-      "title": "[SEO] sitemap 정합성 이슈 25건 — 2026-06-07",
-      "state": "open",
-      "author": "github-actions[bot]",
-      "created_at": "2026-06-07T00:35:31Z",
-      "updated_at": "2026-06-07T00:35:31Z",
-      "closed_at": null,
-      "labels": [
-        "seo",
-        "bot-generated"
-      ],
-      "url": "https://github.com/busungtk/busungtk-landing/issues/8",
       "repo": "busungtk-landing"
     }
   ]
