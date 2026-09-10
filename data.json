@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-09T01:45:09.786307Z",
+  "updated_at": "2026-09-10T01:39:58.670549Z",
   "repos": [
+    "busungtk-asms",
     "busungtk-daily-report",
     "busungtk-landing",
     "busungtk-equipment",
-    "busungtk-asms",
     "busungtk-order-tracker",
     "busungtk-marketing-v2",
     "busungtk-price-library",
@@ -55,14 +55,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 785,
+    "total_commits": 791,
     "total_prs": 1,
     "total_issues": 7,
     "active_days": 59
   },
   "daily": {
+    "2026-09-09": {
+      "commits": 9,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-08": {
-      "commits": 20,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -181,7 +188,7 @@
       "issues_closed": 0
     },
     "2026-08-19": {
-      "commits": 43,
+      "commits": 42,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -195,14 +202,14 @@
       "issues_closed": 0
     },
     "2026-08-14": {
-      "commits": 13,
+      "commits": 12,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-13": {
-      "commits": 85,
+      "commits": 84,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -216,7 +223,7 @@
       "issues_closed": 0
     },
     "2026-08-10": {
-      "commits": 22,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -466,34 +473,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-06-11": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 785,
-    "overtime_commits": 417,
-    "regular_commits": 368,
+    "total_commits": 791,
+    "overtime_commits": 420,
+    "regular_commits": 371,
     "overtime_rate": 53.1,
     "weekend_commits": 90,
-    "late_night_commits": 310,
-    "total_hours": 405.3,
-    "regular_hours": 185.1,
-    "overtime_hours": 220.2,
-    "overtime_hour_rate": 54.3,
+    "late_night_commits": 312,
+    "total_hours": 417.7,
+    "regular_hours": 194.1,
+    "overtime_hours": 223.6,
+    "overtime_hour_rate": 53.5,
     "daily_hours": {
-      "2026-06-11": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-06-12": {
         "regular_hours": 0.2,
         "overtime_hours": 0.3,
@@ -737,7 +730,7 @@
         "overtime_hours": 2.9,
         "total_hours": 11.9,
         "is_weekend": false,
-        "commits": 24
+        "commits": 22
       },
       "2026-08-11": {
         "regular_hours": 7.2,
@@ -751,21 +744,21 @@
         "overtime_hours": 3.9,
         "total_hours": 12.1,
         "is_weekend": false,
-        "commits": 85
+        "commits": 84
       },
       "2026-08-14": {
         "regular_hours": 5.7,
         "overtime_hours": 0,
         "total_hours": 5.7,
         "is_weekend": false,
-        "commits": 13
+        "commits": 12
       },
       "2026-08-19": {
         "regular_hours": 8.4,
         "overtime_hours": 5.6,
         "total_hours": 14.0,
         "is_weekend": false,
-        "commits": 31
+        "commits": 30
       },
       "2026-08-20": {
         "regular_hours": 9,
@@ -877,18 +870,17 @@
         "overtime_hours": 5.7,
         "total_hours": 14.5,
         "is_weekend": false,
-        "commits": 11
+        "commits": 14
       },
       "2026-09-09": {
-        "regular_hours": 0,
-        "overtime_hours": 8.6,
-        "total_hours": 8.6,
+        "regular_hours": 9,
+        "overtime_hours": 12.5,
+        "total_hours": 21.5,
         "is_weekend": false,
-        "commits": 9
+        "commits": 19
       }
     },
     "overtime_by_date": {
-      "2026-06-11": 0.5,
       "2026-06-12": 0.3,
       "2026-06-17": 0.5,
       "2026-06-21": 0.5,
@@ -939,7 +931,7 @@
       "2026-09-01": 5.0,
       "2026-09-07": 5.5,
       "2026-09-08": 5.7,
-      "2026-09-09": 8.6
+      "2026-09-09": 12.5
     },
     "overtime_by_hour": [
       11,
@@ -950,7 +942,7 @@
       2,
       1,
       5,
-      9,
+      10,
       0,
       4,
       10,
@@ -960,10 +952,10 @@
       4,
       3,
       3,
-      63,
-      69,
+      65,
+      68,
       48,
-      58,
+      59,
       28,
       44
     ],
@@ -973,6 +965,78 @@
     }
   },
   "commits": [
+    {
+      "sha": "2be2a6a",
+      "message": "fix: 현장 화면 견적 일자가 비어 있던 것",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T12:52:14Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/2be2a6ae2ea073e6b2ba2b7e9a697047f9484fa6",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "fc97fdf",
+      "message": "feat: 현장용 모바일 화면 /m 신설 (1단계 — 견적서 조회·보내기)",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T12:49:13Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/fc97fdfdb3b3a4318ffe56be770eb1c44ff1f9d5",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "877ee53",
+      "message": "fix: 월간 카드 업장명도 굵게 — 주간과 같은 굵기로",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T12:39:14Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/877ee53342551ed21563aa896a8b7cae4cafab6b",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "7e8fb3f",
+      "message": "refactor: F안 하위 5페이지 h1 을 문제 제기 → 답으로 (기획서 5단계)",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T08:31:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7e8fb3f300c495e6be6c61e4229889e3d04cb92a",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b98f02d",
+      "message": "feat: F안 메인 — 히어로 배경 영상 + 결정 4건 반영 + 모바일 사진띠 축소",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T07:09:45Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b98f02db0e60b98d085d08be3c54d6127e74187e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e4c7373",
+      "message": "feat: 한 건에 업장 여러 곳 — 줄을 나누고 한 건으로 묶는다",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T06:40:45Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e4c73739179bc57edb6f849196d7faba9db6a2b3",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "1b90855",
+      "message": "feat: F안 메인을 「기준」 축으로 재편 (13섹션 → 9섹션)",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T06:34:03Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1b908555114d40a37cd289b46c0c43af48cd8e2c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ea0290a",
+      "message": "fix: 업장 찾기 대소문자·쉼표 · 정기 일정 별도 창 · 겹친 글씨 · 실시간 다음 일정",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T06:23:33Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/ea0290a27efd6b1ff9b1aba8dc7d7a65fe14a8b6",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "e916b13",
+      "message": "feat: 견적서 고르면 설비가 한 번에 들어온다",
+      "author": "junyoungjang976",
+      "date": "2026-09-09T01:47:41Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/e916b13f65d1e7c23873c077089294d6dd80448a",
+      "repo": "busungtk-equipment"
+    },
     {
       "sha": "ae027aa",
       "message": "docs: 설비 점검 표준 제작 순서 6단계 (보온배식대로 검증된 방법)",
@@ -996,6 +1060,14 @@
       "date": "2026-09-08T23:29:50Z",
       "url": "https://github.com/busungtk/busungtk-daily-report/commit/d091eefe1e029c4b86e000a7c25c8d54f62c6656",
       "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "cb93206",
+      "message": "feat: 방을 자유롭게 그리고 설비를 끌어 놓는다",
+      "author": "junyoungjang976",
+      "date": "2026-09-08T23:14:53Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/cb93206880afc59700f8e9b2dbf4a2aa256199d3",
+      "repo": "busungtk-equipment"
     },
     {
       "sha": "861b184",
@@ -1110,6 +1182,14 @@
       "repo": "busungtk-kitchen-doctor"
     },
     {
+      "sha": "bd59e78",
+      "message": "feat: 전체 코너 → 상세 코너",
+      "author": "junyoungjang976",
+      "date": "2026-09-08T09:34:04Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/bd59e786f5146f4f0189ca395ef7bffe02a38bb3",
+      "repo": "busungtk-equipment"
+    },
+    {
       "sha": "11adf81",
       "message": "feat: F안 team 에 부서 카드 2장 추가 (빈칸 제거)",
       "author": "junyoungjang976",
@@ -1118,12 +1198,28 @@
       "repo": "busungtk-landing"
     },
     {
+      "sha": "03c4a62",
+      "message": "feat: 코너별 주방 도면 만들기 — 벽면과 순서만 고르면 자리는 계산한다",
+      "author": "junyoungjang976",
+      "date": "2026-09-08T09:26:17Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/03c4a62e5879dfc341886490849e444a7ec5135d",
+      "repo": "busungtk-equipment"
+    },
+    {
       "sha": "57860ea",
       "message": "fix: 반복 지우기 버튼을 상세 창에도 — 수정 창에만 있으면 못 찾는다",
       "author": "junyoungjang976",
       "date": "2026-09-08T00:20:52Z",
       "url": "https://github.com/busungtk/busungtk-daily-report/commit/57860eaaed9cb02872e072ad6753b7e71bda1e43",
       "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "1ea9210",
+      "message": "fix: 폰에서 쓸 수 있게 — 목록 진입로·빈 화면·잘린 카드·어긋난 숫자",
+      "author": "junyoungjang976",
+      "date": "2026-09-08T00:17:41Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/1ea9210153b7d59f5e082a5d3f9ea86751da5cac",
+      "repo": "busungtk-equipment"
     },
     {
       "sha": "86e6d7a",
@@ -2467,110 +2563,6 @@
       "author": "junyoungjang976",
       "date": "2026-08-26T05:18:43Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/40409ba75061fb2f1818a270a1bf95500694e9ff",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "fb4cdb3",
-      "message": "fix: 패키지 카드 글이 길어 안 읽히던 것 — 한 줄로 끊고 행 레이아웃으로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:11:37Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/fb4cdb3b42dbf5c7f1f68b9285bca284a66514cc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "09571d0",
-      "message": "fix: vercel.json 에서 모르는 키를 뺀다 — 스키마 검사에 걸려 배포가 실패했다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:09:04Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/09571d05458d6c1e960c5737b8a073630e92070f",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "78e8a3a",
-      "message": "feat: 패키지에 「왜 이렇게 드리는지」를 붙이고 중복 목록 정리",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:05:12Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/78e8a3a1a54dc67a2fa0207d900ca2774311dc54",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cdc7824",
-      "message": "fix: 대시보드를 통계 화면과 같은 기준으로 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:03:34Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/cdc78246bf602fc414118ac4475e29d70764c49b",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "b3b399c",
-      "message": "perf: 서버 함수를 서울로 옮긴다 — DB 왕복이 태평양을 건너고 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:01:48Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/b3b399c6c83e623f0a1171989d319a55f6cec701",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "e2d3900",
-      "message": "fix: 견적서끼리 비교하던 것을 「같이 드리는 것」 비교로 교체",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:58:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e2d3900231a7d0c5474f1f01def25b8126a3e690",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1fcc599",
-      "message": "fix: 분류가 있는 시트는 분류로 묶는다 — 에버랜드가 208종으로 나왔다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:57:09Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/1fcc5997bc70770123a867cd13a198111f2ac708",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "a757c0d",
-      "message": "feat: 품목별 보기를 여닫이로 — 기본은 닫힘, 닫혀 있어도 지금 걸러진 상태가 보인다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:54:12Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/a757c0d89e67b72145ac2b7b27b489eb28a76cf1",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "7cfdcd8",
-      "message": "feat: 단가표 행을 화면에서 고칠 수 있게 — 원본은 그대로 두고 이력을 쌓는다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:49:06Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/7cfdcd838ddb9ba6122a232762be620b12823968",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "c4f90ee",
-      "message": "feat: F버전 견적서 비교를 문서 두 장으로 — 정보량 차이를 눈으로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:39:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c4f90eecbc34d8380d2d5ea88d3a0bf58eef3f5d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "010b846",
-      "message": "feat: 에버랜드 부품 단가 330행 적재 (2019 표 + 1~7월 견적서 대조)",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:29:21Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/010b8467bf292b1566fb6bbb1d578912bf834077",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "293d1c5",
-      "message": "fix: F버전 견적서 미리보기가 눈에 안 들어오던 것 — 이중으로 가려져 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:29:02Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/293d1c53c1012b898a36322a4fb549ebb1d770eb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "78043c4",
-      "message": "fix: 엑셀 머리글을 화면과 같은 좌우 배치로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T04:28:20Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/78043c4c544cd6c02aa11d161b29bbc833830dc2",
       "repo": "busungtk-asms"
     }
   ],
