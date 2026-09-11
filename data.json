@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-10T01:39:58.670549Z",
+  "updated_at": "2026-09-11T01:38:59.344959Z",
   "repos": [
-    "busungtk-asms",
     "busungtk-daily-report",
+    "busungtk-asms",
     "busungtk-landing",
     "busungtk-equipment",
     "busungtk-order-tracker",
@@ -61,6 +61,13 @@
     "active_days": 59
   },
   "daily": {
+    "2026-09-11": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-09": {
       "commits": 9,
       "prs_opened": 0,
@@ -466,13 +473,6 @@
       "prs_merged": 0,
       "issues_opened": 1,
       "issues_closed": 0
-    },
-    "2026-06-12": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
@@ -482,18 +482,11 @@
     "overtime_rate": 53.1,
     "weekend_commits": 90,
     "late_night_commits": 312,
-    "total_hours": 417.7,
-    "regular_hours": 194.1,
-    "overtime_hours": 223.6,
-    "overtime_hour_rate": 53.5,
+    "total_hours": 417.8,
+    "regular_hours": 194.5,
+    "overtime_hours": 223.3,
+    "overtime_hour_rate": 53.4,
     "daily_hours": {
-      "2026-06-12": {
-        "regular_hours": 0.2,
-        "overtime_hours": 0.3,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-06-17": {
         "regular_hours": 0.0,
         "overtime_hours": 0.5,
@@ -878,10 +871,16 @@
         "total_hours": 21.5,
         "is_weekend": false,
         "commits": 19
+      },
+      "2026-09-11": {
+        "regular_hours": 0.6,
+        "overtime_hours": 0,
+        "total_hours": 0.6,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
-      "2026-06-12": 0.3,
       "2026-06-17": 0.5,
       "2026-06-21": 0.5,
       "2026-06-29": 0.4,
@@ -965,6 +964,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "7e6cd19",
+      "message": "feat: 외주 유형 · 큰 건 표시 · 시간 자유 입력 · 휴가 범위 수정 · 입력 동선",
+      "author": "junyoungjang976",
+      "date": "2026-09-11T01:18:07Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/7e6cd19634cf8f32c4c8735ea4586eb7b6e5106a",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "5517936",
+      "message": "feat: 시각·소요 시간을 직접 친다 + 담당자 버튼을 내용만큼만",
+      "author": "junyoungjang976",
+      "date": "2026-09-11T00:45:58Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/55179364e179aa24433f931509222af1e20fff95",
+      "repo": "busungtk-daily-report"
+    },
     {
       "sha": "2be2a6a",
       "message": "fix: 현장 화면 견적 일자가 비어 있던 것",
@@ -2547,22 +2562,6 @@
       "author": "junyoungjang976",
       "date": "2026-08-26T08:54:42Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/3b9d00055a9d88301bd4b6d41f0b22c48c97e0cf",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "6400a20",
-      "message": "feat: 충전 사이클 비교 자동화 — 소진일을 스스로 찾는다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T08:51:44Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/6400a20908e6cac7cb00e7fe187839e1333b0102",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "40409ba",
-      "message": "fix: 통계 화면에 옛 탭 이름이 남아 있던 것",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T05:18:43Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/40409ba75061fb2f1818a270a1bf95500694e9ff",
       "repo": "busungtk-asms"
     }
   ],
