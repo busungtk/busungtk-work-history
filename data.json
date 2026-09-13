@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-12T01:45:09.999152Z",
+  "updated_at": "2026-09-13T01:36:14.648267Z",
   "repos": [
+    "busungtk-price-library",
+    "busungtk-landing",
+    "busungtk-marketing-v2",
+    "busungtk-sales-crm",
     "busungtk-daily-report",
     "busungtk-asms",
-    "busungtk-landing",
     "busungtk-equipment",
     "busungtk-order-tracker",
-    "busungtk-marketing-v2",
-    "busungtk-price-library",
     "busungtk-ad-videos",
     "busungtk-training",
     "busungtk-kitchen-consulting",
-    "busungtk-sales-crm",
     "busungtk-ui",
     "busungtk-portal",
     "busungtk-sales-pipeline",
@@ -55,12 +55,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 791,
+    "total_commits": 796,
     "total_prs": 1,
     "total_issues": 6,
-    "active_days": 58
+    "active_days": 59
   },
   "daily": {
+    "2026-09-12": {
+      "commits": 32,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-11": {
       "commits": 2,
       "prs_opened": 0,
@@ -146,28 +153,28 @@
       "issues_closed": 0
     },
     "2026-08-26": {
-      "commits": 46,
+      "commits": 45,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-25": {
-      "commits": 16,
+      "commits": 15,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-24": {
-      "commits": 17,
+      "commits": 14,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-23": {
-      "commits": 8,
+      "commits": 7,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 1,
@@ -195,7 +202,7 @@
       "issues_closed": 0
     },
     "2026-08-19": {
-      "commits": 42,
+      "commits": 41,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -279,7 +286,7 @@
       "issues_closed": 0
     },
     "2026-08-02": {
-      "commits": 11,
+      "commits": 10,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 1,
@@ -293,7 +300,7 @@
       "issues_closed": 0
     },
     "2026-07-31": {
-      "commits": 25,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -349,14 +356,14 @@
       "issues_closed": 0
     },
     "2026-07-21": {
-      "commits": 25,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-07-19": {
-      "commits": 10,
+      "commits": 9,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -377,7 +384,7 @@
       "issues_closed": 0
     },
     "2026-07-15": {
-      "commits": 30,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -469,16 +476,16 @@
     }
   },
   "overtime": {
-    "total_commits": 791,
-    "overtime_commits": 420,
-    "regular_commits": 371,
-    "overtime_rate": 53.1,
-    "weekend_commits": 90,
-    "late_night_commits": 312,
-    "total_hours": 417.8,
+    "total_commits": 796,
+    "overtime_commits": 443,
+    "regular_commits": 353,
+    "overtime_rate": 55.7,
+    "weekend_commits": 120,
+    "late_night_commits": 324,
+    "total_hours": 436.7,
     "regular_hours": 194.5,
-    "overtime_hours": 223.3,
-    "overtime_hour_rate": 53.4,
+    "overtime_hours": 242.2,
+    "overtime_hour_rate": 55.5,
     "daily_hours": {
       "2026-06-17": {
         "regular_hours": 0.0,
@@ -569,7 +576,7 @@
         "overtime_hours": 4.9,
         "total_hours": 13.7,
         "is_weekend": false,
-        "commits": 30
+        "commits": 20
       },
       "2026-07-16": {
         "regular_hours": 0,
@@ -597,14 +604,14 @@
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 5
+        "commits": 4
       },
       "2026-07-21": {
         "regular_hours": 7.4,
         "overtime_hours": 2.6,
         "total_hours": 10.0,
         "is_weekend": false,
-        "commits": 25
+        "commits": 20
       },
       "2026-07-23": {
         "regular_hours": 3.4,
@@ -660,7 +667,7 @@
         "overtime_hours": 0.7,
         "total_hours": 9.5,
         "is_weekend": false,
-        "commits": 25
+        "commits": 22
       },
       "2026-08-01": {
         "regular_hours": 0,
@@ -674,7 +681,7 @@
         "overtime_hours": 12.3,
         "total_hours": 12.3,
         "is_weekend": true,
-        "commits": 9
+        "commits": 8
       },
       "2026-08-03": {
         "regular_hours": 9,
@@ -744,7 +751,7 @@
         "overtime_hours": 5.6,
         "total_hours": 14.0,
         "is_weekend": false,
-        "commits": 30
+        "commits": 29
       },
       "2026-08-20": {
         "regular_hours": 9,
@@ -769,31 +776,31 @@
       },
       "2026-08-23": {
         "regular_hours": 0,
-        "overtime_hours": 12.3,
-        "total_hours": 12.3,
+        "overtime_hours": 11.7,
+        "total_hours": 11.7,
         "is_weekend": true,
-        "commits": 10
+        "commits": 9
       },
       "2026-08-24": {
         "regular_hours": 5.7,
         "overtime_hours": 1.5,
         "total_hours": 7.2,
         "is_weekend": false,
-        "commits": 17
+        "commits": 14
       },
       "2026-08-25": {
         "regular_hours": 7.4,
         "overtime_hours": 6.0,
         "total_hours": 13.4,
         "is_weekend": false,
-        "commits": 16
+        "commits": 15
       },
       "2026-08-26": {
         "regular_hours": 7.6,
         "overtime_hours": 4.9,
         "total_hours": 12.5,
         "is_weekend": false,
-        "commits": 46
+        "commits": 45
       },
       "2026-08-27": {
         "regular_hours": 0,
@@ -871,6 +878,20 @@
         "total_hours": 0.6,
         "is_weekend": false,
         "commits": 2
+      },
+      "2026-09-12": {
+        "regular_hours": 0,
+        "overtime_hours": 12.7,
+        "total_hours": 12.7,
+        "is_weekend": true,
+        "commits": 22
+      },
+      "2026-09-13": {
+        "regular_hours": 0,
+        "overtime_hours": 6.8,
+        "total_hours": 6.8,
+        "is_weekend": true,
+        "commits": 10
       }
     },
     "overtime_by_date": {
@@ -912,7 +933,7 @@
       "2026-08-20": 12.8,
       "2026-08-21": 0.2,
       "2026-08-22": 10.2,
-      "2026-08-23": 12.3,
+      "2026-08-23": 11.7,
       "2026-08-24": 1.5,
       "2026-08-25": 6.0,
       "2026-08-26": 4.9,
@@ -923,33 +944,35 @@
       "2026-09-01": 5.0,
       "2026-09-07": 5.5,
       "2026-09-08": 5.7,
-      "2026-09-09": 12.5
+      "2026-09-09": 12.5,
+      "2026-09-12": 12.7,
+      "2026-09-13": 6.8
     },
     "overtime_by_hour": [
       11,
-      14,
-      4,
+      15,
+      10,
       9,
       9,
       2,
       1,
-      5,
+      7,
       10,
       0,
-      4,
+      7,
       10,
-      10,
+      9,
       8,
       1,
       4,
       3,
       3,
-      65,
-      68,
-      48,
-      59,
-      28,
-      44
+      63,
+      71,
+      55,
+      60,
+      29,
+      46
     ],
     "work_hours": {
       "start": 9,
@@ -957,6 +980,262 @@
     }
   },
   "commits": [
+    {
+      "sha": "4814496",
+      "message": "Track unverified Lassele handle option separately from errors",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T22:52:45Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/48144962c059ff926d345630303246bb349001a1",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "bb041d1",
+      "message": "Record reviewed vendor specification conflicts without duplicate rows",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T22:26:52Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/bb041d1f16933b2fe2870e09db91d9e5b436003a",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "29e4660",
+      "message": "Search linked manufacturer models without changing source rows",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:38:52Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/29e46604a3ad7e47af0f313475f018f77562edef",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "5fe5351",
+      "message": "Show configuration and dehumidifier facts with source conflict warning",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:35:16Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/5fe53518d17646d645cef64be0d7287d51b3d5af",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "c8d50e4",
+      "message": "Record four verified official-source conflicts",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:24:28Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/c8d50e4b9a6a86dfd5ffcb1e177f0f849e7bf123",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "197ae95",
+      "message": "Display configuration-specific material and capacity facts",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:16:14Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/197ae95be94bd112e9f48e54e29f79e384146995",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "c8270ce",
+      "message": "Record source conflicts and display induction specifications",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:11:43Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/c8270ce6486a2e788b27770a2b69596b4169d2d5",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "765469a",
+      "message": "Show evidence-backed matching holds in vendor progress",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T17:02:23Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/765469a36b00204f05f9b21de27435526378d440",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "8486151",
+      "message": "Keep expanded specification cells clear of prices",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T16:07:39Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/8486151ee28d96d82bc1f8cb98ccc6fb7a75959e",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "370a611",
+      "message": "Show additional verified manufacturer specifications",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T16:04:45Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/370a61114c8dfbca76adb1969d59377c877feb49",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "a779e14",
+      "message": "List active vendors before history and excluded sheets",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T14:34:33Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/a779e14f3cec35f341c240f4753b59d7e2d44ca6",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "d1b0aea",
+      "message": "Show vendor price registration matching and issue progress",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T14:33:55Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/d1b0aeaf4d455cbe14b631ef7b718130d31f7994",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "927ac8a",
+      "message": "Clarify private photo captions and maintenance checks",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T14:12:39Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/927ac8a46ef7984f184f24880515ce3df60ca710",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "1b5f428",
+      "message": "Add authenticated supplier photo delivery for GL price rows",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T14:07:50Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/1b5f42898e8e4a43ed3c6a730f39047899bccb75",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "3609492",
+      "message": "docs(f2): record qualified inquiry deployment verification",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T13:01:06Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/360949297ea55fd648af5b6ed877b6543d5d1bf8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "63e603a",
+      "message": "docs(f2): preserve required qualification feedback",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T12:57:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/63e603aa74099af07d0b67bd5253fc4dbe5d9e10",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cc37d52",
+      "message": "fix(f2): require qualification details and improve mobile selection",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T12:56:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cc37d5240fa5a31b5614a6461d8e096265cfcb59",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e7cbbdc",
+      "message": "fix: hide empty F2 inquiry callouts until relevant",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:59:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e7cbbdc01ff4d6e8113170daa2bcfc4195c5dd21",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "09da14c",
+      "message": "feat: improve F2 inquiry flow and preserve ad visitor routing",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:59:06Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/09da14c2e45302a298ec3a73ce6265559bf9d631",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "75e28a9",
+      "message": "Preserve and flag Sunkyung bilingual dimension conflicts",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:39:39Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/75e28a93dc0a6f0783de50ee5892c4df9f568c62",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "86ad5f7",
+      "message": "chore: remove trailing blank lines from ad correction scripts",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:32:46Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/86ad5f7f96a235d92f8a87ef65ae93440f5344ce",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "8679236",
+      "message": "fix: validate AEO measurements and record guarded ad corrections",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:32:32Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/8679236cd4ab4bfb400e8c9670469df4672820af",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "49c5459",
+      "message": "fix: keep quote package labels readable on mobile",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:27:01Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/49c545996b23460c3510fe9d17a6b0c601495416",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "dad3136",
+      "message": "fix: correct landing claims and preserve inquiry campaign attribution",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:25:16Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/dad3136f1767dd56b464aa9cfd02b471ac85ab09",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "5e5a4a8",
+      "message": "feat: show verified shared catalogs and dishwasher specifications",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T11:23:03Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/5e5a4a84a382ac84619a334444b7d2d8443e441b",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "d36a6dc",
+      "message": "feat: flag product spec conflicts and exclude unrelated supplier images",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T10:33:41Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/d36a6dc1b3ef7d090118a1c9202f755a85c02d8a",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "e831ccd",
+      "message": "fix: give manufacturer images and specs readable table space",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T10:20:04Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/e831ccd65419eebbe3d45954e11153e714c42fb4",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "00a221e",
+      "message": "feat: show manufacturer images and original specs in price lookup",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T10:18:04Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/00a221efdb8149dc94161840b377fcf58c501fce",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "82e5b6a",
+      "message": "fix: close anonymous price access and show VAT-inclusive source prices",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T09:47:59Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/82e5b6aae90647bce2a4dd6d4a0dd44daa5286b7",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "2b4e903",
+      "message": "fix: restrict linked CRM quotes to construction projects",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T01:55:32Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2b4e903f029a9638f0db4179f92d031fe9991922",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "c313a54",
+      "message": "fix: stop loading unavailable Vercel analytics script",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T01:51:49Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c313a543aa1fd543a714adb750c5088a0e759c74",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "151b439",
+      "message": "feat: unify CRM sales workspace and customer follow-up promises",
+      "author": "jangjoonyoung",
+      "date": "2026-09-12T01:50:01Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/151b43940670a1b504b7ba64aa8c91f6480ed6d3",
+      "repo": "busungtk-sales-crm"
+    },
     {
       "sha": "7e6cd19",
       "message": "feat: 외주 유형 · 큰 건 표시 · 시간 자유 입력 · 휴가 범위 수정 · 입력 동선",
@@ -2300,262 +2579,6 @@
       "date": "2026-08-27T12:56:16Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/aaf64f3a516082cae19a087fff4b9980378ec0ab",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "17e7885",
-      "message": "feat: 신대진 짝짓기 — 뒷백·도어·좌우볼로 가르니 「골라야 함」 45칸이 5칸이 됐다",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T12:54:51Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/17e7885ec5cb4f4c90fb720d75e86be29afcd78b",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "5cd4ced",
-      "message": "fix: 로고 실제 크기 보정 + 대표·이건형 매니저 추가",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T12:49:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5cd4ced4c841b0d927ddc99e7e7c3803b8ecad83",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a9a7054",
-      "message": "fix: 로고를 ASMS 실거래 상위로 교체 + 매니저 4명 + 깨진 따옴표 수정 + 링크 정리",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T12:45:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a9a7054f75edff2176c7b9b051b59335e241bf7e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "133e86b",
-      "message": "feat: 담당 매니저·무엇이 다른가 섹션을 4단계 수준으로 개선",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T12:33:40Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/133e86bdd936cc8da5d0a38a6850ea9315dc1eb8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "df1edaa",
-      "message": "fix: 카드 로고 확대(16→28px) + 어색한 제목 교체",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T12:30:08Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/df1edaaa8b4c17440cd6037c9b6b059ca8be09af",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e9560ae",
-      "message": "feat: 상황 카드에 현장 사진 배경 + 로고 14개 · 긴 섹션 축약 · problem 뒤집기",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T11:55:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e9560ae5866e38b3eb67c06fc7ca9f2babb17414",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8e00c3c",
-      "message": "fix: care 낡은 건수 235→264 + 빌드 등록 · 22년 반복 정리 · team 1차원 제목",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T11:04:14Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8e00c3cfdcfa2400f45244d8e483d2599b5e6868",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "aabad6d",
-      "message": "fix: 증명 못 하는 「0」 주장 9건 제거 + 22년치로 잘못 적힌 건수 정정",
-      "author": "junyoungjang976",
-      "date": "2026-08-27T10:54:44Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/aabad6d2eaf30aa2b8de8a3ba6b0b27ebe2efe8f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "572e3a0",
-      "message": "docs: 견적 요청 제거 작업의 날짜 표기를 2026-08-26 으로 정정",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:56:18Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/572e3a0cf5aece55c2bbae7bd7ae7c4ed3d0209d",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "40da960",
-      "message": "refactor: 옆 패널을 ASMS FloatingPanel 로 맞춘다 — 고정/이동·핀·크기 기억",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:40:55Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/40da960b68e88900d405f02dad021bb7c869e967",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "9adcd33",
-      "message": "refactor: 견적 요청 발송 기능 제거 (보관 후) + 상태 흐름에서 단계 제외",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:40:18Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/9adcd33204d9163ad1e5f60df8d4187515f0c364",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "d914acb",
-      "message": "feat: 하위 페이지 11개 개발본 + 거짓 6건 수정 + 결재 담당자 페이지에 증권",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:38:17Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d914acb521dbc4d6f24245bd7e92dd928244bbd8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "951e65b",
-      "message": "fix: 홈 나머지 섹션 정리 — 거짓 제거·중복 해소·설문 앞으로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:35:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/951e65bbdd58a4a9bc229040473294e3c077e00b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f256705",
-      "message": "feat: 나머지 세 단계도 그림으로 — 02만 시각화돼 있던 것 통일",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:17:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f2567055e03aaddd4e99d1c16876073369fdfd7d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "877d443",
-      "message": "fix: 상황별 안내 5칸을 중앙 정렬로 (모바일은 왼쪽 유지)",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:15:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/877d4435baf0efec5ef9095729493b78ed3b508f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f4636f2",
-      "message": "feat: 상황 고르기를 화면 5분할로 + 칸마다 대표 고객사 로고",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:08:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f4636f2abe384eacff51c0bbeabd27c6cdd8da16",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "565a21f",
-      "message": "feat: 견적 페이지 개발본 — 축을 「견적서가 다르다」에서 「같이 오는 게 다르다」로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T13:02:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/565a21f1caeb7e7fc7851c6285af5fe0934426d0",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5528161",
-      "message": "fix: 상황 고르기를 사각형으로 + 증권 문구를 비즈니스 표현으로",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:59:33Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5528161c84bc42cfee47303d5c4348d2c83307e3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "69abf2e",
-      "message": "fix: 02 카피 재작성 — 「약속합니다」가 아니라 「믿지 않으셔도 됩니다」",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:51:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/69abf2ebcf4fe2643f4b10510a6e4cf21f7758a6",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "aaf15d5",
-      "message": "fix: 통계·대시보드 매출이 0 으로 나오던 것 — 1,000행 상한",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:51:48Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/aaf15d576489e168aa4ca8e5141e9d49c5068d5c",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "71d61d0",
-      "message": "fix: 맨 오른쪽에 붙는 「수정」 칸 + 표 열 폭을 못 박는다",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:48:56Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/71d61d0c60216d4bc3e82f359f6a78162b374f16",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "c98edba",
-      "message": "feat: 증권 3종을 그림으로 — 걱정 하나에 증권 하나",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:45:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c98edba3dcedd67a9f7376dff297e3ba2268606d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e3d8dce",
-      "message": "fix: 입금완료로 바로 넘기면 계산서가 안 만들어지던 것 + 일괄 처리에 발행일자",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:38:29Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/e3d8dce18e65acfa2a7aa5fa53dd49e7e5f31653",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "255cb55",
-      "message": "feat: 랜딩 뼈대를 「일하는 순서 4단계」로 — 알아볼 때/맡길 때/공사할 때/쓰는 동안",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T12:36:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/255cb5506aeb2cb4b7953bbd23d7f5c589b2f630",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8671fd7",
-      "message": "refactor: 표 안 인라인 편집을 걷어내고 사이드패널로 옮긴다 + 12열 전부 고칠 수 있게",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:28:08Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/8671fd79ec713f526593db427f1abf218586fc62",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "d16493a",
-      "message": "fix: 일괄 변경의 옛 안내 문구 제거",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:21:47Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/d16493af5af31be966351685cdfde77446d2f054",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "a5bbffe",
-      "message": "feat: 여러 건 한 번에 발행요청 + 발행일자로 달 가르기",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:19:24Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/a5bbffed605cb66f4cb29f53e49c710f54923b0e",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "c9cb411",
-      "message": "feat: 첫 화면을 패키지로, 그리고 증권·전자계약 섹션 신설",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:13:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c9cb41137929e47d716831630e3ba34566ddaa85",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a63b559",
-      "message": "feat: 분류를 만들고 바꾸고 지울 수 있게 한다 — 벤더 상세·통합 검색 양쪽에서",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:12:35Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/a63b559a0a2cf4993cf09ed10d79750baa691ebe",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "ab986e1",
-      "message": "feat: A/S 접수 목록에서 여러 건 한 번에 상태·담당자·수리 유형 변경",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T09:06:28Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/ab986e12473b321a89d4dae4f66f2aa31bb3c097",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "30ca70f",
-      "message": "fix: 오늘 접수·진행 중 카드도 그 카드 자료만 나오게",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T08:59:57Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/30ca70f86831c36fcc90c32d0f12d89493477fda",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "3b9d000",
-      "message": "fix: 대시보드 카드를 누르면 그 카드 자료만 나오게",
-      "author": "junyoungjang976",
-      "date": "2026-08-26T08:54:42Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/3b9d00055a9d88301bd4b6d41f0b22c48c97e0cf",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
