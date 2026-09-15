@@ -1,19 +1,21 @@
 {
-  "updated_at": "2026-09-14T01:53:52.903659Z",
+  "updated_at": "2026-09-15T02:03:04.344169Z",
   "repos": [
-    "busungtk-landing",
-    "busungtk-sales-crm",
-    "busungtk-price-library",
-    "busungtk-order-tracker",
     "busungtk-kitchen-consulting",
     "busungtk-equipment",
-    "busungtk-asms",
+    "busungtk-landing",
     "busungtk-marketing-v2",
+    "busungtk-sales-crm",
+    "busungtk-order-tracker",
     "busungtk-daily-report",
+    "busungtk-asms",
+    "busungtk-field-check",
+    "busungtk-supabase-types",
+    "busungtk-price-library",
+    "busungtk-portal",
     "busungtk-ad-videos",
     "busungtk-training",
     "busungtk-ui",
-    "busungtk-portal",
     "busungtk-sales-pipeline",
     "busungtk-partner-map",
     "busungtk-hvac-mentor",
@@ -32,12 +34,10 @@
     "busungtk-kitchen-quote",
     "busungtk-marketing",
     "busungtk-seo-agent",
-    "busungtk-field-check",
     "busungtk-kitchen-planner",
-    "busungtk-supabase-types",
+    "busungtk-kitchen-doctor",
     "claude-dotfiles",
     "ai-work-control-center",
-    "busungtk-kitchen-doctor",
     "suneung-changsija-promo",
     "eatpch-channel-pilot",
     "every-job-instagram",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 841,
+    "total_commits": 919,
     "total_prs": 1,
     "total_issues": 7,
-    "active_days": 60
+    "active_days": 61
   },
   "daily": {
+    "2026-09-14": {
+      "commits": 120,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-13": {
       "commits": 50,
       "prs_opened": 0,
@@ -91,7 +98,7 @@
       "issues_closed": 0
     },
     "2026-09-08": {
-      "commits": 24,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -154,14 +161,14 @@
       "issues_closed": 0
     },
     "2026-08-27": {
-      "commits": 36,
+      "commits": 17,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-26": {
-      "commits": 36,
+      "commits": 29,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -231,14 +238,14 @@
       "issues_closed": 0
     },
     "2026-08-13": {
-      "commits": 84,
+      "commits": 72,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-11": {
-      "commits": 11,
+      "commits": 5,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -484,16 +491,16 @@
     }
   },
   "overtime": {
-    "total_commits": 841,
-    "overtime_commits": 501,
-    "regular_commits": 340,
-    "overtime_rate": 59.6,
+    "total_commits": 919,
+    "overtime_commits": 525,
+    "regular_commits": 394,
+    "overtime_rate": 57.1,
     "weekend_commits": 147,
-    "late_night_commits": 328,
-    "total_hours": 459.2,
-    "regular_hours": 192.3,
-    "overtime_hours": 266.9,
-    "overtime_hour_rate": 58.1,
+    "late_night_commits": 336,
+    "total_hours": 473.1,
+    "regular_hours": 201.3,
+    "overtime_hours": 271.8,
+    "overtime_hour_rate": 57.5,
     "daily_hours": {
       "2026-06-17": {
         "regular_hours": 0.0,
@@ -738,14 +745,14 @@
         "overtime_hours": 1.2,
         "total_hours": 6.4,
         "is_weekend": false,
-        "commits": 11
+        "commits": 5
       },
       "2026-08-13": {
         "regular_hours": 8.2,
         "overtime_hours": 3.9,
         "total_hours": 12.1,
         "is_weekend": false,
-        "commits": 84
+        "commits": 72
       },
       "2026-08-14": {
         "regular_hours": 5.7,
@@ -808,14 +815,14 @@
         "overtime_hours": 4.9,
         "total_hours": 12.5,
         "is_weekend": false,
-        "commits": 36
+        "commits": 29
       },
       "2026-08-27": {
         "regular_hours": 0,
-        "overtime_hours": 3.7,
-        "total_hours": 3.7,
+        "overtime_hours": 1.7,
+        "total_hours": 1.7,
         "is_weekend": false,
-        "commits": 36
+        "commits": 17
       },
       "2026-08-28": {
         "regular_hours": 3.2,
@@ -871,14 +878,14 @@
         "overtime_hours": 5.7,
         "total_hours": 14.5,
         "is_weekend": false,
-        "commits": 14
+        "commits": 15
       },
       "2026-09-09": {
         "regular_hours": 9,
         "overtime_hours": 12.5,
         "total_hours": 21.5,
         "is_weekend": false,
-        "commits": 19
+        "commits": 20
       },
       "2026-09-11": {
         "regular_hours": 0.6,
@@ -902,11 +909,18 @@
         "commits": 26
       },
       "2026-09-14": {
-        "regular_hours": 0,
-        "overtime_hours": 7.9,
-        "total_hours": 7.9,
+        "regular_hours": 9,
+        "overtime_hours": 13.2,
+        "total_hours": 22.2,
         "is_weekend": false,
-        "commits": 41
+        "commits": 146
+      },
+      "2026-09-15": {
+        "regular_hours": 0,
+        "overtime_hours": 1.6,
+        "total_hours": 1.6,
+        "is_weekend": false,
+        "commits": 15
       }
     },
     "overtime_by_date": {
@@ -952,7 +966,7 @@
       "2026-08-24": 1.5,
       "2026-08-25": 6.0,
       "2026-08-26": 4.9,
-      "2026-08-27": 3.7,
+      "2026-08-27": 1.7,
       "2026-08-28": 3.4,
       "2026-08-29": 5.2,
       "2026-08-30": 19.4,
@@ -962,18 +976,19 @@
       "2026-09-09": 12.5,
       "2026-09-12": 12.9,
       "2026-09-13": 23.2,
-      "2026-09-14": 7.9
+      "2026-09-14": 13.2,
+      "2026-09-15": 1.6
     },
     "overtime_by_hour": [
-      20,
-      35,
+      27,
+      43,
       20,
       9,
       9,
       2,
       1,
       16,
-      10,
+      11,
       0,
       7,
       10,
@@ -983,12 +998,12 @@
       4,
       3,
       3,
-      57,
-      74,
-      60,
-      57,
-      32,
-      48
+      79,
+      82,
+      58,
+      51,
+      20,
+      46
     ],
     "work_hours": {
       "start": 9,
@@ -996,6 +1011,966 @@
     }
   },
   "commits": [
+    {
+      "sha": "3ad0153",
+      "message": "chore(.ai-work): 제안 링크 체크포인트 + 표 신설 승인 요청",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:48:39Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3ad0153219d1ab39280a192a323f787e438032c5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "c2264e3",
+      "message": "feat(제안): 담당자 서버 게시 → 고객 링크 /consulting/p/:token (F2 04화면 「선택을 돕는 제안」)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:48:04Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c2264e3447e20da6dbace18f6a2577ac9419d6ff",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "9f3ec10",
+      "message": "chore(.ai-work): 진단서 비교표·공유 카드 신설 + 마이그레이션 승인 요청",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:42:20Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/9f3ec10d7d89e5320956577cc5e0fc6e6c795891",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "bcafb01",
+      "message": "feat(진단서): 수리안/교체안 비교표 + 고객 공유 링크 /share/:token (접속코드 밖)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:41:50Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/bcafb010d63571f5ce3c7dea4430e2c31b85551e",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "f8969ed",
+      "message": "chore(.ai-work): 이력 배선 체크포인트",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:39:06Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/f8969edf49b2982b3ae7839da08a9aea47d722d8",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "2e23e8b",
+      "message": "feat(qr): A/S 완료 접수 → 설비 이력(equipment_history) 동기화 + 고객 QR 화면에 이력 표시",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:39:02Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/2e23e8b9dcdc14db94aa0bcb1323ee02f319f83f",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "8045016",
+      "message": "chore(.ai-work): 고객별 제안 운영통합 — 붙이는 순서 결정을 쉬운 말로 다시 올림",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:28:48Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/804501606c2819cee41992f0862c2aaa618cecf5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "746f04f",
+      "message": "feat(f2): 「우리 주방 연결 신청」 — 문의 유형 추가·type 쿼리 미리 선택·care/05 CTA 연결",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T16:27:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/746f04f7f3f1c6dc9240f4a92f0aff33c5150b8b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "604584a",
+      "message": "chore(.ai-work): F2 카드 체크포인트 CP-0016 — 사례 F2 판·corporate·서비스 간극 실측",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:49:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/604584afd1f1b7a9d12cf4057f5c23af7977fe64",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8677187",
+      "message": "chore(.ai-work): 광고 카피 F안 준비 카드 신설 — 체크포인트 m2·m3 + 사장님 결정 3건",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:49:18Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/8677187668130660dcd650e76de85ef5ae84e3df",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "b8c0476",
+      "message": "docs(f2): 준비 중인 서비스 — 기존 AX 기획·현황·결재 지도 추가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:44:29Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b8c0476e7b50ec482318474a2488729d2ce688c4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7079f59",
+      "message": "docs(naver): F안 초안 범위 주석 — 전 그룹 전수는 09-16 네이버 세션",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:43:11Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/7079f59a1811834f2fb8beefb90b966acc3eef65",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "ff089a2",
+      "message": "docs(f2): 준비 중인 서비스 3화면 약속 vs 실제 제품 간극 실측",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:32:06Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ff089a228a8fe2ae3ec628b94aae98c6094f3f35",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e981a6a",
+      "message": "docs(ads): 네이버 카피 F안 초안 20건 + 실측 감사 09-14 + 메타 광고 F안 기획안 (라이브 X)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:31:55Z",
+      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/e981a6a981fb6754c40e92f61d5c04c6d6f370eb",
+      "repo": "busungtk-marketing-v2"
+    },
+    {
+      "sha": "22bf1fa",
+      "message": "feat(f2): 사례 264장·목록 3장·게시판을 F2 판으로 — G안 밖으로 안 나간다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T15:15:17Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/22bf1fadc2ce682db46d8e9983cf92cb69b2cb71",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7988a43",
+      "message": "feat(f2 기업 총무팀): 축을 「총무팀의 주방 부서가 되어 드립니다」로",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T13:14:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7988a43d8b748becaa516d19b9e30afcc44da311",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c6b899b",
+      "message": "fix(f2 하위): 「맡았던 주방」 로고가 어두운 바탕에서 안 보이던 것 — 흰 바탕으로",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T13:12:07Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c6b899b9c1e58dd9c1120763a8aa82b2250e02c3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "88a5743",
+      "message": "chore(.ai-work): 노출 실측·E#4 결과 인계 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T13:06:03Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/88a57436c5fa83863d10a918cfa5658e72b57411",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "2f4b8c1",
+      "message": "chore(.ai-work): CRM 배포·검증 완료 기록과 결정 2건(SC#3·SC#4)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:38:34Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2f4b8c19653c4d0f5e5e8872572cd480dc19dfb1",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "b75c56e",
+      "message": "feat(f2): 하위 11페이지를 메인 문법으로 다시 지음 — G안 사본 아닌 F2 판",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:34:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b75c56e44c683ddd01dbe093776c7e343028aa64",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1f3946a",
+      "message": "chore(.ai-work): 안 쓰는 열쇠 3개 삭제 기록 — 09-07 잔여 종결",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:24:55Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/1f3946ab8a1d43975382d06d44e5c1db7d523c0b",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "e4fc5ea",
+      "message": "chore(.ai-work): 연락처 알림 배포 기록 + 다음 할 일 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:20:19Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/e4fc5eae212421113aec288e0f30b0240c20e24d",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "d2c2a6b",
+      "message": "docs(worklog): 결재함에는 '멈춘 채 끝난 것'만 올린다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:17:13Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/d2c2a6b875fe5669388bfe50a5cf61f46bc590a5",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "fbe6c02",
+      "message": "chore(.ai-work): OT#3 결정 등록 — 안 쓰는 열쇠 3개 삭제 여부",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:14:49Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/fbe6c02b48609d188a1d25cc72183477a8acac89",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "075d8e8",
+      "message": "feat: 거래한 업체인데 연락처가 빠진 곳을 업체 화면에서 알린다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:14:35Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/075d8e8cc2bca805c5d54524f8b4da3556af3a25",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "5770c78",
+      "message": "feat: 저장 전 확인 창 (안 고른 것 + 팀챗 알림 여부) · 기본 차량 세 사람 채움",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:11:07Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/5770c78dd52567f8d2e2c22559da201925ec24b7",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "e0e07dd",
+      "message": "fix(f2): 글자 바닥 올리기 + 메인 02~08·10 화면에 상담 버튼",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T10:05:35Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e0e07dd358a4577a1e9ddb1edaf2a04d45ee7abf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4e10708",
+      "message": "chore(.ai-work): 작업완료확인서 휴대폰 PDF 카드 등록 — 재현(m1)·적용·배포(m2) 기록, 실기기(m3) 대기",
+      "author": "jangjoonyoung",
+      "date": "2026-09-14T09:57:29Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/4e10708f5a09ec5713e6348026c2c94611787861",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "1e85e75",
+      "message": "fix: 작업완료확인서도 휴대폰에서 PDF 저장이 안 되는 경로였던 것",
+      "author": "jangjoonyoung",
+      "date": "2026-09-14T09:53:40Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/1e85e75c680730575d7cb6820b3209ad2e717ffa",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "ee8fd92",
+      "message": "docs(worklog): checkpoint 의 next_action 칸 이름 함정",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:50:38Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/ee8fd925ed98b90756512899b55f4a7aae6b74c5",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "52f6f0e",
+      "message": "chore(.ai-work): CRM 카드 next_action 정리",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:50:22Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/52f6f0e6f4a01bcaeaa4393dd542fbdc8ff11305",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "bc0eb4f",
+      "message": "fix(f2): 하위 남은 셋 — 긴 단문 재작성 · 강조 보강 · 상단 메뉴를 메인 목차에 맞춤",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:45:15Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bc0eb4fe21772cb0a08decc65186864c80254edd",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "90b0967",
+      "message": "docs(worklog): decision_owner 누락 · 답 달린 결정은 못 물린다 · 번호는 서버가 매긴다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:42:26Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/90b0967f0838164cdabe134faa1ac472960970a9",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "b96bbb6",
+      "message": "fix: 끝난 결정은 접어 둔다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:42:23Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/b96bbb6598284d40dc8cf1dd3bdee3dd1adaa891",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "b63ebc7",
+      "message": "feat: 일정 삭제도 사유를 받고 팀챗에 알린다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:28:52Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/b63ebc7e143e23663de96475292235e0f8ac770f",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "f01c24c",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:28:09Z",
+      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/f01c24c2f3bf72d9a787b94b86fbe2e62c2e2aab",
+      "repo": "busungtk-supabase-types"
+    },
+    {
+      "sha": "9bc6cb2",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:28:05Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9bc6cb21ba6a1c816e0d199dd85de7e7925a6d5b",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "558b337",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:28:02Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/558b337f9a546e035ef73b91bac18234f7534c7f",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "205719a",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:27:59Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/205719a298f91e0e9c41933f474875a807800001",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "0240aa7",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:27:56Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0240aa7565890113381cc483fc8aa3c2f03b7daa",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "12ea68f",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:27:52Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/12ea68f5862b9da60eb84296d0618f70135cf2d3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7526314",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:27:49Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/75263140045774815b073206c9b8f808d905286d",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "b21d59b",
+      "message": "chore(.ai-work): 사장님 결정 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:27:45Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/b21d59ba89350e06311187c9e135bb6340dffae1",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b584470",
+      "message": "feat(f2): 하위 12페이지 읽기 개선 · 톤 일치 · 어디서나 상담 CTA",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:26:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b5844708fc6795d1cf08f95baf985f8187d8ecb6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f5d0914",
+      "message": "feat: 포털 핵심 업무 칸 재배치 — 일정·배차 3번째, Dev Console 자리에 작업 운영 센터",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:22:38Z",
+      "url": "https://github.com/busungtk/busungtk-portal/commit/f5d0914d1387bfd192cb2db6d1070d50ead2fa2a",
+      "repo": "busungtk-portal"
+    },
+    {
+      "sha": "c0d3a2f",
+      "message": "feat: 이름 고르고 들어가기 + 변경 사유 · 팀챗 알림에 같이 싣기",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:11:11Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c0d3a2f42ee2d2f20a874a3db50733f77e916e85",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "bbb31e7",
+      "message": "fix: 사이즈 칸을 자르지 않는다 — 줄바꿈 + 폭 125→150",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:10:32Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/bbb31e72a5f42549b4f985be4568cfffa19e025f",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "5056967",
+      "message": "feat: 업체별 진행도에 업체 이름 검색 — 표를 클라이언트 컴포넌트로 떼어 글자로 거른다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T09:01:45Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/50569678a7e2f325fc442ee4496956028ce5e676",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "3569475",
+      "message": "feat: 벤더·전체 단가표에 「행」 열 — 엑셀 행 번호를 화면에 보인다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T08:51:29Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/356947570ea1a57846cfc33744c9b7847cbdeea7",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "7f409cb",
+      "message": "fix: 연결했는데 왜 조회 모드인지 화면이 말해준다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T08:50:49Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/7f409cbb37ea1425349dc6226143487f11860d25",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "ccaa0d3",
+      "message": "fix(f2): 읽기 개선 — 덩어리 쪼개기 · 위계 네 층 · 강조 재배치 · 글 줄이기",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T08:49:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ccaa0d3d214ddfc5018a68f0e861d92fc13adfc3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "52974d6",
+      "message": "feat: 일정을 채널톡 팀챗으로 자동 공유",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T08:46:15Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/52974d66751ccaa2590295ef27ded6c37fc53684",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "d237dfb",
+      "message": "feat: 결재함 — 결정을 한 장씩 넘기며 처리한다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T08:43:28Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/d237dfbd554e626003464eeafde12f8c83d58845",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "488aeb6",
+      "message": "fix(f2): 휴대폰에서 화면이 잘리던 것 — 실제 가용 높이는 650px 안팎이다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:33:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/488aeb6fc0fad7018fac0811289316bbd033d717",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "339e5a0",
+      "message": "feat: 짝짓기 끝까지 — 수집 설정 6벤더 신설(우성·지엘·카이저·대성·로보쿡·호시자키) + 도장 12시트 갱신 + 닫기 3갈래(참고만·전용매처판정·근접모델 보류) + 동현테크",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:30:59Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/339e5a0715add2d58963c87d22a523b11ec58437",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "ed8bef8",
+      "message": "feat: 배차판 가이드를 화면 짚어주는 안내로",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:26:38Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/ed8bef87b41d7a69a903723be6b6c6b775b03e50",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "a7c9923",
+      "message": "refactor(표준): 냉장·냉동 일체형 4기종을 표준 파일 하나로 병합 (cold-unit-integrated.json) — 「이름 5개, 속 2개」",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:25:50Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/a7c9923fcee79cfe14f29662f46db53c31dc4f58",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "c9d5fad",
+      "message": "feat: 이 PC에서 토큰 기억하기 + 왜 못 누르는지 화면에 알린다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:17:05Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/c9d5fad81c1340b21d3013afeef15bf95638209f",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "13c3cca",
+      "message": "feat(f2): 하위 12페이지를 메인 톤으로 — 색 토큰 통일 + 돌아가는 줄",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:16:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/13c3cca52e1f05f89eecb8a368cdef19115e6bb9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0861e58",
+      "message": "fix(f2): 하위 12페이지의 링크를 F2 안으로 — 새던 곳 46건",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:11:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0861e58f626d4d213205602c07fb60c331a5d67d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "10008d8",
+      "message": "feat(f2): 메인을 가로 넘김 구조로 + 하위 페이지 목록 화면 신설",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:10:58Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/10008d81dd3d8f23283dd3239c12eb500288dcd4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "dd60208",
+      "message": "feat: 결정을 화면에서 바로 답한다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:10:34Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/dd60208ca3b3c6d506f1c03e99d2973b5c3d8df0",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "4e94453",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:03:03Z",
+      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/4e94453f4145d468f5f8e16f6da776c245051d80",
+      "repo": "busungtk-supabase-types"
+    },
+    {
+      "sha": "642171b",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:03:00Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/642171b9aefa35f0aba15d09b7ce7da638bfe61d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f8988f6",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:57Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/f8988f694002f0f5b563ace3af04cb20414e047e",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "e266218",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:55Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/e2662182477461e034833d511666a4816479221d",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "3296e18",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:52Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/3296e18830dc3ec8888f84594f41d48320020c4d",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "5c3ff12",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5c3ff12c7efa9cf7bc520f02c82e829bf125d87f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "01332b8",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:46Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/01332b8133d78bc279c6c7887ceca63689811167",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "f6bef1a",
+      "message": "docs: 배포 주소 정정 — 옛 주소는 삭제됐다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:44Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/f6bef1a3e0166d7d3552524c8c0480749af6d38d",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "a790e9c",
+      "message": "feat: 배차판 처음 쓰는 사람용 단계별 가이드",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:43Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a790e9c00a46b35274f4fd2e59f3e48e2f33772e",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "bae1b35",
+      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:42Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/bae1b3587f363712276b542a0ad5c4fc06c72ed2",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "03f48d8",
+      "message": "feat: 결정 번호를 프로젝트별로 매긴다 (L#3 꼴)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T07:02:40Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/03f48d8b92ec2be15512ceb54692f0d5bfff0c31",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "3b6128e",
+      "message": "feat(auth): 접속 코드 잠금 추가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:59:41Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/3b6128e0b990172cdd4b1baee3f9bfe43bb7f1c5",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "83ce624",
+      "message": "fix(f2 lab): 넘김 버튼과 상단 목차가 눈에 띄게",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:29Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/83ce6246c5c184337e0dda598b84f77487c45984",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b2169e9",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:18Z",
+      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/b2169e9a877145d1e6ac2e39505108af57d3af56",
+      "repo": "busungtk-supabase-types"
+    },
+    {
+      "sha": "defe76e",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:15Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/defe76ee2f2cb42cbbf90cb3392cd0c6cc8c9946",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e81a960",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:12Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/e81a960e4cc8e2922e4d53efb3c0b0e75a6f2003",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "affb8aa",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:09Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/affb8aa595e1e50c2fab7431b09c1828e03ea89a",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "06b896c",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:06Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/06b896c61dd3fc39bf86c771fb30e8346c1e93f8",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "440885e",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:03Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/440885ee035777223a2a245b156ff0ab101882e8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "99dc756",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:56:00Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/99dc75680551ce3d94f3b7e763a1ff004b91e7fb",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "cc0535a",
+      "message": "chore(.ai-work): 결정에 고유번호 부여",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:55:57Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/cc0535a336070e69e2119ebd6a8395cf38dc2d22",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "fc72968",
+      "message": "feat: 결정마다 짧은 고유번호를 붙인다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:55:54Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/fc729682e896d57b7f2f6cf75d471cabfa0973c0",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "bb0bbeb",
+      "message": "chore(completion): kitchen-doctor c7(톱10 표준 9종, doing)·c8(냉동고·면렌지, todo) 추가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:53:49Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/bb0bbebb861e7f9364e7843317a4afbde6017c97",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "4b6d285",
+      "message": "chore(ai-work): 업무 카드 — 톱10 표준 9종 신설·검수·적재 (검수 요청 상태)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T06:53:46Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/4b6d285e0810a7795129df27e9e6b46af4707f52",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "4b1e386",
+      "message": "feat(표준): 수리 톱10 설비 점검 표준 9종 신설 — 독립 검수·재검수 2회 통과 후 적재",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T05:47:03Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/4b1e386961c01e9ee4b627bf8b2a8ae86cef8530",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "9fe0a78",
+      "message": "feat(f2): 가로 넘김 시안 lab-hscroll (noindex, 메인은 그대로)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T05:10:02Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/9fe0a7808620add2d348fca1b00470454f65f7dc",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "631ac6e",
+      "message": "feat: 짝짓기 기계 마무리 — 제원표 용량·뒷백 물려받기·치수 셋 대조로 자동 확인 + 규격 충돌 해결기 + 참고만 남은 행 닫기 + 담당자 확인 목록 생성기",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:52:31Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/631ac6e9d4ff58fae34d5c8d02a08e3506a672aa",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "a61dae1",
+      "message": "feat: 작업내용 칸 넓히기 · 차량 「미정」 · 「+N명 지정 필요」",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:49:55Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/a61dae158097c3fe84f3583aa6a54af682f50c19",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "0624b04",
+      "message": "refactor(f2): 메인 상담 폼을 문의 페이지로 — 섹션 1160px → 552px",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:49:19Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0624b045344b89afdb0dccaa4a88f9d8e9806adb",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a04a043",
+      "message": "fix(f2): 섹션 높이 압축 — 데스크톱 12.4화면 → 10.7화면",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:40:27Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a04a043fe545e25dffeba23120870f0947756d2f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cc8e5dc",
+      "message": "feat(auth): 접속 코드 잠금 추가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:40:20Z",
+      "url": "https://github.com/busungtk/busungtk-field-check/commit/cc8e5dcf890a545ab85cd3cf3616aae5dae9a6c3",
+      "repo": "busungtk-field-check"
+    },
+    {
+      "sha": "a4e131b",
+      "message": "chore(.ai-work): 결정 카드에 배경·근거·선택지·결과 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:38:46Z",
+      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/a4e131bfec2106a3ff521bef6f50178efac3708c",
+      "repo": "busungtk-supabase-types"
+    },
+    {
+      "sha": "ea846fd",
+      "message": "chore(.ai-work): 결정 카드에 배경·근거·선택지·결과 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:38:43Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/ea846fd06d38e51c11e5bb4293b0d63b9bcc9c9c",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "13ce816",
+      "message": "chore(.ai-work): 결정 카드에 배경·근거·선택지·결과 기록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:38:40Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/13ce816a423945d79f01ecd9ea909967716c5e46",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "1387913",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:53Z",
+      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/13879132315289fd12dafbd2eeec2ab9c077ff78",
+      "repo": "busungtk-supabase-types"
+    },
+    {
+      "sha": "fa7b817",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:50Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fa7b817b109d9d7903eccb4d2fa27d034883254a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f2c3951",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:47Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/f2c39515bc71354b5fa031eea6fcb20904ef01c5",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "28ec758",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:45Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/28ec7589a9344c9f31464a80716afdf659af92bd",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "a2f34bf",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:42Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/a2f34bf50b74e0e5e47db8fc0a1d93c4a1bdefa7",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "f0d79d8",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:39Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f0d79d801a360a0364f4bc9b02d3824fc71e7288",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bd82247",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:35Z",
+      "url": "https://github.com/busungtk/busungtk-equipment/commit/bd82247ded004ea1d9a3915eb7a3cd84ada11dda",
+      "repo": "busungtk-equipment"
+    },
+    {
+      "sha": "e68cfdd",
+      "message": "feat: 잘못 올린 결정을 물릴 수 있게 한다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:31:19Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/e68cfdd137f56e8d1c303482404c17f3478c38ac",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "62078da",
+      "message": "chore: .ai-work 줄바꿈 변환 금지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:25:56Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/62078da09afce19fb809f239e579f8f04f798343",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b4f2098",
+      "message": "feat: 짝짓기 화면에 「이름 일치만」 필터 + 보이는 것 전부 확인 — 사람이 훑어보고 한 번에 찍는다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:22:15Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/b4f2098788d7cc83feb0d54a8220af857b4ca0c5",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "b665b0e",
+      "message": "docs(worklog): 사장님 결정을 남길 때 채워야 할 네 가지",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:21:57Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/b665b0e44c339419d16dbf89019fa4dc9c56c884",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "0fe4d80",
+      "message": "feat(f2): 견적 페이지에 「그럼 그 값은 어디서 나오나」 신설",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T04:18:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0fe4d80a9743e09097952b3b500e073aa3474f55",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "57de13b",
+      "message": "chore: 작업 운영 센터에 「다른 앱 1,000줄 상한 전수 점검」 업무 등록",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:38:16Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/57de13b5f8882fa123bb9acedba1923275c7abb9",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "ff444fc",
+      "message": "fix: 「쌍통」은 통이 둘이라 용량이 두 배다 — 멀쩡한 짝 4건이 「틀린 짝」으로 잡혔다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:36:51Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/ff444fc44f9de6f6249074a52dd5704610333126",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "340162b",
+      "message": "feat(테이블 냉장고): 냉각 틀 표준 v1 — 부품 20·트리 7단계 38마디 (직냉/간냉 첫 갈림·냉매 3종·누설 정책)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:34:32Z",
+      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/340162bf6b80305ca98e791b85705e6f0f1c05d0",
+      "repo": "busungtk-kitchen-doctor"
+    },
+    {
+      "sha": "596ae3a",
+      "message": "feat: 결정 요청에 판단에 필요한 네 가지를 강제한다",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:33:58Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/596ae3ad3c4b8a1766997ed972201894f8ae935e",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "dbfb159",
+      "message": "feat(f2): 증거 띠 신설(거래처 18·증권 3종·84곳/열에 여섯) + 바탕색 아이보리 제거",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:32:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/dbfb159fa80fee06892f534bdd66323906b284e4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "443c942",
+      "message": "docs: 표를 통째로 읽을 때 1,000줄 상한 규칙",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:28:34Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/443c94258790a639e758602342289c2867e3bccd",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "5b5cb54",
+      "message": "fix: 업체가 1,000곳을 넘자 93곳이 목록·검색에서 사라지던 것",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T03:28:25Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/5b5cb54cf9061faccc01d3a680a53d7071bdaf3f",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "d5abe92",
+      "message": "fix: 업무 목록 화면이 500 으로 죽던 두 원인",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T02:43:16Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/d5abe92856987e2ecbcf514f5f1e7319c96fe041",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "b4a33b6",
+      "message": "feat: 폰 홈 화면에서 배차판 바로 열기 (웹 앱 매니페스트 + 아이콘)",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T02:34:47Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/b4a33b68eab15bf5b9154dd58abca3e48d65e18f",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "3135e3d",
+      "message": "feat: 포털에 「일정·배차」 타일 — 세 단계로 들어가던 것을 한 번에",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T02:34:22Z",
+      "url": "https://github.com/busungtk/busungtk-portal/commit/3135e3d9a64ef55df10184a5bb36f476fb950483",
+      "repo": "busungtk-portal"
+    },
+    {
+      "sha": "693e13c",
+      "message": "feat: 작업완료처리에 「작업 운영 센터 등록」 단계 추가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T02:31:19Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/693e13c51a0f05f11eb3cd204f198d4004c17f0a",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "22f701c",
+      "message": "fix: 다른 PC 셋업에서 걸린 두 가지 — aiw 명령 누락, 재시작 불가",
+      "author": "junyoungjang976",
+      "date": "2026-09-14T02:21:19Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/22f701c6cbcdcb97b44ff3367ee27cb0a7ef3709",
+      "repo": "ai-work-control-center"
+    },
     {
       "sha": "f1e5c1d",
       "message": "feat: 출퇴근 루틴 — sync-prepare ①d(센터 자산 대조·스냅샷) · sync-pull Step 2.5(없는 레포 클론)·3.7(센터 셋업) · busungtk-of",
@@ -1634,966 +2609,6 @@
       "author": "jangjoonyoung",
       "date": "2026-09-12T11:59:24Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/e7cbbdc01ff4d6e8113170daa2bcfc4195c5dd21",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "09da14c",
-      "message": "feat: improve F2 inquiry flow and preserve ad visitor routing",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:59:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/09da14c2e45302a298ec3a73ce6265559bf9d631",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6bfff4f",
-      "message": "ui: open customer details with clearer basic information",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:41:15Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/6bfff4fde71d63ad61fb1c7b0874e4f5a413af0a",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "75e28a9",
-      "message": "Preserve and flag Sunkyung bilingual dimension conflicts",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:39:39Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/75e28a93dc0a6f0783de50ee5892c4df9f568c62",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "86ad5f7",
-      "message": "chore: remove trailing blank lines from ad correction scripts",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:32:46Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/86ad5f7f96a235d92f8a87ef65ae93440f5344ce",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "8679236",
-      "message": "fix: validate AEO measurements and record guarded ad corrections",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:32:32Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/8679236cd4ab4bfb400e8c9670469df4672820af",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "49c5459",
-      "message": "fix: keep quote package labels readable on mobile",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:27:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/49c545996b23460c3510fe9d17a6b0c601495416",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "507f244",
-      "message": "feat: show linked construction case stages on today",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:26:49Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/507f244a9752031b54ac4c2cd6f51754d12adf1e",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "dad3136",
-      "message": "fix: correct landing claims and preserve inquiry campaign attribution",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:25:16Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/dad3136f1767dd56b464aa9cfd02b471ac85ab09",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e5a4a8",
-      "message": "feat: show verified shared catalogs and dishwasher specifications",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:23:03Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/5e5a4a84a382ac84619a334444b7d2d8443e441b",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "8f888eb",
-      "message": "ui: keep CRM filters readable on mobile",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:15:08Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/8f888eb62a41c8eee289aa523d9801fd30d1a25f",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "8c3c63b",
-      "message": "fix: preserve default CRM filter choices",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:13:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/8c3c63b94cf03679bd85f248599d27dfc713ba93",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "087ebb7",
-      "message": "ui: expose short CRM choices as one-click buttons",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T11:08:05Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/087ebb7f45ee33fbff961c32dc8e67e1cc3c29d9",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "d36a6dc",
-      "message": "feat: flag product spec conflicts and exclude unrelated supplier images",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T10:33:41Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/d36a6dc1b3ef7d090118a1c9202f755a85c02d8a",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "e831ccd",
-      "message": "fix: give manufacturer images and specs readable table space",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T10:20:04Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/e831ccd65419eebbe3d45954e11153e714c42fb4",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "5c7cfa8",
-      "message": "ui: distinguish sales workflow action buttons",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T10:19:22Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5c7cfa894f1ed9d4449c86ff9744081094ebe073",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "00a221e",
-      "message": "feat: show manufacturer images and original specs in price lookup",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T10:18:04Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/00a221efdb8149dc94161840b377fcf58c501fce",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "3279130",
-      "message": "ui: remove separate customer sharing login controls",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T10:06:16Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/327913041b48a8425a7a07e499e7f37d40cb5086",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "82e5b6a",
-      "message": "fix: close anonymous price access and show VAT-inclusive source prices",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T09:47:59Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/82e5b6aae90647bce2a4dd6d4a0dd44daa5286b7",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "b6e9bc6",
-      "message": "fix: show linked construction case count on overview",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T05:30:45Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b6e9bc65e3abd4c1c42557024bfbc8c666abe2b7",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "4e055fb",
-      "message": "feat: persist customer drafts and publish controlled customer links",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T05:23:14Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/4e055fb188152680e02618ff084ae76497f8f995",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "858bc74",
-      "message": "feat: improve sales staff workflow and local customer drafts",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T05:01:45Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/858bc740f0fa7b1479df2ba218efa06754a0ebd1",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2b4e903",
-      "message": "fix: restrict linked CRM quotes to construction projects",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T01:55:32Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2b4e903f029a9638f0db4179f92d031fe9991922",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c313a54",
-      "message": "fix: stop loading unavailable Vercel analytics script",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T01:51:49Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c313a543aa1fd543a714adb750c5088a0e759c74",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "151b439",
-      "message": "feat: unify CRM sales workspace and customer follow-up promises",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T01:50:01Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/151b43940670a1b504b7ba64aa8c91f6480ed6d3",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "7e6cd19",
-      "message": "feat: 외주 유형 · 큰 건 표시 · 시간 자유 입력 · 휴가 범위 수정 · 입력 동선",
-      "author": "junyoungjang976",
-      "date": "2026-09-11T01:18:07Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/7e6cd19634cf8f32c4c8735ea4586eb7b6e5106a",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "5517936",
-      "message": "feat: 시각·소요 시간을 직접 친다 + 담당자 버튼을 내용만큼만",
-      "author": "junyoungjang976",
-      "date": "2026-09-11T00:45:58Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/55179364e179aa24433f931509222af1e20fff95",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "2be2a6a",
-      "message": "fix: 현장 화면 견적 일자가 비어 있던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T12:52:14Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/2be2a6ae2ea073e6b2ba2b7e9a697047f9484fa6",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "fc97fdf",
-      "message": "feat: 현장용 모바일 화면 /m 신설 (1단계 — 견적서 조회·보내기)",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T12:49:13Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/fc97fdfdb3b3a4318ffe56be770eb1c44ff1f9d5",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "877ee53",
-      "message": "fix: 월간 카드 업장명도 굵게 — 주간과 같은 굵기로",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T12:39:14Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/877ee53342551ed21563aa896a8b7cae4cafab6b",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "7e8fb3f",
-      "message": "refactor: F안 하위 5페이지 h1 을 문제 제기 → 답으로 (기획서 5단계)",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T08:31:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7e8fb3f300c495e6be6c61e4229889e3d04cb92a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b98f02d",
-      "message": "feat: F안 메인 — 히어로 배경 영상 + 결정 4건 반영 + 모바일 사진띠 축소",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T07:09:45Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b98f02db0e60b98d085d08be3c54d6127e74187e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e4c7373",
-      "message": "feat: 한 건에 업장 여러 곳 — 줄을 나누고 한 건으로 묶는다",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T06:40:45Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e4c73739179bc57edb6f849196d7faba9db6a2b3",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "1b90855",
-      "message": "feat: F안 메인을 「기준」 축으로 재편 (13섹션 → 9섹션)",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T06:34:03Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1b908555114d40a37cd289b46c0c43af48cd8e2c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ea0290a",
-      "message": "fix: 업장 찾기 대소문자·쉼표 · 정기 일정 별도 창 · 겹친 글씨 · 실시간 다음 일정",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T06:23:33Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/ea0290a27efd6b1ff9b1aba8dc7d7a65fe14a8b6",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "e916b13",
-      "message": "feat: 견적서 고르면 설비가 한 번에 들어온다",
-      "author": "junyoungjang976",
-      "date": "2026-09-09T01:47:41Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/e916b13f65d1e7c23873c077089294d6dd80448a",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "ae027aa",
-      "message": "docs: 설비 점검 표준 제작 순서 6단계 (보온배식대로 검증된 방법)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T23:55:47Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/ae027aaa9afef17f28bc46684665b3c5090b7177",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "4108cea",
-      "message": "data(보온배식대): 사장님 확정 사실 반영 — 플로트식 수위센서·히터 병렬·온도센서 수조 바닥면 (트리 42마디)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T23:54:19Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/4108cea5559ba0ed2ec22bb9bbcf50e5fb62bbb9",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "d091eef",
-      "message": "feat: 다른 컴퓨터에서 넣은 일정이 새로고침 없이 뜬다",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T23:29:50Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/d091eefe1e029c4b86e000a7c25c8d54f62c6656",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "cb93206",
-      "message": "feat: 방을 자유롭게 그리고 설비를 끌어 놓는다",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T23:14:53Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/cb93206880afc59700f8e9b2dbf4a2aa256199d3",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "861b184",
-      "message": "feat(태블릿): HUD 콘솔 스킨 — 다크 격자 바탕·유리 패널·청록 발광·번호→판정 카드 연결선 (태블릿 경로에만 적용)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T23:10:23Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/861b18469c5c8d1ded91a0d75434173604c1f078",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "a14778a",
-      "message": "fix(태블릿 이력): 거래처 ID 미연결 접수도 제목의 거래처명으로 찾고, 날짜는 접수일(received_at) 사용",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T17:58:44Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/a14778a3420082d5e932a05f632c6ae33aa56562",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "c4dfd7b",
-      "message": "feat(태블릿): 도면 위 부품 번호를 눌러 판정하는 3칸 화면 — 도면 / 증상 찾기 / 이 설비(현장·A/S 이력·오늘 판정)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T17:54:35Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/c4dfd7b6494bd5a8f1aaa4d56d834b686e55a96a",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "18a1eaa",
-      "message": "feat(점검 화면): 스크롤 없는 첫 화면 — 현장정보 한 줄·계통 아코디언·부품 한 줄 판정·사진/소견 시트",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T15:30:08Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/18a1eaad6bcf515fd1a72a963e6f4480d3338689",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "1065f82",
-      "message": "refactor: 배차판 머리 부분을 표에 맞춘다 — 날짜 왼쪽으로, 줄 넷을 둘로",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T15:25:46Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/1065f82661c9164bfe3b2660a4ad03db3f8602f7",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "c11b634",
-      "message": "fix: F안 메인 버튼·링크 가시성 (44px 미만 42개 → 1개)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T15:19:35Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c11b634f4070d50e3db8aaa64937b510aea698ed",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "fb273b5",
-      "message": "fix(증상 트리): 「정상·이상 없음」 잎 선택 시 다음 단계로 자동 진행",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T14:42:59Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/fb273b5910fd7b47579a1ad4505614b410154faa",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "7bff445",
-      "message": "feat(보온배식대): 실제 A/S 기록 기반 점검 표준 v2 — 부품 22종·판정 트리 7단계·부품 연결",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T14:40:54Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/7bff445ca503ba2baa384928e7a325594b8fa5fa",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "12f0496",
-      "message": "feat: 월간·인원별 표도 칸 아무 데나 눌러 추가",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T14:37:21Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/12f0496bbb383e460673adf3151f275e00926f95",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "8f7627c",
-      "message": "Revert \"feat: F안 team 에 부서 카드 2장 추가 (빈칸 제거)\"",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T14:34:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8f7627c5d78f68cf3a56df5dd231a16170102af1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "0bee6cd",
-      "message": "fix: F안 메인 담당 매니저 — 부서 2장을 여섯 번째 빈 칸 안에 넣음",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T14:32:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/0bee6cdbb437e65e0826ecd457250fdafb3f12d1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c387ff2",
-      "message": "feat: F안 메인 담당 매니저에 부서 카드 2장 추가",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T10:53:30Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c387ff2b400054ec9a18a12330cc088d7eb47d00",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4973313",
-      "message": "feat: 칸 아무 데나 눌러 추가 · 휴대폰 열 너비 · 화살표 · 반차 오전/오후·사유",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T10:48:21Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/4973313a97419ee352d356bc8597483e595d0b27",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "4bef4e5",
-      "message": "feat: 주방닥터 초기 구축 — 고장 진단·부품 제원 앱 (fd_ 스키마·화면 6·이관 스크립트)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T09:52:41Z",
-      "url": "https://github.com/junyoungjang976/busungtk-kitchen-doctor/commit/4bef4e50a86cd7ef2ad2bac004cc2a1a42f7516b",
-      "repo": "busungtk-kitchen-doctor"
-    },
-    {
-      "sha": "bd59e78",
-      "message": "feat: 전체 코너 → 상세 코너",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T09:34:04Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/bd59e786f5146f4f0189ca395ef7bffe02a38bb3",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "11adf81",
-      "message": "feat: F안 team 에 부서 카드 2장 추가 (빈칸 제거)",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T09:30:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/11adf81b2c6d3a737bc6c1b1c0c81a2fe64f9ef3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "03c4a62",
-      "message": "feat: 코너별 주방 도면 만들기 — 벽면과 순서만 고르면 자리는 계산한다",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T09:26:17Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/03c4a62e5879dfc341886490849e444a7ec5135d",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "57860ea",
-      "message": "fix: 반복 지우기 버튼을 상세 창에도 — 수정 창에만 있으면 못 찾는다",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T00:20:52Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/57860eaaed9cb02872e072ad6753b7e71bda1e43",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "1ea9210",
-      "message": "fix: 폰에서 쓸 수 있게 — 목록 진입로·빈 화면·잘린 카드·어긋난 숫자",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T00:17:41Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/1ea9210153b7d59f5e082a5d3f9ea86751da5cac",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "86e6d7a",
-      "message": "feat: 정기·고정 일정(매주 요일 반복) + 하루 요약을 표로",
-      "author": "junyoungjang976",
-      "date": "2026-09-08T00:12:33Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/86e6d7ad49cf3d90c3ad45d4dd0d6b838b2de964",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "21f275e",
-      "message": "feat: 중복 접수 안내 + 폰 화면 수리",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T14:28:29Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/21f275eb465010180ce8e75b2058ad1b140328ad",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "40f04a2",
-      "message": "feat: 휴가를 눌러 고친다 — 수정 창 신설",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T14:27:58Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/40f04a26120f810653b41a23abdcb53279267b07",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "3b9c97d",
-      "message": "feat: 접수 내역을 모아 보고, 설비에서도 바로 본다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T14:17:11Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/3b9c97d6f247744d1e2f46b9dcd900c8892a70c8",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "60221af",
-      "message": "fix: 설비 QR 을 찍으면 접수창이 바로 뜬다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T14:08:12Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/60221af1bcd75290aa863a5c36e334c08cbc6d73",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "7541114",
-      "message": "feat: 시연용 가짜 매장 + 배포 산출물 검사기",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T13:41:33Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/75411141b0ced9def911f137a5dd2fb2d5adab42",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "2680b8f",
-      "message": "fix: F안 메인 모바일 겹침 수리 + 문안 정리",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T13:29:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2680b8fd37b5c90e43dc88fc7cf5370d84c8ecdb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d10a865",
-      "message": "feat: 배차 시간을 하루 24시간 · 30분 단위로",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:58:12Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/d10a8654c7c82c9492aa6aba2585a1e21ee0c5b9",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "3678874",
-      "message": "feat: 설비 QR — 찍으면 그 설비가 열린 채로 시작한다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:52:31Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/3678874a836501de7e73c5c1ce66c8d5766a9656",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "d4cdd42",
-      "message": "fix: F안 team 인터뷰의 거래처 보안·금칙어 처리",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:50:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d4cdd426fa82e5b220799acb46d82c8f2cf30be8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d0f7121",
-      "message": "feat: 접수한 것이 매장 화면에 반영된다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:47:53Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/d0f712158c39b5262cfa32fdf40461a507426e47",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "fbdd585",
-      "message": "refactor: F안 페르소나 4종 본문 정리",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:45:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/fbdd585a2de97e6eb2ffaa84374527d418d6b297",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "61069c5",
-      "message": "feat: 시간에 「시」 단위 표시 + 휴가 종류에 반차를 되살린다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:44:51Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/61069c5ffb82b0f0a49bd508df8aab93e748b91d",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "fea2647",
-      "message": "fix: F안 team·method 금칙어와 거래처 표기 정리",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:42:03Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/fea2647369a0483f2be7c4be80b7cf2569e5c46a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "180b19c",
-      "message": "feat: 월간 카드를 세 줄까지 — 내용을 접지 않고 두 줄로 편다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:41:15Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/180b19cede337ee541d77ec176a5ac0f955c3e1b",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "2d8f9a6",
-      "message": "feat: 접수 증상을 버튼 말투로 다시 쓰고, 관리자에서 고치게 함",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:38:43Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/2d8f9a69d3d447ad2a7c58fac1389744d4af5bb9",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "08ef9ea",
-      "message": "fix: 월간 카드에서 업장명이 잘리던 것 — 배지를 제목 줄에서 내용 줄로 내린다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:37:37Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/08ef9ea178c5c17f01cc21d7e3f54cb7479ffec1",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "1a4265f",
-      "message": "feat: 담당자 배지는 이름 뒤 두 글자·진한 색 / 차량은 번호 뒤 네 자리 / 날짜 화살표 강조",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:35:06Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/1a4265f6263d167c5d98774fb0e8198c4ae3e0a6",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "93129e9",
-      "message": "feat: 관리자에서 매장 접수 번호 정하기",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:30:44Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/93129e91ab52441ba1d7d73285aa0bd30aeda4df",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "d9e10ad",
-      "message": "feat: 고객이 QR 에서 직접 고장 접수 — 세 번 누르면 끝",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:29:40Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/d9e10ad1e7ed6d49efe0e8578371701a380e1e0d",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "55ec8a7",
-      "message": "feat: 담당자를 카드 오른쪽 배지로 — 이모지는 하는 일, 두 글자는 사람",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:26:56Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/55ec8a7bb74d82372ffa739d2485ffea08c30ed7",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "5b0137d",
-      "message": "refactor: 일정별에서 세로 시간축을 걷어내고 카드 목록으로 + 월간은 전부 편다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:13:51Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/5b0137dc4fe154131c56150cc076a05f2fc02bfd",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "53dfb7b",
-      "message": "refactor: F안 method 본문을 h1 축에 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:11:57Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/53dfb7b329739146e4bc306e2aab65e543ca32cc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e83318c",
-      "message": "fix: 발주서도 휴대폰에서 PDF 저장이 안 되던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T12:07:05Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/e83318cf576972677a8c57684e8d66f90421b83a",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "8128ab6",
-      "message": "refactor: F안 about 본문을 h1 축에 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:42:16Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8128ab6693b4545cadf4cc10869eb616951fad25",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "23581f9",
-      "message": "fix: F안 개발본 robots 메타 모순 제거 (9개 파일)",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:42:16Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/23581f9946a40d8b8da33d9ccb2688620be38db3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d4ada86",
-      "message": "fix: 노션 일정 카드는 회색 알약이 아니라 흰 카드다 — 카드 겉모양 교정",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:35:20Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/d4ada86675fcf8e95b739de57bcb491ed18c207b",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "3f57287",
-      "message": "refactor: 배차판을 노션 달력 톤으로 — 회색 알약 카드 + 색은 점·안쪽 선으로만",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:20:21Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/3f57287fad966a70dbb01eff516ebbccafaa1ab4",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "58401ac",
-      "message": "fix: H안 시각 설계 — 브랜드 값으로 다시 짬",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:05:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/58401aca2440b8f65b8f7fa811900478cd0ed176",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9d7db1b",
-      "message": "fix: 휴대폰에서 견적서 PDF 저장이 안 되던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T11:01:15Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/9d7db1bd356f1a7879240ea81ace299d19981251",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "9f52f1c",
-      "message": "refactor: 배차판 색을 줄인다 — 상태를 알리는 색만 남기고 구역 구분용 색은 뺀다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T07:46:36Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/9f52f1cb0a75ceaf7b155ff8dadeff78e8945248",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "f44dbbb",
-      "message": "feat: H안 랜딩 개발본 (1분 체류 설계)",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T07:44:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f44dbbbbaa9abfb576d272e03b9cd8726ff40ef7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8d4c0dd",
-      "message": "fix: 기록 시작 전 발주에는 업체 확인 표시를 안 한다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T07:28:42Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/8d4c0dd61c08efb94276c97dc1c3a615238d0532",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "b739108",
-      "message": "feat: 발주 목록에 업체가 봤는지 표시 + 「안 봄」만 골라보기",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T07:26:26Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/b739108fb1ad845be67fe1d8fc84704cdf4b3627",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "d2b2cdc",
-      "message": "feat: 빈 일정 찾기 — 필요 시간 8시간까지 + 시간대 범위 선택 추가",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T07:00:12Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/d2b2cdcbb50e6f5fc6e888d4aab37bd632b426a3",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "4c92346",
-      "message": "fix: 업체 확인 단추를 화면 아래에 계속 띄운다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T06:55:46Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/4c92346795a3686a0e5adcb655c6aa2ab55c1cf7",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "fa6fd62",
-      "message": "feat: 배차판 드래그 이동을 월간·일정별까지 확장 + 여러 UX 개선",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T06:36:25Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/fa6fd62c48464430e9f4b5481eadfc7353047a85",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "3cdbe37",
-      "message": "chore: 미확인 발주 점검에 시험용 유예 조정값 추가",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T06:29:54Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/3cdbe3731f23f63d61ab954984cdde1a0a1f8945",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "053dfaf",
-      "message": "feat: 업체가 아직 안 본 발주를 매일 챙긴다 (반송 감지는 잠재움)",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T06:27:30Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/053dfaf5b9ec0f4ae1ca604bb10f0599cf3d2cf3",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "de75139",
-      "message": "feat: 메일 반송 감지 + \"발송\"을 \"접수\"로 바로잡음",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T06:10:22Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/de751390ef4ac6c2a8a2dfd7bf5faa4b4a1ae344",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "4455fe8",
-      "message": "feat: 알림 다시 보내기 + 업체가 받아봤는지 확인",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T05:44:43Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/4455fe8f78431182a50b081a30e97589378f9dc3",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "e8f4670",
-      "message": "feat: 하루 요약 띠 — 날짜 크게, 날짜 탭 클릭 연동, 사람이 말하듯 한 문장 요약",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T05:25:07Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e8f4670ba399ef6e6014c5258fc10eff3e53b808",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "3cd96d5",
-      "message": "feat: 업장을 등록 버튼 없이 타이핑으로 바로 추가 + 버튼 목록을 검색 드롭다운으로",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T04:24:12Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/3cd96d5d4b24cc6436ca8a47af790f4be4c84062",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "696c5cc",
-      "message": "fix: 일정별 카드에서 업장만 굵게, 내용은 인원·차량과 같은 스타일로",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T04:00:44Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/696c5cc95911e340ea0a888b370292d6a3fd5ecc",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "7149259",
-      "message": "feat: 알림이 안 나갔을 때 회사가 그날 알도록 메일로 알린다",
-      "author": "junyoungjang976",
-      "date": "2026-09-07T03:42:28Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/71492592ec1308c34099eaf6ad3e030421db995d",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "1f88c38",
-      "message": "fix: 매입 거래명세표 단가에 소수점을 못 넣던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-03T00:52:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/1f88c389c4740687ede64a5f59e198f5f96f6529",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "722142e",
-      "message": "chore: 사례 264건 재생성 — 새 제목 규칙 반영",
-      "author": "junyoungjang976",
-      "date": "2026-09-03T00:25:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/722142ebb526d5b69768b718fefbf250cbe70e78",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "844bd8e",
-      "message": "feat: 페이지 제목에 검증된 검색어와 지역 넣기 (SEO)",
-      "author": "junyoungjang976",
-      "date": "2026-09-03T00:25:21Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/844bd8e87cf2b0d5d7b281ee30caaa6a02e24d94",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "034ea22",
-      "message": "fix: 경리나라 비고가 내부 메모로 들어가던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-01T14:42:09Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/034ea22bf050a97417a7a28fc61f40ab2bd97785",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1373a58",
-      "message": "fix: 순번에 공백이 끼어 항목 20개가 사라지던 것 + 경고 요약",
-      "author": "junyoungjang976",
-      "date": "2026-09-01T14:24:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/1373a58f42e254c146cc21739d772e68190e22a9",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "4e2ec7d",
-      "message": "fix: 경리나라 PDF 가져오기가 1쪽에서 멈추던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-01T14:11:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/4e2ec7deed4fb5320cd251b817daab5c16e3f6ca",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "ad36d53",
-      "message": "fix: 경리나라 견적서 가져오기가 품목 20개까지만 읽던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-01T09:58:26Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/ad36d53d9edb637e59626a59cfb53a74c41629ee",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1b46e62",
-      "message": "fix: process 의 연차 주장 두 건 — 22년은 회사 연차다",
-      "author": "junyoungjang976",
-      "date": "2026-09-01T09:40:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1b46e62fd4d0fd8831758a639b202b99e28dd0b8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8cbb1f3",
-      "message": "refactor: corporate 정리 + 남은 페이지 전수 훑기",
-      "author": "junyoungjang976",
-      "date": "2026-08-31T06:55:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8cbb1f35b8a1992324a2aca106ef504d8c9f9694",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1676103",
-      "message": "refactor: quote 페이지 — 같은 일곱 장을 두 번 세고 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-31T05:11:23Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1676103fee41aa4a7c12df846f7bebedbb8c4415",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3137aca",
-      "message": "fix: F안에서도 실측 0건 축을 빼고 납기로 바꾼다",
-      "author": "junyoungjang976",
-      "date": "2026-08-31T02:59:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3137acaf35823a2b1444ebe6961ed412674dba4f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8214bae",
-      "message": "fix: 고객이 안 묻는 걱정 3건 폐기 — 문의 본문에서 낱말을 세었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-31T02:58:27Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/8214baeaff5bc57ea41c6c3cd16d98be73c247d3",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "5de3255",
-      "message": "docs: 네이버 개선안 발행 파일 — dry-run 9/9 통과, 실행은 안 함",
-      "author": "junyoungjang976",
-      "date": "2026-08-30T10:32:29Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/5de3255d297206b16118d18844e133c1ac7217b2",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "4641b6b",
-      "message": "copy: 헤더와 4분할에 2·3축을 넣는다 — 한 축에만 서 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-30T10:29:25Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4641b6b817841c01a4486beaf3ef40a882ed3613",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e7f37cc",
-      "message": "docs: 네이버 개선안에 욕구 4축 판정 추가 — 내가 한 축만 쓰고 있었다",
-      "author": "junyoungjang976",
-      "date": "2026-08-30T09:52:34Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/e7f37ccc730e2d290502393735fc4b6bd0480ba1",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "eca2f46",
-      "message": "docs: 네이버 검색광고 개선안 (2026-08-30) — 집행 0, 결재 대기",
-      "author": "junyoungjang976",
-      "date": "2026-08-30T09:31:57Z",
-      "url": "https://github.com/busungtk/busungtk-marketing-v2/commit/eca2f46650be355627abfe953f5bc0a0fa74ebc1",
-      "repo": "busungtk-marketing-v2"
-    },
-    {
-      "sha": "19195e9",
-      "message": "copy: care 「동행」 완전 제거 (메타 설명·h2·SVG alt 포함)",
-      "author": "junyoungjang976",
-      "date": "2026-08-30T07:55:53Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/19195e924bf5df0cf5093981434a3856b84a1845",
       "repo": "busungtk-landing"
     }
   ],
