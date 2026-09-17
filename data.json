@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-16T01:54:15.148434Z",
+  "updated_at": "2026-09-17T01:58:07.423499Z",
   "repos": [
+    "busungtk-daily-report",
     "busungtk-kitchen-consulting",
     "busungtk-equipment",
     "busungtk-landing",
-    "busungtk-daily-report",
     "busungtk-supabase-types",
     "busungtk-price-library",
     "busungtk-marketing-v2",
@@ -36,8 +36,8 @@
     "busungtk-seo-agent",
     "busungtk-kitchen-planner",
     "ai-work-control-center",
-    "busungtk-kitchen-doctor",
     "claude-dotfiles",
+    "busungtk-kitchen-doctor",
     "suneung-changsija-promo",
     "eatpch-channel-pilot",
     "every-job-instagram",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 935,
+    "total_commits": 943,
     "total_prs": 1,
     "total_issues": 7,
-    "active_days": 61
+    "active_days": 62
   },
   "daily": {
+    "2026-09-16": {
+      "commits": 8,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-15": {
       "commits": 20,
       "prs_opened": 0,
@@ -491,16 +498,16 @@
     }
   },
   "overtime": {
-    "total_commits": 935,
+    "total_commits": 943,
     "overtime_commits": 542,
-    "regular_commits": 393,
-    "overtime_rate": 58.0,
+    "regular_commits": 401,
+    "overtime_rate": 57.5,
     "weekend_commits": 147,
     "late_night_commits": 337,
-    "total_hours": 493.9,
-    "regular_hours": 210.3,
-    "overtime_hours": 283.6,
-    "overtime_hour_rate": 57.4,
+    "total_hours": 505.4,
+    "regular_hours": 217.9,
+    "overtime_hours": 287.5,
+    "overtime_hour_rate": 56.9,
     "daily_hours": {
       "2026-06-21": {
         "regular_hours": 0,
@@ -916,11 +923,11 @@
         "commits": 19
       },
       "2026-09-16": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "regular_hours": 7.6,
+        "overtime_hours": 4.4,
+        "total_hours": 12.0,
         "is_weekend": false,
-        "commits": 16
+        "commits": 24
       }
     },
     "overtime_by_date": {
@@ -977,7 +984,7 @@
       "2026-09-13": 23.2,
       "2026-09-14": 13.2,
       "2026-09-15": 13.4,
-      "2026-09-16": 0.5
+      "2026-09-16": 4.4
     },
     "overtime_by_hour": [
       27,
@@ -1011,6 +1018,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "03cb77e",
+      "message": "fix(결재함): 착수 승인은 task_id 로 짝을 맞춘다",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T07:36:25Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/03cb77e72f7928357c56acdcfbfaa0b4d6d35c71",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "56a2672",
+      "message": "fix(결재함): canAnswer 도 같은 칸을 보게",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T07:34:23Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/56a2672c6404935b6ae4cf1b20e5705a76bdb997",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "fc62f18",
+      "message": "docs(worklog): 자리에 계시면 세션, 나가 계시면 결재함 (AWCC#1 결재)",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T07:13:25Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fc62f18baf9db7f9844721ed821e62a1c54aa919",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "351edca",
+      "message": "fix(결재함): 눌러도 안 사라지던 것 · 5개가 다 같아 보이던 것",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T06:51:14Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/351edca710977fa08302f5f402d14f661704c402",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "c34769b",
+      "message": "feat: 정기 일정 반복 규칙 넷 — 며칠마다·몇 주마다·매달 며칠·매달 몇째 주 무슨 요일",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T04:06:28Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c34769b5d45cdf7d1d941bfb7e9406ce7f2dc67c",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "bfb9bd8",
+      "message": "feat: 실시간 탭에서 할 일을 다 보이게 — 카드에 작업내용, 상세에 그날 일정 전부",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T03:44:12Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/bfb9bd8ddad42594ebeed9a92772ffd5e7cab15f",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "ed05ef5",
+      "message": "fix(결재함): 판단이 필요한 결정을 앞으로, 절차는 뒤로",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T03:41:29Z",
+      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/ed05ef5113711a25d98e4c23ab3a977c52f97034",
+      "repo": "ai-work-control-center"
+    },
+    {
+      "sha": "0275a56",
+      "message": "feat: 팀챗 알림을 칸마다 「■ 이름 : 값」 한 줄로",
+      "author": "junyoungjang976",
+      "date": "2026-09-16T02:28:39Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/0275a565e2308854e282111cff5bf737143f3129",
+      "repo": "busungtk-daily-report"
+    },
     {
       "sha": "f742aa0",
       "message": "chore(.ai-work): 09-16 결정·체크포인트 (KC#5 위생 점검표 이관 여부)",
@@ -2546,70 +2617,6 @@
       "date": "2026-09-12T22:26:52Z",
       "url": "https://github.com/busungtk/busungtk-price-library/commit/bb041d1f16933b2fe2870e09db91d9e5b436003a",
       "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "0c6dfec",
-      "message": "feat: jointly compare Korean20 equipment and layout candidates",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T22:25:49Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0c6dfecf458761c94edc517d165ab324a25f399b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "29e4660",
-      "message": "Search linked manufacturer models without changing source rows",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:38:52Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/29e46604a3ad7e47af0f313475f018f77562edef",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "5fe5351",
-      "message": "Show configuration and dehumidifier facts with source conflict warning",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:35:16Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/5fe53518d17646d645cef64be0d7287d51b3d5af",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "c8d50e4",
-      "message": "Record four verified official-source conflicts",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:24:28Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/c8d50e4b9a6a86dfd5ffcb1e177f0f849e7bf123",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "197ae95",
-      "message": "Display configuration-specific material and capacity facts",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:16:14Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/197ae95be94bd112e9f48e54e29f79e384146995",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "c8270ce",
-      "message": "Record source conflicts and display induction specifications",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:11:43Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/c8270ce6486a2e788b27770a2b69596b4169d2d5",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "765469a",
-      "message": "Show evidence-backed matching holds in vendor progress",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T17:02:23Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/765469a36b00204f05f9b21de27435526378d440",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "02ee743",
-      "message": "Audit layout validation coverage and pilot equipment matching",
-      "author": "jangjoonyoung",
-      "date": "2026-09-12T16:52:59Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/02ee7435ed6f428be61208aadc628b68f322b6a8",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
