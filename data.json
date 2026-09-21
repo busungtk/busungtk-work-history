@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T01:52:34.926673Z",
+  "updated_at": "2026-09-21T01:53:43.558487Z",
   "repos": [
     "busungtk-landing",
     "busungtk-marketing-v2",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 990,
+    "total_commits": 991,
     "total_prs": 2,
     "total_issues": 7,
-    "active_days": 63
+    "active_days": 64
   },
   "daily": {
+    "2026-09-21": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-19": {
       "commits": 8,
       "prs_opened": 0,
@@ -161,14 +168,14 @@
       "issues_closed": 0
     },
     "2026-09-01": {
-      "commits": 5,
+      "commits": 4,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-31": {
-      "commits": 2,
+      "commits": 1,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -505,16 +512,16 @@
     }
   },
   "overtime": {
-    "total_commits": 990,
-    "overtime_commits": 554,
-    "regular_commits": 436,
-    "overtime_rate": 56.0,
+    "total_commits": 991,
+    "overtime_commits": 553,
+    "regular_commits": 438,
+    "overtime_rate": 55.8,
     "weekend_commits": 135,
-    "late_night_commits": 361,
-    "total_hours": 527.4,
-    "regular_hours": 228.4,
-    "overtime_hours": 299.0,
-    "overtime_hour_rate": 56.7,
+    "late_night_commits": 360,
+    "total_hours": 524.2,
+    "regular_hours": 224.6,
+    "overtime_hours": 299.6,
+    "overtime_hour_rate": 57.2,
     "daily_hours": {
       "2026-06-29": {
         "regular_hours": 0.1,
@@ -839,18 +846,18 @@
         "commits": 6
       },
       "2026-08-31": {
-        "regular_hours": 3.9,
-        "overtime_hours": 0.0,
-        "total_hours": 3.9,
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 2
+        "commits": 1
       },
       "2026-09-01": {
         "regular_hours": 0,
-        "overtime_hours": 5.0,
-        "total_hours": 5.0,
+        "overtime_hours": 4.7,
+        "total_hours": 4.7,
         "is_weekend": false,
-        "commits": 5
+        "commits": 4
       },
       "2026-09-03": {
         "regular_hours": 0.5,
@@ -949,6 +956,13 @@
         "total_hours": 0.5,
         "is_weekend": true,
         "commits": 2
+      },
+      "2026-09-21": {
+        "regular_hours": 0.1,
+        "overtime_hours": 0.4,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -995,7 +1009,8 @@
       "2026-08-28": 3.5,
       "2026-08-29": 5.2,
       "2026-08-30": 19.4,
-      "2026-09-01": 5.0,
+      "2026-08-31": 0.5,
+      "2026-09-01": 4.7,
       "2026-09-07": 5.5,
       "2026-09-08": 5.7,
       "2026-09-09": 12.5,
@@ -1007,7 +1022,8 @@
       "2026-09-17": 5.4,
       "2026-09-18": 8.8,
       "2026-09-19": 10.7,
-      "2026-09-20": 0.5
+      "2026-09-20": 0.5,
+      "2026-09-21": 0.4
     },
     "overtime_by_hour": [
       27,
@@ -1028,7 +1044,7 @@
       1,
       1,
       3,
-      90,
+      89,
       89,
       54,
       52,
@@ -1041,6 +1057,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "e1f4c35",
+      "message": "docs(site-case-publish): 발행 기록 구멍 — 날짜가 겹치면 사람이 읽는다",
+      "author": "junyoungjang976",
+      "date": "2026-09-21T01:22:44Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/e1f4c350e0ae7a08f164c9bdb67f16901279979a",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "20ea31b",
+      "message": "chore: 사례 페이지·사이트맵 재생성 (423건) + 사이트 사례 수 393→423",
+      "author": "junyoungjang976",
+      "date": "2026-09-21T01:19:05Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/20ea31bfa9bbe6bdae9939a3539079418733de5e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "44c7c3d",
+      "message": "feat: 홈페이지 사례 30건 발행 — 채널톡 완료보고 2025-08~2026-09",
+      "author": "junyoungjang976",
+      "date": "2026-09-21T01:18:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/44c7c3d9fea3fef25997f0d26dd06db7e752e2eb",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "ce3aa45",
       "message": "fix(site-case): 중복 판정 전에 source 를 정규화한다",
@@ -2616,30 +2656,6 @@
       "date": "2026-09-14T07:10:58Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/10008d81dd3d8f23283dd3239c12eb500288dcd4",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "dd60208",
-      "message": "feat: 결정을 화면에서 바로 답한다",
-      "author": "junyoungjang976",
-      "date": "2026-09-14T07:10:34Z",
-      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/dd60208ca3b3c6d506f1c03e99d2973b5c3d8df0",
-      "repo": "ai-work-control-center"
-    },
-    {
-      "sha": "4e94453",
-      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
-      "author": "junyoungjang976",
-      "date": "2026-09-14T07:03:03Z",
-      "url": "https://github.com/busungtk/busungtk-supabase-types/commit/4e94453f4145d468f5f8e16f6da776c245051d80",
-      "repo": "busungtk-supabase-types"
-    },
-    {
-      "sha": "642171b",
-      "message": "chore(.ai-work): 결정 번호를 프로젝트별로 다시 매김",
-      "author": "junyoungjang976",
-      "date": "2026-09-14T07:03:00Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/642171b9aefa35f0aba15d09b7ce7da638bfe61d",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
