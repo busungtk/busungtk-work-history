@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:53:43.558487Z",
+  "updated_at": "2026-09-22T02:01:29.852179Z",
   "repos": [
     "busungtk-landing",
     "busungtk-marketing-v2",
@@ -35,10 +35,10 @@
     "busungtk-marketing",
     "busungtk-seo-agent",
     "busungtk-kitchen-planner",
+    "channeltalk-downloader",
     "claude-dotfiles",
     "busungtk-kitchen-doctor",
     "ai-work-control-center",
-    "channeltalk-downloader",
     "suneung-changsija-promo",
     "eatpch-channel-pilot",
     "every-job-instagram",
@@ -56,15 +56,15 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 991,
-    "total_prs": 2,
+    "total_commits": 992,
+    "total_prs": 3,
     "total_issues": 7,
     "active_days": 64
   },
   "daily": {
     "2026-09-21": {
-      "commits": 3,
-      "prs_opened": 0,
+      "commits": 4,
+      "prs_opened": 1,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
@@ -512,16 +512,16 @@
     }
   },
   "overtime": {
-    "total_commits": 991,
-    "overtime_commits": 553,
+    "total_commits": 992,
+    "overtime_commits": 554,
     "regular_commits": 438,
     "overtime_rate": 55.8,
     "weekend_commits": 135,
-    "late_night_commits": 360,
-    "total_hours": 524.2,
-    "regular_hours": 224.6,
-    "overtime_hours": 299.6,
-    "overtime_hour_rate": 57.2,
+    "late_night_commits": 361,
+    "total_hours": 533.0,
+    "regular_hours": 232.2,
+    "overtime_hours": 300.8,
+    "overtime_hour_rate": 56.4,
     "daily_hours": {
       "2026-06-29": {
         "regular_hours": 0.1,
@@ -958,11 +958,11 @@
         "commits": 2
       },
       "2026-09-21": {
-        "regular_hours": 0.1,
-        "overtime_hours": 0.4,
-        "total_hours": 0.5,
+        "regular_hours": 7.7,
+        "overtime_hours": 1.6,
+        "total_hours": 9.3,
         "is_weekend": false,
-        "commits": 3
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -1023,7 +1023,7 @@
       "2026-09-18": 8.8,
       "2026-09-19": 10.7,
       "2026-09-20": 0.5,
-      "2026-09-21": 0.4
+      "2026-09-21": 1.6
     },
     "overtime_by_hour": [
       27,
@@ -1045,7 +1045,7 @@
       1,
       3,
       89,
-      89,
+      90,
       54,
       52,
       31,
@@ -1057,6 +1057,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "05a7a04",
+      "message": "feat: 채널톡 '사무_입금요청'(268484) 수집 시작",
+      "author": "junyoungjang976",
+      "date": "2026-09-21T10:39:02Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/05a7a04fa83ce8dfd91978a92c5df500d5d36331",
+      "repo": "channeltalk-downloader"
+    },
     {
       "sha": "e1f4c35",
       "message": "docs(site-case-publish): 발행 기록 구멍 — 날짜가 겹치면 사람이 읽는다",
@@ -2648,17 +2656,20 @@
       "date": "2026-09-14T07:11:18Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/0861e58f626d4d213205602c07fb60c331a5d67d",
       "repo": "busungtk-landing"
-    },
-    {
-      "sha": "10008d8",
-      "message": "feat(f2): 메인을 가로 넘김 구조로 + 하위 페이지 목록 화면 신설",
-      "author": "junyoungjang976",
-      "date": "2026-09-14T07:10:58Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/10008d81dd3d8f23283dd3239c12eb500288dcd4",
-      "repo": "busungtk-landing"
     }
   ],
   "pull_requests": [
+    {
+      "number": 1,
+      "title": "feat(onboarding): 신입사원 업무 체험 시뮬레이터",
+      "state": "open",
+      "author": "junyoungjang976",
+      "created_at": "2026-09-21T11:15:06Z",
+      "updated_at": "2026-09-21T15:37:18Z",
+      "merged_at": null,
+      "url": "https://github.com/busungtk/busungtk-asms/pull/1",
+      "repo": "busungtk-asms"
+    },
     {
       "number": 1,
       "title": "feat(outlier-lab): 수집기 + 정적 열람 페이지 분리 구조",
