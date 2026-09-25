@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-24T01:49:05.127666Z",
+  "updated_at": "2026-09-25T02:05:17.942785Z",
   "repos": [
     "busungtk-landing",
+    "busungtk-daily-report",
     "busungtk-asms",
     "busungtk-price-library",
     "busungtk-kitchen-consulting",
-    "busungtk-daily-report",
     "busungtk-order-tracker",
     "busungtk-marketing-v2",
     "busungtk-equipment",
@@ -59,9 +59,16 @@
     "total_commits": 1002,
     "total_prs": 3,
     "total_issues": 7,
-    "active_days": 66
+    "active_days": 67
   },
   "daily": {
+    "2026-09-24": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-23": {
       "commits": 52,
       "prs_opened": 0,
@@ -119,7 +126,7 @@
       "issues_closed": 0
     },
     "2026-09-14": {
-      "commits": 105,
+      "commits": 103,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -413,7 +420,7 @@
       "issues_closed": 0
     },
     "2026-07-24": {
-      "commits": 17,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -527,14 +534,14 @@
   },
   "overtime": {
     "total_commits": 1002,
-    "overtime_commits": 568,
-    "regular_commits": 434,
-    "overtime_rate": 56.7,
+    "overtime_commits": 569,
+    "regular_commits": 433,
+    "overtime_rate": 56.8,
     "weekend_commits": 123,
-    "late_night_commits": 385,
-    "total_hours": 549.3,
+    "late_night_commits": 384,
+    "total_hours": 550.3,
     "regular_hours": 243.6,
-    "overtime_hours": 305.7,
+    "overtime_hours": 306.7,
     "overtime_hour_rate": 55.7,
     "daily_hours": {
       "2026-06-29": {
@@ -654,7 +661,7 @@
         "overtime_hours": 0.0,
         "total_hours": 8.8,
         "is_weekend": false,
-        "commits": 16
+        "commits": 15
       },
       "2026-07-25": {
         "regular_hours": 0,
@@ -927,7 +934,7 @@
         "overtime_hours": 13.2,
         "total_hours": 22.2,
         "is_weekend": false,
-        "commits": 125
+        "commits": 123
       },
       "2026-09-15": {
         "regular_hours": 9,
@@ -991,6 +998,20 @@
         "total_hours": 13.6,
         "is_weekend": false,
         "commits": 52
+      },
+      "2026-09-24": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
+      },
+      "2026-09-25": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -1054,7 +1075,9 @@
       "2026-09-20": 0.5,
       "2026-09-21": 1.6,
       "2026-09-22": 1.2,
-      "2026-09-23": 5.7
+      "2026-09-23": 5.7,
+      "2026-09-24": 0.5,
+      "2026-09-25": 0.5
     },
     "overtime_by_hour": [
       24,
@@ -1064,7 +1087,7 @@
       23,
       2,
       1,
-      12,
+      14,
       11,
       0,
       7,
@@ -1075,10 +1098,10 @@
       1,
       1,
       3,
-      104,
+      102,
       100,
       57,
-      47,
+      48,
       34,
       43
     ],
@@ -1088,6 +1111,30 @@
     }
   },
   "commits": [
+    {
+      "sha": "1498944",
+      "message": "fix(admin): 방문자 분석 재구축 — 1,000행만 받던 것을 전부 받게, 날짜를 한국 시간으로, 문의 품질·채널별 쓸 만한 문의·매출 연결 경고",
+      "author": "junyoungjang976",
+      "date": "2026-09-24T22:07:42Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1498944bd9972ea1fcce81529d257306873614a2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "55ab624",
+      "message": "feat(tracker): admin 에 로그인한 기기는 방문 집계에서 뺀다 — 배포 날마다 직원 폰 확인이 방문자로 섞였다(09-14·18·23)",
+      "author": "junyoungjang976",
+      "date": "2026-09-24T22:07:42Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/55ab624a36b43f8619d063597ad761970493bee1",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e042c0b",
+      "message": "feat: 배차판 달력 확대·축소 — 폰에서 한 주가 한 화면에",
+      "author": "junyoungjang976",
+      "date": "2026-09-24T12:43:12Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e042c0b567ac89d627559657f461adf45e633377",
+      "repo": "busungtk-daily-report"
+    },
     {
       "sha": "82b8eb9",
       "message": "docs: 클로드 디자인 최종 핸드오프(09-23 18:51판)·승격 스크립트·밀착 인화지 스크립트를 레포에 보존 — 집 PC 이어받기용",
@@ -2663,30 +2710,6 @@
       "date": "2026-09-16T07:13:25Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fc62f18baf9db7f9844721ed821e62a1c54aa919",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "351edca",
-      "message": "fix(결재함): 눌러도 안 사라지던 것 · 5개가 다 같아 보이던 것",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T06:51:14Z",
-      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/351edca710977fa08302f5f402d14f661704c402",
-      "repo": "ai-work-control-center"
-    },
-    {
-      "sha": "c34769b",
-      "message": "feat: 정기 일정 반복 규칙 넷 — 며칠마다·몇 주마다·매달 며칠·매달 몇째 주 무슨 요일",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T04:06:28Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c34769b5d45cdf7d1d941bfb7e9406ce7f2dc67c",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "bfb9bd8",
-      "message": "feat: 실시간 탭에서 할 일을 다 보이게 — 카드에 작업내용, 상세에 그날 일정 전부",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T03:44:12Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/bfb9bd8ddad42594ebeed9a92772ffd5e7cab15f",
-      "repo": "busungtk-daily-report"
     }
   ],
   "pull_requests": [
