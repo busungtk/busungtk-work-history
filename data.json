@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:05:17.942785Z",
+  "updated_at": "2026-09-26T02:10:59.585267Z",
   "repos": [
     "busungtk-landing",
     "busungtk-daily-report",
@@ -59,9 +59,16 @@
     "total_commits": 1002,
     "total_prs": 3,
     "total_issues": 7,
-    "active_days": 67
+    "active_days": 68
   },
   "daily": {
+    "2026-09-25": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-24": {
       "commits": 3,
       "prs_opened": 0,
@@ -126,7 +133,7 @@
       "issues_closed": 0
     },
     "2026-09-14": {
-      "commits": 103,
+      "commits": 102,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -539,10 +546,10 @@
     "overtime_rate": 56.8,
     "weekend_commits": 123,
     "late_night_commits": 384,
-    "total_hours": 550.3,
-    "regular_hours": 243.6,
-    "overtime_hours": 306.7,
-    "overtime_hour_rate": 55.7,
+    "total_hours": 565.9,
+    "regular_hours": 252.6,
+    "overtime_hours": 313.3,
+    "overtime_hour_rate": 55.4,
     "daily_hours": {
       "2026-06-29": {
         "regular_hours": 0.1,
@@ -934,7 +941,7 @@
         "overtime_hours": 13.2,
         "total_hours": 22.2,
         "is_weekend": false,
-        "commits": 123
+        "commits": 122
       },
       "2026-09-15": {
         "regular_hours": 9,
@@ -1007,11 +1014,11 @@
         "commits": 1
       },
       "2026-09-25": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "regular_hours": 9,
+        "overtime_hours": 7.1,
+        "total_hours": 16.1,
         "is_weekend": false,
-        "commits": 2
+        "commits": 3
       }
     },
     "overtime_by_date": {
@@ -1077,7 +1084,7 @@
       "2026-09-22": 1.2,
       "2026-09-23": 5.7,
       "2026-09-24": 0.5,
-      "2026-09-25": 0.5
+      "2026-09-25": 7.1
     },
     "overtime_by_hour": [
       24,
@@ -1099,11 +1106,11 @@
       1,
       3,
       102,
-      100,
+      99,
       57,
       48,
       34,
-      43
+      44
     ],
     "work_hours": {
       "start": 9,
@@ -1111,6 +1118,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "b308bc4",
+      "message": "feat: 홈페이지 사례 23건 발행 — 채널톡 완료보고 2025-05~2026-09",
+      "author": "junyoungjang976",
+      "date": "2026-09-25T14:14:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b308bc4014c711ffa52061c43966a7b40087ee9f",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "1498944",
       "message": "fix(admin): 방문자 분석 재구축 — 1,000행만 받던 것을 전부 받게, 날짜를 한국 시간으로, 문의 품질·채널별 쓸 만한 문의·매출 연결 경고",
@@ -2702,14 +2717,6 @@
       "date": "2026-09-16T07:34:23Z",
       "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/56a2672c6404935b6ae4cf1b20e5705a76bdb997",
       "repo": "ai-work-control-center"
-    },
-    {
-      "sha": "fc62f18",
-      "message": "docs(worklog): 자리에 계시면 세션, 나가 계시면 결재함 (AWCC#1 결재)",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T07:13:25Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/fc62f18baf9db7f9844721ed821e62a1c54aa919",
-      "repo": "claude-dotfiles"
     }
   ],
   "pull_requests": [
