@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T02:03:43.957400Z",
+  "updated_at": "2026-09-28T02:08:37.572801Z",
   "repos": [
     "busungtk-landing",
     "busungtk-daily-report",
@@ -56,12 +56,26 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1002,
+    "total_commits": 1000,
     "total_prs": 3,
     "total_issues": 7,
-    "active_days": 68
+    "active_days": 69
   },
   "daily": {
+    "2026-09-28": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-09-27": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-09-25": {
       "commits": 1,
       "prs_opened": 0,
@@ -133,7 +147,7 @@
       "issues_closed": 0
     },
     "2026-09-14": {
-      "commits": 102,
+      "commits": 94,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -530,34 +544,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-06-29": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1002,
-    "overtime_commits": 569,
-    "regular_commits": 433,
-    "overtime_rate": 56.8,
+    "total_commits": 1000,
+    "overtime_commits": 564,
+    "regular_commits": 436,
+    "overtime_rate": 56.4,
     "weekend_commits": 123,
-    "late_night_commits": 384,
-    "total_hours": 565.9,
-    "regular_hours": 252.6,
-    "overtime_hours": 313.3,
-    "overtime_hour_rate": 55.4,
+    "late_night_commits": 381,
+    "total_hours": 572.8,
+    "regular_hours": 254.6,
+    "overtime_hours": 318.2,
+    "overtime_hour_rate": 55.6,
     "daily_hours": {
-      "2026-06-29": {
-        "regular_hours": 0.1,
-        "overtime_hours": 0.4,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-07-03": {
         "regular_hours": 0.0,
         "overtime_hours": 0.5,
@@ -938,17 +938,17 @@
       },
       "2026-09-14": {
         "regular_hours": 9,
-        "overtime_hours": 13.2,
-        "total_hours": 22.2,
+        "overtime_hours": 13.1,
+        "total_hours": 22.1,
         "is_weekend": false,
-        "commits": 122
+        "commits": 119
       },
       "2026-09-15": {
         "regular_hours": 9,
-        "overtime_hours": 13.4,
-        "total_hours": 22.4,
+        "overtime_hours": 13.1,
+        "total_hours": 22.1,
         "is_weekend": false,
-        "commits": 19
+        "commits": 14
       },
       "2026-09-16": {
         "regular_hours": 7.6,
@@ -1019,10 +1019,16 @@
         "total_hours": 16.1,
         "is_weekend": false,
         "commits": 3
+      },
+      "2026-09-28": {
+        "regular_hours": 2.1,
+        "overtime_hours": 5.7,
+        "total_hours": 7.8,
+        "is_weekend": false,
+        "commits": 8
       }
     },
     "overtime_by_date": {
-      "2026-06-29": 0.4,
       "2026-07-03": 0.5,
       "2026-07-04": 0.5,
       "2026-07-06": 0.5,
@@ -1073,8 +1079,8 @@
       "2026-09-09": 12.4,
       "2026-09-12": 12.9,
       "2026-09-13": 23.2,
-      "2026-09-14": 13.2,
-      "2026-09-15": 13.4,
+      "2026-09-14": 13.1,
+      "2026-09-15": 13.1,
       "2026-09-16": 4.4,
       "2026-09-17": 5.4,
       "2026-09-18": 8.8,
@@ -1084,13 +1090,14 @@
       "2026-09-22": 1.2,
       "2026-09-23": 5.7,
       "2026-09-24": 0.5,
-      "2026-09-25": 7.1
+      "2026-09-25": 7.1,
+      "2026-09-28": 5.7
     },
     "overtime_by_hour": [
-      24,
-      42,
+      20,
+      41,
       19,
-      5,
+      8,
       23,
       2,
       1,
@@ -1106,10 +1113,10 @@
       1,
       3,
       102,
-      99,
+      98,
       57,
       48,
-      34,
+      32,
       44
     ],
     "work_hours": {
@@ -1118,6 +1125,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "37011ca",
+      "message": "feat(survey): 부탁을 크게, 명분을 먼저 — 「통화 전에 여섯 가지만 알려 주세요」 + 왜 묻는지(매니저가 미리 준비·다음 분께 맞는 사례)",
+      "author": "junyoungjang976",
+      "date": "2026-09-28T02:05:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/37011cad0ba740921a170f3a90081d1021a8f511",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4bdb176",
+      "message": "fix: 접수 완료 페이지가 누가 열든 광고 전환(GA4·구글애즈·메타·네이버)을 쏘던 것 — 진짜 제출 표시가 있을 때만 한 번",
+      "author": "junyoungjang976",
+      "date": "2026-09-28T01:51:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4bdb17653b2c94f49a50ca60aff50ff62dcb811b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a9f79a6",
+      "message": "feat(admin): 새 리드에 설문 배지·응답 펼침, 방문자 분석에 설문 분포·처음 본 곳×문의 품질",
+      "author": "junyoungjang976",
+      "date": "2026-09-28T01:48:52Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a9f79a6479fe82b1e0f1c7d0c67137833cabdfe4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "392b8e2",
+      "message": "feat: 문의 직후 설문 — 접수 완료 페이지에서 6문항(처음 본 곳·결심 이유·한마디 인상·비교 업체·걱정·바라는 점)",
+      "author": "junyoungjang976",
+      "date": "2026-09-28T01:48:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/392b8e28ca92e890efb4a58d6eb13055741d55d3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "02b28fb",
+      "message": "feat: 단일 A/S 안 받음 안내 — 기존 거래처·정기 관리(ONE-CARE)만 A/S (2026-09-28 사장님 확정)",
+      "author": "junyoungjang976",
+      "date": "2026-09-28T01:30:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/02b28fb9d54b7dba0504497ac7a826630059f192",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e838c98",
+      "message": "feat(cases): 사례 목록에 업종·기물 거르기와 검색을 되살림 — F3 승격 때 정적 목록으로 바꾸며 빠졌다",
+      "author": "junyoungjang976",
+      "date": "2026-09-27T18:39:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e838c9848555dc01c670e3c7353b6f53c77bc5a4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cdd446e",
+      "message": "fix(cases): 사례 목록을 사진 카드로 — 64px 썸네일이던 것을 4:3 큰 사진(PC 4열·폰 2열)으로, 유형 배지는 사진 위",
+      "author": "junyoungjang976",
+      "date": "2026-09-27T18:31:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cdd446e460d51d58d2078e65dac7f7e3fc064c72",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ea146ae",
+      "message": "fix: 사례 상세의 사진·글이 안 보이던 것 — 「나타나기」가 요소의 15% 가 보여야 켜져, 화면보다 훨씬 긴 본문은 영영 투명했다. 조금이라도 들어오면 켠다",
+      "author": "junyoungjang976",
+      "date": "2026-09-27T18:18:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ea146aeb056771477d9bb883b27f2e94c6366ec3",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "b308bc4",
       "message": "feat: 홈페이지 사례 23건 발행 — 채널톡 완료보고 2025-05~2026-09",
@@ -2653,70 +2724,6 @@
       "date": "2026-09-17T08:15:26Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/9601f08ed7529df881f05538493eb451fdbe8a1b",
       "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "bd7112b",
-      "message": "chore(.ai-work): SC#4 배포 완료 반영, next_action을 사장님 확인 2건으로",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:33:03Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/bd7112bd07ab719a6e0535bf2bb8c5be6b935fbe",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c61e66b",
-      "message": "chore(.ai-work): SC#3·SC#4 결정(A/A) 반영과 next_action 갱신",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:28:04Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c61e66bb72ff49a53b64ae0622f9eb8df58fef7d",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "168a744",
-      "message": "chore(.ai-work): KC#5 A안 실행 기록 + next_action 갱신",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:25:02Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/168a744217e5d256a200ae078ad7c95019b57f17",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6a4919c",
-      "message": "feat(자료실): 옛 포털의 교육 글·규정·보조금을 컨설팅 앱으로",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:24:02Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6a4919c143d50c0364e4c14a44c8848e3f280f37",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5b8e69d",
-      "message": "feat: 문의 삭제 시 고객 자료도 지워지게 하는 마이그레이션 (SC#3) — 미적용",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:23:05Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5b8e69dd664b7626efe37fae8ffcdd0b157140c6",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "9acc6de",
-      "message": "fix: 눌러도 아무 일이 없던 버튼 두 개 (SC#4)",
-      "author": "junyoungjang976",
-      "date": "2026-09-17T07:21:40Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/9acc6de7eb8ef2a723eb2b93e630b67514a49128",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "03cb77e",
-      "message": "fix(결재함): 착수 승인은 task_id 로 짝을 맞춘다",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T07:36:25Z",
-      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/03cb77e72f7928357c56acdcfbfaa0b4d6d35c71",
-      "repo": "ai-work-control-center"
-    },
-    {
-      "sha": "56a2672",
-      "message": "fix(결재함): canAnswer 도 같은 칸을 보게",
-      "author": "junyoungjang976",
-      "date": "2026-09-16T07:34:23Z",
-      "url": "https://github.com/junyoungjang976/ai-work-control-center/commit/56a2672c6404935b6ae4cf1b20e5705a76bdb997",
-      "repo": "ai-work-control-center"
     }
   ],
   "pull_requests": [
