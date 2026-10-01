@@ -1,9 +1,11 @@
 {
-  "updated_at": "2026-09-30T02:36:08.458441Z",
+  "updated_at": "2026-10-01T02:39:26.047946Z",
   "repos": [
     "busungtk-asms",
-    "busungtk-daily-report",
+    "busungtk-ui",
+    "busungtk-training",
     "busungtk-landing",
+    "busungtk-daily-report",
     "busungtk-sales-crm",
     "busungtk-kitchen-consulting",
     "busungtk-price-library",
@@ -14,8 +16,6 @@
     "busungtk-portal",
     "busungtk-field-check",
     "busungtk-ad-videos",
-    "busungtk-training",
-    "busungtk-ui",
     "busungtk-sales-pipeline",
     "busungtk-partner-map",
     "busungtk-hvac-mentor",
@@ -56,16 +56,23 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1006,
-    "total_prs": 4,
+    "total_commits": 1011,
+    "total_prs": 6,
     "total_issues": 7,
-    "active_days": 71
+    "active_days": 72
   },
   "daily": {
-    "2026-09-30": {
-      "commits": 13,
-      "prs_opened": 1,
+    "2026-10-01": {
+      "commits": 4,
+      "prs_opened": 0,
       "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-09-30": {
+      "commits": 19,
+      "prs_opened": 3,
+      "prs_merged": 3,
       "issues_opened": 0,
       "issues_closed": 0
     },
@@ -105,7 +112,7 @@
       "issues_closed": 0
     },
     "2026-09-23": {
-      "commits": 42,
+      "commits": 41,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -315,7 +322,7 @@
       "issues_closed": 0
     },
     "2026-08-19": {
-      "commits": 41,
+      "commits": 40,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -329,7 +336,7 @@
       "issues_closed": 0
     },
     "2026-08-14": {
-      "commits": 12,
+      "commits": 9,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -561,16 +568,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1006,
-    "overtime_commits": 571,
-    "regular_commits": 435,
+    "total_commits": 1011,
+    "overtime_commits": 574,
+    "regular_commits": 437,
     "overtime_rate": 56.8,
     "weekend_commits": 114,
-    "late_night_commits": 394,
-    "total_hours": 580.0,
-    "regular_hours": 270.3,
-    "overtime_hours": 309.7,
-    "overtime_hour_rate": 53.4,
+    "late_night_commits": 397,
+    "total_hours": 590.6,
+    "regular_hours": 278.5,
+    "overtime_hours": 312.1,
+    "overtime_hour_rate": 52.8,
     "daily_hours": {
       "2026-07-03": {
         "regular_hours": 0.0,
@@ -801,14 +808,14 @@
         "overtime_hours": 0,
         "total_hours": 5.7,
         "is_weekend": false,
-        "commits": 12
+        "commits": 9
       },
       "2026-08-19": {
-        "regular_hours": 8.4,
-        "overtime_hours": 5.6,
-        "total_hours": 14.0,
+        "regular_hours": 8.2,
+        "overtime_hours": 5.7,
+        "total_hours": 13.9,
         "is_weekend": false,
-        "commits": 29
+        "commits": 28
       },
       "2026-08-20": {
         "regular_hours": 9,
@@ -1018,7 +1025,7 @@
         "overtime_hours": 5.7,
         "total_hours": 13.6,
         "is_weekend": false,
-        "commits": 42
+        "commits": 41
       },
       "2026-09-24": {
         "regular_hours": 0,
@@ -1049,11 +1056,18 @@
         "commits": 41
       },
       "2026-09-30": {
-        "regular_hours": 2.2,
-        "overtime_hours": 0.1,
-        "total_hours": 2.3,
+        "regular_hours": 9,
+        "overtime_hours": 2.4,
+        "total_hours": 11.4,
         "is_weekend": false,
-        "commits": 15
+        "commits": 21
+      },
+      "2026-10-01": {
+        "regular_hours": 1.6,
+        "overtime_hours": 0,
+        "total_hours": 1.6,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -1087,7 +1101,7 @@
       "2026-08-10": 2.9,
       "2026-08-11": 1.2,
       "2026-08-13": 3.9,
-      "2026-08-19": 5.6,
+      "2026-08-19": 5.7,
       "2026-08-20": 12.8,
       "2026-08-21": 0.2,
       "2026-08-22": 10.2,
@@ -1121,7 +1135,7 @@
       "2026-09-25": 7.1,
       "2026-09-28": 8.4,
       "2026-09-29": 5.1,
-      "2026-09-30": 0.1
+      "2026-09-30": 2.4
     },
     "overtime_by_hour": [
       20,
@@ -1142,9 +1156,9 @@
       1,
       1,
       1,
-      113,
+      114,
       96,
-      64,
+      66,
       50,
       29,
       42
@@ -1155,6 +1169,86 @@
     }
   },
   "commits": [
+    {
+      "sha": "2851ab2",
+      "message": "fix(quote): 품목 끌어 옮기는 손잡이가 너무 작던 것",
+      "author": "junyoungjang976",
+      "date": "2026-10-01T02:20:09Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/2851ab278d6011c9bff88da67f286b76f40c2631",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "ada437b",
+      "message": "fix(product): 묶음 조각 숫자를 지금 좁혀진 것 기준으로 다시 센다",
+      "author": "junyoungjang976",
+      "date": "2026-10-01T02:20:09Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/ada437b5f2fbad8cc853151d9c8511ea19f36aee",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "233cd53",
+      "message": "fix(quote): 품목 검색 창 — 묶음을 옆 패널로, 세로 길이 줄임",
+      "author": "junyoungjang976",
+      "date": "2026-10-01T00:45:52Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/233cd537af8710bec8e253b8cbf9899e6fe4192d",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b0913f0",
+      "message": "feat(modal): 더 넓은 크기 2xl·3xl 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-01T00:45:49Z",
+      "url": "https://github.com/busungtk/busungtk-ui/commit/b0913f0291aacaba8a7a7752e420e3982e25b465",
+      "repo": "busungtk-ui"
+    },
+    {
+      "sha": "c47b3c3",
+      "message": "feat: 지원자 체크리스트 면접 평가 (기술 이해·응용 문제·해결 과정·경험) (#3)",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T11:16:09Z",
+      "url": "https://github.com/busungtk/busungtk-training/commit/c47b3c362862ff28697228a0fc8c89cbe796d623",
+      "repo": "busungtk-training"
+    },
+    {
+      "sha": "a33ca75",
+      "message": "feat: 12주 주차별 학습 계획 + 지원자 체크리스트 (#2)",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T11:11:08Z",
+      "url": "https://github.com/busungtk/busungtk-training/commit/a33ca75cb9231efdecc84f284577f17fd83f3183",
+      "repo": "busungtk-training"
+    },
+    {
+      "sha": "967898b",
+      "message": "feat: 홈페이지 사례 3건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T09:37:28Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/967898b9cf5bb2fbcb456667a4d75b8b255c45b9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b2781c7",
+      "message": "fix(quote): 품목 검색 창의 「N개 품목 추가」를 아래에 붙여 늘 보이게",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T03:47:35Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/b2781c7039b060a6baff4c778f73753ad46d510b",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a347233",
+      "message": "fix(modal): 창이 화면보다 길어지면 잘리던 것 — 높이 제한 + 안쪽 굴림",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T03:47:00Z",
+      "url": "https://github.com/busungtk/busungtk-ui/commit/a3472331a25cd6a1318d39dfd74046c15b209fef",
+      "repo": "busungtk-ui"
+    },
+    {
+      "sha": "75865e9",
+      "message": "feat: 현장 기술·노하우 학습 앱 추가 (교재·문제·오답노트·기록) (#1)",
+      "author": "junyoungjang976",
+      "date": "2026-09-30T03:43:38Z",
+      "url": "https://github.com/busungtk/busungtk-training/commit/75865e9f88ca68e0f1e59fbb7b955e7a701a1acf",
+      "repo": "busungtk-training"
+    },
     {
       "sha": "f3c1e8b",
       "message": "refactor(search): 안 쓰게 된 옛 검색 경로 걷어내기",
@@ -2292,14 +2386,6 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "ccdc942",
-      "message": "feat(lab4): 공통 셸(lab4.css·lab4.js) + 메인 정적 재구현, 자리별 실제 사진 반영",
-      "author": "junyoungjang976",
-      "date": "2026-09-23T08:53:17Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ccdc9427c0527d8f273457ae9d6b5a960fa9a7c2",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "42cdfc8",
       "message": "feat(colors): accent #EA5E18(로고 원색)·accentHover 추가, primaryBg 아이보리 → #fafafa",
       "author": "junyoungjang976",
@@ -2682,89 +2768,39 @@
       "date": "2026-09-18T02:52:27Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/10a1bf7d6a3981c97c3a15a023b42fa59ad5f775",
       "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "eeabaa2",
-      "message": "feat: 일곱 유형 모두 배지를 단다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:50:19Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/eeabaa249f01492ef777e1b34a7bda4fcbf20239",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "cf61c1e",
-      "message": "fix(도면): 가운데로 놓고, 아래 「지금 봐야 할 것」이 잘리던 것을 고친다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:44:00Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/cf61c1e08a2b2a346b2aab7a5fcba287040e7b96",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "680a12c",
-      "message": "refactor: 일정 넣을 때 날짜는 달력 하나로만 고른다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:35:24Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/680a12cbe56d9988afba10ad03a4b426a637b8fd",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "0e6683a",
-      "message": "feat(안내): 왜 상담으로 가는지 이유별로 설명 + 견적은 장비 가격만이라고 못 박음",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:29:09Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0e6683a7cfdc631899b0813ec42f66e615a05511",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b459e5f",
-      "message": "feat: 일정 유형 11종 → 7종, 일정 넣을 때 달력을 먼저 띄운다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:12:34Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/b459e5f849a83db3338ca5d8862922af6753e28a",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "30bdee3",
-      "message": "fix(도면): 너애하누는 코너별이 아니라 전체 도면 한 장",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:11:35Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/30bdee3bd60747c401784d4994c3e3114c34c988",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "2148912",
-      "message": "feat(표본매장): 구역 도면을 DB 에 채운다 (--plans)",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T02:00:03Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/214891244c85267d10530916824fb9df70396ce6",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "aa81ab3",
-      "message": "feat(매장): 사내 화면에서 「고객이 보는 화면」으로 건너간다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T01:42:53Z",
-      "url": "https://github.com/busungtk/busungtk-equipment/commit/aa81ab3d73a41e216f2befb124983d009ae663b4",
-      "repo": "busungtk-equipment"
-    },
-    {
-      "sha": "f9c5e3b",
-      "message": "docs(site-case-publish): 중복 발행 사고 — idx 충돌은 번호를 피할 게 아니라 같은 건인지 본다",
-      "author": "junyoungjang976",
-      "date": "2026-09-18T01:02:19Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/f9c5e3b29d55968cfdf1d4bde2e5d72f114cb8dd",
-      "repo": "claude-dotfiles"
     }
   ],
   "pull_requests": [
     {
+      "number": 3,
+      "title": "feat: 지원자 체크리스트 면접 평가 (기술 이해·응용 문제·해결 과정·경험)",
+      "state": "closed",
+      "author": "junyoungjang976",
+      "created_at": "2026-09-30T11:15:55Z",
+      "updated_at": "2026-09-30T11:16:10Z",
+      "merged_at": "2026-09-30T11:16:10Z",
+      "url": "https://github.com/busungtk/busungtk-training/pull/3",
+      "repo": "busungtk-training"
+    },
+    {
+      "number": 2,
+      "title": "feat: 12주 주차별 학습 계획 + 지원자 체크리스트",
+      "state": "closed",
+      "author": "junyoungjang976",
+      "created_at": "2026-09-30T03:50:26Z",
+      "updated_at": "2026-09-30T11:11:09Z",
+      "merged_at": "2026-09-30T11:11:08Z",
+      "url": "https://github.com/busungtk/busungtk-training/pull/2",
+      "repo": "busungtk-training"
+    },
+    {
       "number": 1,
       "title": "feat: 현장 기술·노하우 학습 앱 (교재·문제·오답노트·기록)",
-      "state": "open",
+      "state": "closed",
       "author": "junyoungjang976",
       "created_at": "2026-09-30T02:23:58Z",
-      "updated_at": "2026-09-30T02:23:58Z",
-      "merged_at": null,
+      "updated_at": "2026-09-30T03:43:38Z",
+      "merged_at": "2026-09-30T03:43:38Z",
       "url": "https://github.com/busungtk/busungtk-training/pull/1",
       "repo": "busungtk-training"
     },
