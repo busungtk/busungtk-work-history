@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T03:28:22.935406Z",
+  "updated_at": "2026-10-07T02:52:48.992658Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,9 +59,16 @@
     "total_commits": 1005,
     "total_prs": 6,
     "total_issues": 7,
-    "active_days": 72
+    "active_days": 73
   },
   "daily": {
+    "2026-10-06": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-05": {
       "commits": 2,
       "prs_opened": 0,
@@ -140,7 +147,7 @@
       "issues_closed": 0
     },
     "2026-09-23": {
-      "commits": 24,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -569,15 +576,15 @@
   },
   "overtime": {
     "total_commits": 1005,
-    "overtime_commits": 561,
-    "regular_commits": 444,
-    "overtime_rate": 55.8,
+    "overtime_commits": 560,
+    "regular_commits": 445,
+    "overtime_rate": 55.7,
     "weekend_commits": 117,
-    "late_night_commits": 388,
-    "total_hours": 619.9,
-    "regular_hours": 293.7,
-    "overtime_hours": 326.2,
-    "overtime_hour_rate": 52.6,
+    "late_night_commits": 387,
+    "total_hours": 625.9,
+    "regular_hours": 299.1,
+    "overtime_hours": 326.8,
+    "overtime_hour_rate": 52.2,
     "daily_hours": {
       "2026-07-11": {
         "regular_hours": 0,
@@ -997,7 +1004,7 @@
         "overtime_hours": 5.7,
         "total_hours": 13.6,
         "is_weekend": false,
-        "commits": 24
+        "commits": 22
       },
       "2026-09-24": {
         "regular_hours": 0,
@@ -1063,6 +1070,13 @@
         "commits": 2
       },
       "2026-10-05": {
+        "regular_hours": 5.4,
+        "overtime_hours": 0.6,
+        "total_hours": 6.0,
+        "is_weekend": false,
+        "commits": 2
+      },
+      "2026-10-06": {
         "regular_hours": 5.4,
         "overtime_hours": 0.6,
         "total_hours": 6.0,
@@ -1136,7 +1150,8 @@
       "2026-10-02": 0.6,
       "2026-10-03": 6.0,
       "2026-10-04": 6.0,
-      "2026-10-05": 0.6
+      "2026-10-05": 0.6,
+      "2026-10-06": 0.6
     },
     "overtime_by_hour": [
       20,
@@ -1157,9 +1172,9 @@
       1,
       1,
       1,
-      113,
+      114,
       89,
-      63,
+      61,
       50,
       32,
       41
@@ -1170,6 +1185,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "8de9875",
+      "message": "feat: 홈페이지 사례 3건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-06T09:35:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8de987515034d505dc768122c4944fa025d32625",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c60e79d",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-06T03:36:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c60e79da4b546c5a9e21e0079529f190e1d894d9",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "b5c6a8d",
       "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
@@ -2440,22 +2471,6 @@
       "author": "junyoungjang976",
       "date": "2026-09-23T11:40:21Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/c5a09b8ccbb52c2e812863dca470a65a1c563d52",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c807076",
-      "message": "docs: F3 승격 반영 — 운영 구조·자원·생성기 플래그·동기화 규칙·배포 취소 함정",
-      "author": "junyoungjang976",
-      "date": "2026-09-23T11:32:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c807076c6583f20fcdf999ce364ad14da150c138",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8bc8172",
-      "message": "chore: F3 승격 빌드 트리거 — 병합 커밋이 Ignored Build Step(HEAD^..HEAD 비교)에 걸려 취소됨",
-      "author": "junyoungjang976",
-      "date": "2026-09-23T11:29:14Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8bc81721dc2253b9b5d0f1ab82abce273e35be2e",
       "repo": "busungtk-landing"
     },
     {
