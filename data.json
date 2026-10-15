@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-14T02:19:59.969982Z",
+  "updated_at": "2026-10-15T02:00:53.050789Z",
   "repos": [
+    "busungtk-kitchen-consulting",
+    "busungtk-training",
+    "busungtk-asms",
     "busungtk-order-tracker",
     "busungtk-landing",
-    "busungtk-kitchen-consulting",
-    "busungtk-asms",
-    "busungtk-training",
     "busungtk-sales-crm",
     "busungtk-daily-report",
     "busungtk-ai-ideation",
@@ -56,21 +56,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1091,
+    "total_commits": 1094,
     "total_prs": 8,
     "total_issues": 7,
-    "active_days": 70
+    "active_days": 69
   },
   "daily": {
     "2026-10-14": {
-      "commits": 7,
+      "commits": 137,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-10-13": {
-      "commits": 128,
+      "commits": 30,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -154,21 +154,21 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 31,
+      "commits": 28,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-09-30": {
-      "commits": 19,
+      "commits": 16,
       "prs_opened": 3,
       "prs_merged": 3,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-09-29": {
-      "commits": 17,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -301,7 +301,7 @@
       "issues_closed": 0
     },
     "2026-09-01": {
-      "commits": 4,
+      "commits": 3,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -343,7 +343,7 @@
       "issues_closed": 0
     },
     "2026-08-26": {
-      "commits": 27,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -544,34 +544,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-07-16": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1091,
-    "overtime_commits": 797,
-    "regular_commits": 294,
-    "overtime_rate": 73.1,
+    "total_commits": 1094,
+    "overtime_commits": 754,
+    "regular_commits": 340,
+    "overtime_rate": 68.9,
     "weekend_commits": 267,
-    "late_night_commits": 444,
-    "total_hours": 621.6,
-    "regular_hours": 270.1,
-    "overtime_hours": 351.5,
-    "overtime_hour_rate": 56.5,
+    "late_night_commits": 384,
+    "total_hours": 628.3,
+    "regular_hours": 277.8,
+    "overtime_hours": 350.5,
+    "overtime_hour_rate": 55.8,
     "daily_hours": {
-      "2026-07-16": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-07-18": {
         "regular_hours": 0,
         "overtime_hours": 2.3,
@@ -773,7 +759,7 @@
         "overtime_hours": 4.9,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 27
+        "commits": 16
       },
       "2026-08-27": {
         "regular_hours": 0,
@@ -812,10 +798,10 @@
       },
       "2026-09-01": {
         "regular_hours": 0,
-        "overtime_hours": 4.7,
-        "total_hours": 4.7,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 4
+        "commits": 3
       },
       "2026-09-03": {
         "regular_hours": 0.0,
@@ -948,21 +934,21 @@
         "overtime_hours": 5.1,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 15
+        "commits": 7
       },
       "2026-09-30": {
         "regular_hours": 9,
         "overtime_hours": 2.4,
         "total_hours": 11.4,
         "is_weekend": false,
-        "commits": 21
+        "commits": 17
       },
       "2026-10-01": {
         "regular_hours": 8.2,
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 31
+        "commits": 28
       },
       "2026-10-02": {
         "regular_hours": 5.4,
@@ -1043,21 +1029,27 @@
       },
       "2026-10-13": {
         "regular_hours": 9,
-        "overtime_hours": 14.0,
-        "total_hours": 23.0,
+        "overtime_hours": 13.0,
+        "total_hours": 22.0,
         "is_weekend": false,
-        "commits": 94
+        "commits": 41
       },
       "2026-10-14": {
-        "regular_hours": 1.3,
-        "overtime_hours": 7.9,
-        "total_hours": 9.2,
+        "regular_hours": 9,
+        "overtime_hours": 9.1,
+        "total_hours": 18.1,
         "is_weekend": false,
-        "commits": 62
+        "commits": 84
+      },
+      "2026-10-15": {
+        "regular_hours": 0,
+        "overtime_hours": 3.5,
+        "total_hours": 3.5,
+        "is_weekend": false,
+        "commits": 63
       }
     },
     "overtime_by_date": {
-      "2026-07-16": 0.5,
       "2026-07-18": 2.3,
       "2026-07-19": 0.5,
       "2026-07-20": 0.5,
@@ -1090,7 +1082,7 @@
       "2026-08-29": 5.2,
       "2026-08-30": 19.4,
       "2026-08-31": 0.5,
-      "2026-09-01": 4.7,
+      "2026-09-01": 0.5,
       "2026-09-03": 0.5,
       "2026-09-07": 5.5,
       "2026-09-08": 5.7,
@@ -1122,19 +1114,20 @@
       "2026-10-10": 23.9,
       "2026-10-11": 23.9,
       "2026-10-12": 10.2,
-      "2026-10-13": 14.0,
-      "2026-10-14": 7.9
+      "2026-10-13": 13.0,
+      "2026-10-14": 9.1,
+      "2026-10-15": 3.5
     },
     "overtime_by_hour": [
       72,
-      88,
-      51,
+      92,
+      49,
+      22,
+      41,
+      0,
+      0,
+      15,
       14,
-      33,
-      0,
-      0,
-      15,
-      15,
       0,
       2,
       14,
@@ -1144,12 +1137,12 @@
       12,
       1,
       12,
-      97,
-      67,
-      67,
-      85,
-      47,
-      81
+      99,
+      68,
+      53,
+      65,
+      31,
+      68
     ],
     "work_hours": {
       "start": 9,
@@ -1158,28 +1151,1068 @@
   },
   "commits": [
     {
+      "sha": "6329134",
+      "message": "docs: 인수인계에 10-15 6차(3D 이미지 내보내기·툴바 서버 저장·그리스트랩 매립) 기록",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:39:24Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6329134ccd51b18389821217d20a0153aa222eea",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "363a5fb",
+      "message": "Merge branch 'feat/design-tool-v6'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:37:22Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/363a5fbe5c0f0cf0ee131e8b1003a6e428198a46",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "be51958",
+      "message": "Merge branch 'feat/export-3d' into feat/design-tool-v6",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:15:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/be51958f25f37e959e003d0fbbf770f4cc0f5e75",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "7dd3b4c",
+      "message": "Merge branch 'fix/grease-trap-sunk' into feat/design-tool-v6",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:15:35Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7dd3b4c79ea2f93ea843e1f0b1fea1e218e6c7a1",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4e2561d",
+      "message": "fix: 서버 저장 상태를 zustand 없이 두어 고객 공용 묶음의 내보내기 목록이 늘지 않게 + 안내창 주소 거두기 린트",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:14:58Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4e2561d8c2ecdb27f8076b93974b30269eb17fcb",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "c90d670",
+      "message": "feat: 툴바에 「서버에 저장」 버튼 — 저장함 탭의 버튼과 같은 동작",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:09:00Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c90d670fae8d5bbda3f307eb57527d353b156d42",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "348f99e",
+      "message": "feat: 내보내기 「3D 이미지」(정면·비스듬히·위에서) + 도면 PDF 3D 보기 쪽",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:05:16Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/348f99e0a8cecd6771c1cce7c0d3632637a25844",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "530b760",
+      "message": "refactor: 3D 장면 내용물(SceneBody)과 카메라 맞춤(fit)을 화면 밖 렌더와 같이 쓰게 분리",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T19:05:16Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/530b76035d95f25948f5977f8d5a87330fa35f41",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "5b7bd9e",
+      "message": "fix: 그리스트랩을 바닥에 박힌 설비로 3D에 그림 (뚜껑은 바닥과 나란히, 몸통은 바닥 아래 반투명)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:53:41Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5b7bd9ea958b1a7e768767e5e9282b4ff165ca4e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ad63b21",
+      "message": "docs: 인수인계에 10-15 5차(반입 경로·배관 3D·재질·사용 안내) 배포 기록",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:31:13Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ad63b2106216ebe1ee956e2abffa9cf7689c82a3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ebe841b",
+      "message": "Merge branch 'feat/design-tool-v5'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:27:54Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ebe841b336676bb094558d7e8c0ad017372a8ca5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "39f075e",
+      "message": "Merge branch 'feat/design-guide' into feat/design-tool-v5",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:26:52Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/39f075e13e95d0f6fa61d18bc3070df7740f4b5c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "01e9245",
+      "message": "fix: 배관·배선 직접 그리기 중 Esc 가 경로를 되돌리던 문제 — 「그리기 끝」으로 처리",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:26:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/01e9245e4aeb6b238c84694193e9a157887c322e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "64e57f7",
+      "message": "fix: 사용 안내를 직원 묶음에 정적으로 넣고 저장소 접근을 안내 안에서 해결",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:25:04Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/64e57f7dae1dd3b44d77be934dc0d5b94ebd0420",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "dd84fed",
+      "message": "feat: 안내가 짚는 자리 표지(data-guide)와 「가이드」 버튼 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:17:00Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/dd84fedc6d86c2e9a1e7a2322483cf4353b79543",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a05485e",
+      "message": "feat: 설계 툴 사용 안내 화면 — 처음 편집기에 들어오면 자동으로 한 번",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:16:59Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a05485e66dbff99a3ca4db203ff5bd9615d71fe3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a5ee316",
+      "message": "feat: 설계 툴 사용 안내 — 단계·화면 맞추기·말풍선 자리 로직과 시험",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T18:16:59Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a5ee31696c41d23aabebc81945ef73968d34a020",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a66591c",
+      "message": "feat: 사내 앱 단원에 「주방 설계 툴」 추가 — 현장 직원용 보는 법·저장 3층·헷갈리는 것 4개·실습 3개·퀴즈 2개",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:59:32Z",
+      "url": "https://github.com/busungtk/busungtk-training/commit/a66591cc4c6b2eadacc26d36e1ebec8a6bcb75dc",
+      "repo": "busungtk-training"
+    },
+    {
+      "sha": "f15149b",
+      "message": "Merge branch 'feat/design-mep-routes' into feat/design-tool-v5",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:58:03Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f15149ba83a7e20bf847470a534a0e7247094453",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e29d296",
+      "message": "Merge branch 'feat/design-textures' into feat/design-tool-v5",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:56:28Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/e29d2962d5de75f9507ea7c1c6e5b808a0ccd1d5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "06286f2",
+      "message": "Merge branch 'feat/design-delivery-path' into feat/design-tool-v5",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:56:27Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/06286f24f38cafa17fb708af7177fe5390de7388",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "27580a5",
+      "message": "docs: 인수인계에 10-15 4.5차(아이패드 베타 수정) 배포 기록",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:30:48Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/27580a58106c9df24f6224b0af72e10ffdae81ea",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "fa6de09",
+      "message": "Merge branch 'fix/tablet-field-beta'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:27:29Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fa6de09a3c45fdf69b47e1826fa8f9f06338a05c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "db6996e",
+      "message": "fix: 설비 배관도 쪽은 경로가 있을 때만, 서버 도면 검사에 경로 사례를 더한다 (P22 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:23:19Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/db6996eb4146091d8e3e52827d6a6cf840b54826",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a54ed97",
+      "message": "fix: 배관·배선 도구의 높이 다른 포인트 탭, 제스처, 겹친 경로, 돌려 고르기, 라벨을 바로잡는다 (P22 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:23:18Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a54ed977b94f32033b62896a2656a743fb238ffa",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f93ddaa",
+      "message": "fix: 자동 경로가 ㄱ자·ㄷ자 방 밖으로 나가고 문을 뚫는 문제, 길이 규칙, 벽·포인트 연동을 바로잡는다 (P22 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:23:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f93ddaa78acf001e04041719bed97545dc817432",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "66b2f1d",
+      "message": "fix: 약한 통신 로그인 안내에 「계속되면 새로고침 후 다시 로그인」 문장을 덧붙인다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:18:25Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/66b2f1d734aca3b9d738ddd160a20e18497d103d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1a4f758",
+      "message": "fix: 그림판 미리 받기가 실패했거나 두 번째 실패면 「다시 시도」 대신 새로고침을 권한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:18:24Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1a4f7581926d72dde66ec0cf0aa3f59146068294",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "82c7fc7",
+      "message": "fix: 반입 판정 — 높이 칸을 비우면 확인 필요·높이 미입력 표시, 꺾임은 밀어서 통과도 인정",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:03:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/82c7fc7383d775a3f0323984f7c594e0af012251",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f587b4c",
+      "message": "fix: 반입 경로 PDF 쪽의 칸 줄 수를 제한해 쪽 밖으로 넘치지 않게 한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:03:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f587b4cba4a506edbc4ae830d6b2535d39931d8c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "643c6de",
+      "message": "fix: 반입 경로 긴 이름·메모는 줄을 버리지 않고 한도까지 자른다 + 지문 시험을 master 값에 고정",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T17:03:39Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/643c6de50d67eadd16cdd47933e16b6e6e53365d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "54f92cf",
+      "message": "fix: WebGL 컨텍스트 복구 시 환경맵 재생성 + 검사·정리 보강 (P23 검수 반영)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:55:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/54f92cfd1816fd998cd5a844afc4d6b37b6f88d6",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "3f573f6",
+      "message": "fix: 스테인리스 글자 판정에 STS·스텐·전각 보강, 검사 시간 초과 판정 함수 추가 (P23)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:55:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3f573f6ac8cba98af5bee157e1c75793bee01743",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "06d2837",
+      "message": "fix: 편집기에서 입력칸 초점이 빠지면 다음 프레임에 맨 위로 스크롤해 밀린 화면을 되돌린다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:54:05Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/06d2837b7ad9708a4bf25f6462a21a0b9df04936",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "0aa8e7c",
+      "message": "fix: 시작 화면에서 도면을 열면 기억해 둔 보기 방식과 상관없이 2D 로 시작한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:52:45Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0aa8e7cc60ad75f9189ecf261150e09dd3d0de5a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "85136af",
+      "message": "fix: 스케치 지우기 버튼 높이·힌트 글자색을 키우고 실패 알림은 10초 동안 남긴다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:51:26Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/85136af9595461df09e3a684aad499a6d5495e33",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1d20df3",
+      "message": "fix: 약한 통신에서 로그인 만료로 오인되지 않게 안내하고 로그인 응답에 20초 제한을 둔다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:49:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1d20df32e0bf8d48d8f5a361505f173088f1efc3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1626953",
+      "message": "feat: 설비 조건 요약·견적 PDF 「설비 배관도」 쪽·DXF 에 배관·배선 경로를 넣는다 (P22)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:49:14Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/162695329200d8c0b9933bd1e8a1eddda49447c5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "eeef53d",
+      "message": "fix: 직원 편집기에서 손가락 끌기 시작 거리를 6px 에서 10px 로 늘린다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:47:50Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/eeef53d2cacac4b161926d89a665038c35ea8321",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "8cb6b86",
+      "message": "fix: 직원 편집기 캔버스에서 펜을 쓰는 동안과 뗀 뒤 500ms 는 손가락 입력을 무시한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:46:38Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8cb6b86a93c8aef615b2b6f4b9d8455a8453503c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ecb3d74",
+      "message": "fix: 편집기에서 뒤로 가기로 앱을 벗어나지 않게 막고 「← 처음」은 한 번 확인한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:44:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ecb3d747c61a110c1e12791dee15c281a22e95f4",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "02434a1",
+      "message": "fix: 3D 재질 저장소 접근을 3D 묶음 안으로 — 공용 묶음 변화 0 (P23)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:44:09Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/02434a151df2952aa3cc8951e6decadf97450364",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "fc7b0c4",
+      "message": "fix: 직원 설계 툴에서만 끝까지 당김(overscroll)과 더블탭 확대를 막는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:43:16Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fc7b0c4e79dc673413c7e4510714d5b74f672bab",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "24dcda7",
+      "message": "fix: Pretendard 글꼴 스타일시트가 첫 화면 그리기를 막지 않게 한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:42:04Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/24dcda7df9d6a065d8c8e4b618b3456b34b087fc",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d92c679",
+      "message": "fix: 편집기가 뜬 뒤 스케치·3D·내보내기 덩어리를 한가할 때 미리 받고 그림판 로딩 실패를 안내",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:41:44Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d92c679a8ff98981c7eb801caa2fae2fcd6a12ab",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "09baefc",
+      "message": "feat: 설비 도구에 「배관·배선」을 더한다 — 직접 그리기와 「벽 따라 자동」 (P22)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:41:24Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/09baefc072f05165505e5dfaa273db642fc8b631",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "b473ea6",
+      "message": "feat: 설비 포인트 높이·벽에서 거리를 패널과 도면 위 치수 칩으로 고친다 (P22)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:40:49Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b473ea636626275565ec6aa0a32d650764f44412",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "7a0bd3e",
+      "message": "docs: 아이패드 현장 베타 수칙 한 장 (2026-10-15)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:40:27Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7a0bd3ea2133a652e3bf5cd9753ffd9543b51b1a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "7dd7e81",
+      "message": "feat: 3D 장비·벽 마감·바닥·벽에 사실감 재질 적용 + 「사실감」「도면 색」 토글 (P23)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:35:20Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7dd7e813aa9f0b8f1d6a6d53bf24f57a6bb5f012",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ef66c8e",
+      "message": "feat: 3D 사실감 재질 6종·코드로 만든 환경맵·접촉 그림자·느린 기기 검사 부품 (P23)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:35:19Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef66c8e4408f9d21f5e618272e2e05b5036b5e29",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f09952a",
+      "message": "feat: 견적 PDF에 「반입 경로 검토」 한 쪽 추가(반입 경로가 있을 때만)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:33:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f09952aa5d5f723960f2ecd253cf59dd4fa99636",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "993708f",
+      "message": "fix: 반입 확인의 턱·계단 줄 문구에서 겹치는 낱말을 줄인다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:33:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/993708fb67a9f137eda22b4dfde1096765d6ba0a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "03cc27f",
+      "message": "feat: 설비 일람표에 「반입」 열 추가(반입 경로가 있을 때만)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:29:33Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/03cc27f261a8a4120061a4434f48923dcf6a140e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "fae0c80",
+      "message": "feat: 속성 패널(도면 정보)에 「반입 경로」 입력 칸 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:27:32Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fae0c807dccf6eda95013f5679dac97e6944966e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "004a97b",
+      "message": "feat: 검사 탭에 「반입 확인」 묶음(참고) 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:27:31Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/004a97b51afdbb69f49cfd29719e8bb36aebb1c4",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "11daec5",
+      "message": "feat: 3D 에서 설비 포인트를 실제 높이에, 배관·배선 경로를 색 관으로 그린다 (P22)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:25:25Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/11daec54387802f727aca2292973c001300c0c3e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a899c4e",
+      "message": "feat: 반입 경로 글자·요약과 변경 이력 줄 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:21:34Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a899c4e144f2faf3c7a1198186a4a4250edd2050",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "bdd2142",
+      "message": "feat: 설비 포인트 높이·벽 부착과 배관·배선 경로 모델을 더한다 (P22)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:20:12Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/bdd21424b962eb21c24bae82c0f6f5218a722724",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a9c3968",
+      "message": "fix(handoff): 「넘김 대기」를 없앤다 — 발주를 안 만든 넘김은 넘긴 것으로 치지 않는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:20:06Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/a9c39686b429ea9eb08d2fd42aa8bb0b914eb027",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "86d4764",
+      "message": "feat: 반입 경로 판정 로직(통과·눕히면 통과·못 들어감·확인 필요) 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:17:59Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/86d476426e2bf9df01dcd999fe3ac4536ee8b18a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "002bdcd",
+      "message": "fix(asms-bridge): 발주를 안 만든 넘김은 잠그지 않는다 — 다시 넘기면 옛 넘김을 취소",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:17:29Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/002bdcd49b3949cd6be7726828e3f975c0e76b88",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "599f4ab",
+      "message": "feat: 반입 경로 문서 모델(엘리베이터·운반 구간) 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:15:11Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/599f4ab6003377f49acce06f6d89093af6a9d9de",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "5ecfde8",
+      "message": "feat: 3D 재질 고르기·기기 기억·코드로 만드는 무늬(순수 함수) (P23)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T16:11:39Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5ecfde80f0fcdaf754eadb95cbe40045c7099d2d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a75ede2",
+      "message": "docs: 고객 견적 함수 SQL 머리말을 적용 완료로 (2026-10-14 busungtk-main)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T10:14:05Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/a75ede218196f02fac4026b02fa67c24f9b2d186",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b80e72c",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:33:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b80e72c320bfc4c3c2060c1dfa8600ee0b477d03",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b4fd982",
+      "message": "Merge branch 'fix/logout-local'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:21:07Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/b4fd982d51a41afb8b0446849cf788ae8f0a5c4a",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "7a0aecd",
+      "message": "Merge branch 'feat/staff-login'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:17:28Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/7a0aecd783f5549e0b7b0ba848b0737506df4543",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "01c5137",
+      "message": "fix(ui): 도면 견적 화면에 남은 px 글자도 rem 으로 — 「글자 크게」를 켜면 같이 커지게",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:15:39Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/01c5137dafa57a8977e92266887f8c73294a359d",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "0e72138",
+      "message": "feat(ui): 머리줄에 「글자 크게」 단추 — 이 컴퓨터에서만 앱 화면 글자를 한 단계 키운다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:12:52Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/0e72138bbb28eed0818bf258474fc9aab9fe6c37",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "7e0a328",
+      "message": "feat(quote): 견적서 글자를 키우고, 길면 줄여 담지 않고 줄을 바꿔 다음 쪽으로 넘긴다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:12:33Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/7e0a3285277458f5c853686c86bb3e4d93890b60",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "7ef7628",
+      "message": "fix(home): 10장 글씨 대비 올리고 글을 장마다 세 줄로 — 사장님 10-14 「글씨가 잘 안 보임, 최대한 간결하게」",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:11:41Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7ef7628cc4e304bb797b732324e986034cc259fd",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9f3d28d",
+      "message": "feat(home): 「업체 고르는 기준」 10장을 손님이 겪는 손해 아홉 가지로 다시 씀 — 홈 섹션과 겹치던 것 (사장님 10-14 「고객 입장, 이유·리스크로」)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:04:43Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/9f3d28ddb662a78dd47ec2f2d43bc05b76e66a66",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "46c87e2",
+      "message": "docs: 설계 툴 인수인계·작업지시서에 10-14 4차 운영 반영(P16·P20·P21·P6·P11b)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T09:03:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/46c87e22a875f2a4731b5f92612260aebcd6f436",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "697316a",
+      "message": "Merge branch 'feat/design-tool-v1'",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:56:46Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/697316ae5d9f146ecfda912a52dba5ba4345f6dd",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f1874bb",
+      "message": "Merge branch 'feat/design-mep-3d' into feat/design-tool-v1",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:51:15Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f1874bb6a095c02a086a91b0ea92de352c0d0ab9",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4d3929e",
+      "message": "fix(about): 연혁 2009 는 법인 설립이 아니라 상호 변경 — 같은 회사, 이름만 (사장님 10-14)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:50:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4d3929e7d25fd85ace17b311258ab67bdb7ad659",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "95c966e",
+      "message": "fix: 크기 버튼 시험의 형식 오류를 바로잡는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:50:21Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/95c966ef0e03dda7415ddbb2649701c0d39e451d",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1074978",
+      "message": "chore(sitemap): about lastmod 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:48:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/10749788486ef51aa3a99f950b510caca6e03140",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "dfdc04b",
+      "message": "feat(about): 회사 소개를 정통 소개 형식으로 재작성 — 개요(대표 사진)·연혁·사업 영역·사람·고객·실적·거래 조건·연락처 (사장님 10-14 「이게 회사 소개가 맞나」",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:48:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/dfdc04bacfa9d46386793ec71258e79a42353a84",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "209ecae",
+      "message": "fix: DXF 내보내기에 실내 턱·단·출입구 문턱을 설비 조건 층으로 더한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:47:13Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/209ecae49a366e7befce8b86e5b0e373cff00fee",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d88740d",
+      "message": "fix: 사선 장비는 턱·단 참고 검사를 실제 회전한 모양으로 (P11b 검토 L8)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:46:56Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d88740d36c269fa6c1c75037bee73697d3e77c70",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "0fb0517",
+      "message": "fix: 설비 조건 층을 끄면 장비도 단 높이만큼 올라서지 않는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:45:52Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0fb05171abe07a1ead7138f95283a367bf2ed604",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "564e578",
+      "message": "fix: 자주 쓰는 크기 버튼도 사선 장비의 등 변을 제자리에 둔다 (W·D 칸과 같은 보정)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:45:52Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/564e578890b0074bb7fd07e3e9d1b37e38f40a02",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "33b4725",
+      "message": "fix: 3D 결과 재사용 + 단 위 바닥 기호 올림 + 그리스트랩 높이 제한 + 단/턱 윗면 깜빡임 (P11b 검토 M2·L5·L6·L7)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:44:51Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/33b4725f95cdc7c9b62259d57827f9b7ba124f19",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "f1e3bbc",
+      "message": "fix: 업체별 나누기 화면 — 단추를 눈에 띄게, 「묶음」을 「발주」로, 「다른 묶음으로」를 「이 품목 옮기기」로",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:43:08Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/f1e3bbc3f162f89f6d0ec1e4da2043e680e89e2f",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "2334718",
+      "message": "fix: 3D 빈 곳 탭이 문턱으로 고른 개구부도 푼다 (P11b 검토 M3)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:39:26Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2334718fd86dcdc19637365eb4c42f25894381bb",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "ef9b0fd",
+      "message": "fix: 출입구 문턱은 문에만 — 통로·창의 문턱은 걷고, 요약은 그려지는 문턱만 센다 (P11b 검토 M4)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:38:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef9b0fdb3633989f493461fd5439d03ea31823f2",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d5a001e",
+      "message": "fix: 단·턱 모양 검사 — 찌그러진 면·나비·점 폭주 거절, 마지막 하나 지우면 칸 제거 (P11b 검토 M1·L9)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:36:21Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d5a001ed0fbfd6eb624a0a20f4a977faf0d4cea5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "77802a5",
+      "message": "feat(home): 감사 팝업 글을 하이브리드형 5줄로 — 감사 → 왜 믿을 만한가 → 믿고 맡긴 분들 → 다음은 당신 (사장님 10-14 「ㅇㅋ」, 배포는 회사 소개 보강 뒤)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:22:48Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/77802a578d61384519ae6d1f820cac3f41dfe8f3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9d28420",
+      "message": "Merge branch 'feat/design-mep-3d' into feat/design-tool-v1",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:13:56Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9d2842042f160c4b9894dd8b96ab6eb934bd192a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "761d55c",
+      "message": "fix: 서버 도면 검사가 P20 자유 회전 각도를 화면과 같이 받는다 (P6×P20 병합 보정)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:12:49Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/761d55cee45ceb6dd7fe42fce82d79297f414fd2",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "9f162dc",
+      "message": "Merge branch 'feat/design-server-save' into feat/design-tool-v1",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:11:03Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9f162dcb7581111c6aaa5ce9fd7fa707cfac7666",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4f2ee72",
+      "message": "Merge branch 'feat/design-rotation' into feat/design-mep-3d",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:10:01Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4f2ee729822928a1722c677ae32ef2ebc91d3da9",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "5c3816f",
+      "message": "feat: 3D에 실내 턱·단·출입구 문턱 표시, 단 위 장비는 단 높이만큼 올라섬 (P11b)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:10:00Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5c3816f16a422d16b2a3795c056e03b1c9eb6580",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "5eb470e",
+      "message": "feat: 실내 턱(선)·단(면)·출입구 문턱 — 모델·2D 그리기/렌더·검사 참고·요약/범례/PDF·이력 (P11b)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:10:00Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5eb470eae5692ed92296d313dda1fe906582fa2a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "177b2a1",
+      "message": "Merge branch 'feat/design-rotation' into feat/design-tool-v1",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:09:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/177b2a1b7069e754368737277d1970224a763eda",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "186e8d8",
+      "message": "docs: consulting_designs 마이그레이션 머리말 — 2026-10-14 사장님 적용 완료(total-system)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:08:14Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/186e8d8aa7d86d40eb9aba6b5814843739d07ff6",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "6058e8b",
+      "message": "fix: 「서버 것 열기」 전에 이 기기 도면을 보관하지 못하면 서버 도면을 받지 않고 직원 확인을 받는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:08:07Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6058e8b827c83c122d1e6801b660f705349348e3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2f36cd3",
+      "message": "fix: 서버 도면 열 때 이 기기 차수 보호(같은 번호·다른 시각은 보관 자리로)·불러오기 걷어 내기 공통화",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:06:29Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2f36cd3bc435bc67b2345df9a642fb3ea79754e1",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "853e272",
+      "message": "fix: 벽 맞춤 — 가장자리 거리 기준·벽 따라 미끄러짐·0.1° 벽·날카로운 모서리·핸들 가림 (P20 검토 M3·M4·M6·M7·L9·L10)",
+      "author": "장준영",
+      "date": "2026-10-14T08:06:22Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/853e272d6550e52e0f1dbadce2391bb126a4e6e3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2fd5561",
+      "message": "fix: 카운터 위 장비 동반 회전·사선 치수 수정 자리 보정·정수 반올림 (P20 검토 M5·M7·L11·L12)",
+      "author": "장준영",
+      "date": "2026-10-14T08:06:21Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2fd5561de1e699466325b8d499e704dbc8c3e671",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4fa9e42",
+      "message": "fix: 서버 호출 재시도는 읽기(GET)의 index.html 응답(200/404)에서만 — 저장 본문을 두 번 보내지 않음",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:04:55Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4fa9e423e6a1a4ea6d2bf2544ef18f72d54318f9",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "92df3a6",
+      "message": "fix: 서버 도면 검사 보강 — 표준 셀 separatePurchase 허용·칸 이름 정규화·깊이 제한·충돌 판정·설비 모양 일치",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:04:25Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/92df3a6e53e17a863d1091d4149e7963f679fb0a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1971fb7",
+      "message": "Merge branch 'feat/design-export' into feat/design-tool-v1",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T08:00:57Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1971fb76f1d46e15dd3a78a76c9e97bef21288d6",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d79cca9",
+      "message": "chore: 쓰이지 않는 downloadFile 제거 (P21 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:59:07Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d79cca9d012ef61ab9fd21e63e7b18e7e8e0f648",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "555a9df",
+      "message": "fix: DXF 직각 회전 좌표의 부동소수 잔여 제거 (P21 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:59:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/555a9df42adda54ba60405198da4e3d1d3e5f4b0",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "28b7b0d",
+      "message": "fix: 고객에게 나가는 도면 PNG·PDF·견적 PDF 에 직원용 트렌치 메모 글자를 그리지 않음 (P21 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:59:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/28b7b0d0ef882fbf3179002a2ec0f4aba7a0f398",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d53a801",
+      "message": "fix: ASMS 넘기기 연타로 탭이 둘 열리지 않게 막고, 저장이 필요하면 빈 탭을 먼저 열어 차단을 피함 (P21 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:59:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d53a801d576d9be1047ecfa832804b6c8fa611d5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "68ff16a",
+      "message": "fix: 내보내기 자동 차수가 연타·겹침에도 하나만 저장되게 하고 실패 까닭 안내, 빈 도면은 건너뜀 (P21 검수)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:59:05Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/68ff16a69058c9e98b5d758e2015f6024c589998",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2a177f2",
+      "message": "fix: 사선 장비 검사 — 입체 겹침·화기 간격·카운터 위·기둥·벽 장비 붙임을 실제 사각형으로 (P20 검토 H1·H2·M8)",
+      "author": "장준영",
+      "date": "2026-10-14T07:54:23Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2a177f2b1db6fd542d29e4336ccc2990213b3fb5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4061c9c",
+      "message": "feat: 3D에 그리스트랩·바닥 단차·트렌치·설비 포인트 표시 (P11b) — 설비 조건 층 따름, 탭하면 2D와 같은 선택",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:49:53Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4061c9c5dec207a7e4d7f8d97057ba00dece8751",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "555d99e",
+      "message": "chore: 서버 저장 화면 부품 렌더 시험(연결 전·연결됨·오프라인)",
+      "author": "jangj",
+      "date": "2026-10-14T07:48:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/555d99e2afc447c3cd72e425273d9c1e58d590f6",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "3a32b24",
+      "message": "fix: 로그인이 풀려 덮개가 뜬 동안 뒤 화면을 탭 이동·클릭·제출로 건드리지 못하게 막는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:48:19Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/3a32b24cc639622d58533d4227412b57fe2a3161",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "cd0f868",
+      "message": "fix: 인터넷이 끊긴 채 로그아웃해도 이 기기의 세션 저장분을 직접 지운다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:48:08Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/cd0f86824eb6c5cf23cd8d1e4c04246130b65216",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "21c964d",
+      "message": "feat: 저장함 「서버에 저장」 + 시작 화면 「서버 도면」 목록(검색·열기·지우기) 연결",
+      "author": "jangj",
+      "date": "2026-10-14T07:47:13Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/21c964deba4767f61eb6800d3df135079a6aae07",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "74a21f0",
+      "message": "feat: 도면 서버 저장 클라이언트 코어 — 서버 호출·연결 장부·차수 본문 묶기/풀기·충돌 규칙(덮어쓰기/서버 열기/취소)",
+      "author": "jangj",
+      "date": "2026-10-14T07:47:12Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/74a21f00033f111c10d4b5618261bc9b1b1c8db6",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "963a833",
+      "message": "fix: 내보내기 메뉴를 좁은 화면에서도 보이게 하고 안내 문구의 조사 정리 (P21)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:41:46Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/963a833484cb29718a8b628ab38dc660497d0a90",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "c804dc6",
+      "message": "feat: 도면 서버 저장 API(design-save·list·get·delete) — 직원 로그인 확인, 검증·4MB 상한·충돌 409·soft delete",
+      "author": "jangj",
+      "date": "2026-10-14T07:38:50Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c804dc6b1e6c2d4c5e9eebff131e4255e106a17e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4855741",
+      "message": "feat: 툴바 「내보내기」 메뉴(도면 PNG·도면 PDF·견적 PDF·DXF)와 받기 안내창 (P21)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:35:23Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4855741ca1fe0ce8beb71dcfed6327c0ae25d0f0",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a10414e",
+      "message": "feat: 고객 견적 링크가 DB 함수 asms_public_quote 로 화면에 그리는 칸만 받는다 (함수가 없으면 옛 조회로 물러남)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:23:08Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/a10414ecc2fb92466d25668016cbc5a801221b50",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "c63f7f8",
+      "message": "feat: 접속 코드 화면을 직원 로그인으로 바꾸고, 단가 탭이 같은 로그인을 쓴다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:23:08Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/c63f7f808b3601db7cc6396e7609d0fbd6398d0a",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "e7ceed4",
+      "message": "fix: 로그아웃을 이 기기만 하도록 바꾼다 (공용 직원 계정의 다른 기기·ASMS 세션까지 끊기던 것)",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T07:10:27Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/e7ceed481e5514b29d31d1b8efe31ab79e60b802",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "fbf4f42",
+      "message": "feat: 도면의 벽 마감 줄(kind finish)을 받아 비고 「도면 벽 마감」으로 넣고, 소비자가 채우기에서 제외한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T05:05:29Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/fbf4f421b0db3f68c2d432296f7abfcd45eea553",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "73544de",
+      "message": "feat(tracking): Clarity 프로젝트 ID 연결 — 부성티케이 홈페이지(yxex5me3ln), 사장님이 10-14 만든 프로젝트",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T04:20:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/73544de5eb37968eb01951a2de86bd1ee48c2a04",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "070b4d3",
+      "message": "feat(admin): 방문자 분석에 「문의 폼 칸별 도달·이탈」 표 — 폼 시작·제출 성공·칸별 건드림/채움/막힘",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T04:18:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/070b4d3e0021e5e383c5bfa19040f84ff30c35e6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "85356dd",
+      "message": "feat(inquiry): 문의 폼 칸별 이탈 기록 — 어느 칸을 건드리고 채우고 어디서 막히는지 (값은 안 보냄) + 폼 전체 녹화 가림",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T04:18:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/85356dd15dbcd8d56c1423199d44435671265567",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "83d81b4",
+      "message": "feat(tracking): Microsoft Clarity 준비 — 프로젝트 ID 비면 안 실림, 직원 기기·Claude 브라우저·헤드리스·nocount 제외, /admin 제외",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T04:18:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/83d81b4f8e39181ec9ff11a90427046ad239578f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "17040b4",
+      "message": "chore(consulting): 무료 배치도 입구(/consulting 첫 화면)를 문의 페이지로 임시 전환(302) · 사이트맵에서 제외 — 표준 도면 67장·자료실·제안 링크",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T03:58:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/17040b4108258a0af2271adbb1662e7041f73a03",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "6118673",
+      "message": "chore(landing): 「내 주방 배치도 만들기」 고리 숨김 — 홈 히어로·제안 섹션 버튼, 자료 페이지 칩, AI 상담 안내 (사장님 10-14: 설계 툴을 내부용으로 먼저",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T03:58:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/6118673ffdf1640191b7847a1e9ade2474db07d0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2e25e12",
+      "message": "feat: 홈페이지 사례 4건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T03:35:17Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2e25e12c532e265d2cd703f01cc7b0cbf8387804",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "784cb66",
+      "message": "fix: CSP 에 구글 애즈 전환·리마케팅 호스트 허용",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T03:03:01Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/784cb6641e845b794106b9ac42d39dfff46c02e3",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0e76ac3",
+      "message": "feat: 도면 장비의 단가 구분(priceKind)을 받아 배지로 보이고, 판매가 없는 줄은 소비자가 채우기에서 건너뛴다",
+      "author": "junyoungjang976",
+      "date": "2026-10-14T03:00:56Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/0e76ac36eb7869d097b6d2357b49d7dae6696904",
+      "repo": "busungtk-asms"
+    },
+    {
       "sha": "8218639",
       "message": "fix: 발주 상세가 휴대폰에서 오른쪽이 잘리던 것 (선금 5단계 진행 줄이 본문 폭을 늘림)",
       "author": "junyoungjang976",
       "date": "2026-10-14T01:21:59Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/8218639376bbce9580d719ffbd175c77299214a6",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "dd22d27",
-      "message": "docs: 이관 문서 상태표 — 10-14 운영 반영분(직원 로그인·사진·3D 형상·DXF·ASMS 넘기기·고객 모드)과 남은 위험",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T00:29:18Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/dd22d27255e6e7e3c1df7f13fb2a0f674efafb01",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4c47c7a",
-      "message": "refactor: 죽은 코드 정리(P9) — 옛 템플릿 경로(templates.json·hand-layouts·matcher·zones·placement-rules·Equipmen",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T00:28:14Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4c47c7a557e60816d38ff91940429332cc36724f",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "d43dce9",
@@ -1214,172 +2247,12 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "67e6e4a",
-      "message": "fix: DXF 개수 선검사를 파서와 같은 규칙으로(CR 줄바꿈·090·값 뒤 글자·00 표시 우회 막기)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T18:09:58Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/67e6e4a6c6e396296e1e5de4a82cd0e013582739",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "caba3ae",
-      "message": "Merge branch 'feat/design-customer-mode' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:49:16Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/caba3ae320d3ed28fb0ffee735adf3d4155e79e7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "77bea83",
-      "message": "docs: P8 독립 검수 반영 메모",
-      "author": "장준영",
-      "date": "2026-10-13T17:48:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/77bea834a8cde499ef6af6e7df9c506a0627b547",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ef731f8",
-      "message": "fix: 이미 연락처를 남긴 고객은 폼 없이 상담 확정만, 선택 줄을 도면 아래로, PC 단축키, 접수 뒤 오류 안내, 편집기 묶음 미리 받기",
-      "author": "장준영",
-      "date": "2026-10-13T17:45:55Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef731f88cdc07fd12056f706b5c0320507a03753",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "7ba8ea2",
-      "message": "fix: 고객용 검사 문장의 조사를 받침에 맞게(와(과)→와/과 등). 직원용 문장은 그대로",
-      "author": "장준영",
-      "date": "2026-10-13T17:45:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7ba8ea217bfceb0617e772eefdd782c5483dbb5c",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "bbb1822",
-      "message": "fix: 접수 재시도·시간 제한·길이 상한 — 상담 확정만 실패하면 리드·문자를 다시 안 보내고, 요청은 8초에서 끊고, business_category 는 500자 안(요약만 줄",
-      "author": "장준영",
-      "date": "2026-10-13T17:45:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/bbb1822f7f67226b858de291a8224da726c51fa0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "00f3ba0",
-      "message": "refactor: 평면도 화면 밖 그리기를 공용 모듈로 — 견적 PDF 와 고객 도면 이미지가 같은 함수를 쓴다(jsPDF 없이)",
-      "author": "장준영",
-      "date": "2026-10-13T17:36:56Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/00f3ba0c147f30eecec6be8ab93df393aaaa8a18",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "cd74fb4",
-      "message": "fix: 가져오기 마법사 — 변환을 입력이 멈춘 뒤(0.3초) 실행·실패는 마법사 안에서 안내·읽기 취소·범위가 크면 벽이 몰린 곳을 처음 영역으로",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:33:08Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/cd74fb4f7b3e3f9f7e1de3d51425c2c562c175fd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ac0dc8b",
-      "message": "fix: DXF 가져오기 한도 보강 — 선분 격자 한도·300m 초과 변환 거절·꼭짓점 수 선검사·작업 스레드 30초 제한/취소·Math.min 스프레드 제거·문 후보 격자(2만×",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:33:08Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ac0dc8b30e1af1f35eb869e90b6b478c5964d07b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "b069771",
       "message": "feat: 도면 견적 범위에서 빠진 장비 수(bandExcluded)를 받아 내부 메모에 적는다",
       "author": "junyoungjang976",
       "date": "2026-10-13T17:21:12Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/b06977121e7f257807b591b94981498d41b1cb85",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "ffdf438",
-      "message": "fix: ASMS 넘기기 — 견적 범위에서 빠진 장비 수(bandExcluded)·절반 넘게 미가격이면 범위 생략·미지정 설비는 라벨 없이 크기 이름·열기 실패 대비 링크 안내",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:20:32Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ffdf43800851c4f1af1405cd25650d2b725efcf0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2d2fc2e",
-      "message": "docs: P8 고객 모드 이관 메모 (P8 5/5)",
-      "author": "장준영",
-      "date": "2026-10-13T17:19:07Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2d2fc2e7f43adeb11b78e443c1618d877eaa81fb",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0c01ed8",
-      "message": "feat: 표준안 도면 단계의 정적 iframe 을 고객 편집기로 교체 (P8 4/5)",
-      "author": "장준영",
-      "date": "2026-10-13T17:18:52Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0c01ed84dc4d1e5a2ebef0aa1372d8b81cd304df",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4bd5c03",
-      "message": "feat: 고객 모드 화면 — 장비 넣기·옮기기, 가격 범위, 규칙 확인, 내 도면 저장·받기 (P8 3/5)",
-      "author": "장준영",
-      "date": "2026-10-13T17:18:51Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4bd5c037701dac617fcfb227b665e6b0e13a6221",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "25269ba",
-      "message": "feat: 고객 모드 접수 — 도면 변경 요약과 기존 RPC 접수 순서(가짜 RPC 로 시험) (P8 2/5)",
-      "author": "장준영",
-      "date": "2026-10-13T17:05:33Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/25269ba78b22b02a84c033e86ebdb748db50465e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f22451b",
-      "message": "feat: 고객 모드 바탕 — 공개 표준 셀에서 뽑은 장비 목록(251종)과 방 잠금 입력 (P8 1/5)",
-      "author": "장준영",
-      "date": "2026-10-13T17:02:49Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f22451b7222806ee42b856355884186aa1c0a1cc",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ef39780",
-      "message": "Merge branch 'feat/design-dxf' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:00:47Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef3978036284c49ec871d43a211253ff68048ecc",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "8c1374b",
-      "message": "fix: 3D 그리들 판정 낱말을 「부침」으로 — 카탈로그 장비명이 번들에 실리지 않게",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T17:00:47Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8c1374b6aa415102e51efc319bf1acf6bf9d5ef6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "807b6be",
-      "message": "fix: 가져오기 마법사 모바일 가로 넘침·미리보기 맞춤·읽기 오류 문구·후보 위치 표시, 검증 스크립트 영역 자동 옵션",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:58:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/807b6be31eaed3f3b74790403cee30d1d03eda3a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "8dbe8ad",
-      "message": "feat: 툴바에 「ASMS로 견적 넘기기」 버튼 — 새 탭으로 열고 막히면 확인 후 이 화면에서 이동 (P10)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:58:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8dbe8ade42e79c0fb507cb0110e8c5a0cc90cf5a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "793c597",
-      "message": "feat: ASMS 견적 넘기기 — 도면 → 넘김 내용 만들기·base64url 인코딩 (P10, 순수 함수 + ASMS 규칙 복사본 왕복 시험)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:58:16Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/793c5975c5bf0572f92d94c41600b5790b552c84",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "72e5bdd",
@@ -1406,118 +2279,6 @@
       "repo": "busungtk-order-tracker"
     },
     {
-      "sha": "7eb8fda",
-      "message": "feat: 겹선 벽선 위치 선택(안쪽 면/중심선)·영역 제안 이상치 제거·치수선 대조 확장, 가져오기 시험 보강 (P5 3/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:50:26Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7eb8fda028014e4d6b0ac5993b74991deb9d7216",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c5d7980",
-      "message": "fix: 3D 형상 시험의 카탈로그 경로를 server-data 로(병합 후 정리)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:49:20Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c5d7980e333b6ed9eaa189e82a687320eae9c253",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0b6f06a",
-      "message": "Merge branch 'feat/design-3d-shapes' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:47:34Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0b6f06a80373a3666a54756a5369501b1819bb97",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c8b8bc3",
-      "message": "feat: DXF 가져오기 마법사 — 파일·단위·레이어/영역 지정·장비 후보 선택, 시작 화면 연결 (P5 2/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:44:02Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c8b8bc3a9727c19214413dd0fa39c252b0298b1d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "1b4c10e",
-      "message": "docs: 이관 문서에 검수 반영(로컬 로그아웃·503·sessionStorage·재로그인 동작) 정리 (검수 반영 5/5)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:41:55Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1b4c10ea23834d4b7e3cd25632c91b88c678d7f7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3dc4b2e",
-      "message": "chore: npm run build 끝에 번들 노출 검사 연결 — 직원 전용 데이터가 dist 에 있으면 빌드 실패 (검수 반영 4/5)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:41:55Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3dc4b2e4f86f611b6a2b910eb1312943e0b4080e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ea5baee",
-      "message": "fix: 사진 불러오기 — 이미지도 JSON 도 아닌 응답(200 index.html 포함)이면 루트 경로로 재시도 (검수 반영 3/5)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:41:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ea5baeef71fabeccb69b2613a4b7626e7ec045b7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "76b3320",
-      "message": "fix: 로그아웃은 scope local, 직원 세션은 설계 툴 전용 클라이언트·sessionStorage, 503 에서는 로그아웃하지 않음 (검수 반영 2/5)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:41:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/76b33207eac6ebb084ad7a014508bebfd4c376c3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "43822c5",
-      "message": "fix: 직원 확인 불가는 401 이 아닌 503(통신 실패·인증 서버 5xx·env 없음), 토큰 확인은 공개 키만, 사진은 no-store (검수 반영 1/5)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:41:53Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/43822c5727a297e51b15a41066098dfa1604ea3a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ae5d2c8",
-      "message": "fix: 3D 속 빈 형상(선반·작업대·개수대) 빈 곳 탭 선택 + 선택 시 부품도 색 입힘",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:40:15Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ae5d2c809d741f08f4ff30d1ba9d8b4c1e16956a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "085324f",
-      "message": "fix: 3D 형상 캐시를 LRU + 장면 사용 중 보호(pin)로 — 쓰는 geometry 를 내보내지 않는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:40:14Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/085324f85432d161a4784cda403dc1dc1f2003f5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ea00957",
-      "message": "fix: 3D 후드 윗면을 벽 높이로 제한, 다각형 방 정면은 가까운 벽의 반대쪽",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:36:22Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ea00957ba83c043f75608b0497069bb5c7946c3d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "337ba10",
-      "message": "feat: DXF 가져오기 변환 엔진 — 어댑터(dxf-parser)·단위·레이어 짐작·겹선 벽 합치기·문 호/기둥/장비 후보 (P5 1/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:36:08Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/337ba102fdcdece46fce8675a3b52fb42b24bbd0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "16162af",
-      "message": "fix: 3D 형상 종류 오분류 — 끝말(머리 명사) 우선·분류 모순이면 상자·전자레인지 제외",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:34:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/16162afbc2e7cda2955abed14fc443956d38d8a9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "bcf49cd",
       "message": "fix: 방문 분석(Vercel Analytics)으로 도면 내용이 가지 않게 #d= 주소 조각 제거",
       "author": "junyoungjang976",
@@ -1542,100 +2303,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "1366736",
-      "message": "docs: P9.5 설계 확정 기록·견적 범위 자리 정정, 도면 저장 표 마이그레이션 초안(미적용)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:23:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/136673636531eb17d129c1be45611501bb42574a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "360894f",
-      "message": "docs: 이관 문서에 P9.5 직원 로그인·서버 데이터·P4.7 사진 상태, 오프라인 보관 위험, 배포 때 확인할 것 정리",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:22:33Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/360894f1c0db1a2f8193fe109fc25a37b9b4f7a9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "7553291",
-      "message": "feat: 장비 사진 썸네일 표시 — 장비 목록·설비 일람표·선택 장비 속성 (직원 현장 모드 전용, P4.7 4/4)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:21:59Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/755329128e0ef75a7ee89940d407fe3da464c356",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "68c30b9",
       "message": "fix: 견적 수정 저장이 CRM 연결(crm_inquiry_id)을 지우던 문제",
       "author": "junyoungjang976",
       "date": "2026-10-13T16:21:34Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/68c30b929057f145c0247d8660d7de1e8993e3e3",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "229028d",
-      "message": "feat: 3D 장비를 대표 형상으로 그림 — 형상 geometry 공유 캐시·정면 방향 추정·후드 사다리꼴 (P7.1 2/2)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:16:52Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/229028de8b02f0097898310842f2905a1c2b2cb4",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "e7d135c",
-      "message": "feat: 3D 대표 형상 17종 — 종류 정하기(카탈로그 분류·이름 패턴 재사용)와 파라메트릭 부품 목록 (P7.1 1/2)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:16:51Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/e7d135c04eb37d59449f4103f036ef82b3f406f3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b6ff095",
-      "message": "feat: /api/design-image — 로그인한 직원에게만 장비 사진 썸네일 제공 (P4.7 3/4)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:13:50Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b6ff095a5e7142c70431ce2d911043affdd2990f",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3fb82ac",
-      "message": "chore: 장비 사진 썸네일 554장 (2.75MB) — 우리 사본 183·제조사 썸네일 371, 실패 3 (P4.7 2/4)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:13:48Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3fb82acd201e234de3a5f29863856e6635c9fa04",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b256406",
-      "message": "feat: 장비 사진 썸네일 생성 스크립트 — 우리 사본 우선·없으면 제조사 썸네일, 최대 320px WebP (P4.7 1/4)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:13:43Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b2564060e6b3eefd3a35320f89f472b02409f6a0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f8d7da4",
-      "message": "chore: 번들 노출 검사에 직원 전용 데이터 검사 추가 — 카탈로그 이름 전수·표본 30·사진 식별자·견적 범위 표 조각·금지 파일명 (P9.5 3/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:08:46Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f8d7da4c46857bda2e392bf5bf0148870047fbed",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "20e2e59",
-      "message": "feat: 직원 로그인(비밀번호 한 칸)으로 접속 코드 대체, 카탈로그·장비별 견적 범위를 번들에서 빼 server-data 로 이동 (P9.5 2/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:08:46Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/20e2e59181fd0dbe6ea1ecdd6b4056b2ff10e039",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "25f83e0",
-      "message": "feat: 직원 로그인 확인(requireStaff)과 /api/design-data — 카탈로그·장비별 견적 범위를 로그인한 직원에게만 서버에서 제공 (P9.5 1/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T16:08:23Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/25f83e09c79742f3399936dbf85e4cdd1fc4bb92",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "f759a60",
@@ -1654,188 +2327,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "7c62610",
-      "message": "docs: 이관 문서 상태표 갱신 — 10-13 밤 운영 배포분(설치 높이·카탈로그·넘버링·기형 공간·미지정 설비·3D)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:52:03Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/7c6261004fad38d0d2a96d95db0250d265c03b0c",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "816dc54",
-      "message": "fix: 미지정 설비 검사 문구에 표시 이름, 방 모양 바꿀 때 좌표 기반 목록만 비우기",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:49:28Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/816dc541c98262a5e4cd6541ce2c4c52d54858ab",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d313dfa",
-      "message": "feat: 견적에 「미지정」 줄과 「미지정 N개 (합계 제외)」 — 합계 제외·개수 표시, 일람표·PDF 같은 표기, 미지정만 있으면 산출 불가 (P4.8 3/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:42:03Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d313dfa027335eaad6abad84fecf08ac8cc41631",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "af52b96",
-      "message": "feat: 미지정 설비 놓기·표시 — 「+ 미지정 설비」 입력과 바닥/장비 위/벽 놓기, 2D 빗금+「미지정」 꼬리표, 3D 반투명 상자+점선 윤곽 (P4.8 2/3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:42:02Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/af52b9618cf4c3be62d4912c9cc4a51bbde3e1a8",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "89cde67",
-      "message": "feat: 미지정 설비 모델·검사 — 크기만 정한 참고 상자(catalogId null·custom)와 분류별 화기·냉장 검사, 분류 미지정은 「일부 검사 제외」로 알림 (P4.8",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:42:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/89cde67b3d14952149635a3e4207161b60759c28",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "cd25bab",
-      "message": "fix: 「벽걸이 싱크」를 벽 장비로 — 이름이 벽걸이·벽부착으로 시작하는 싱크류는 끝말 싱크 때문에 바닥으로 보지 않음 (벽부착 낱말도 벽 이름에 추가, 냉장고·작업대는 그대로 ",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:24:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/cd25bab3e87155024386e24e36d941e65c79e24b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "fc20380",
-      "message": "fix: 방 모양 바꾸기 — 옛 방 좌표에 묶인 후드 영역·동선선·셀 기준선을 함께 비움 (확인 창에 알리고 되돌리기 한 번으로 복구)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:23:41Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fc20380d76b9bfc61e7861726a02b10174761cda",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "722f304",
-      "message": "fix: 3D 바닥 격자 — 오른쪽·아래 끝선이 그려지지 않던 것 (꼭짓점 위 선을 한쪽으로만 비켜 세워 경계선이 다각형 밖으로 밀림)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:23:40Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/722f30456858124df1044dc57a884ad40d1afdbe",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "37afcf0",
-      "message": "fix: 겹친 장비 돌려 고르기 — 끌기·핀치·도구 바꿈 뒤에는 직전 탭을 잊고, 마우스 더블클릭(250ms 안)은 돌리지 않음",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:22:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/37afcf07beada6470a3679695e6a8c47ddfb55e5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a0dd6ef",
-      "message": "fix: 벽 각도를 한 규약으로 — 오른쪽 0°·아래 90°·0~360 으로 미리보기·벽 속성·숫자 입력이 같고, 못 돌린 이유를 보이고, 15° 맞춤이 저장된 뒤에도 0.1° 안",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:20:07Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a0dd6ef2becef7c9839fcfc7cdf4f611de6ece0e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "376d945",
-      "message": "fix: 기둥 규칙 보강 — 기둥 속에 걸친 벽 장비·방 밖 기둥은 주의, 카운터와 그 위 장비는 한 건으로",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:16:43Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/376d94558a8c6d304fef7973eed1baa42d22beb0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5c6ebbf",
-      "message": "fix: 기형 공간 검수 반영 1 — 나눠 그린 벽은 합쳐서 보고, 사선 벽 제외·엇갈린 벽을 알리고, 벽 끝점은 거리로 묶음",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:16:42Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5c6ebbfa11009ca7c61bd2acd97ea89c8489d566",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "25bfb3e",
-      "message": "fix: 설치 방식 시험이 카탈로그 종 수 하한(1000)을 고정하지 않게 — 개수 말고 규칙의 성질만 확인",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T14:00:35Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/25bfb3ea87632f95e8e0e577b31c93b4e101c2f5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "62aca31",
-      "message": "fix: 견적 PDF 번호 칸이 번호를 가운데서 자르지 않게 — 줄바꿈은 쉼표 뒤에서만 (wrapNosAtCommas)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:59:57Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/62aca31f82e4aa04123d077f972ed90830de01c2",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d61d78a",
-      "message": "fix: 번들 누출 검사의 알려진 오탐 2건을 좁은 허용 목록으로 — 공개 사례 링크 제목의 장비 표기(한식 고기구이 3장)와 검수 문장의 「벤더 28」 곳 수. 새 곳·늘어난 횟",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:58:38Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d61d78a4f5c877340dbfa07fcb0d353eface51ec",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "8806157",
-      "message": "fix: 냉장류 이름 사전에 직냉·간냉·보냉 추가 — 카탈로그에서 새로 놓은 장비의 화기-냉장 검사 누락 방지 (표준 셀 67장·변이 2010개 엔진 대조는 그대로 통과)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:56:51Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/88061573826bf0e15b2f08f3d526b6941248ae54",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d3613ed",
-      "message": "docs: 3D 선택에서 바닥 장비 우선(yieldsToFloor)의 한계 — 거리는 안 본다 — 를 주석으로 남김",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:56:10Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d3613ede823db7896d18dac1965edb3d47affb76",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ba1be9a",
-      "message": "fix: 3D 안내·재시도 정리 — 후드 높이 미입력 안내가 실제 표시(점선 윤곽+라벨)와 같은 말, hood.ts 판정·후드 층 끔과 맞춤 / 3D 가 뜨면 실패 횟수를 0 으로",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:56:09Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ba1be9a137020b76e7f054ac40bad718ae8e179e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a148689",
-      "message": "fix: 장비 이름을 한 곳에서 정한다 — 같은 번호는 2D·3D·속성 패널·견적 일람표/PDF·ASMS 넘기기에서 늘 같은 이름",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:54:04Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a1486894ae60341f495b2871c4265da0904654f4",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2894cf6",
-      "message": "fix: 장비 번호는 한 번 내준 뒤 다시 쓰지 않는다 — 내준 최고 번호(noSeq)를 도면에 적어 맨 끝 번호를 지워도 새 장비가 그 번호를 받지 않음",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:53:52Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2894cf6df635943421b4bdc1c13564ac33ac19ab",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "426e767",
       "message": "fix: 도착지가 빈 옛 발주는 현장 주소가 있으면 현장을 미리 고름",
       "author": "junyoungjang976",
       "date": "2026-10-13T13:51:44Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/426e7679a36a1f5bdd632250c654bab5ce656870",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "d357b82",
-      "message": "docs: P9.5 직원 로그인 + 핵심 데이터 서버 제공 (사장님 10-13 승인, ASMS 넘기기보다 먼저)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:50:14Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d357b82c94688166ec2372d2d7e84b105d542368",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "561ca65",
-      "message": "chore: 줄바꿈 정리 — 번호 커밋에서 CRLF 가 섞여 들어간 시험 파일 2개를 LF 로 되돌림 (내용 변화 없음)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:47:29Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/561ca651c5bc2fcc448f4927614cd5943745375f",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "e025a74",
@@ -1846,30 +2343,6 @@
       "repo": "busungtk-order-tracker"
     },
     {
-      "sha": "4b66fb7",
-      "message": "docs: P4.8 미지정 설비 단계 — 크기만 정한 참고 도형을 바닥·장비 위·벽에 (사장님 10-13)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:46:05Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4b66fb7f38104ac8b833d331a48f5fdb2a5880b2",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "385f367",
-      "message": "feat: 모양 고르기 화면과 사선 벽 그리기 — 시작 화면·툴바의 모양 고르기(미리보기·변 길이), 벽 각도 15°/45°/90° 맞춤과 숫자 각도, 방 면적 표시 (P2.6)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:41:42Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/385f367d7ce4cee86f41c0c9133217c4952af0fd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c421883",
-      "message": "feat: 기형 공간 — 방을 벽이 이루는 닫힌 다각형으로 보고 방 밖·벽 채움·문 앞 공간·기둥 겹침·3D 바닥을 다각형 기준으로 (P2.6)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:41:41Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c421883db4e6304eea7795814a9bff43552bf041",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "9f07b67",
       "message": "feat: 지원자 체크리스트 — 기술 판단 8문항(12점)·일하는 방식 8문항(점수 없는 4영역 프로필)",
       "author": "junyoungjang976",
@@ -1878,44 +2351,12 @@
       "repo": "busungtk-training"
     },
     {
-      "sha": "14afe93",
-      "message": "feat: 겹친 장비 돌려 고르기 — 같은 자리를 다시 탭하면 바닥 → 위층 → 바닥 순으로 다음 후보 선택, 후드 높이 미입력 알림은 캔버스 밖 툴바 아래 줄로",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:14:16Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/14afe93c1dd33c412d5f76b2693196dd33879295",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3f22c93",
-      "message": "fix: 설치 방식 시험이 카탈로그 이름 목록을 통째로 고정하지 않게 — 규칙의 성질만 고정",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:14:15Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3f22c93cc814184681a1ba04ce79699cea3d6dfd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c147f35",
-      "message": "fix: 카탈로그 검수 반영 — 천 단위 쉼표 치수 오독 수정·이름 위생(라인명·홍보 문구·뜻 없는 이름)·사진 ref 해시화·가스 연료 표시·번들 축소",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:14:00Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c147f359e65f535a817fd446a6c49df4398e9949",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "56796f2",
       "message": "docs: ASMS 발주 넘기기 설계·구현 규격",
       "author": "junyoungjang976",
       "date": "2026-10-13T13:13:06Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/56796f2903a035952c2e4083a39919b1ade43455",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "2775e04",
-      "message": "fix: P4.5 검수 반영 — 높이를 모르는 건 통과가 아니라 건너뜀으로 알리고, 기둥 벽붙임·저장분 높이 재검사·설치 방식 이름 규칙 강화",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T13:09:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2775e04cf2f9f6fe75d6681ee7b29168a4a85947",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "56a09f3",
@@ -1958,46 +2399,6 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "02c8fb0",
-      "message": "feat: 장비 번호(넘버링) — 2D 배지·3D 라벨·일람표·PDF가 같은 번호, numberedItems() 로 ASMS 넘기기 준비",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:55:35Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/02c8fb057ad7ea414a7c9df2bd5c5b88f5b4d999",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2035b71",
-      "message": "feat: 카탈로그 확장 — 단가 라이브러리 제품 사양·매입 엑셀에서 이름·치수·전기·가스만 (P4.6)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:51:14Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2035b717bc1baf9220287c66ea83897822eb7f52",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "9218758",
-      "message": "feat: 셀 후드 영역 높이 고르기 — 2D 배너·윤곽선 탭으로 [1800][2000][2200][2500][직접 입력], 미입력이면 3D 는 점선 윤곽과 라벨만",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:47:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/92187587d9686190fb2f05fad388384d47352a0d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6b9a37a",
-      "message": "fix: 3D 검수 지적 9건 반영 — 컨텍스트 복구 재그리기·후드가 아래 장비 탭을 가로채지 않게·라벨 roundRect 대체·바깥 모퉁이 기둥",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:44:13Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6b9a37ad7b41463fbde1d72d7bd74e1c2e430690",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6cf7dc6",
-      "message": "docs: P2.6 기형 공간 단계 — 방을 닫힌 다각형으로, 모양 고르기·사선 벽·실제 모양 검사 (사장님 10-13)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:42:20Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6cf7dc655f1ab6919ab15113b64ce630478aec7a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "7aa1e5f",
       "message": "feat: 로그인 뒤 원래 화면으로 복귀",
       "author": "junyoungjang976",
@@ -2022,28 +2423,12 @@
       "repo": "busungtk-order-tracker"
     },
     {
-      "sha": "03763b9",
-      "message": "docs: P10 도면→ASMS 정식 견적 넘기기 + CRM 고객 연결 단계 (사장님 10-13 결정 3건)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:37:42Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/03763b93e872a8aa25a084dc67a0f45cf5725ba7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "2295d91",
       "message": "feat: 견적 상세에 발주 넘기기 창과 품목 발주 표시",
       "author": "junyoungjang976",
       "date": "2026-10-13T12:35:29Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/2295d919beecbe8ba98bfda1214dce2965dac074",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "69217f3",
-      "message": "feat: 3D 설치 높이 연결 — 장비에 적힌 높이로 놓고 후드 기본 높이 2000 제거",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:34:19Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/69217f3b955ea995a7be234f25e420f388803cc6",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "08f7edd",
@@ -2062,148 +2447,12 @@
       "repo": "busungtk-asms"
     },
     {
-      "sha": "562e67c",
-      "message": "feat: 2D 상부 장비 층과 설치 높이 고르기 — 점선·반투명 위층, 높이 꼬리표, 놓은 직후 빠른 선택",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:31:30Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/562e67cd2b40cd798aa2af30e151b7906fe266c2",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f74c419",
-      "message": "docs: P7.1 대표 형상 3D 단계 추가 — 종류별 파라메트릭 모양을 장비 크기에 맞춤 (사장님 10-13)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:30:10Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f74c41943e5fa3e81f4e616f1b2ab850085db072",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
       "sha": "00fa763",
       "message": "feat: 넘김 기록 표 마이그레이션(009)",
       "author": "junyoungjang976",
       "date": "2026-10-13T12:29:39Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/00fa7633963f28dfb81f7de6aa5261423f84d925",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "a74659d",
-      "message": "docs: 제조사 사진은 직원 현장 모드에서만 (사장님 10-13 확정)",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:23:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a74659db44c8a1efd96d8f5db379fba122e4a0d4",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "81f26cb",
-      "message": "feat: 설치 높이 검사 — 입체 겹침·벽 장비 붙임·후드 걸림, 높이 미입력은 통과로 세지 않고 알림",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:20:36Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/81f26cb15248cfced9cac2471aff77b26c2e90cd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2974389",
-      "message": "feat: 장비 설치 방식·설치 높이 모델 — 카탈로그 초기 설치 방식(이름 규칙), 옛 저장분 호환",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:16:26Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/29743891f301120e0d49659552cf51e7a970e47d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5b802a4",
-      "message": "docs: 카탈로그 원본으로 vendor_products 지정, P4.7 실물 이미지·P7.5 실물 3D 모델 단계 추가",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:13:36Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5b802a47aec574640facda227d4636aa043d51fa",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b200d6b",
-      "message": "fix: 3D 라벨을 DOM 대신 캔버스 글자판으로 — 2D/3D 빠른 전환 때 루트 해제 오류 방지",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:08:26Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b200d6b4c138b4759ee37766b78ae5b8c9510c45",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d097c73",
-      "message": "docs: 작업지시서에 P4.5 설치 방식·높이, P4.6 카탈로그 확장 추가",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T12:08:04Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d097c73aaa9bdd58ce86d9652bb528df5dc43acd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0b985d4",
-      "message": "feat: 3D 선택 동기화 — 3D 에서 장비를 탭하면 2D 와 같은 선택 동작을 쓴다",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:59:19Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0b985d4e6b2f982bcfc5b012f80baac32eca31eb",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0e87e38",
-      "message": "feat: 보기 방식 2D/3D/나란히 — 툴바 전환·기억, 3D 지연 로딩·오류 안내",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:58:29Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0e87e38e4c07a2fcda835001b0feead25d962cc7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0bf7f82",
-      "message": "feat: 3D 장면 — 장비 상자·벽 개구부·후드 판·동선, 카메라 쪽 벽 자동 투명",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:56:09Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0bf7f82e533b9cd393799aec50dcabdb2516b9db",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "8b82ef2",
-      "message": "docs: 주방 설계 툴 v1 이관 문서 — P1~P4 운영 배포 상태·결정 대기 8건·함정·파일 지도",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:33:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8b82ef28ee5e50c9596c84bbff39aa2453302851",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "01baaee",
-      "message": "fix: 결함 픽스처 테스트 묶음 이름 정리 — 이유만 적은 10건은 「문서화된 공백」으로 분리",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:30:59Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/01baaee462e9a42f6eefc3868f5a9beb614e1696",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "eb6299a",
-      "message": "fix: 검사 화면 보완 — 분류 미확인 장비 안내와 툴바 배지 「일부 안 함」 표시",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:30:59Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/eb6299a7344ef87387c89230378cf9fa0af9a270",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "bed8b85",
-      "message": "fix: 검사 규칙 P4 검수 반영 — 후드 장비 제외·분류 보강·열린 방/빈 동선 검사 안 함·차수판 안내 문구",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:30:58Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/bed8b8517bfb5d74b563013b015cc6e7d2f005bb",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "db59c30",
-      "message": "feat: 편집기에 실시간 검사 — 300ms 디바운스·위반 장비 윤곽선·검사 탭·툴바 배지",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:11:17Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/db59c309885577af89ecc6ad75e2573bb1217755",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0f78b61",
-      "message": "fix: 대조 테스트가 tsc 빌드를 깨던 node 타입 누락 보완",
-      "author": "junyoungjang976",
-      "date": "2026-10-13T11:04:49Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0f78b61a1944a8c3790a94d5181cc3f15d749be5",
-      "repo": "busungtk-kitchen-consulting"
     },
     {
       "sha": "de28bd9",
@@ -2499,262 +2748,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T09:48:59Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/1dd443037f4b71ce6fa5a434bee31397ff18e8cc",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "de9b5d4",
-      "message": "feat: 단계 「실패」를 「미수주」로 바꿔 부르고, 빠져 있던 「핏 안 맞음(not_fit)」을 단계 표에 넣는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:48:44Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/de9b5d41270486c4982a547efb598e108e06b69e",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c468972",
-      "message": "docs: 10-11 실행한 SQL 기록 — 오더 트래커 현장-고객 연결 표, 유입경로 이름 6건 정리",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:37:26Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c4689722ec6bb72f7633850dc6bb373eb0e7708a",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "a512905",
-      "message": "feat: 홈페이지 사례 3건 자동 발행 — 채널톡 완료보고",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:33:11Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a512905e176dbd1b58259c0a6643218d46e5e87c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "477faa7",
-      "message": "feat: 일정·배차를 열면 월간이 먼저 뜬다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T08:37:54Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/477faa7939da2b45fcfa0333a3b420104582fc6f",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "16a771e",
-      "message": "feat: 홈페이지 사례 3건 자동 발행 — 채널톡 완료보고",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T03:33:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/16a771e956f22bcfdaa973af12c8a6ac87f7706f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e24eb18",
-      "message": "feat: 발주 날짜 바꾼 사람을 기록에 남기고, 명단 고치기를 서버 뒤로",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T00:46:50Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/e24eb18af576ff3da4cd69901b0a65a612a94de5",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "f8429d6",
-      "message": "feat: 명단에서 사람 빼기·되돌리기 — 줄은 지우지 않고 숨긴다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T00:00:46Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/f8429d62f718d7600a85c84ce9be5a10ff502870",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "134ffa8",
-      "message": "Merge remote-tracking branch 'origin/main' into claude/quirky-leakey-1f447e",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T23:46:25Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/134ffa8e643e7789ea1d7ef19e606851eeb570ff",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "5e358c0",
-      "message": "feat: 표 위에 「인원 추가」 단추 — 사람 넣는 칸도 창 맨 위로",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T23:45:56Z",
-      "url": "https://github.com/busungtk/busungtk-daily-report/commit/5e358c0d6dc84b4c0bdabcadada01d228d0ef818",
-      "repo": "busungtk-daily-report"
-    },
-    {
-      "sha": "c37b7c8",
-      "message": "fix: 일정 일시 미러링은 날짜와 시각을 따로 비교해 바뀐 쪽만 보내고, 끝난 일정에는 손으로 맞춰야 한다는 안내를 보이지 않는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:36:55Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c37b7c8e39f754ca88cd25d4f89b2b6a7c075ecb",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "802cfc2",
-      "message": "fix: 크론 실패를 스냅샷에 남겨 처음 한 번만 알리고(이어지면 조용, 성공하면 해제) 최근 실패는 큐 뒤로 보내며, 전부 실패하면 500, 보낸 건 즉시 세고 manual 은 ",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:36:55Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/802cfc29440077b7f6684d47fdcd22fa04fc7828",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "df0c0c3",
-      "message": "fix: 하루를 넘겨 손으로 맞춰야 하는 일정은 스냅샷에 표시해 알림을 처음 한 번만 보내고, 조건이 풀리면 표시를 떼며, 일정 줄에 노란 안내를 보인다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:28:19Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/df0c0c311276f4bc97ef31d47247418c4cf22d86",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "5621a58",
-      "message": "fix: 「내용·일시 변경」은 연 순간의 일시·배차 연결을 기준으로 비교하고, 시각 없는 배차 일정에는 날짜만 보낸다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:24:51Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5621a58b101ca278a4b2f3d4d4e850b8ad31b95f",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c2500f4",
-      "message": "fix: 크론 — 배차판 날짜가 실제로 바뀐 때만 일시를 가져오고(아니면 배차판으로 보냄), 하루를 넘기는 시간은 손으로 맞추게 알리며, 한 건 실패가 전체를 멈추지 않게 하고, ",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:24:03Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c2500f49a06776385a8d25747d87cc73c68d8cfc",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "67943a5",
-      "message": "fix: 크론도 두 방향으로 일정 일시를 맞춘다 — 배차판이 바뀌었으면 CRM 으로(배차판 우선), 배차판은 그대로인데 CRM 일시만 옮겨졌으면 배차판으로(pushed)",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:15:57Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/67943a5b6a7d00a3f727463fda619a4d43beac3a",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "884c690",
-      "message": "fix: 배차 수정 창은 달라진 칸만 보내고(날짜를 고치면 CRM 일정 일시도 같이), 시각 없음 선택·잘림 안내, 올리기 실패는 400 만 입력 창·409/401/403 은 안내",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:12:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/884c6907007fa7088330ee8d8770ee5f7d5fa68e",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "853ca2a",
-      "message": "fix: 일정 수정 때 일정 일시(due_date)는 실제로 바꿨을 때만 CRM 에 보낸다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:12:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/853ca2a599baa924f8d317306e984f59a2077cee",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "63b9cbe",
-      "message": "fix: 배차 입력 — 열었을 때와 달라진 칸만 가려내기(diffJobInput), 시각 없는 일정은 「시각 없음」, 시각 생길 때 소요 기본값은 서버에 맡김, 길어서 잘리는 일정",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:12:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/63b9cbedcfd553093b019426aaef3dae2593112e",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "bf11035",
-      "message": "fix: 일정 일시는 한 일정의 두 모습 — 배차판 행이 확정되면 CRM 일정 일시(한국 날짜·30분 칸)와 비교해 다르면 맞추고, 시각 없던 일정에 시각을 정하면 소요 1시간, ",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:09:26Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/bf11035d9a3ee54a8ae97d33c4b3b5f331834ad4",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "0cbf4fd",
-      "message": "fix: 직접 고친 날짜는 배차판 값으로 덮지 않는다는 테스트를 충돌이 아닌 경우로 바로잡는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:01:25Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0cbf4fd50a85f28c92cc7f9c1d83f3abb7149d36",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "47221c7",
-      "message": "fix: 배차 수정·현재값 읽기로 스냅샷을 새로 맞출 때, 크론과 같은 planPull 로 배차판에서 바뀐 일정 일시·완료를 CRM 일정에 먼저 반영한다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T15:00:35Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/47221c7c53701409636d372585fc786ae37f2cfe",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "5f6ad53",
-      "message": "fix: 다음 일정 화면 — 배차 수정은 배차판 지금 값으로 열기, 취소 확인 문구·같이 가는 사람 알림, 4xx 는 입력 창으로, 배차판 할 일 배지, 목록 밖 값 선택지",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:57:31Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5f6ad53f1220ef603852cf1badd875455b99b0a0",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "8350913",
-      "message": "fix: 배차판 연결 훅 — 현재 값 읽기(current), 바뀐 칸만 보내는 고치기, 해제 결과의 groupLeft",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:57:30Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/83509132a4e73c6b48aa04a89fd7c0be2c81fbfc",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "55a2a54",
-      "message": "fix: 배차 입력 — 일정 수정은 바뀐 칸만 보내고, 할 일은 1000자(첫 줄 우선)로 줄이며, 저장 전 담당자·차량 검사",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:57:30Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/55a2a5483f695d052162ca1a5e55ff658fdaeb24",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "975a6a2",
-      "message": "fix: 배차판 연결 서버 — 고칠 때 직원이 바꾼 칸만 배차판 지금 값 위에 얹고(충돌은 409), 크론은 전부 읽고 쓰기만 100건으로, 일정 내용·담당은 덮지 않는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:54:22Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/975a6a242260e2de84ed8e537aa502451077513f",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "052008a",
-      "message": "feat: 다음 일정 — 「배차판에도 올리기」 스위치·입력 칸, 연결 배지, 배차 수정·연결 해제, 완료·취소·수정 때 같이 맞추기",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:40:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/052008ac9c37c644c779dd5be8702fdeb2751eec",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "b9f4b0d",
-      "message": "feat: 배차판 연결 훅 — 목록 읽기(설정 전 503 구분)와 올리기·고치기·완료·해제",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:40:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b9f4b0d7663a17233d5132cf0f5468f3f93ed68a",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2543ae2",
-      "message": "feat: 배차판 입력 칸 계산 — 시작 시각·소요 선택지, 기본값, 서버로 보낼 값, 고칠 때 바뀐 것만 보내기",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:40:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2543ae28621a53268e345d448ff191a30f773abc",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "1d6a518",
-      "message": "fix: 「왜 배우나」·사례 상자가 화면 왼쪽 끝에 붙던 것 — 본문 폭 안, 제목 아래로",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:39:28Z",
-      "url": "https://github.com/busungtk/busungtk-training/commit/1d6a518a3151ad3af592218628b527613f03b7ba",
-      "repo": "busungtk-training"
-    },
-    {
-      "sha": "7388111",
-      "message": "feat: api/dispatch-link — 다음 일정을 배차판에 올리고·고치고·완료·해제, 30분 크론으로 배차판 변경을 가져온다",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:31:52Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/738811155842cc245c6038b70085fc0958ee3385",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "9308065",
-      "message": "feat: 배차판 연결 공용 로직 — 입력 검사·배차 대상 목록·스냅샷 비교·가져오기 계획 (사장님 승인 2026-10-11)",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:31:52Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/93080655a80d9bdc8e303e224f6697260a48e9a7",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "d04322c",
-      "message": "feat: 다음 일정에 배차판 연결 칸(dispatch_job_id·dispatch_snapshot) — 파일만, 적용은 사장님",
-      "author": "junyoungjang976",
-      "date": "2026-10-11T14:28:16Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/d04322cf993869eaa08783a4c00c56c3f742e8cc",
       "repo": "busungtk-sales-crm"
     }
   ],
