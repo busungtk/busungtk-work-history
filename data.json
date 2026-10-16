@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-10-15T02:00:53.050789Z",
+  "updated_at": "2026-10-16T01:50:31.922630Z",
   "repos": [
+    "busungtk-sales-pipeline",
+    "busungtk-landing",
     "busungtk-kitchen-consulting",
     "busungtk-training",
     "busungtk-asms",
     "busungtk-order-tracker",
-    "busungtk-landing",
     "busungtk-sales-crm",
     "busungtk-daily-report",
     "busungtk-ai-ideation",
@@ -23,7 +24,6 @@
     "busungtk-supabase-types",
     "busungtk-portal",
     "busungtk-ad-videos",
-    "busungtk-sales-pipeline",
     "busungtk-partner-map",
     "vibe-factory",
     "busungtk-process-map",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1094,
+    "total_commits": 1096,
     "total_prs": 8,
     "total_issues": 7,
-    "active_days": 69
+    "active_days": 70
   },
   "daily": {
+    "2026-10-15": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-14": {
       "commits": 137,
       "prs_opened": 0,
@@ -154,7 +161,7 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 28,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -547,16 +554,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1094,
-    "overtime_commits": 754,
-    "regular_commits": 340,
-    "overtime_rate": 68.9,
+    "total_commits": 1096,
+    "overtime_commits": 757,
+    "regular_commits": 339,
+    "overtime_rate": 69.1,
     "weekend_commits": 267,
-    "late_night_commits": 384,
-    "total_hours": 628.3,
-    "regular_hours": 277.8,
-    "overtime_hours": 350.5,
-    "overtime_hour_rate": 55.8,
+    "late_night_commits": 387,
+    "total_hours": 644.9,
+    "regular_hours": 286.8,
+    "overtime_hours": 358.1,
+    "overtime_hour_rate": 55.5,
     "daily_hours": {
       "2026-07-18": {
         "regular_hours": 0,
@@ -948,7 +955,7 @@
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 28
+        "commits": 26
       },
       "2026-10-02": {
         "regular_hours": 5.4,
@@ -1042,11 +1049,11 @@
         "commits": 84
       },
       "2026-10-15": {
-        "regular_hours": 0,
-        "overtime_hours": 3.5,
-        "total_hours": 3.5,
+        "regular_hours": 9,
+        "overtime_hours": 11.1,
+        "total_hours": 20.1,
         "is_weekend": false,
-        "commits": 63
+        "commits": 67
       }
     },
     "overtime_by_date": {
@@ -1116,7 +1123,7 @@
       "2026-10-12": 10.2,
       "2026-10-13": 13.0,
       "2026-10-14": 9.1,
-      "2026-10-15": 3.5
+      "2026-10-15": 11.1
     },
     "overtime_by_hour": [
       72,
@@ -1137,10 +1144,10 @@
       12,
       1,
       12,
-      99,
+      100,
       68,
       53,
-      65,
+      67,
       31,
       68
     ],
@@ -1150,6 +1157,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "fc32787",
+      "message": "fix: 소개서 2쪽 라벨 칸 폭 확대",
+      "author": "junyoungjang976",
+      "date": "2026-10-15T12:18:53Z",
+      "url": "https://github.com/busungtk/busungtk-sales-pipeline/commit/fc32787848ed12363958d672cc239a134abb09c1",
+      "repo": "busungtk-sales-pipeline"
+    },
+    {
+      "sha": "6b94812",
+      "message": "feat: 운영사 사업장 확장 소개서·B사업장 기록 1장 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-15T12:17:49Z",
+      "url": "https://github.com/busungtk/busungtk-sales-pipeline/commit/6b94812aa7239a75df6925a2d0d05bbb9ae8c9c9",
+      "repo": "busungtk-sales-pipeline"
+    },
+    {
+      "sha": "ef6b07b",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-15T09:32:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ef6b07b3805feb38423000345776c2ece17cded4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "105ed1e",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-15T03:32:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/105ed1e4326ad4228fa4d5e96201886bbaffe97d",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "6329134",
       "message": "docs: 인수인계에 10-15 6차(3D 이미지 내보내기·툴바 서버 저장·그리스트랩 매립) 기록",
@@ -2716,38 +2755,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T10:02:40Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b73ce129d76b669f81d415780db372a5ae1aaba5",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "3b8f1b4",
-      "message": "feat: 전체 일정 — 「끝난 고객 일정 숨기기」 스위치(기본 켬)를 두어 옛 일정도 찾아갈 수 있게 한다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:51:57Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/3b8f1b4a4c9da594fb9d3aaab5ce9ab3d78abf0d",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2c6f815",
-      "message": "feat: 「먼저 처리할 일」에서 끝난 고객·지운 고객의 일정을 뺀다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:51:23Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2c6f8158279ce3927f137f012c488d436c0c6653",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "bd3da6a",
-      "message": "feat: 고객 상세 — 단계 바꾸기를 ⋯ 메뉴 밖으로 꺼낸다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:50:34Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/bd3da6a8a88a8bab20a2124ebe1cdd296f223e1a",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "1dd4430",
-      "message": "docs: 10-12 끝난 고객의 열린 일정 2,497건 완료 정리 기록과 되돌리기 SQL",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T09:48:59Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/1dd443037f4b71ce6fa5a434bee31397ff18e8cc",
       "repo": "busungtk-sales-crm"
     }
   ],
