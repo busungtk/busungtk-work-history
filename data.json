@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-16T01:50:31.922630Z",
+  "updated_at": "2026-10-17T01:45:52.446831Z",
   "repos": [
+    "busungtk-sales-crm",
     "busungtk-sales-pipeline",
     "busungtk-landing",
     "busungtk-kitchen-consulting",
     "busungtk-training",
     "busungtk-asms",
     "busungtk-order-tracker",
-    "busungtk-sales-crm",
     "busungtk-daily-report",
     "busungtk-ai-ideation",
     "busungtk-seo-agent",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1096,
+    "total_commits": 1093,
     "total_prs": 8,
     "total_issues": 7,
     "active_days": 70
   },
   "daily": {
+    "2026-10-16": {
+      "commits": 12,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-15": {
       "commits": 4,
       "prs_opened": 0,
@@ -98,7 +105,7 @@
       "issues_closed": 0
     },
     "2026-10-10": {
-      "commits": 106,
+      "commits": 97,
       "prs_opened": 0,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -161,7 +168,7 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 26,
+      "commits": 24,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -544,34 +551,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-07-18": {
-      "commits": 4,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1096,
-    "overtime_commits": 757,
-    "regular_commits": 339,
-    "overtime_rate": 69.1,
-    "weekend_commits": 267,
-    "late_night_commits": 387,
-    "total_hours": 644.9,
-    "regular_hours": 286.8,
-    "overtime_hours": 358.1,
-    "overtime_hour_rate": 55.5,
+    "total_commits": 1093,
+    "overtime_commits": 753,
+    "regular_commits": 340,
+    "overtime_rate": 68.9,
+    "weekend_commits": 254,
+    "late_night_commits": 391,
+    "total_hours": 650.6,
+    "regular_hours": 292.3,
+    "overtime_hours": 358.3,
+    "overtime_hour_rate": 55.1,
     "daily_hours": {
-      "2026-07-18": {
-        "regular_hours": 0,
-        "overtime_hours": 2.3,
-        "total_hours": 2.3,
-        "is_weekend": true,
-        "commits": 4
-      },
       "2026-07-19": {
         "regular_hours": 0,
         "overtime_hours": 0.5,
@@ -955,7 +948,7 @@
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 26
+        "commits": 24
       },
       "2026-10-02": {
         "regular_hours": 5.4,
@@ -1018,14 +1011,14 @@
         "overtime_hours": 23.9,
         "total_hours": 23.9,
         "is_weekend": true,
-        "commits": 88
+        "commits": 83
       },
       "2026-10-11": {
         "regular_hours": 0,
-        "overtime_hours": 23.9,
-        "total_hours": 23.9,
+        "overtime_hours": 22.8,
+        "total_hours": 22.8,
         "is_weekend": true,
-        "commits": 101
+        "commits": 97
       },
       "2026-10-12": {
         "regular_hours": 9,
@@ -1054,10 +1047,16 @@
         "total_hours": 20.1,
         "is_weekend": false,
         "commits": 67
+      },
+      "2026-10-16": {
+        "regular_hours": 5.5,
+        "overtime_hours": 3.6,
+        "total_hours": 9.1,
+        "is_weekend": false,
+        "commits": 12
       }
     },
     "overtime_by_date": {
-      "2026-07-18": 2.3,
       "2026-07-19": 0.5,
       "2026-07-20": 0.5,
       "2026-07-21": 2.6,
@@ -1119,15 +1118,16 @@
       "2026-10-08": 13.2,
       "2026-10-09": 14.1,
       "2026-10-10": 23.9,
-      "2026-10-11": 23.9,
+      "2026-10-11": 22.8,
       "2026-10-12": 10.2,
       "2026-10-13": 13.0,
       "2026-10-14": 9.1,
-      "2026-10-15": 11.1
+      "2026-10-15": 11.1,
+      "2026-10-16": 3.6
     },
     "overtime_by_hour": [
-      72,
-      92,
+      71,
+      89,
       49,
       22,
       41,
@@ -1137,19 +1137,19 @@
       14,
       0,
       2,
-      14,
-      17,
+      12,
+      16,
       6,
-      1,
+      0,
       12,
       1,
       12,
-      100,
+      107,
       68,
       53,
-      67,
+      69,
       31,
-      68
+      63
     ],
     "work_hours": {
       "start": 9,
@@ -1157,6 +1157,102 @@
     }
   },
   "commits": [
+    {
+      "sha": "4b2cb5c",
+      "message": "feat: 고객 링크를 회사 주소 share.busungtk.website 로 — 카톡 미리보기에 vercel.app 이 보이지 않게(옛 주소 링크도 계속 열림)",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T12:38:27Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/4b2cb5c1f19f0537a69f85a34d73a7330650d4a7",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "e1f8323",
+      "message": "feat: 운영사 사업장 확장 소개서 2쪽 축약본 추가",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T12:36:06Z",
+      "url": "https://github.com/busungtk/busungtk-sales-pipeline/commit/e1f8323660ed7f70379f4cc75ae8767f9e70d616",
+      "repo": "busungtk-sales-pipeline"
+    },
+    {
+      "sha": "0095b69",
+      "message": "feat: 고객 자료 — 노션처럼 복사한 사진을 Ctrl+V 로 붙인다(빈 파일 칸이면 그 칸에, 아니면 바로 아래 새 칸, 글과 함께 복사된 글자 칸 붙여넣기는 그대로)",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:34:39Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0095b69a4a64db2d2919fee4cf70d123b673704b",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "898664e",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:32:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/898664e4c33c3c6ce287e7582e46c12e3509fe21",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4378904",
+      "message": "fix: 고객 링크 첫 화면을 두 번째 진입점 대신 빌드 끝에 index.html 복사로 만든다 — 앱 묶음 이름(index-…)이 바뀌어 새 판 알림이 멈추지 않게",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:31:42Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/43789043bcef5f6ad58f32deb85daf2e80a51312",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "eef67fc",
+      "message": "feat: 고객 링크 카톡·문자 미리보기를 고객용으로 — 「부성티케이에서 보내드린 자료입니다」·설명·홈페이지 그림(내부 앱 이름 「영업관리」가 보이던 것)",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:28:43Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/eef67fcbc0538f8a90dd10d802e2b45b47625ed7",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "f13c5c2",
+      "message": "feat: 고객 자료에 「소개서」「참고자료」「비고」 칸을 더한다",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:23:07Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/f13c5c223676f4b69d6b7bc2dd6d0b2ed9573980",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "1c27cb6",
+      "message": "fix: 고객 페이지 「파일 다운로드」가 안 되던 것 — 내려받기 전용 주소(첨부파일로 받기)를 따로 주고, 고객 화면 주소 수명을 60초→1시간으로",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:14:38Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/1c27cb60a1d106490513899385e639ce1b927a36",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "d7f6309",
+      "message": "feat: 「고객 자료」 타일에 고객 확인 여부 — 「2차 게시됨 · 고객 확인 10/16 ✔」/「· 고객 확인 전」",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T09:08:00Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/d7f63096555931639a41da3d0c874db636dc6900",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "45d5cf5",
+      "message": "feat: 고객 자료 — 칸에서 사진·도면 여러 장 올리기(첫 장은 그 칸, 나머지는 바로 아래 새 칸), 「고객 확인사항」 칸 이름을 「내용」으로, 고객 화면은 세로가 기본이고 ",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T08:58:14Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/45d5cf59a5f89b4bbf858eff8ac6b931cd2240b0",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "35c5fce",
+      "message": "fix: 「저장하고 고객 링크 만들기」 — 빠진 항목이 있으면 서버에 보내지 않고 단추 아래에 보인다, 서버도 거절 이유를 그대로 돌려준다",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T08:58:13Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/35c5fce16165c0806144a4f7ae7bc6a037b9f4c3",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "51564af",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-16T03:32:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/51564af3bc2aac0a89ae384af05635229152cead",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "fc32787",
       "message": "fix: 소개서 2쪽 라벨 칸 폭 확대",
@@ -2659,102 +2755,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T15:56:07Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/992d7b4a31086f8d21bfe5bf25847112d55be7d8",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "359a641",
-      "message": "fix: 영업건 검색 — 띄어쓰기 무시·낱말별(AND) 검색, 안내 글을 찾는 칸과 맞춤, 정렬에 id 2순위",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T15:55:46Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/359a64169428fa1a6e13f8c5f9dcbea7ae10e429",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "0519708",
-      "message": "refactor: 색 일괄 치환 — 회색·slate는 zinc, 옛 강조색(indigo·파랑 버튼)은 브랜드 토큰으로 (brand-recolor.mjs)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T15:55:43Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0519708e34a9dd8b38ece0efbab2db7ab9258641",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "96d3a98",
-      "message": "fix: 문의 관리 검색 — 한글 입력 쉼 뒤 검색, 특수문자·낱말별(AND) 검색, 조회 실패를 「없음」으로 얼버무리지 않기",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T15:54:57Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/96d3a983ab62c1747f5a4284e0c4d6bd4c9187d7",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "0bc153d",
-      "message": "feat: 브랜드 주황 색 토큰으로 교체 (teal -> orange, --color-brand 추가)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T15:54:40Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0bc153d6e8f8102893e5ef062cfd140c905ca01f",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "8dee790",
-      "message": "Merge branch 'claude/publish-ux' into claude/batch-1012",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:12:22Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/8dee790bd9c23b216a65903f92a4ed2220d70cf2",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c0fcb43",
-      "message": "Merge branch 'claude/brand-name' into claude/batch-1012",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:12:21Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c0fcb43e36afff672642af7782adbb461ec1a773",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "5635edc",
-      "message": "Merge remote-tracking branch 'origin/main' into claude/batch-1012",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:12:21Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/5635edc7bef9b8ec8cc569718f62484a545f5ecb",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2a614c6",
-      "message": "fix: 고객 링크 만들기 게시 입력창이 안 보이던 문제 — 화면으로 끌어오고, 담당자를 미리 고르고, 버튼을 막지 않고 빠진 항목을 알려 준다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:10:56Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2a614c6dde628fde9ce46aa6bb115648cadeb1dd",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "fc6f045",
-      "message": "fix: 파일을 붙인 새 자료는 「고객 화면에 포함」을 미리 체크한다 (공개 자료 0개로 게시가 막히던 문제)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:10:56Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/fc6f0454771e57bb55d0901400603a35a501ff44",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "8af8ec5",
-      "message": "fix: 크게 펼쳐 쓰기 머리말에 「저장·게시는 닫고 나서 한다」 안내를 넣는다 (저장 버튼을 찾던 문제)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:10:55Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/8af8ec5605a54b7ab9cc20dfd999e9729c48703d",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "472c8f3",
-      "message": "feat: 초기 상담 양식 「업체명」 → 「브랜드명」(안내 문구 포함), 적은 브랜드명을 고객 정보 업체명에도 반영",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:02:40Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/472c8f39179d45af0ccb2bc84caf1434163e1bc4",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "b73ce12",
-      "message": "feat: 견적서 「OOO 귀하」 이름 — 브랜드명(B2B는 회사명), 없으면 문의자 이름. 「견적문의」 같은 임시 이름은 건너뜀",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T10:02:40Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b73ce129d76b669f81d415780db372a5ae1aaba5",
       "repo": "busungtk-sales-crm"
     }
   ],
