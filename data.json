@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T01:45:52.446831Z",
+  "updated_at": "2026-10-18T01:42:46.226509Z",
   "repos": [
     "busungtk-sales-crm",
     "busungtk-sales-pipeline",
@@ -56,10 +56,10 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1093,
+    "total_commits": 1088,
     "total_prs": 8,
     "total_issues": 7,
-    "active_days": 70
+    "active_days": 69
   },
   "daily": {
     "2026-10-16": {
@@ -544,41 +544,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-07-19": {
-      "commits": 5,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1093,
-    "overtime_commits": 753,
+    "total_commits": 1088,
+    "overtime_commits": 748,
     "regular_commits": 340,
-    "overtime_rate": 68.9,
-    "weekend_commits": 254,
+    "overtime_rate": 68.8,
+    "weekend_commits": 251,
     "late_night_commits": 391,
-    "total_hours": 650.6,
+    "total_hours": 649.6,
     "regular_hours": 292.3,
-    "overtime_hours": 358.3,
-    "overtime_hour_rate": 55.1,
+    "overtime_hours": 357.3,
+    "overtime_hour_rate": 55.0,
     "daily_hours": {
-      "2026-07-19": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 3
-      },
-      "2026-07-20": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-07-21": {
         "regular_hours": 7.4,
         "overtime_hours": 2.6,
@@ -1057,8 +1036,6 @@
       }
     },
     "overtime_by_date": {
-      "2026-07-19": 0.5,
-      "2026-07-20": 0.5,
       "2026-07-21": 2.6,
       "2026-07-23": 0.5,
       "2026-07-28": 0.4,
@@ -1127,7 +1104,7 @@
     },
     "overtime_by_hour": [
       71,
-      89,
+      87,
       49,
       22,
       41,
@@ -1138,7 +1115,7 @@
       0,
       2,
       12,
-      16,
+      13,
       6,
       0,
       12,
