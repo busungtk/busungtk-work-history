@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T02:11:00.082161Z",
+  "updated_at": "2026-10-22T02:05:15.413890Z",
   "repos": [
     "busungtk-landing",
     "busungtk-daily-report",
@@ -62,6 +62,13 @@
     "active_days": 68
   },
   "daily": {
+    "2026-10-21": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-20": {
       "commits": 2,
       "prs_opened": 0,
@@ -161,13 +168,6 @@
       "issues_closed": 0
     },
     "2026-10-04": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-10-03": {
       "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
@@ -541,15 +541,15 @@
   },
   "overtime": {
     "total_commits": 1080,
-    "overtime_commits": 744,
-    "regular_commits": 336,
-    "overtime_rate": 68.9,
-    "weekend_commits": 251,
+    "overtime_commits": 743,
+    "regular_commits": 337,
+    "overtime_rate": 68.8,
+    "weekend_commits": 249,
     "late_night_commits": 387,
     "total_hours": 647.8,
-    "regular_hours": 292.9,
-    "overtime_hours": 354.9,
-    "overtime_hour_rate": 54.8,
+    "regular_hours": 298.4,
+    "overtime_hours": 349.4,
+    "overtime_hour_rate": 53.9,
     "daily_hours": {
       "2026-07-24": {
         "regular_hours": 5.7,
@@ -908,13 +908,6 @@
         "is_weekend": false,
         "commits": 22
       },
-      "2026-10-03": {
-        "regular_hours": 0,
-        "overtime_hours": 6.0,
-        "total_hours": 6.0,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-10-04": {
         "regular_hours": 0,
         "overtime_hours": 6.0,
@@ -1019,6 +1012,13 @@
         "total_hours": 6.0,
         "is_weekend": false,
         "commits": 2
+      },
+      "2026-10-21": {
+        "regular_hours": 5.5,
+        "overtime_hours": 0.5,
+        "total_hours": 6.0,
+        "is_weekend": false,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -1070,7 +1070,6 @@
       "2026-09-29": 5.1,
       "2026-09-30": 2.4,
       "2026-10-01": 4.5,
-      "2026-10-03": 6.0,
       "2026-10-04": 6.0,
       "2026-10-05": 0.6,
       "2026-10-06": 0.6,
@@ -1085,7 +1084,8 @@
       "2026-10-15": 11.1,
       "2026-10-16": 3.6,
       "2026-10-19": 0.6,
-      "2026-10-20": 0.5
+      "2026-10-20": 0.5,
+      "2026-10-21": 0.5
     },
     "overtime_by_hour": [
       71,
@@ -1100,7 +1100,7 @@
       0,
       2,
       12,
-      13,
+      12,
       6,
       0,
       12,
@@ -1119,6 +1119,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "cd8cb3c",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-21T09:34:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cd8cb3c3a955b24bd69b502b8dd16c16edc760f4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "fb8b12f",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-21T03:32:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/fb8b12f389fc26c8904bc77999650034da9690ba",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "7361d2f",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2701,22 +2717,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T16:09:58Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/58b031334f4625e3678362cc58285ab39efaa3d4",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "c216dac",
-      "message": "feat: 폰 입력·알림 — 입력칸 16px, alert→토스트(sonner), confirm→앱 안 확인창, 숫자 칸을 text+inputMode 로",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T16:08:56Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/c216daceb5159674ab9eb3e103ba56f2eb4777c8",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "0414bc1",
-      "message": "feat: 견적 다음 행동 알약을 주황 대신 fuchsia로, 주황 옅은 바탕을 경고(amber)로 정리, 대시보드 안내창 머리를 primary로",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T15:57:48Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0414bc166817632aefeccd84174cb1b912e3d916",
       "repo": "busungtk-sales-crm"
     }
   ],
