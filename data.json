@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T02:05:15.413890Z",
+  "updated_at": "2026-10-23T02:09:57.057557Z",
   "repos": [
     "busungtk-landing",
+    "busungtk-asms",
     "busungtk-daily-report",
     "busungtk-sales-crm",
     "busungtk-sales-pipeline",
     "busungtk-kitchen-consulting",
     "busungtk-training",
-    "busungtk-asms",
     "busungtk-order-tracker",
     "busungtk-ai-ideation",
     "busungtk-seo-agent",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1080,
+    "total_commits": 1076,
     "total_prs": 8,
     "total_issues": 7,
-    "active_days": 68
+    "active_days": 67
   },
   "daily": {
+    "2026-10-22": {
+      "commits": 4,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-21": {
       "commits": 2,
       "prs_opened": 0,
@@ -161,13 +168,6 @@
       "issues_closed": 0
     },
     "2026-10-05": {
-      "commits": 2,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-10-04": {
       "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
@@ -322,7 +322,7 @@
       "issues_closed": 0
     },
     "2026-09-01": {
-      "commits": 3,
+      "commits": 1,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -530,34 +530,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-07-24": {
-      "commits": 4,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1080,
-    "overtime_commits": 743,
-    "regular_commits": 337,
+    "total_commits": 1076,
+    "overtime_commits": 740,
+    "regular_commits": 336,
     "overtime_rate": 68.8,
-    "weekend_commits": 249,
-    "late_night_commits": 387,
-    "total_hours": 647.8,
-    "regular_hours": 298.4,
-    "overtime_hours": 349.4,
-    "overtime_hour_rate": 53.9,
+    "weekend_commits": 247,
+    "late_night_commits": 385,
+    "total_hours": 643.0,
+    "regular_hours": 299.0,
+    "overtime_hours": 344.0,
+    "overtime_hour_rate": 53.5,
     "daily_hours": {
-      "2026-07-24": {
-        "regular_hours": 5.7,
-        "overtime_hours": 0.0,
-        "total_hours": 5.7,
-        "is_weekend": false,
-        "commits": 4
-      },
       "2026-07-28": {
         "regular_hours": 0.1,
         "overtime_hours": 0.4,
@@ -759,7 +745,7 @@
         "overtime_hours": 0.5,
         "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 3
+        "commits": 1
       },
       "2026-09-03": {
         "regular_hours": 0.0,
@@ -908,13 +894,6 @@
         "is_weekend": false,
         "commits": 22
       },
-      "2026-10-04": {
-        "regular_hours": 0,
-        "overtime_hours": 6.0,
-        "total_hours": 6.0,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-10-05": {
         "regular_hours": 5.4,
         "overtime_hours": 0.6,
@@ -1019,6 +998,13 @@
         "total_hours": 6.0,
         "is_weekend": false,
         "commits": 2
+      },
+      "2026-10-22": {
+        "regular_hours": 6.3,
+        "overtime_hours": 0.6,
+        "total_hours": 6.9,
+        "is_weekend": false,
+        "commits": 4
       }
     },
     "overtime_by_date": {
@@ -1070,7 +1056,6 @@
       "2026-09-29": 5.1,
       "2026-09-30": 2.4,
       "2026-10-01": 4.5,
-      "2026-10-04": 6.0,
       "2026-10-05": 0.6,
       "2026-10-06": 0.6,
       "2026-10-07": 5.9,
@@ -1085,7 +1070,8 @@
       "2026-10-16": 3.6,
       "2026-10-19": 0.6,
       "2026-10-20": 0.5,
-      "2026-10-21": 0.5
+      "2026-10-21": 0.5,
+      "2026-10-22": 0.6
     },
     "overtime_by_hour": [
       71,
@@ -1100,7 +1086,7 @@
       0,
       2,
       12,
-      12,
+      11,
       6,
       0,
       12,
@@ -1111,7 +1097,7 @@
       50,
       69,
       29,
-      63
+      61
     ],
     "work_hours": {
       "start": 9,
@@ -1119,6 +1105,38 @@
     }
   },
   "commits": [
+    {
+      "sha": "1db9b77",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-22T09:32:35Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1db9b778e182fb75d49b095bc98942d54aa95cc0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9aeb744",
+      "message": "fix(statement): 매출 거래명세표 엑셀에 직인을 넣고, 잘리던 칸을 바로잡는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-22T05:29:40Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/9aeb744b8162991514aa17ca467d6fb4e8c9e51e",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a08ba7e",
+      "message": "feat: 홈페이지 사례 3건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-22T03:34:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a08ba7e65c8dda5ace8b88c2177d5a60148cd5cf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "775956f",
+      "message": "feat(statement): 매출 거래명세표를 만들 때 거래일자를 고른다 — 기본은 오늘",
+      "author": "junyoungjang976",
+      "date": "2026-10-22T02:40:50Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/775956fc81e4201567dea8e6e5e050036f515c1f",
+      "repo": "busungtk-asms"
+    },
     {
       "sha": "cd8cb3c",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2685,38 +2703,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T17:46:16Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2c2b055c5eaaed3f3a22f554430db36366f710f6",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "0e390cf",
-      "message": "feat: 앱 전체 글꼴을 Pretendard 로 — 이름만 적혀 있고 받아 오지 않아 PC 에서 맑은 고딕으로 보이던 것",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T17:33:41Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/0e390cff3fbcd3b14f5465d07dadbb5d132ba9f7",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "be49d29",
-      "message": "fix: 크게 펼쳐 쓰기 — 왼쪽 칸이 사이드바에 가려지던 것(body 에 바로 그린다)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T17:33:41Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/be49d29c4200c98b6cd6167534a25db6d59d1e09",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "75c7667",
-      "message": "fix: 검수 지적 반영 — 큰 입력칸 글자 유지, 소수 입력, 선택 표시, hover, 확인창 뒤로가기",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T16:22:37Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/75c7667f12cbbdb92e9d5b51b71b36e00470c384",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "58b0313",
-      "message": "Merge branch 'claude/usab-1013' into claude/color-1013",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T16:09:58Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/58b031334f4625e3678362cc58285ab39efaa3d4",
       "repo": "busungtk-sales-crm"
     }
   ],
