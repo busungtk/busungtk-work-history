@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T02:09:57.057557Z",
+  "updated_at": "2026-10-24T02:09:06.302528Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,9 +59,16 @@
     "total_commits": 1076,
     "total_prs": 8,
     "total_issues": 7,
-    "active_days": 67
+    "active_days": 68
   },
   "daily": {
+    "2026-10-23": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-22": {
       "commits": 4,
       "prs_opened": 0,
@@ -168,7 +175,7 @@
       "issues_closed": 0
     },
     "2026-10-05": {
-      "commits": 2,
+      "commits": 1,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -539,10 +546,10 @@
     "overtime_rate": 68.8,
     "weekend_commits": 247,
     "late_night_commits": 385,
-    "total_hours": 643.0,
-    "regular_hours": 299.0,
-    "overtime_hours": 344.0,
-    "overtime_hour_rate": 53.5,
+    "total_hours": 638.0,
+    "regular_hours": 293.6,
+    "overtime_hours": 344.4,
+    "overtime_hour_rate": 54.0,
     "daily_hours": {
       "2026-07-28": {
         "regular_hours": 0.1,
@@ -895,11 +902,11 @@
         "commits": 22
       },
       "2026-10-05": {
-        "regular_hours": 5.4,
-        "overtime_hours": 0.6,
-        "total_hours": 6.0,
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 2
+        "commits": 1
       },
       "2026-10-06": {
         "regular_hours": 5.4,
@@ -1005,6 +1012,13 @@
         "total_hours": 6.9,
         "is_weekend": false,
         "commits": 4
+      },
+      "2026-10-23": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
@@ -1056,7 +1070,7 @@
       "2026-09-29": 5.1,
       "2026-09-30": 2.4,
       "2026-10-01": 4.5,
-      "2026-10-05": 0.6,
+      "2026-10-05": 0.5,
       "2026-10-06": 0.6,
       "2026-10-07": 5.9,
       "2026-10-08": 13.2,
@@ -1071,7 +1085,8 @@
       "2026-10-19": 0.6,
       "2026-10-20": 0.5,
       "2026-10-21": 0.5,
-      "2026-10-22": 0.6
+      "2026-10-22": 0.6,
+      "2026-10-23": 0.5
     },
     "overtime_by_hour": [
       71,
@@ -1105,6 +1120,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "3c0a8fb",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-23T03:32:14Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3c0a8fbf056773e990c81554dcace6a06d3fbbf9",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "1db9b77",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2695,14 +2718,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T17:46:16Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/9fd72856ac1e205c3611b6b419997e7643f2c08e",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "2c2b055",
-      "message": "feat: 고객 자료 — 쓰던 자료가 있으면 「이어 쓰기」가 바로 크게 펼친 화면으로 열린다, 펼침 칸 이름 「견적·자료」로 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T17:46:16Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/2c2b055c5eaaed3f3a22f554430db36366f710f6",
       "repo": "busungtk-sales-crm"
     }
   ],
