@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T01:55:06.185563Z",
+  "updated_at": "2026-10-26T01:56:45.488170Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -62,6 +62,13 @@
     "active_days": 68
   },
   "daily": {
+    "2026-10-25": {
+      "commits": 2,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-24": {
       "commits": 2,
       "prs_opened": 0,
@@ -168,15 +175,8 @@
       "issues_closed": 0
     },
     "2026-10-07": {
-      "commits": 23,
+      "commits": 22,
       "prs_opened": 1,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-10-06": {
-      "commits": 1,
-      "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
@@ -541,15 +541,15 @@
   },
   "overtime": {
     "total_commits": 1076,
-    "overtime_commits": 741,
-    "regular_commits": 335,
-    "overtime_rate": 68.9,
-    "weekend_commits": 249,
+    "overtime_commits": 742,
+    "regular_commits": 334,
+    "overtime_rate": 69.0,
+    "weekend_commits": 251,
     "late_night_commits": 385,
-    "total_hours": 638.0,
-    "regular_hours": 288.2,
-    "overtime_hours": 349.8,
-    "overtime_hour_rate": 54.8,
+    "total_hours": 637.5,
+    "regular_hours": 282.8,
+    "overtime_hours": 354.7,
+    "overtime_hour_rate": 55.6,
     "daily_hours": {
       "2026-07-28": {
         "regular_hours": 0.1,
@@ -901,19 +901,12 @@
         "is_weekend": false,
         "commits": 22
       },
-      "2026-10-06": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
       "2026-10-07": {
-        "regular_hours": 5.4,
-        "overtime_hours": 5.9,
-        "total_hours": 11.3,
+        "regular_hours": 0,
+        "overtime_hours": 5.3,
+        "total_hours": 5.3,
         "is_weekend": false,
-        "commits": 4
+        "commits": 3
       },
       "2026-10-08": {
         "regular_hours": 9,
@@ -1019,6 +1012,13 @@
         "total_hours": 6.0,
         "is_weekend": true,
         "commits": 2
+      },
+      "2026-10-25": {
+        "regular_hours": 0,
+        "overtime_hours": 6.0,
+        "total_hours": 6.0,
+        "is_weekend": true,
+        "commits": 2
       }
     },
     "overtime_by_date": {
@@ -1070,8 +1070,7 @@
       "2026-09-29": 5.1,
       "2026-09-30": 2.4,
       "2026-10-01": 4.5,
-      "2026-10-06": 0.5,
-      "2026-10-07": 5.9,
+      "2026-10-07": 5.3,
       "2026-10-08": 13.2,
       "2026-10-09": 14.1,
       "2026-10-10": 23.9,
@@ -1086,7 +1085,8 @@
       "2026-10-21": 0.5,
       "2026-10-22": 0.6,
       "2026-10-23": 0.5,
-      "2026-10-24": 6.0
+      "2026-10-24": 6.0,
+      "2026-10-25": 6.0
     },
     "overtime_by_hour": [
       71,
@@ -1101,7 +1101,7 @@
       0,
       2,
       12,
-      12,
+      13,
       6,
       0,
       12,
@@ -1120,6 +1120,22 @@
     }
   },
   "commits": [
+    {
+      "sha": "d02158b",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-25T09:32:33Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d02158ba70b3993e2c091a04b87c222463a5e290",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bc079e0",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-25T03:32:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bc079e081b6f7820432b230b4fe5f0fbfb1b0309",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "4cf6046",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2702,22 +2718,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-12T18:31:13Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/14fb9d60a6550841c05dcffc3be74a0dc4035fa7",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "27a5746",
-      "message": "fix: 고객 자료 편집창을 사이드바 위로(z-60), AI로 정리 창을 펼침 위로(body·z-80)",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T18:24:38Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/27a5746708c05a913a5c0a140c18fad482b72976",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "4679688",
-      "message": "fix: 고객 자료 편집창이 1440 폭에서 사이드바에 가려지던 것 + 첨부 시각 두 줄·「견적서」 이름 남은 곳",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T18:22:54Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/4679688af591a952b5ad7160e85fc19756323e4b",
       "repo": "busungtk-sales-crm"
     }
   ],
