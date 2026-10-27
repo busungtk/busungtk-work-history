@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T01:56:45.488170Z",
+  "updated_at": "2026-10-27T02:35:08.559031Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -56,12 +56,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1076,
+    "total_commits": 1070,
     "total_prs": 8,
     "total_issues": 7,
     "active_days": 68
   },
   "daily": {
+    "2026-10-26": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-25": {
       "commits": 2,
       "prs_opened": 0,
@@ -175,7 +182,7 @@
       "issues_closed": 0
     },
     "2026-10-07": {
-      "commits": 22,
+      "commits": 21,
       "prs_opened": 1,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -525,14 +532,7 @@
       "issues_closed": 0
     },
     "2026-07-29": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-07-28": {
-      "commits": 2,
+      "commits": 3,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -540,30 +540,23 @@
     }
   },
   "overtime": {
-    "total_commits": 1076,
-    "overtime_commits": 742,
-    "regular_commits": 334,
-    "overtime_rate": 69.0,
+    "total_commits": 1070,
+    "overtime_commits": 741,
+    "regular_commits": 329,
+    "overtime_rate": 69.3,
     "weekend_commits": 251,
-    "late_night_commits": 385,
-    "total_hours": 637.5,
-    "regular_hours": 282.8,
-    "overtime_hours": 354.7,
-    "overtime_hour_rate": 55.6,
+    "late_night_commits": 384,
+    "total_hours": 628.3,
+    "regular_hours": 278.4,
+    "overtime_hours": 349.9,
+    "overtime_hour_rate": 55.7,
     "daily_hours": {
-      "2026-07-28": {
-        "regular_hours": 0.1,
-        "overtime_hours": 0.4,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 2
-      },
       "2026-07-29": {
-        "regular_hours": 8.1,
-        "overtime_hours": 4.3,
-        "total_hours": 12.4,
+        "regular_hours": 3.8,
+        "overtime_hours": 4.2,
+        "total_hours": 8.0,
         "is_weekend": false,
-        "commits": 7
+        "commits": 3
       },
       "2026-07-30": {
         "regular_hours": 6.5,
@@ -903,10 +896,10 @@
       },
       "2026-10-07": {
         "regular_hours": 0,
-        "overtime_hours": 5.3,
-        "total_hours": 5.3,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 3
+        "commits": 2
       },
       "2026-10-08": {
         "regular_hours": 9,
@@ -1019,11 +1012,17 @@
         "total_hours": 6.0,
         "is_weekend": true,
         "commits": 2
+      },
+      "2026-10-26": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
-      "2026-07-28": 0.4,
-      "2026-07-29": 4.3,
+      "2026-07-29": 4.2,
       "2026-07-30": 2.4,
       "2026-07-31": 0.6,
       "2026-08-01": 5.8,
@@ -1070,7 +1069,7 @@
       "2026-09-29": 5.1,
       "2026-09-30": 2.4,
       "2026-10-01": 4.5,
-      "2026-10-07": 5.3,
+      "2026-10-07": 0.5,
       "2026-10-08": 13.2,
       "2026-10-09": 14.1,
       "2026-10-10": 23.9,
@@ -1086,7 +1085,8 @@
       "2026-10-22": 0.6,
       "2026-10-23": 0.5,
       "2026-10-24": 6.0,
-      "2026-10-25": 6.0
+      "2026-10-25": 6.0,
+      "2026-10-26": 0.5
     },
     "overtime_by_hour": [
       71,
@@ -1107,7 +1107,7 @@
       12,
       1,
       12,
-      108,
+      107,
       68,
       50,
       69,
@@ -1120,6 +1120,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "a94404f",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-26T03:32:00Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a94404f6f0aa2f30ac89df3c22892d90bcdab11b",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "d02158b",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2710,14 +2718,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-13T00:10:30Z",
       "url": "https://github.com/busungtk/busungtk-sales-crm/commit/4fde810de49e25cffb07da36769de62d804797ba",
-      "repo": "busungtk-sales-crm"
-    },
-    {
-      "sha": "14fb9d6",
-      "message": "fix: 폰에서 메뉴를 열면 키보드 위치를 메뉴 안으로 옮긴다",
-      "author": "junyoungjang976",
-      "date": "2026-10-12T18:31:13Z",
-      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/14fb9d60a6550841c05dcffc3be74a0dc4035fa7",
       "repo": "busungtk-sales-crm"
     }
   ],
