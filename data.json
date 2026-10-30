@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-29T03:03:26.995341Z",
+  "updated_at": "2026-10-30T03:07:37.134957Z",
   "repos": [
-    "busungtk-landing",
     "busungtk-asms",
-    "busungtk-order-tracker",
     "busungtk-sales-crm",
+    "busungtk-landing",
+    "busungtk-order-tracker",
     "busungtk-equipment",
     "busungtk-price-library",
     "busungtk-daily-report",
@@ -56,14 +56,28 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1054,
+    "total_commits": 1051,
     "total_prs": 9,
     "total_issues": 7,
-    "active_days": 66
+    "active_days": 67
   },
   "daily": {
+    "2026-10-30": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-10-29": {
+      "commits": 10,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-28": {
-      "commits": 21,
+      "commits": 22,
       "prs_opened": 0,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -175,7 +189,7 @@
       "issues_closed": 0
     },
     "2026-10-10": {
-      "commits": 89,
+      "commits": 87,
       "prs_opened": 0,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -231,14 +245,14 @@
       "issues_closed": 0
     },
     "2026-09-23": {
-      "commits": 12,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-09-22": {
-      "commits": 14,
+      "commits": 5,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -516,34 +530,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-07-31": {
-      "commits": 3,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1054,
-    "overtime_commits": 697,
-    "regular_commits": 357,
-    "overtime_rate": 66.1,
-    "weekend_commits": 243,
-    "late_night_commits": 351,
-    "total_hours": 617.1,
-    "regular_hours": 275.4,
-    "overtime_hours": 341.7,
-    "overtime_hour_rate": 55.4,
+    "total_commits": 1051,
+    "overtime_commits": 700,
+    "regular_commits": 351,
+    "overtime_rate": 66.6,
+    "weekend_commits": 241,
+    "late_night_commits": 350,
+    "total_hours": 616.3,
+    "regular_hours": 268.4,
+    "overtime_hours": 347.9,
+    "overtime_hour_rate": 56.4,
     "daily_hours": {
-      "2026-07-31": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 3
-      },
       "2026-08-01": {
         "regular_hours": 0,
         "overtime_hours": 5.8,
@@ -811,18 +811,18 @@
         "commits": 2
       },
       "2026-09-22": {
-        "regular_hours": 3.8,
+        "regular_hours": 3.5,
         "overtime_hours": 1.2,
-        "total_hours": 5.0,
+        "total_hours": 4.7,
         "is_weekend": false,
-        "commits": 14
+        "commits": 5
       },
       "2026-09-23": {
-        "regular_hours": 7.9,
+        "regular_hours": 0.6,
         "overtime_hours": 4.8,
-        "total_hours": 12.7,
+        "total_hours": 5.4,
         "is_weekend": false,
-        "commits": 12
+        "commits": 11
       },
       "2026-09-24": {
         "regular_hours": 0,
@@ -885,7 +885,7 @@
         "overtime_hours": 22.8,
         "total_hours": 22.8,
         "is_weekend": true,
-        "commits": 89
+        "commits": 87
       },
       "2026-10-12": {
         "regular_hours": 9,
@@ -990,11 +990,24 @@
         "overtime_hours": 0.7,
         "total_hours": 9.7,
         "is_weekend": false,
-        "commits": 24
+        "commits": 25
+      },
+      "2026-10-29": {
+        "regular_hours": 0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 4
+      },
+      "2026-10-30": {
+        "regular_hours": 0.6,
+        "overtime_hours": 6.2,
+        "total_hours": 6.8,
+        "is_weekend": false,
+        "commits": 7
       }
     },
     "overtime_by_date": {
-      "2026-07-31": 0.5,
       "2026-08-01": 5.8,
       "2026-08-02": 2.2,
       "2026-08-03": 1.4,
@@ -1054,18 +1067,20 @@
       "2026-10-24": 6.0,
       "2026-10-25": 6.0,
       "2026-10-26": 0.5,
-      "2026-10-28": 0.7
+      "2026-10-28": 0.7,
+      "2026-10-29": 0.5,
+      "2026-10-30": 6.2
     },
     "overtime_by_hour": [
       70,
       85,
-      42,
-      19,
+      45,
+      17,
       41,
       0,
       0,
       14,
-      17,
+      20,
       0,
       2,
       12,
@@ -1075,12 +1090,12 @@
       12,
       1,
       12,
-      97,
+      92,
       61,
       44,
       63,
       27,
-      59
+      63
     ],
     "work_hours": {
       "start": 9,
@@ -1089,12 +1104,108 @@
   },
   "commits": [
     {
+      "sha": "93bda6a",
+      "message": "fix(warehouse): 단위 칸을 개수 옆으로 옮기고 숫자는 막는다 — 개수 5·단위 5가 「55」로 보였다",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T00:34:16Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/93bda6a8d605b4c5fca15231893fbcb4a21c1908",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "0a638d1",
+      "message": "docs(db): 자재창고 용도·메모·자재 옮기기 적용 완료 표시, 히터 칸 4개 되돌림 (2026-10-30)",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T23:08:32Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/0a638d1505ef451a1e5cff88b956933338978af3",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a298327",
+      "message": "feat: 고객 자료함 화면 — 설정에 「고객 자료함」 탭, 첫 견적·수정안 양식을 고르면 체크한 자료가 칸으로 같이 들어감, 「+ 자료함에서」로 골라 넣기",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T23:06:55Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/a29832749c8f6f274890a4c40f02bae7cfa819e7",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "39d6628",
+      "message": "feat(api): 고객 자료함 — 회사소개서 등 늘 보내는 자료를 저장소 library/ 에 두고 목록·올리기·저장·고객 앞 복사",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T23:06:54Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/39d6628f882020a81ed9515fb623cdaacf634a36",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "eed0ea9",
+      "message": "feat(warehouse): 칸 맨 위 자재도 첫 번째 자재로 — 「소켓 외 1종」, 같은 모양 접는 카드, 용도 꼬리표, 자재 옮기기, 메모 여러 개",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T17:59:24Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/eed0ea96faf7d0f37821b9ece823ba3285ce34d3",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a735420",
+      "message": "chore(db): 자재창고 용도 칸·메모 여러 개·자재 옮기기 함수, 칸 자신도 발주 목록에 (미적용)",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T17:59:23Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/a735420c215df865a3aeed7a0880ac3e1b517237",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "2559edf",
+      "message": "Merge remote-tracking branch 'origin/main' into feat/quote-history-items",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T17:44:55Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/2559edf97921c824e9b013423ae42995b95359a5",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "f38fcf6",
+      "message": "docs(db): 자재창고 한 칸 여러 자재 적용 완료 표시 (2026-10-29)",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T14:59:32Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/f38fcf66e709df37e1ddc38529722f0a54c6da91",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "53a5fc6",
+      "message": "feat(warehouse): 한 칸에 자재 여러 개 — 자재마다 상태·개수·입출고·기록, 칸 색은 가장 부족한 자재, 자재 이름으로 검색",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T14:50:08Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/53a5fc6a57603198bab5d078504029b76b91fe97",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "95cbcce",
+      "message": "chore(db): 자재창고 한 칸 여러 자재 — asms_wh_items 표, 입출고 item_id, 발주 볼 것 뷰, 자재 입출고 함수 (미적용)",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T14:38:55Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/95cbcceb83b4800b6c28f96a1d987211ddf44f16",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "4b2c9b9",
+      "message": "feat(warehouse): 도면 크기 접기·작게·크게 — 작게일 때 넓은 화면에서 도면과 선반 칸을 한 줄에",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T14:38:55Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/4b2c9b9f73ab96227e1c7ade7be00e6e07a501ac",
+      "repo": "busungtk-asms"
+    },
+    {
       "sha": "fa63a1e",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
       "author": "junyoungjang976",
       "date": "2026-10-28T09:32:25Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/fa63a1e07723b3cad56a840e1cd1326856f19915",
       "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2659895",
+      "message": "fix(api): 채널톡 발행 요청 글에 「ASMS 에서 완료 처리」 버튼 — 폰에서 글 속 주소가 안 눌렸다",
+      "author": "junyoungjang976",
+      "date": "2026-10-28T05:45:43Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/265989551faf91c108e05ceee5c50acb63badd12",
+      "repo": "busungtk-asms"
     },
     {
       "sha": "37e1c8b",
@@ -2591,102 +2702,6 @@
       "date": "2026-10-14T08:06:21Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2fd5561de1e699466325b8d499e704dbc8c3e671",
       "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4fa9e42",
-      "message": "fix: 서버 호출 재시도는 읽기(GET)의 index.html 응답(200/404)에서만 — 저장 본문을 두 번 보내지 않음",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:04:55Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4fa9e423e6a1a4ea6d2bf2544ef18f72d54318f9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "92df3a6",
-      "message": "fix: 서버 도면 검사 보강 — 표준 셀 separatePurchase 허용·칸 이름 정규화·깊이 제한·충돌 판정·설비 모양 일치",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:04:25Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/92df3a6e53e17a863d1091d4149e7963f679fb0a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "1971fb7",
-      "message": "Merge branch 'feat/design-export' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:00:57Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1971fb76f1d46e15dd3a78a76c9e97bef21288d6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d79cca9",
-      "message": "chore: 쓰이지 않는 downloadFile 제거 (P21 검수)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:59:07Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d79cca9d012ef61ab9fd21e63e7b18e7e8e0f648",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "555a9df",
-      "message": "fix: DXF 직각 회전 좌표의 부동소수 잔여 제거 (P21 검수)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:59:06Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/555a9df42adda54ba60405198da4e3d1d3e5f4b0",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "28b7b0d",
-      "message": "fix: 고객에게 나가는 도면 PNG·PDF·견적 PDF 에 직원용 트렌치 메모 글자를 그리지 않음 (P21 검수)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:59:06Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/28b7b0d0ef882fbf3179002a2ec0f4aba7a0f398",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d53a801",
-      "message": "fix: ASMS 넘기기 연타로 탭이 둘 열리지 않게 막고, 저장이 필요하면 빈 탭을 먼저 열어 차단을 피함 (P21 검수)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:59:06Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d53a801d576d9be1047ecfa832804b6c8fa611d5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "68ff16a",
-      "message": "fix: 내보내기 자동 차수가 연타·겹침에도 하나만 저장되게 하고 실패 까닭 안내, 빈 도면은 건너뜀 (P21 검수)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:59:05Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/68ff16a69058c9e98b5d758e2015f6024c589998",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2a177f2",
-      "message": "fix: 사선 장비 검사 — 입체 겹침·화기 간격·카운터 위·기둥·벽 장비 붙임을 실제 사각형으로 (P20 검토 H1·H2·M8)",
-      "author": "장준영",
-      "date": "2026-10-14T07:54:23Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2a177f2b1db6fd542d29e4336ccc2990213b3fb5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4061c9c",
-      "message": "feat: 3D에 그리스트랩·바닥 단차·트렌치·설비 포인트 표시 (P11b) — 설비 조건 층 따름, 탭하면 2D와 같은 선택",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:49:53Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4061c9c5dec207a7e4d7f8d97057ba00dece8751",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "555d99e",
-      "message": "chore: 서버 저장 화면 부품 렌더 시험(연결 전·연결됨·오프라인)",
-      "author": "jangj",
-      "date": "2026-10-14T07:48:36Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/555d99e2afc447c3cd72e425273d9c1e58d590f6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3a32b24",
-      "message": "fix: 로그인이 풀려 덮개가 뜬 동안 뒤 화면을 탭 이동·클릭·제출로 건드리지 못하게 막는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T07:48:19Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/3a32b24cc639622d58533d4227412b57fe2a3161",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
