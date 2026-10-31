@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-30T03:07:37.134957Z",
+  "updated_at": "2026-10-31T02:54:17.540162Z",
   "repos": [
-    "busungtk-asms",
     "busungtk-sales-crm",
+    "busungtk-daily-report",
+    "busungtk-asms",
     "busungtk-landing",
     "busungtk-order-tracker",
     "busungtk-equipment",
     "busungtk-price-library",
-    "busungtk-daily-report",
     "busungtk-sales-pipeline",
     "busungtk-kitchen-consulting",
     "busungtk-training",
@@ -35,6 +35,8 @@
     "busungtk-kitchen-resource",
     "busungtk-kitchen-quote",
     "busungtk-marketing",
+    "travel-manager",
+    "taskmanager-yj",
     "claude-dotfiles",
     "busungtk-brand-config",
     "channeltalk-downloader",
@@ -56,21 +58,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1051,
+    "total_commits": 1073,
     "total_prs": 9,
-    "total_issues": 7,
-    "active_days": 67
+    "total_issues": 6,
+    "active_days": 65
   },
   "daily": {
     "2026-10-30": {
-      "commits": 1,
+      "commits": 34,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-10-29": {
-      "commits": 10,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -189,7 +191,7 @@
       "issues_closed": 0
     },
     "2026-10-10": {
-      "commits": 87,
+      "commits": 85,
       "prs_opened": 0,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -231,7 +233,7 @@
       "issues_closed": 0
     },
     "2026-09-29": {
-      "commits": 8,
+      "commits": 7,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -245,7 +247,7 @@
       "issues_closed": 0
     },
     "2026-09-23": {
-      "commits": 11,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -420,14 +422,7 @@
       "issues_closed": 0
     },
     "2026-08-22": {
-      "commits": 11,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-08-21": {
-      "commits": 1,
+      "commits": 9,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -518,14 +513,7 @@
       "issues_closed": 0
     },
     "2026-08-02": {
-      "commits": 5,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 1,
-      "issues_closed": 0
-    },
-    "2026-08-01": {
-      "commits": 2,
+      "commits": 4,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -533,30 +521,23 @@
     }
   },
   "overtime": {
-    "total_commits": 1051,
-    "overtime_commits": 700,
-    "regular_commits": 351,
-    "overtime_rate": 66.6,
-    "weekend_commits": 241,
-    "late_night_commits": 350,
-    "total_hours": 616.3,
-    "regular_hours": 268.4,
-    "overtime_hours": 347.9,
-    "overtime_hour_rate": 56.4,
+    "total_commits": 1073,
+    "overtime_commits": 712,
+    "regular_commits": 361,
+    "overtime_rate": 66.4,
+    "weekend_commits": 250,
+    "late_night_commits": 352,
+    "total_hours": 621.5,
+    "regular_hours": 276.8,
+    "overtime_hours": 344.7,
+    "overtime_hour_rate": 55.5,
     "daily_hours": {
-      "2026-08-01": {
-        "regular_hours": 0,
-        "overtime_hours": 5.8,
-        "total_hours": 5.8,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-08-02": {
         "regular_hours": 0,
-        "overtime_hours": 2.2,
-        "total_hours": 2.2,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": true,
-        "commits": 3
+        "commits": 2
       },
       "2026-08-03": {
         "regular_hours": 9,
@@ -635,19 +616,12 @@
         "is_weekend": false,
         "commits": 8
       },
-      "2026-08-21": {
-        "regular_hours": 0.0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
-      },
       "2026-08-22": {
         "regular_hours": 0,
-        "overtime_hours": 8.6,
-        "total_hours": 8.6,
+        "overtime_hours": 6.0,
+        "total_hours": 6.0,
         "is_weekend": true,
-        "commits": 9
+        "commits": 7
       },
       "2026-08-23": {
         "regular_hours": 0,
@@ -822,7 +796,7 @@
         "overtime_hours": 4.8,
         "total_hours": 5.4,
         "is_weekend": false,
-        "commits": 11
+        "commits": 8
       },
       "2026-09-24": {
         "regular_hours": 0,
@@ -836,7 +810,7 @@
         "overtime_hours": 5.1,
         "total_hours": 11.8,
         "is_weekend": false,
-        "commits": 7
+        "commits": 6
       },
       "2026-09-30": {
         "regular_hours": 9,
@@ -885,7 +859,7 @@
         "overtime_hours": 22.8,
         "total_hours": 22.8,
         "is_weekend": true,
-        "commits": 87
+        "commits": 85
       },
       "2026-10-12": {
         "regular_hours": 9,
@@ -994,22 +968,28 @@
       },
       "2026-10-29": {
         "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "overtime_hours": 4.1,
+        "total_hours": 4.1,
         "is_weekend": false,
-        "commits": 4
+        "commits": 5
       },
       "2026-10-30": {
-        "regular_hours": 0.6,
-        "overtime_hours": 6.2,
-        "total_hours": 6.8,
+        "regular_hours": 9,
+        "overtime_hours": 8.1,
+        "total_hours": 17.1,
         "is_weekend": false,
-        "commits": 7
+        "commits": 24
+      },
+      "2026-10-31": {
+        "regular_hours": 0,
+        "overtime_hours": 1.9,
+        "total_hours": 1.9,
+        "is_weekend": true,
+        "commits": 16
       }
     },
     "overtime_by_date": {
-      "2026-08-01": 5.8,
-      "2026-08-02": 2.2,
+      "2026-08-02": 0.5,
       "2026-08-03": 1.4,
       "2026-08-04": 1.8,
       "2026-08-05": 2.3,
@@ -1020,8 +1000,7 @@
       "2026-08-13": 3.9,
       "2026-08-19": 0.5,
       "2026-08-20": 1.6,
-      "2026-08-21": 0.5,
-      "2026-08-22": 8.6,
+      "2026-08-22": 6.0,
       "2026-08-23": 11.7,
       "2026-08-24": 1.5,
       "2026-08-25": 5.9,
@@ -1068,14 +1047,15 @@
       "2026-10-25": 6.0,
       "2026-10-26": 0.5,
       "2026-10-28": 0.7,
-      "2026-10-29": 0.5,
-      "2026-10-30": 6.2
+      "2026-10-29": 4.1,
+      "2026-10-30": 8.1,
+      "2026-10-31": 1.9
     },
     "overtime_by_hour": [
       70,
-      85,
-      45,
-      17,
+      88,
+      52,
+      21,
       41,
       0,
       0,
@@ -1083,18 +1063,18 @@
       20,
       0,
       2,
-      12,
+      9,
       13,
       6,
       0,
       12,
-      1,
+      0,
       12,
       92,
-      61,
+      65,
       44,
       63,
-      27,
+      25,
       63
     ],
     "work_hours": {
@@ -1103,6 +1083,270 @@
     }
   },
   "commits": [
+    {
+      "sha": "5ee487b",
+      "message": "Use a tilde instead of an arrow between date range endpoints",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:18:17Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/5ee487b2d1a0fac7dd2346b0ec6314f0cdd69639",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "130bc19",
+      "message": "Keep the trip card meta row on one line",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:17:00Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/130bc19e588345403d9cd6a1ab897650b5034c4d",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "d1dc140",
+      "message": "Tighten trip card vertical rhythm with a fixed two-line summary",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:12:36Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/d1dc140e4a649c02545ec6ee7a566851f0f5d3af",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "75bddce",
+      "message": "Pin the trip card meta row to the bottom for consistent alignment",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:09:09Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/75bddce65f38725403dec4115e8f5251b17730f2",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "94b074f",
+      "message": "Show trip summaries on up to two lines with uniform card height",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:05:24Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/94b074f574e0562700cd7fb97304c388441bb4a7",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "d62d627",
+      "message": "Constrain single-column grids so long text cannot widen cards on mobile",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T18:03:31Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/d62d627dc95340f101915e6377cbc4b896b3ba7a",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "438165e",
+      "message": "Add in-app editing for trips and every section",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:58:04Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/438165e846dffcc6a8ff3857d6f84a634dd8ffa8",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "38e201b",
+      "message": "Replace default Next.js favicon with the plane mark",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:51:54Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/38e201b31f301ceab814fe309bb89a5b7950d31d",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "bc50dd7",
+      "message": "Print the full public API key in the sign-in diagnostic line",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:47:09Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/bc50dd7b09625a9963f2a683348eee0eac89cef9",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "182a7b5",
+      "message": "Show bundled Firebase config summary under sign-in errors",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:39:35Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/182a7b518e00b9a622de4f7d37a9d9f0f8f3c7d3",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "a1f6267",
+      "message": "Use the official four-colour Google mark on the sign-in button",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:35:09Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/a1f626760af6a76a7a23ee7c0b524f936dfa98fb",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "fedf16d",
+      "message": "Add Firebase auth gate and Firestore-backed trip data",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:25:39Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/fedf16d10db02b9f983fdc9997e2b085f30be772",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "d89edb3",
+      "message": "Switch trip detail sections from multi-toggle to single tabs",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T17:01:12Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/d89edb3727830007842a829aaa1d7b2e43c2b3bc",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "bd28c07",
+      "message": "Allow manual trip duration to override date-based calculation",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T16:45:54Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/bd28c07dd29d49e99bab57ee64e80064f552b60b",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "0cc195b",
+      "message": "Scaffold Travel Manager: design system, home timeline, trip detail with section toggles",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T16:39:44Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/0cc195ba1bba1e8fad0687e7bee29388fff323ff",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "a783aa6",
+      "message": "Initial commit from Create Next App",
+      "author": "Claude",
+      "date": "2026-10-30T16:27:12Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/a783aa64b1f4fdae31cd54e064d9230598650574",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "9f6a9f4",
+      "message": "공수 계산: 휴대폰에서 PC 화면을 축소해 보기 (포털 스케줄과 동일)",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T10:51:50Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/9f6a9f4577dca0ddec7fb8a217568d84440f280c",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "e2b5cbd",
+      "message": "모바일 최적화 (포털과 동일 방식)",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T10:41:21Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/e2b5cbd4652cf7af573e189362edc22a2c416f8c",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "ddfdc5d",
+      "message": "업무 메모: 한 줄 입력 + 자동 분류 + 프로젝트별 보기",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T10:22:40Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/ddfdc5d2151f79e49f7a3fe5dd436e7ffd649c82",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "1f5360f",
+      "message": "난이도 규칙 입력칸 안내 문구 줄임",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T09:06:00Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/1f5360fb9a9c6f72408092317f5cc96bb500dcef",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "b0b61bc",
+      "message": "chore(db): customer-space-files 버킷 허용 형식에 JSON 추가 — 고객 자료함 목록 저장(운영 적용 완료)",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T09:05:01Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/b0b61bc36c6b431612248bf4931712eb2b187f54",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "3123a2c",
+      "message": "fix(api): 고객 자료함 — 목록 파일이 아직 없을 때 「없음」을 오류로 읽어 첫 파일이 안 올라가던 것",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T08:49:26Z",
+      "url": "https://github.com/busungtk/busungtk-sales-crm/commit/3123a2c8f910dfa3992a16dbe8adc231497065e0",
+      "repo": "busungtk-sales-crm"
+    },
+    {
+      "sha": "1567952",
+      "message": "평균 도색 단가 카드: 연도만 굵게 표시",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T08:43:21Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/1567952f47a0b5c36930b71684cb60a18cda8038",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "0a0858b",
+      "message": "연도 비교 접기/펼치기, 난이도 자동 규칙",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T08:26:55Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/0a0858b945f4e0509552e92d1ccc238e1ffc08f5",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "61d46df",
+      "message": "배포 작성자 이메일 정리",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T08:14:43Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/61d46df21538b791ce4a3337c36113494e591965",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "795cd71",
+      "message": "화면 다듬기: 헤더 구조, 글꼴, 시트 연도 가져오기",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T08:02:13Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/795cd7124bfee8fd29ef7a2a8c2918ff4ede0428",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "c0715db",
+      "message": "feat: 월간에서 여러 날 일정을 한 막대로 합쳐 보인다",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T05:33:41Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c0715dbe889c045682a0b72338c826f0bdbd2851",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "48ed09e",
+      "message": "feat: 일정 추가 때 「며칠부터 며칠까지」 — 여러 날을 한 번에 넣는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T03:43:10Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/48ed09e47ff567a336f922488334aa7e4a7cac24",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "c7cc0ad",
+      "message": "feat: 일정 복사 — 상세보기 「복사」로 그 일정을 밑본 삼아 새로 넣는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T03:18:05Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/c7cc0ad70175432b1d0209ff51c77e17993fd6c7",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "1e60c83",
+      "message": "docs(db): 자재창고 자재 사진·벽 쪽 적용 완료 표시 (2026-10-30)",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T03:13:19Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/1e60c838bb57fecbdf510a044faf606f30bb6e07",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "538749f",
+      "message": "feat(warehouse): 선반 벽 쪽 표시, 자재마다 사진(찍기·고르기), 접힌 카드에서 바로 입출고 −/+",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T03:11:49Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/538749f07888538d7f22b19c1529730b80f9d2f3",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "60d4385",
+      "message": "chore(db): 자재창고 자재마다 사진·선반 벽 쪽 칸, 옮기기 함수가 사진도 옮김 (미적용)",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T03:11:49Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/60d4385d94f986ab98d3348cc868281afaf2c8e7",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "85b5e07",
+      "message": "feat(warehouse): 분류를 칩으로 늘 보이게, 새 자재·새 칸은 기본으로 개수·적음 기준을 넣는다",
+      "author": "junyoungjang976",
+      "date": "2026-10-30T00:58:16Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/85b5e0705a0543fc1f3c6b0b4e403ccd3a986ccb",
+      "repo": "busungtk-asms"
+    },
     {
       "sha": "93bda6a",
       "message": "fix(warehouse): 단위 칸을 개수 옆으로 옮기고 숫자는 막는다 — 개수 5·단위 5가 「55」로 보였다",
@@ -1190,6 +1434,14 @@
       "date": "2026-10-29T14:38:55Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/4b2c9b9f73ab96227e1c7ade7be00e6e07a501ac",
       "repo": "busungtk-asms"
+    },
+    {
+      "sha": "6ca2fef",
+      "message": "TASK MANAGER 초기 버전: 공수 계산(도색 평균 인건비)",
+      "author": "junyoungjang976",
+      "date": "2026-10-29T10:55:32Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/6ca2fef3c43c919e5403b072b8e6920a372761a3",
+      "repo": "taskmanager-yj"
     },
     {
       "sha": "fa63a1e",
@@ -2430,278 +2682,6 @@
       "date": "2026-10-14T09:17:28Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/7a0aecd783f5549e0b7b0ba848b0737506df4543",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "01c5137",
-      "message": "fix(ui): 도면 견적 화면에 남은 px 글자도 rem 으로 — 「글자 크게」를 켜면 같이 커지게",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:15:39Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/01c5137dafa57a8977e92266887f8c73294a359d",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "0e72138",
-      "message": "feat(ui): 머리줄에 「글자 크게」 단추 — 이 컴퓨터에서만 앱 화면 글자를 한 단계 키운다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:12:52Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/0e72138bbb28eed0818bf258474fc9aab9fe6c37",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "7e0a328",
-      "message": "feat(quote): 견적서 글자를 키우고, 길면 줄여 담지 않고 줄을 바꿔 다음 쪽으로 넘긴다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:12:33Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/7e0a3285277458f5c853686c86bb3e4d93890b60",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "7ef7628",
-      "message": "fix(home): 10장 글씨 대비 올리고 글을 장마다 세 줄로 — 사장님 10-14 「글씨가 잘 안 보임, 최대한 간결하게」",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:11:41Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7ef7628cc4e304bb797b732324e986034cc259fd",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9f3d28d",
-      "message": "feat(home): 「업체 고르는 기준」 10장을 손님이 겪는 손해 아홉 가지로 다시 씀 — 홈 섹션과 겹치던 것 (사장님 10-14 「고객 입장, 이유·리스크로」)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:04:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9f3d28ddb662a78dd47ec2f2d43bc05b76e66a66",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "46c87e2",
-      "message": "docs: 설계 툴 인수인계·작업지시서에 10-14 4차 운영 반영(P16·P20·P21·P6·P11b)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:03:06Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/46c87e22a875f2a4731b5f92612260aebcd6f436",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "697316a",
-      "message": "Merge branch 'feat/design-tool-v1'",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:56:46Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/697316ae5d9f146ecfda912a52dba5ba4345f6dd",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f1874bb",
-      "message": "Merge branch 'feat/design-mep-3d' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:51:15Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f1874bb6a095c02a086a91b0ea92de352c0d0ab9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4d3929e",
-      "message": "fix(about): 연혁 2009 는 법인 설립이 아니라 상호 변경 — 같은 회사, 이름만 (사장님 10-14)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:50:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4d3929e7d25fd85ace17b311258ab67bdb7ad659",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "95c966e",
-      "message": "fix: 크기 버튼 시험의 형식 오류를 바로잡는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:50:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/95c966ef0e03dda7415ddbb2649701c0d39e451d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "1074978",
-      "message": "chore(sitemap): about lastmod 갱신",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:48:51Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/10749788486ef51aa3a99f950b510caca6e03140",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "dfdc04b",
-      "message": "feat(about): 회사 소개를 정통 소개 형식으로 재작성 — 개요(대표 사진)·연혁·사업 영역·사람·고객·실적·거래 조건·연락처 (사장님 10-14 「이게 회사 소개가 맞나」",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:48:49Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/dfdc04bacfa9d46386793ec71258e79a42353a84",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "209ecae",
-      "message": "fix: DXF 내보내기에 실내 턱·단·출입구 문턱을 설비 조건 층으로 더한다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:47:13Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/209ecae49a366e7befce8b86e5b0e373cff00fee",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d88740d",
-      "message": "fix: 사선 장비는 턱·단 참고 검사를 실제 회전한 모양으로 (P11b 검토 L8)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:46:56Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d88740d36c269fa6c1c75037bee73697d3e77c70",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0fb0517",
-      "message": "fix: 설비 조건 층을 끄면 장비도 단 높이만큼 올라서지 않는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:45:52Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0fb05171abe07a1ead7138f95283a367bf2ed604",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "564e578",
-      "message": "fix: 자주 쓰는 크기 버튼도 사선 장비의 등 변을 제자리에 둔다 (W·D 칸과 같은 보정)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:45:52Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/564e578890b0074bb7fd07e3e9d1b37e38f40a02",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "33b4725",
-      "message": "fix: 3D 결과 재사용 + 단 위 바닥 기호 올림 + 그리스트랩 높이 제한 + 단/턱 윗면 깜빡임 (P11b 검토 M2·L5·L6·L7)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:44:51Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/33b4725f95cdc7c9b62259d57827f9b7ba124f19",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f1e3bbc",
-      "message": "fix: 업체별 나누기 화면 — 단추를 눈에 띄게, 「묶음」을 「발주」로, 「다른 묶음으로」를 「이 품목 옮기기」로",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:43:08Z",
-      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/f1e3bbc3f162f89f6d0ec1e4da2043e680e89e2f",
-      "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "2334718",
-      "message": "fix: 3D 빈 곳 탭이 문턱으로 고른 개구부도 푼다 (P11b 검토 M3)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:39:26Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2334718fd86dcdc19637365eb4c42f25894381bb",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ef9b0fd",
-      "message": "fix: 출입구 문턱은 문에만 — 통로·창의 문턱은 걷고, 요약은 그려지는 문턱만 센다 (P11b 검토 M4)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:38:37Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ef9b0fdb3633989f493461fd5439d03ea31823f2",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "d5a001e",
-      "message": "fix: 단·턱 모양 검사 — 찌그러진 면·나비·점 폭주 거절, 마지막 하나 지우면 칸 제거 (P11b 검토 M1·L9)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:36:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d5a001ed0fbfd6eb624a0a20f4a977faf0d4cea5",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "77802a5",
-      "message": "feat(home): 감사 팝업 글을 하이브리드형 5줄로 — 감사 → 왜 믿을 만한가 → 믿고 맡긴 분들 → 다음은 당신 (사장님 10-14 「ㅇㅋ」, 배포는 회사 소개 보강 뒤)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:22:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/77802a578d61384519ae6d1f820cac3f41dfe8f3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9d28420",
-      "message": "Merge branch 'feat/design-mep-3d' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:13:56Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9d2842042f160c4b9894dd8b96ab6eb934bd192a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "761d55c",
-      "message": "fix: 서버 도면 검사가 P20 자유 회전 각도를 화면과 같이 받는다 (P6×P20 병합 보정)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:12:49Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/761d55cee45ceb6dd7fe42fce82d79297f414fd2",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "9f162dc",
-      "message": "Merge branch 'feat/design-server-save' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:11:03Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9f162dcb7581111c6aaa5ce9fd7fa707cfac7666",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4f2ee72",
-      "message": "Merge branch 'feat/design-rotation' into feat/design-mep-3d",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:10:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4f2ee729822928a1722c677ae32ef2ebc91d3da9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5c3816f",
-      "message": "feat: 3D에 실내 턱·단·출입구 문턱 표시, 단 위 장비는 단 높이만큼 올라섬 (P11b)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:10:00Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5c3816f16a422d16b2a3795c056e03b1c9eb6580",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5eb470e",
-      "message": "feat: 실내 턱(선)·단(면)·출입구 문턱 — 모델·2D 그리기/렌더·검사 참고·요약/범례/PDF·이력 (P11b)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:10:00Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5eb470eae5692ed92296d313dda1fe906582fa2a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "177b2a1",
-      "message": "Merge branch 'feat/design-rotation' into feat/design-tool-v1",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:09:36Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/177b2a1b7069e754368737277d1970224a763eda",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "186e8d8",
-      "message": "docs: consulting_designs 마이그레이션 머리말 — 2026-10-14 사장님 적용 완료(total-system)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:08:14Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/186e8d8aa7d86d40eb9aba6b5814843739d07ff6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6058e8b",
-      "message": "fix: 「서버 것 열기」 전에 이 기기 도면을 보관하지 못하면 서버 도면을 받지 않고 직원 확인을 받는다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:08:07Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6058e8b827c83c122d1e6801b660f705349348e3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2f36cd3",
-      "message": "fix: 서버 도면 열 때 이 기기 차수 보호(같은 번호·다른 시각은 보관 자리로)·불러오기 걷어 내기 공통화",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T08:06:29Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2f36cd3bc435bc67b2345df9a642fb3ea79754e1",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "853e272",
-      "message": "fix: 벽 맞춤 — 가장자리 거리 기준·벽 따라 미끄러짐·0.1° 벽·날카로운 모서리·핸들 가림 (P20 검토 M3·M4·M6·M7·L9·L10)",
-      "author": "장준영",
-      "date": "2026-10-14T08:06:22Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/853e272d6550e52e0f1dbadce2391bb126a4e6e3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2fd5561",
-      "message": "fix: 카운터 위 장비 동반 회전·사선 치수 수정 자리 보정·정수 반올림 (P20 검토 M5·M7·L11·L12)",
-      "author": "장준영",
-      "date": "2026-10-14T08:06:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2fd5561de1e699466325b8d499e704dbc8c3e671",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
@@ -2894,21 +2874,6 @@
         "bot-generated"
       ],
       "url": "https://github.com/busungtk/busungtk-landing/issues/11",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 10,
-      "title": "[SEO] sitemap 정합성 이슈 251건 — 2026-08-02",
-      "state": "open",
-      "author": "github-actions[bot]",
-      "created_at": "2026-08-02T01:58:32Z",
-      "updated_at": "2026-08-02T01:58:32Z",
-      "closed_at": null,
-      "labels": [
-        "seo",
-        "bot-generated"
-      ],
-      "url": "https://github.com/busungtk/busungtk-landing/issues/10",
       "repo": "busungtk-landing"
     }
   ]
