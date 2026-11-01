@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-31T02:54:17.540162Z",
+  "updated_at": "2026-11-01T02:47:30.368831Z",
   "repos": [
+    "busungtk-landing",
     "busungtk-sales-crm",
     "busungtk-daily-report",
     "busungtk-asms",
-    "busungtk-landing",
     "busungtk-order-tracker",
     "busungtk-equipment",
     "busungtk-price-library",
@@ -58,12 +58,19 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1073,
+    "total_commits": 1066,
     "total_prs": 9,
     "total_issues": 6,
     "active_days": 65
   },
   "daily": {
+    "2026-10-31": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-10-30": {
       "commits": 34,
       "prs_opened": 0,
@@ -212,7 +219,7 @@
       "issues_closed": 0
     },
     "2026-10-07": {
-      "commits": 16,
+      "commits": 15,
       "prs_opened": 1,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -506,14 +513,7 @@
       "issues_closed": 0
     },
     "2026-08-03": {
-      "commits": 6,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-08-02": {
-      "commits": 4,
+      "commits": 3,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -521,30 +521,23 @@
     }
   },
   "overtime": {
-    "total_commits": 1073,
-    "overtime_commits": 712,
-    "regular_commits": 361,
+    "total_commits": 1066,
+    "overtime_commits": 708,
+    "regular_commits": 358,
     "overtime_rate": 66.4,
-    "weekend_commits": 250,
-    "late_night_commits": 352,
-    "total_hours": 621.5,
-    "regular_hours": 276.8,
-    "overtime_hours": 344.7,
-    "overtime_hour_rate": 55.5,
+    "weekend_commits": 249,
+    "late_night_commits": 353,
+    "total_hours": 631.7,
+    "regular_hours": 273.2,
+    "overtime_hours": 358.5,
+    "overtime_hour_rate": 56.8,
     "daily_hours": {
-      "2026-08-02": {
-        "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
-        "is_weekend": true,
-        "commits": 2
-      },
       "2026-08-03": {
-        "regular_hours": 9,
-        "overtime_hours": 1.4,
-        "total_hours": 10.4,
+        "regular_hours": 5.4,
+        "overtime_hours": 0.5,
+        "total_hours": 5.9,
         "is_weekend": false,
-        "commits": 8
+        "commits": 3
       },
       "2026-08-04": {
         "regular_hours": 3.2,
@@ -838,7 +831,7 @@
         "overtime_hours": 13.2,
         "total_hours": 22.2,
         "is_weekend": false,
-        "commits": 29
+        "commits": 28
       },
       "2026-10-09": {
         "regular_hours": 9,
@@ -982,15 +975,14 @@
       },
       "2026-10-31": {
         "regular_hours": 0,
-        "overtime_hours": 1.9,
-        "total_hours": 1.9,
+        "overtime_hours": 17.1,
+        "total_hours": 17.1,
         "is_weekend": true,
-        "commits": 16
+        "commits": 17
       }
     },
     "overtime_by_date": {
-      "2026-08-02": 0.5,
-      "2026-08-03": 1.4,
+      "2026-08-03": 0.5,
       "2026-08-04": 1.8,
       "2026-08-05": 2.3,
       "2026-08-06": 0.5,
@@ -1049,28 +1041,28 @@
       "2026-10-28": 0.7,
       "2026-10-29": 4.1,
       "2026-10-30": 8.1,
-      "2026-10-31": 1.9
+      "2026-10-31": 17.1
     },
     "overtime_by_hour": [
       70,
       88,
       52,
-      21,
+      20,
       41,
       0,
       0,
       14,
-      20,
+      18,
       0,
       2,
       9,
       13,
-      6,
+      4,
       0,
       12,
       0,
       12,
-      92,
+      93,
       65,
       44,
       63,
@@ -1083,6 +1075,14 @@
     }
   },
   "commits": [
+    {
+      "sha": "8dac5e9",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-10-31T09:32:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8dac5e9177c8d8b21b8983ad05da7e393c1ae068",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "5ee487b",
       "message": "Use a tilde instead of an arrow between date range endpoints",
@@ -2674,14 +2674,6 @@
       "date": "2026-10-14T09:21:07Z",
       "url": "https://github.com/busungtk/busungtk-order-tracker/commit/b4fd982d51a41afb8b0446849cf788ae8f0a5c4a",
       "repo": "busungtk-order-tracker"
-    },
-    {
-      "sha": "7a0aecd",
-      "message": "Merge branch 'feat/staff-login'",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T09:17:28Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/7a0aecd783f5549e0b7b0ba848b0737506df4543",
-      "repo": "busungtk-asms"
     }
   ],
   "pull_requests": [
