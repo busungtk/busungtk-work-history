@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T02:47:30.368831Z",
+  "updated_at": "2026-11-02T02:55:28.561755Z",
   "repos": [
     "busungtk-landing",
     "busungtk-sales-crm",
@@ -58,10 +58,10 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1066,
+    "total_commits": 1063,
     "total_prs": 9,
     "total_issues": 6,
-    "active_days": 65
+    "active_days": 64
   },
   "daily": {
     "2026-10-31": {
@@ -511,34 +511,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-08-03": {
-      "commits": 3,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1066,
-    "overtime_commits": 708,
-    "regular_commits": 358,
-    "overtime_rate": 66.4,
+    "total_commits": 1063,
+    "overtime_commits": 707,
+    "regular_commits": 356,
+    "overtime_rate": 66.5,
     "weekend_commits": 249,
-    "late_night_commits": 353,
-    "total_hours": 631.7,
-    "regular_hours": 273.2,
-    "overtime_hours": 358.5,
-    "overtime_hour_rate": 56.8,
+    "late_night_commits": 352,
+    "total_hours": 625.8,
+    "regular_hours": 267.8,
+    "overtime_hours": 358.0,
+    "overtime_hour_rate": 57.2,
     "daily_hours": {
-      "2026-08-03": {
-        "regular_hours": 5.4,
-        "overtime_hours": 0.5,
-        "total_hours": 5.9,
-        "is_weekend": false,
-        "commits": 3
-      },
       "2026-08-04": {
         "regular_hours": 3.2,
         "overtime_hours": 1.8,
@@ -982,7 +968,6 @@
       }
     },
     "overtime_by_date": {
-      "2026-08-03": 0.5,
       "2026-08-04": 1.8,
       "2026-08-05": 2.3,
       "2026-08-06": 0.5,
@@ -1062,7 +1047,7 @@
       12,
       0,
       12,
-      93,
+      92,
       65,
       44,
       63,
