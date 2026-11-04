@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03T04:13:05.026833Z",
+  "updated_at": "2026-11-04T03:31:00.988618Z",
   "repos": [
     "busungtk-price-library",
+    "busungtk-order-tracker",
     "busungtk-asms",
     "busungtk-landing",
     "busungtk-marketing-v2",
-    "busungtk-order-tracker",
     "busungtk-sales-crm",
     "busungtk-ai-ideation",
     "busungtk-daily-report",
@@ -35,8 +35,8 @@
     "busungtk-kitchen-resource",
     "busungtk-kitchen-quote",
     "busungtk-marketing",
-    "claude-dotfiles",
     "taskmanager-yj",
+    "claude-dotfiles",
     "travel-manager",
     "busungtk-brand-config",
     "channeltalk-downloader",
@@ -58,14 +58,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1071,
+    "total_commits": 1065,
     "total_prs": 9,
     "total_issues": 6,
     "active_days": 65
   },
   "daily": {
+    "2026-11-04": {
+      "commits": 5,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-03": {
-      "commits": 15,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -429,7 +436,7 @@
       "issues_closed": 0
     },
     "2026-08-24": {
-      "commits": 12,
+      "commits": 8,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -511,34 +518,20 @@
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
-    },
-    "2026-08-05": {
-      "commits": 8,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
     }
   },
   "overtime": {
-    "total_commits": 1071,
-    "overtime_commits": 697,
-    "regular_commits": 374,
-    "overtime_rate": 65.1,
+    "total_commits": 1065,
+    "overtime_commits": 689,
+    "regular_commits": 376,
+    "overtime_rate": 64.7,
     "weekend_commits": 248,
-    "late_night_commits": 344,
-    "total_hours": 628.4,
-    "regular_hours": 271.0,
-    "overtime_hours": 357.4,
-    "overtime_hour_rate": 56.9,
+    "late_night_commits": 336,
+    "total_hours": 633.8,
+    "regular_hours": 277.2,
+    "overtime_hours": 356.6,
+    "overtime_hour_rate": 56.3,
     "daily_hours": {
-      "2026-08-05": {
-        "regular_hours": 0.3,
-        "overtime_hours": 2.3,
-        "total_hours": 2.6,
-        "is_weekend": false,
-        "commits": 8
-      },
       "2026-08-06": {
         "regular_hours": 0.0,
         "overtime_hours": 0.5,
@@ -611,10 +604,10 @@
       },
       "2026-08-24": {
         "regular_hours": 3.8,
-        "overtime_hours": 1.6,
-        "total_hours": 5.4,
+        "overtime_hours": 1.3,
+        "total_hours": 5.1,
         "is_weekend": false,
-        "commits": 12
+        "commits": 8
       },
       "2026-08-25": {
         "regular_hours": 7.4,
@@ -974,15 +967,21 @@
         "commits": 17
       },
       "2026-11-03": {
-        "regular_hours": 3.1,
-        "overtime_hours": 0.0,
-        "total_hours": 3.1,
+        "regular_hours": 8.6,
+        "overtime_hours": 1.8,
+        "total_hours": 10.4,
         "is_weekend": false,
-        "commits": 15
+        "commits": 16
+      },
+      "2026-11-04": {
+        "regular_hours": 1.0,
+        "overtime_hours": 0,
+        "total_hours": 1.0,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
-      "2026-08-05": 2.3,
       "2026-08-06": 0.5,
       "2026-08-07": 1.1,
       "2026-08-10": 2.8,
@@ -992,7 +991,7 @@
       "2026-08-20": 1.6,
       "2026-08-22": 6.0,
       "2026-08-23": 11.7,
-      "2026-08-24": 1.6,
+      "2026-08-24": 1.3,
       "2026-08-25": 5.9,
       "2026-08-26": 4.9,
       "2026-08-27": 1.2,
@@ -1040,7 +1039,8 @@
       "2026-10-29": 4.1,
       "2026-10-30": 8.1,
       "2026-10-31": 17.1,
-      "2026-11-02": 1.5
+      "2026-11-02": 1.5,
+      "2026-11-03": 1.8
     },
     "overtime_by_hour": [
       70,
@@ -1061,9 +1061,9 @@
       12,
       0,
       12,
-      92,
-      59,
-      44,
+      90,
+      57,
+      40,
       61,
       25,
       63
@@ -1074,6 +1074,54 @@
     }
   },
   "commits": [
+    {
+      "sha": "406ddda",
+      "message": "feat: 대시보드 벤더 칸에 매칭률·매입가·우리 판매가 등록률 한 줄 막대",
+      "author": "junyoungjang976",
+      "date": "2026-11-04T02:06:58Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/406ddda307dc592161b9c3c130a7fce07c1eb849",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "ceebb18",
+      "message": "docs: CLAUDE.md 구조도·스타일 줄 갱신 — 등록률 기준 파일, 회사 색, 벤더 상세 새 표",
+      "author": "junyoungjang976",
+      "date": "2026-11-04T02:01:48Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/ceebb1896ece2afac787ea63f08509c6384fe360",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "5881435",
+      "message": "style: 부성TK 회사 색·톤 적용 — 파랑 → 로고 주황 #EA5E18, 중립 회색 면, Pretendard",
+      "author": "junyoungjang976",
+      "date": "2026-11-04T02:01:47Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/5881435f2c97fd3de469cd78f0f6fb096206109d",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "efda088",
+      "message": "feat: 벤더 상세 표를 노트북 한 화면에 + 벤더별 매칭률·매입가·우리 판매가 등록률 막대",
+      "author": "junyoungjang976",
+      "date": "2026-11-04T02:01:47Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/efda088e447baf96f47391eca97402f4b6fd8599",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "ead4002",
+      "message": "fix: 업체 리마인더 메일에 회사 다음 메일 참조 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-04T01:08:28Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/ead4002b98d2592afe593c4ee35327cd99f6b51c",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "29bd220",
+      "message": "업무 메모: 상세 열기에서 긴급 켜기·끄기 (직접 정한 긴급은 다시 분류해도 유지)",
+      "author": "junyoungjang976",
+      "date": "2026-11-03T10:49:40Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/29bd2208e832854a6dfe134938fbca8acf029eb4",
+      "repo": "taskmanager-yj"
+    },
     {
       "sha": "bef1ea9",
       "message": "docs: CLAUDE.md 의 「매입가 anon 공개 중」 절 정정 — 10-01 에 닫혔고 11-03 실측 401. 권한은 DB 에서 잰다",
@@ -2624,54 +2672,6 @@
       "author": "junyoungjang976",
       "date": "2026-10-14T17:18:24Z",
       "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1a4f7581926d72dde66ec0cf0aa3f59146068294",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "82c7fc7",
-      "message": "fix: 반입 판정 — 높이 칸을 비우면 확인 필요·높이 미입력 표시, 꺾임은 밀어서 통과도 인정",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T17:03:40Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/82c7fc7383d775a3f0323984f7c594e0af012251",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f587b4c",
-      "message": "fix: 반입 경로 PDF 쪽의 칸 줄 수를 제한해 쪽 밖으로 넘치지 않게 한다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T17:03:40Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f587b4cba4a506edbc4ae830d6b2535d39931d8c",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "643c6de",
-      "message": "fix: 반입 경로 긴 이름·메모는 줄을 버리지 않고 한도까지 자른다 + 지문 시험을 master 값에 고정",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T17:03:39Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/643c6de50d67eadd16cdd47933e16b6e6e53365d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "54f92cf",
-      "message": "fix: WebGL 컨텍스트 복구 시 환경맵 재생성 + 검사·정리 보강 (P23 검수 반영)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T16:55:47Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/54f92cfd1816fd998cd5a844afc4d6b37b6f88d6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3f573f6",
-      "message": "fix: 스테인리스 글자 판정에 STS·스텐·전각 보강, 검사 시간 초과 판정 함수 추가 (P23)",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T16:55:47Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3f573f6ac8cba98af5bee157e1c75793bee01743",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "06d2837",
-      "message": "fix: 편집기에서 입력칸 초점이 빠지면 다음 프레임에 맨 위로 스크롤해 밀린 화면을 되돌린다",
-      "author": "junyoungjang976",
-      "date": "2026-10-14T16:54:05Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/06d2837b7ad9708a4bf25f6462a21a0b9df04936",
       "repo": "busungtk-kitchen-consulting"
     }
   ],
