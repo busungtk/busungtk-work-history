@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:50:55.669965Z",
+  "updated_at": "2026-11-07T03:25:09.265046Z",
   "repos": [
     "busungtk-landing",
     "busungtk-kitchen-consulting",
@@ -61,7 +61,7 @@
   "summary": {
     "total_commits": 1062,
     "total_prs": 10,
-    "total_issues": 6,
+    "total_issues": 5,
     "active_days": 66
   },
   "daily": {
@@ -517,7 +517,7 @@
       "commits": 2,
       "prs_opened": 0,
       "prs_merged": 0,
-      "issues_opened": 1,
+      "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-07": {
@@ -2869,21 +2869,6 @@
         "bot-generated"
       ],
       "url": "https://github.com/busungtk/busungtk-landing/issues/12",
-      "repo": "busungtk-landing"
-    },
-    {
-      "number": 11,
-      "title": "[SEO] sitemap 정합성 이슈 255건 — 2026-08-09",
-      "state": "open",
-      "author": "github-actions[bot]",
-      "created_at": "2026-08-09T01:03:51Z",
-      "updated_at": "2026-08-09T01:03:51Z",
-      "closed_at": null,
-      "labels": [
-        "seo",
-        "bot-generated"
-      ],
-      "url": "https://github.com/busungtk/busungtk-landing/issues/11",
       "repo": "busungtk-landing"
     }
   ]
