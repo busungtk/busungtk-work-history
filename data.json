@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-09T03:12:27.384500Z",
+  "updated_at": "2026-11-10T04:54:27.704624Z",
   "repos": [
     "busungtk-landing",
-    "busungtk-kitchen-consulting",
     "busungtk-price-library",
+    "busungtk-kitchen-consulting",
     "busungtk-order-tracker",
     "busungtk-asms",
     "busungtk-marketing-v2",
@@ -35,10 +35,10 @@
     "busungtk-kitchen-resource",
     "busungtk-kitchen-quote",
     "busungtk-marketing",
+    "travel-manager",
     "life-manager",
     "taskmanager-yj",
     "claude-dotfiles",
-    "travel-manager",
     "busungtk-brand-config",
     "channeltalk-downloader",
     "busungtk-kitchen-doctor",
@@ -59,21 +59,28 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1055,
+    "total_commits": 1110,
     "total_prs": 10,
     "total_issues": 5,
     "active_days": 59
   },
   "daily": {
+    "2026-11-10": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-09": {
-      "commits": 8,
+      "commits": 132,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-11-08": {
-      "commits": 92,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -395,7 +402,7 @@
       "issues_closed": 0
     },
     "2026-08-27": {
-      "commits": 8,
+      "commits": 7,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -464,13 +471,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-08-11": {
-      "commits": 5,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-08-07": {
       "commits": 0,
       "prs_opened": 1,
@@ -480,24 +480,17 @@
     }
   },
   "overtime": {
-    "total_commits": 1055,
-    "overtime_commits": 708,
-    "regular_commits": 347,
-    "overtime_rate": 67.1,
+    "total_commits": 1110,
+    "overtime_commits": 657,
+    "regular_commits": 453,
+    "overtime_rate": 59.2,
     "weekend_commits": 207,
-    "late_night_commits": 325,
-    "total_hours": 571.9,
-    "regular_hours": 232.6,
-    "overtime_hours": 339.3,
-    "overtime_hour_rate": 59.3,
+    "late_night_commits": 340,
+    "total_hours": 573.0,
+    "regular_hours": 234.2,
+    "overtime_hours": 338.8,
+    "overtime_hour_rate": 59.1,
     "daily_hours": {
-      "2026-08-11": {
-        "regular_hours": 5.2,
-        "overtime_hours": 1.2,
-        "total_hours": 6.4,
-        "is_weekend": false,
-        "commits": 5
-      },
       "2026-08-13": {
         "regular_hours": 8.2,
         "overtime_hours": 3.5,
@@ -563,10 +556,10 @@
       },
       "2026-08-27": {
         "regular_hours": 0,
-        "overtime_hours": 1.2,
-        "total_hours": 1.2,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 8
+        "commits": 7
       },
       "2026-08-28": {
         "regular_hours": 3.1,
@@ -891,15 +884,21 @@
         "commits": 59
       },
       "2026-11-09": {
-        "regular_hours": 2.7,
-        "overtime_hours": 6.0,
-        "total_hours": 8.7,
+        "regular_hours": 9,
+        "overtime_hours": 7.4,
+        "total_hours": 16.4,
         "is_weekend": false,
-        "commits": 100
+        "commits": 158
+      },
+      "2026-11-10": {
+        "regular_hours": 0.5,
+        "overtime_hours": 0.0,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 3
       }
     },
     "overtime_by_date": {
-      "2026-08-11": 1.2,
       "2026-08-13": 3.5,
       "2026-08-19": 0.5,
       "2026-08-20": 1.6,
@@ -908,7 +907,7 @@
       "2026-08-24": 1.3,
       "2026-08-25": 0.5,
       "2026-08-26": 5.0,
-      "2026-08-27": 1.2,
+      "2026-08-27": 0.5,
       "2026-08-28": 3.5,
       "2026-08-29": 5.2,
       "2026-08-30": 19.4,
@@ -951,13 +950,13 @@
       "2026-11-03": 1.8,
       "2026-11-04": 5.5,
       "2026-11-05": 10.9,
-      "2026-11-09": 6.0
+      "2026-11-09": 7.4
     },
     "overtime_by_hour": [
       74,
       64,
-      43,
-      104,
+      36,
+      45,
       31,
       0,
       0,
@@ -972,10 +971,10 @@
       12,
       0,
       12,
-      85,
-      61,
-      39,
-      52,
+      96,
+      65,
+      40,
+      51,
       25,
       63
     ],
@@ -985,6 +984,1022 @@
     }
   },
   "commits": [
+    {
+      "sha": "bfe1d70",
+      "message": "Add undo and redo for saved edits",
+      "author": "junyoungjang976",
+      "date": "2026-11-10T03:03:31Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/bfe1d707317939cb3a4f422fd1899d5a84ff183c",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "4788839",
+      "message": "Replace the native time wheel with a tap-to-pick time popover",
+      "author": "junyoungjang976",
+      "date": "2026-11-10T02:54:10Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/4788839d1811a18cd7566df31682d0017c062abe",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "d1424ec",
+      "message": "chore: 최신 main 으로 프로덕션 다시 배포 (늦게 끝난 예전 배포가 덮어씀)",
+      "author": "Claude",
+      "date": "2026-11-10T02:36:25Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/d1424ecc9dd6639dd2c813de03df76cfc648c269",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "cd50b5d",
+      "message": "Pick itinerary flight moves from the flights tab; iPhone Reset clears times",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T11:01:37Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/cd50b5d04640b40dc3f246957a9a5ea9ec153a96",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "98da043",
+      "message": "Add a \"clear time\" action while editing itinerary and flight times",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T10:50:58Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/98da043f675ba15b829647b371a1e2374a1b5f19",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "2211f5b",
+      "message": "Keep itinerary rows apart when the time is taller than the text",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T10:44:10Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/2211f5be1325522b84561a3511de766b1cac16b1",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "cb94db7",
+      "message": "Show country flags on Windows and widen itinerary text on phones",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T10:34:15Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/cb94db78788f94f9b6601c52698aa9d794256963",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "47fd353",
+      "message": "Skip production builds of commits older than the live version",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T10:14:51Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/47fd35333862cf5e07cf83df9d7311a102f0432b",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "8418742",
+      "message": "feat: 캘린더 날짜 창에서 할 일, 블로그 체크하기",
+      "author": "Claude",
+      "date": "2026-11-09T10:10:24Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/8418742b943a83dd9155d258d7d983853d3c06e3",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "78abd7a",
+      "message": "fix: 휴대폰에서 캘린더 날짜 창이 키보드와 확대 없이 보기 화면으로 열리게",
+      "author": "Claude",
+      "date": "2026-11-09T09:53:04Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/78abd7a238915de4670d6b8a34b2f1b3444ae2d1",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "4f70905",
+      "message": "Correct the Vercel skipped-deploy note and redeploy the spacing change",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:48:31Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/4f709055f1e43c27b15a3922abbc2d6dffc5f1a2",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "9fc00e8",
+      "message": "style: 독서·영화 창 제목을 크게 (18px → 24px 굵게), 길면 다음 줄로",
+      "author": "Claude",
+      "date": "2026-11-09T09:42:57Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/9fc00e8df40780de899a027c5c783fb7dd9f6596",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "38db8d5",
+      "message": "Loosen itinerary time spacing for readability",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:42:44Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/38db8d5da6ce7f540862e6002feac495f4fea8eb",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "f3874ab",
+      "message": "Stack stay check-in/out label above the time",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:39:46Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/f3874abe876f69ec055ac7ce89cfc842ad8733a0",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "66c4892",
+      "message": "fix: 카드 빈 문구의 조사를 받침에 맞게 (\"후기을\" → \"후기를\")",
+      "author": "Claude",
+      "date": "2026-11-09T09:37:11Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/66c4892737dfa585e0be5d84a802f04e0cb62526",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "4cecb56",
+      "message": "Create new trips in place on the home list",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:35:56Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/4cecb56840ec014e20aa255ee5f5ba329eb7c952",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "949b00a",
+      "message": "Edit text in place like Notes/Notion instead of swapping in input cards",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:23:05Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/949b00a37b269cb58509636b9ea1eab91fdbbd7d",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "7efe09a",
+      "message": "feat: 앱 전체를 제자리에서 고치기로 (아이폰 메모, 노션처럼)",
+      "author": "Claude",
+      "date": "2026-11-09T09:17:41Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/7efe09a6bb77f8e58314adbf3e838ecf16d5d596",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "3009cb2",
+      "message": "Edit every trip section in place with double-tap and add links",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T09:09:01Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/3009cb23ebd6621c11467c1055a0d25d0d777ab5",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "0617286",
+      "message": "feat: 독서·영화 카드를 누르면 보기 화면, 두 번 누르면 고치는 화면",
+      "author": "Claude",
+      "date": "2026-11-09T09:02:32Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/0617286b2e47c934241ea162244afccbca80633f",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "3861f3e",
+      "message": "Save itinerary edits on outside tap and stop waiting on the server",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T08:58:23Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/3861f3ed3de9f849ddb1b47bf0391f448a3d0454",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "531dc6e",
+      "message": "feat: 글을 적다가 바깥(허공)을 누르면 저장",
+      "author": "Claude",
+      "date": "2026-11-09T08:47:40Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/531dc6ead1e213c0d647033d7b1c855cf2296695",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "4d720e4",
+      "message": "feat: 독서·영화 카드에 저자·감독 표시, 인사이트는 바로 적는 메모 게시판으로",
+      "author": "Claude",
+      "date": "2026-11-09T08:32:47Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/4d720e442a4b7ea73fbf09510dd3a0a5c3df96f2",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "339a6e2",
+      "message": "Edit the itinerary in place instead of in a nested form sheet",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T08:27:18Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/339a6e28f6c359cdf41d6e81d7546fdbe68ea3ff",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "e1a8b6c",
+      "message": "feat: 기타 탭 독서에 저자 칸, 영화에 감독 칸 추가",
+      "author": "Claude",
+      "date": "2026-11-09T08:23:04Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/e1a8b6ce8a15e4d209f3bd2d2127199e670e57c4",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "a3d7043",
+      "message": "Give itinerary item inputs more room by default",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T08:18:37Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/a3d70438446f42b76b0fc9996fce78b5e409728c",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "55f93f3",
+      "message": "Show itinerary items on a time column with editable start/end times",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T08:14:32Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/55f93f35e1eab323ab29b61f22d0706487d0aee6",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "21a6c05",
+      "message": "feat: 캘린더에 올라간 일정, 할 일, 블로그를 다른 날짜로 끌어 옮기기",
+      "author": "Claude",
+      "date": "2026-11-09T07:59:42Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/21a6c05b8c71d1b85bf6fc1535ba3a7575aad13a",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "096e0d7",
+      "message": "Document that commit subjects must be ASCII for Vercel to deploy",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:42:24Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/096e0d798603985ccd35f6fac8e6d8f3ba92b64b",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "9abd506",
+      "message": "chore: 캘린더 끌어 놓기 기능 프로덕션 배포 다시 시작",
+      "author": "Claude",
+      "date": "2026-11-09T07:41:52Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/9abd50630a881c9b114e4e53d64b6ef8b063b7dc",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "49a7369",
+      "message": "Retrigger deploy with an ASCII-only commit subject",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:38:16Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/49a73692aa01ee72d71053b3440f483c0014259c",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "61c954e",
+      "message": "Retrigger deploy: Vercel missed the 만원 amount change push",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:35:27Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/61c954ec8fc35066d65b19644881938c0e928f13",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "293e18a",
+      "message": "feat: 할 일, 일정과 이슈, 블로그를 캘린더 날짜에 끌어 놓아 날짜 붙이기",
+      "author": "Claude",
+      "date": "2026-11-09T07:34:09Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/293e18afc8f8a04ef93d734033dd0fb7128769b6",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "574e23d",
+      "message": "Show amounts in 만원 and move the card amount into the title row",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:28:15Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/574e23dd4348ed6dd44a45840057881e5a654da4",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "3cfecc3",
+      "message": "Trigger a fresh production deploy of the pink-plum D-day color",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:24:32Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/3cfecc33a8cd5ceff07b7474d6ac4bad4eba79a7",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "5100371",
+      "message": "Shift the next-trip D-day color from plum toward pink",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T07:04:11Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/5100371e53e0840a2b6e2e48c248329d61977ce1",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "dade14a",
+      "message": "Use a solid plum color for the next-trip D-day number",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:59:44Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/dade14adfb9294aa89a53f1e57cc02ded6c44b10",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "1abcb79",
+      "message": "feat: 블로그도 할 일처럼 체크 안 한 글을 다음 달로 이월",
+      "author": "Claude",
+      "date": "2026-11-09T06:58:19Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/1abcb794c5bfb22867b819053111aad07b8d7722",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "36c4799",
+      "message": "Color only the next-trip D-day number with a blue-violet gradient",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:57:29Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/36c4799e540a661a3dda88751b7ab5be7472ef5a",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "da6e636",
+      "message": "Restyle the next-trip tile as an inverted monochrome cell",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:51:50Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/da6e63682b24237b024d31fff66b294e80c43071",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "ece3e3c",
+      "message": "style: 트래블 매니저와 같은 차가운 회백색 팔레트로, 공휴일은 일주일마다 갱신",
+      "author": "Claude",
+      "date": "2026-11-09T06:51:05Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/ece3e3c3213ee340d5f328a1b266a7b1bef8dc50",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "a587676",
+      "message": "Highlight the next-trip D-day tile in the stats bar",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:48:49Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/a58767658ef8ce2f99bd195a24e8ca3922aa5328",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "8a6dc02",
+      "message": "feat: 캘린더에 대한민국 공휴일 표시 (한 달에 한 번 갱신)",
+      "author": "Claude",
+      "date": "2026-11-09T06:45:51Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/8a6dc02012cdfa1b3d71e66dd6157a814a541b5b",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "7c607d4",
+      "message": "Widen the main column to 1152px to match Life Manager",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:44:28Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/7c607d4f1e0ad87b01c00f5022a379629b6e65ee",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "ddaa7a2",
+      "message": "Retune the neutral palette around a cool #f7f7f8 background",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:41:59Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/ddaa7a2ef14f26d528db54b8d5e5fa0dc6a32a7d",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "42e8a0a",
+      "message": "refactor: 이월 규칙 단순화 (각 달은 자기 내용만, 달이 바뀌면 넘김)",
+      "author": "Claude",
+      "date": "2026-11-09T06:38:14Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/42e8a0a06a301214193b27cb974af43bd49a34f4",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "b9a6a82",
+      "message": "Point to life-manager's shared rules file as the single source of truth",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:32:36Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/b9a6a827419269948d04e20e845cfa058ccd754f",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "d479be2",
+      "message": "feat: 다음 달을 열면 못 끝낸 할 일을 미리 보여주기",
+      "author": "Claude",
+      "date": "2026-11-09T06:32:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/d479be20cc1576b997ee1b168822ef9bfbd99565",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "142a464",
+      "message": "chore: 트래블 매니저 설정 경로(/travel/**) 규칙 추가, 공용 규칙 정본으로 지정",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:29:39Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/142a464ab6d5152ec4b28b3f71a83d2e9d2fa8cd",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "67aed10",
+      "message": "style: \"큰 일정과 이슈\"를 \"일정과 이슈\"로",
+      "author": "Claude",
+      "date": "2026-11-09T06:25:12Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/67aed10d4348a234bee424579d02826a49a91921",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "f8640b5",
+      "message": "fix: 문장만 지운 116건을 원문에서 다시 지어 최소 형식으로 (제목·작업 줄·질문·사실·품목 낱말 원문 대조)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:18:43Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f8640b56be67ef3f224a503193df5c0640b5cfb2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "f9a704c",
+      "message": "Make the home heading editable in place, matching Life Manager",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T06:17:19Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/f9a704cee5cc38e228f06c272da3a62d77be37c7",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "5d621bb",
+      "message": "style: 월별 목표 비율 정리, 본문 폭 넓히기",
+      "author": "Claude",
+      "date": "2026-11-09T06:04:53Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/5d621bbea3cb40e8b67772c57157823194cbfd37",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "b2c0577",
+      "message": "style: 메모장의 별표와 지우기 버튼 사이 여백 줄이기",
+      "author": "Claude",
+      "date": "2026-11-09T05:59:58Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/b2c0577cdefcf9009436bfe43217e67387d1a0ab",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "7e34169",
+      "message": "style: 월별 목표 배치 정리, 운동 칸 삭제",
+      "author": "Claude",
+      "date": "2026-11-09T05:58:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/7e34169b1b8b394d890af7a3d00a26b9d349004e",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "ed7405f",
+      "message": "fix: 사례 사진 정리 추가 - 새 사진 독립 검사에서 걸린 31컷 빼기, 철거 건 장비 칸 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:58:00Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ed7405f926789862b9e3ae50b8f7943e27b2c16f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "fb8a433",
+      "message": "feat: 모든 메모장에서 끌어서 순서 바꾸기",
+      "author": "Claude",
+      "date": "2026-11-09T05:47:43Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/fb8a43302faba9f28107968eabf959a911b05606",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "90bc530",
+      "message": "fix: 사례 글·사진 정리 (9/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:47:10Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/90bc53083d98711f75986622d50a6a26c759c44f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4fb35ab",
+      "message": "fix: 사례 글·사진 정리 (8/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:47:06Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4fb35abfa35cf221013feb5b55129f706a3c1393",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c01f5db",
+      "message": "fix: 사례 글·사진 정리 (7/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:47:02Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c01f5db757bbc88b37f212738c8a07df7295c88b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2a0a36b",
+      "message": "fix: 사례 글·사진 정리 (6/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:58Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2a0a36b161b99adfa5d3767f4f87b46d010b38e2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8beaa50",
+      "message": "fix: 사례 글·사진 정리 (5/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8beaa500b9074726b931665573bb3d483e51900d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "73b6799",
+      "message": "fix: 사례 글·사진 정리 (4/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/73b6799accabcf4238cd63ed72fa533fa79555de",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "74c6b6f",
+      "message": "fix: 사례 글·사진 정리 (3/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:46Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/74c6b6f7a61f3035e5cd4762031a19d4d5ea9040",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "39b360d",
+      "message": "fix: 사례 글·사진 정리 (2/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:43Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/39b360df262f7becbb3d418123a3527e8bfe3fc5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "9cbd616",
+      "message": "fix: 사례 글·사진 정리 (1/9) - 원문 밖 문장 지우기·문제 사진 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:46:39Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/9cbd6160319172e160bb492b76735f774fea430d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4f41a12",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:43:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4f41a1274bfff59f46662b6baf5047483ebc91f6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "535f8e8",
+      "message": "style: 운동과 독서의 이월 안내 문구 삭제",
+      "author": "Claude",
+      "date": "2026-11-09T05:42:50Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/535f8e8c2bc7a376d795637e4b6398bef803f7dd",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "0607806",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:42:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0607806b50a33a4a76863fd8a9cb5e673aed8249",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4ac6d71",
+      "message": "feat: 못 끝낸 할 일을 다음 달로 자동 이월",
+      "author": "Claude",
+      "date": "2026-11-09T05:42:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/4ac6d71e189efcb9fe71fc682252d2416cd5296b",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "076ea99",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:40:26Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/076ea99a10072f4e796d2d12880110264e4ebc88",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ee2efee",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:38:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ee2efeeed4d13a7543c9695b346f5fa6504f3517",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e57fecb",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:38:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e57fecbfc9d11662c4759d534b0126e65af31816",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cee3e16",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:38:07Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cee3e168fb3c42a89054e55b3fff287b52f22e22",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bf79984",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:37:23Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bf799846b096bb08d8ae99dc6708d95067df0122",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d471a94",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:37:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d471a94b8be20c27e4bd1ee462b559317f490da2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b3b25ee",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:37:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b3b25ee19967bf491b4f767420b9c93ef383f28f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "50c5f4f",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:36:35Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/50c5f4f5468db78bec0d7e245d8170d82bf71b80",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8efbe23",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:36:29Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8efbe239df0fe5df98f6794bb205bf67a8afe383",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3dd274c",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:36:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3dd274cf87c816f56acf1bfdee2c0484540e14bd",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b406f4a",
+      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:35:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b406f4aa1d53feff9ce0d6fb7656910a1206ca82",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4c58440",
+      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:35:03Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4c584405e6bc8972096622728e7de347fe291c7d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "95c48c9",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:34:58Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/95c48c9ebe4aebb2f1d70a5e9543f09cdfd1470e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "350e2d7",
+      "message": "fix: 화면을 오갈 때 폭과 위치가 흔들리지 않게 스크롤바 자리를 고정",
+      "author": "Claude",
+      "date": "2026-11-09T05:34:49Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/350e2d77607ed7779e6225ff66b45b91876636ad",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "876640d",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:34:46Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/876640da0e186c6ca534f3ab19994ebeac223947",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "81700f6",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:34:31Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/81700f61c6133797bf361ec9b01e540160e3dcc9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2b3548b",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:34:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2b3548b851c4eb4b4b6be53d92473c03b68cc09e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "19aba5a",
+      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:31:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/19aba5a81b293d5c520bf02fea77cd20d0401b90",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cc5bd61",
+      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:30:46Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cc5bd61ab437a547e715c1846c059725959a17ad",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "70a9572",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:30:00Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/70a9572de693a6249382c39bccc5b8cb242586ce",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e3c7074",
+      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:29:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e3c7074bbfd00ccc376c14723f0b5e5ee3bc4c85",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3f5c91e",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:29:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3f5c91e962c939562393f5c27546738ddb9166ed",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cfd99b7",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:25:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cfd99b709ef21a1a20b4b41b45d786453b71987d",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d6af029",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:25:13Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d6af029ede6973420bdcc0ed8d8eeba1af031980",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "903475f",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:24:50Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/903475f10553278fe3f18fdcca4eaf035de1aa2f",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "acc9a17",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:24:43Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/acc9a1712c4d1754899c71ce3afc3589aa37781a",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "91ac38b",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:24:20Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/91ac38bf0f43a24533a166595438dca0e9c67383",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "de835ee",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:24:15Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/de835eef78a34c6b68b87bc7766a866574ccbc82",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b588eef",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:20:53Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b588eef121a6c87fcdbc6c37adf58304deb8d65b",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "e7e5816",
+      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:20:11Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e7e58161e6322e978d45ba183b58b99e103c86cf",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d4fd671",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:18:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d4fd67188e3c89758128427326e38f23c76fd633",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "af98220",
+      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:18:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/af982203e632e870073888cea7f6ae48cbe7acab",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2a64860",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:17:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2a64860aec972e3c1deb4a56e251918a2e13437e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7ae87b9",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:17:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/7ae87b95277d60908db5f29e05b238d4eb5b2cad",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "881b7d6",
+      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:17:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/881b7d66b7764ea8186d05408e57484dd1595fd4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "03bc97c",
+      "message": "style: 큰 일정과 이슈의 날짜를 내용 뒤 오른쪽에 11/7 모양으로",
+      "author": "Claude",
+      "date": "2026-11-09T05:11:04Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/03bc97cad5df64be58b593bf6db3d05db8d627bf",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "511051f",
+      "message": "fix: 옛 사례 글 23건 금지어·문체 정리 (인건비·층 표기·쉼표·대시·제목 빗금)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:09:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/511051f7e38e5fe4fae05bbfe52e67a3977ee78c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4b3995d",
+      "message": "Reserve scrollbar gutter so content no longer shifts between pages",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:07:15Z",
+      "url": "https://github.com/junyoungjang976/travel-manager/commit/4b3995dd44b1381e4b7d3f040dca019bd47ccf8e",
+      "repo": "travel-manager"
+    },
+    {
+      "sha": "5c1ced8",
+      "message": "fix: 사례 사진 정리 (4/4) - 문제 사진·배너·템플릿 카드 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:07:09Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/5c1ced8d1a690d0165d818670a29111464b80c07",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4fa406c",
+      "message": "fix: 사례 사진 정리 (3/4) - 문제 사진·배너·템플릿 카드 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:07:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4fa406c654dfc825e7d17ceb265efd4c26ba2698",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cfc2b5d",
+      "message": "fix: 사례 사진 정리 (2/4) - 문제 사진·배너·템플릿 카드 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:06:59Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cfc2b5db975eb35c80d95f045dacc01ba76ae623",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2295342",
+      "message": "fix: 사례 사진 정리 (1/4) - 문제 사진·배너·템플릿 카드 빼기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:06:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2295342139d4b1bbdd890c1a07807caa86998205",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0d467eb",
+      "message": "fix: 사례 1건 본문의 구매 금액 노출 삭제",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T05:00:38Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0d467eb23300b4736668eecd520d546f248435b0",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1ea199b",
+      "message": "docs: CLAUDE.md 보관 설명 정정 — 통합 검색·등록률 합계에서 뺀다(11-05 반영)",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T04:49:03Z",
+      "url": "https://github.com/busungtk/busungtk-price-library/commit/1ea199b9a8a2a437374fc81479a43d49153c2411",
+      "repo": "busungtk-price-library"
+    },
+    {
+      "sha": "ac8c711",
+      "message": "fix: 되돌린 A/S 사례 6건의 옛 주소 연결 도착지를 현재 페이지로",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:58:22Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ac8c7111e5f389971ab5bf8e44455ccd3390e797",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "08e5090",
+      "message": "fix: 사례 소제목 판정 - 들어간 장비 (사진 기준) 도 소제목(h4)으로 그린다",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:54:53Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/08e50905590f209e766eb25a84e66855e4ef5384",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "8cf017d",
+      "message": "fix: 글 보완 독립 대조 반영 - 사진 기준 장비 이름 4건 빼기, 첫 줄 질문 11건 되살리기, 현장 4건 되돌리기",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:54:34Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8cf017de13ffa4442ca20572c78f27bcb28313aa",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "c389836",
+      "message": "fix: 글만 다시 쓰기 2건 되돌림 - 철거 현장의 기존 후드·철거 대상 오븐을 들어간 장비로 쓰지 않음",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:43:17Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c389836271ec6a8adf206105b8d3ef82a7a61a16",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "447d0e6",
+      "message": "fix: 사례 1건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:42:54Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/447d0e698639028c7e5c4f9260cd26b3f80699b2",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "bd97834",
+      "message": "fix: 사례 7건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:56Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/bd97834fbd3e3a826e517971145e1cc99c9fe460",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b485b6c",
+      "message": "fix: 사례 7건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/b485b6ccccc9ea81792d6292636d39b632db3bf6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1e223ed",
+      "message": "fix: 사례 7건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:46Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1e223ed89a1c7f985878781d61432af2117da2ba",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d8fe176",
+      "message": "fix: 사례 6건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:40Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d8fe1765771215121fac08aa6556ae1576668c46",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "37b104a",
+      "message": "fix: 사례 6건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:35Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/37b104a2df296fb50fdb95ed96db3cc1ce9b4757",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ac2dac1",
+      "message": "fix: 사례 8건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:30Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ac2dac1e3bd30adfa751996543d58bb720039eef",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "616b64b",
+      "message": "fix: 사례 8건 글만 다시 쓰기 - 들어간 장비(사진 기준)·같은 대상 반복 문장 정리",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:41:24Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/616b64bb6431c8d1ed4cd8428d796e5b03d28ee6",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "fcedb11",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-09T03:31:37Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/fcedb11a5922f42d37658899896de60067862bc2",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "90b7642",
       "message": "fix: 사진 재검사 3차 - 문제 컷 32장 제거 (16건, 5장 미만 되는 사례 없음)",
@@ -1255,534 +2270,6 @@
       "author": "junyoungjang976",
       "date": "2026-11-08T18:39:20Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/30523ea09795f30957e36032f050d6b2d0d80e84",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "db9c82b",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:36:30Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/db9c82b7e37e43b221c831d064a01944b9fd09f7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c9a5ebc",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:36:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c9a5ebc2193661174033b424871fbb90f9f8c6bd",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "42a838b",
-      "message": "feat: 사례 5건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:35:33Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/42a838bba4fa62be2a0eaf64b4334e3d29d9ad9d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ed94344",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:34:56Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ed943449f1aae9cdcfc055d6ee47b78b2180623b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d6f9d33",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:34:16Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d6f9d3332b59b7514e93a77e0da5c81e7fe3f71a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ab33b1d",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:33:34Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ab33b1d3dbbc302e6dcd011e08b81a18dde61cf5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "41ce795",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:33:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/41ce7954f1cb97948fe82c539f730c228f521ee2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "969b68d",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:33:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/969b68d0cd48863586afc05bee34fbc9f9d7eb32",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e4e77b6",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:32:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e4e77b69a92f962aa77f4959619d0c83a654dfd4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "403a75f",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:32:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/403a75f0b22711c5c5242eda838363b67c55e722",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5c26980",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:32:07Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5c2698006c4cfeed737e75928cf30c641c1aa9d1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8dcbd5f",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:31:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/8dcbd5f2b9a0c4811bf98901463989742c3bb404",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3bd14ff",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:31:14Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3bd14ff97380a6433d86ca1de9b04f9f08c03347",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f2e88dd",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:30:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f2e88dd1a28b7f3f9b021cea2147078f09994d87",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "85cd5d6",
-      "message": "feat: 사례 5건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:30:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/85cd5d6f4d213c8d6387a80018225fa6557565dc",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a42a443",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:30:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a42a44342a9035e2f51f3c7be16015a4f775bd24",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a7b82f5",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:29:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a7b82f5c76badd7fea51d49eeebf96a584965d5a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "255ec4d",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:29:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/255ec4d635603af941830858d0986bc6ec5af853",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d2c5527",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:28:52Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d2c5527014081cb836bd420c554509b1deaf2851",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2cb9cb2",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:28:19Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2cb9cb2d081ff9fa1fb370a35ab958e74d504507",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4d2f4f8",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:27:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4d2f4f81dbcd5d48acb8e530f10fa77b2af9a3a5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "dc46805",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:27:47Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/dc46805d847aa48073731ee3b6e41174a5e086b2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d9d79cb",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:27:12Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d9d79cb56e55e95a9f32c1dcba11f515cecad71d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a099fe7",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:26:54Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a099fe740e083fce86ec105a075c2b60874a84cb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d0fa6b2",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:26:50Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d0fa6b2b5b1599e17489c54b139a3a2d4d6e1687",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d889638",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:26:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d889638adf0016be8d44ece952f7394191981a0e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6c45124",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:25:45Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6c45124bca2dc10c90bb336557e9859fda97b183",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1ba70ae",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:22:42Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1ba70ae17af29d5e1f389ecd48d15be4067f57f5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "228e4c2",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:22:23Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/228e4c2d382cc9a230665cc08d8d65c85c71afa2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "47e69da",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:21:28Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/47e69da1c90b87c2f0c16a177d6cf7d03a07460d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "18c32ed",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:21:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/18c32ed43959fc8d582bfd5d19e419459a7406f5",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b156173",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:20:23Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b156173001ad9b81690d73c964bc7620ef8b4cc8",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "62a5b35",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:20:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/62a5b35a8c31d108066f725305e08452647c5539",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5e9cce7",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:20:14Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5e9cce7bc418a0be3478c84d9c8d68f8bce26fc1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2ee69d2",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:19:07Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2ee69d27fcdf2ace728c6d547ca29217f2af1169",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e15f463",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:18:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e15f4637913c1494f54c857af4c42554cc779143",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "0b5a67c",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:17:19Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/0b5a67cb7af8edeb06430c35a6354229ea83e442",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3c06882",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:16:48Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3c068825bd70f54149ec693458eca7453dadcb9e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9260f1c",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:15:30Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9260f1c0f5d7675b7ded2a743acd6d466333f406",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "20d4526",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:14:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/20d45268a9f64a163cbfa9e1bac4948958e2f66b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "9acc071",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:14:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9acc071edaad1222967190d6dd81a91db607ab67",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "02e7e24",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:13:10Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/02e7e24587754233fea45b583ffad2dd44d4689d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b369db2",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:13:02Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b369db292d7b46a1aa3ca10702c338412046faec",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "ff04c68",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:11:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/ff04c6831669e58abcc7eb6c2a388069b39fa61c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4c2dec0",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:11:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4c2dec04a0cbf6afe30dbb23b275d36a1bd3130b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5c44ae0",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:10:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5c44ae015aca19bffb5ec80a5a7235184bd453b7",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "8426449",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:07:39Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/84264496ce5bfc3513ea429fc6b17d39138cd91c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cbf7324",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:07:00Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/cbf73249b5eba86e6becb3198f7cac1e04454afb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "aacb6f7",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:05:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/aacb6f7dd26106ab8675171475abd608bcd4d80a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "13f8ffc",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:04:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/13f8ffcaa6c5c561b92c8759b292cf77fee0ad86",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "6afd177",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:04:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6afd177e7ab323115c445817020661af48a9a025",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "5fd63dd",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:03:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5fd63dd6053c55bbf1e00d1244c779b5f18f0ae2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "a310b5b",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:02:36Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/a310b5bfcdcf2b09776f10e5e686bddc53185980",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "1d27a55",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:02:31Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/1d27a55335e7eb6c40648d70610fa07d31e631cb",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cf3b56d",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:02:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/cf3b56d0242fa2acdd9d8742918b3bea488952fa",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "215d4a0",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:01:35Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/215d4a09d7c1537997d5964d29aa51cdd9c1c673",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4094e58",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:01:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4094e587eada61267f86d49b325f0caf7afd5629",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "c107a4c",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:00:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/c107a4ca82cc7c279d0efb47b5fabb70f9df880f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "94c17a7",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:00:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/94c17a7db7f9efb416b3c87c7bb25d8dcccbf92d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "162a1b7",
-      "message": "feat: 사례 5건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:59:41Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/162a1b7314f3dde9b72de58a6d51753efaf497b9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "87763da",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:59:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/87763dae0caeee4f0bf0c0bdd3ecb5860d16a27d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4b175c2",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:59:00Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4b175c2775785132569a2a05bd643765ba572bac",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "19cc09a",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:58:27Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/19cc09a78c28a984907d501145729d484774ebb3",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "86ef447",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:58:06Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/86ef44760d40d1db2b6fa56a30277d44b22afb8a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "38bb6bc",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:57:53Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/38bb6bc9e69d35338eaa6833197356a3c89dacd9",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "736021f",
-      "message": "feat: 사례 5건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T17:57:01Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/736021fd22d9bfcedbb26c6bc93cca4694a712cc",
       "repo": "busungtk-landing"
     },
     {
@@ -2096,494 +2583,6 @@
       "date": "2026-11-05T08:40:36Z",
       "url": "https://github.com/junyoungjang976/life-manager/commit/3b81037cfca81e40624ada921bfccab8e2b615b5",
       "repo": "life-manager"
-    },
-    {
-      "sha": "0eb1a15",
-      "message": "feat: 라이프 매니저 탭 아이콘과 홈 화면 아이콘 추가",
-      "author": "Claude",
-      "date": "2026-11-05T08:35:27Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/0eb1a15a903d736ae21156ce422d791e1a6cc488",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "8b0bb43",
-      "message": "fix: 라이프 매니저 허용 계정을 jesusstruth@gmail.com 으로 변경",
-      "author": "Claude",
-      "date": "2026-11-05T08:32:39Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/8b0bb4322da10dca6e83aa1a09ba29a7363e9b6e",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "a774e58",
-      "message": "fix: Firebase 웹 설정을 코드에 직접 넣어 Vercel 환경변수 없이 동작",
-      "author": "Claude",
-      "date": "2026-11-05T08:27:01Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/a774e58f0f28ab0e748cefc410915309579d6e9e",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "e26a5db",
-      "message": "Merge pull request #1 from junyoungjang976/claude/sharp-gates-8usz0e",
-      "author": "junyoungjang976",
-      "date": "2026-11-05T08:02:36Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/e26a5db86922f2dea6fdd78bef0e0e1e11d74896",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "711bf09",
-      "message": "feat: 라이프 매니저 1단계 (인생 홈, 영역 상세, 이번 달)",
-      "author": "Claude",
-      "date": "2026-11-05T07:36:20Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/711bf09154a1d13b9209aa57ae2eed6cdb9f042b",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "a954dda",
-      "message": "Initial commit",
-      "author": "junyoungjang976",
-      "date": "2026-11-05T07:14:58Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/a954dda26de91c67502e9b6de9b8acafaa99275d",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "222562e",
-      "message": "docs(설계툴): 아침 확인 — 밤사이 한 것과 사장님 확인 4건",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:17:30Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/222562e2d6eda38bbea879cb516f7fb50016eba7",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b4a1a96",
-      "message": "docs: Design.secretKey 주석을 바뀐 규칙(문서 없으면 33·값 있을 때만 지문)에 맞춤",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:15:07Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b4a1a960d753658905a3ea3cf298f1f4d0dc1758",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b27fe7d",
-      "message": "docs(설계툴): 짝짓기 작업 목록 상위 30 — 덮는 비율을 짝짓기표 키(카탈로그 id) 기준 50%로 바로잡음",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:11:25Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b27fe7daee35ae96cb0fda6c89d487d4f2a180a3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "dbbb7bc",
-      "message": "docs: 독립 검수 11-05 반영표와 설계 문서 정리 (키 저장 규칙·차수 지문·표기)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:05:37Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/dbbb7bc8df4e3f64b8b53dea536c9f6be6010a6f",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "3b0390c",
-      "message": "test: 설정값·기준 표시 원본 글자 검사 대상에 3D 이미지 내보내기 파일 추가 (독립 검수 11-05 #12)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:03:45Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3b0390c3d9240b3d16584d451dc257e816ce9402",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6f0f34f",
-      "message": "fix: 짝짓기표 SQL 에 폭·깊이 짝 검사, 가져오기 스크립트가 반쪽 크기·카탈로그에 없는 짝을 건너뛰고 읽기 순서를 고정 (독립 검수 11-05 #4·#8·#9)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:02:09Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6f0f34f9f2133fe08923e3391eb9719211101882",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "74f31fa",
-      "message": "fix: 견적 화면·PDF 표기 정리 — 단가 줄 매입 배지 숨김, 셈 단위 대, 크기변경 표시, 데이터 갱신 따라가기 (독립 검수 11-05 #2·#5·#6·#7·#11)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T16:00:53Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/74f31fa9b01bdb62c576a1fcadcfc4498767aae6",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4e28285",
-      "message": "fix: 시크릿 키가 다른 프로젝트로 번지지 않게 하고 키가 바뀌면 차수 지문도 바뀌게 (독립 검수 11-05 #1·#3·#10)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:56:19Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4e282852fc242e2b75615d325f9d909f54a85918",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "4d7f879",
-      "message": "feat: 견적 PDF 단가·금액 칸과 ASMS 넘기기 unitPrice (설정값·기준 표시는 나가지 않음)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:33:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4d7f879daaa26cb68d18e1954281311b267c49b8",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a1a44b8",
-      "message": "feat: 직원 견적 패널에 단가·금액·공급가/부가세/총액과 시크릿 키 칸",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:33:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a1a44b88851a380f804f00c1a2d9d90a6554206d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c164951",
-      "message": "feat: 단가 설정값(시크릿 키) — 프로젝트별 저장·기기 기본값·되돌리기와 무관",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:33:11Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c1649515be5f0935cd0f683699a356f49e91a72b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "69cd9c9",
-      "message": "chore: 단가 파일 가져오기 스크립트와 화면 묶음 노출 검사",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:32:48Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/69cd9c9775f511f92f63fff0e21d0d0bba5abad9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a78b7f7",
-      "message": "feat: 도면 단계 단가 — 짝짓기표 파일을 직원 API 로 내려보내고 단가 정하는 순서를 둔다",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:32:47Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a78b7f70ea8694039eaf4e949638dc24b1595844",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2792b58",
-      "message": "docs(설계툴): 단가 설계 사장님 결정 반영(키 기본 33·점 표시·가격대 참고) + 짝짓기표 SQL 초안",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T15:01:46Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2792b5873165e33644ca57ed9d87f7bc511cfdb3",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "87f5599",
-      "message": "docs(설계툴): 설계 — 도면 단계 단가(짝짓기표·시크릿 키)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T14:33:11Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/87f559951aaa3cc62814de7a5b6cb8a379b097dc",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "8af7341",
-      "message": "docs(설계툴): 기획 — 도면 단계 단가(짝짓기표·직원 전용 단가 싣기)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T14:02:28Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8af73415fbfbd0f32341ba8f964e370426cf14f9",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "546b8ff",
-      "message": "docs(설계툴): 인수인계 §13 — 전기·높이·사람 모형 배포 기록",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T13:56:48Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/546b8ffb4bd9f7fe2ef3c5cdf54506ae7b2396cc",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "547b7a8",
-      "message": "docs(설계툴): 전기·사람 모형 독립 검수와 반영표",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T06:16:28Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/547b7a8c1610d2dbb7a0bfe768ebc21c8c017844",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2d8d1cc",
-      "message": "fix(설계툴): 사람 모형 — 도면 PDF 3D 쪽에서 제외, 코너 차수는 영역 안만, 꺼진 층에 세우면 층 켬",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T06:16:27Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2d8d1ccbf69cc887aa20e2056538c437cc3ee30b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2388316",
-      "message": "fix(설계툴): 수평 구간 높이 — 수평 높이의 꼭짓점만 바꾸고 세로·옆걸음 유지(비스듬한 배관 방지), 분전함 3D 재질",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T06:16:27Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/23883162bcfee75ebd6aab64fa3c73f6449aac02",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "c4c2570",
-      "message": "feat(설계툴): 사람 모형 — 2D 에서 세우고 키·방향을 정하면 3D·3D 이미지에 보임(평면 내보내기·견적·검사·ASMS·DXF 제외)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:58:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c4c257054f8d0fff10452d8d6056fd65308d3077",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5de8849",
-      "message": "feat(설계툴): 전기 설비 6종(분전함·하이박스·콘센트 1·2·4구·직결·스위치·조명)과 분전함 kW 합계, 배관·배선 높이(그리기 전 칸·수평 구간 한 번에) — 사람 모형 ",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:58:54Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5de8849706cf49c385b9d80c6bf0b1be4d20d67b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "80d3286",
-      "message": "docs(설계툴): 설계 — 전기 설비·배관 높이·사람 모형",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:38:58Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/80d3286624f508713cdc315a3311c8dbc507ef18",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "abc1f32",
-      "message": "docs(설계툴): 인수인계 — 함수 지역 시드니와 배포 명령 --regions syd1",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:37:13Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/abc1f32bee7e4c5773187309d47220d1a41a5bef",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "a8ddabe",
-      "message": "fix: 링크 미리 받기 끄기(목록이 열릴 때 벤더·거래처 화면 수십 개를 서버가 미리 만들었다) + 사진 중계 IPv6",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:36:40Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/a8ddabebd0195405f0b79effb760b7f82f6920ec",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "71588bd",
-      "message": "chore(배포): 서버 함수를 DB 가 있는 시드니(syd1)에서 실행 — 목록 등 API 의 미국↔시드니 왕복 제거",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:33:10Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/71588bdaf1206bcd0b482f0fbaeaa9ba7c34a676",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "13e81d1",
-      "message": "fix: http 사진이 https 화면에서 깨지던 것 — /api/img 중계 (선경산업 등)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:30:05Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/13e81d13d7516fb02a8d2c46f8d10310c0bfad4b",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "2d266d3",
-      "message": "docs(설계툴): 인수인계 — 목록 속도 배포 기록",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:28:27Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2d266d34e8423c7814d1574d6b0037eacec3a19f",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "5624645",
-      "message": "feat: robots 차단 거래처 확인 — 진양테크(본문 주소는 허용) 35개 수집, shinkang·극동주공 사유 정정",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:24:00Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/5624645e3084a458ba5a331b9b478097d79f55a3",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "0554068",
-      "message": "perf(설계툴): 내 프로젝트 목록 — 이 기기 목록을 먼저 보이고 서버 상태는 도착하면 채움",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:22:37Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/05540689e1ce911204868f1fa964c5299de4d877",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0e8fe78",
-      "message": "perf: 등록률(5분)·거래처별 제품 수(10분) 캐시 — 거래처 목록·대시보드가 열릴 때마다 다시 세지 않는다",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:18:58Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/0e8fe785c17ee9ce54d4a3f73c5730146dbfdf9e",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "fc854c7",
-      "message": "feat: 대시보드 벤더 칸을 전부 펼친다 — 「전체 보기」 링크 제거 (시트 55개)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T05:18:58Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/fc854c7fc1b38068a96cc065cf6b35ae17d13ce2",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "2ecd464",
-      "message": "docs(설계툴): 인수인계 §12 — 11-04 2차 배포 기록",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:48:06Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2ecd464e3093721d327d3f25cc74e382e83e1e38",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "b9b6d35",
-      "message": "docs(설계툴): 목록·공용 출입구·반입 독립 검수와 반영표",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:46:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b9b6d350905ca25123bdaab2d7bd78969a7a9dbb",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "1f0fcae",
-      "message": "fix(설계툴): 검수 반영 — 보관 프로젝트 열면 꺼냄·옛 엘리베이터 상한·PDF 메모 줄·확인창 Tab·영구 삭제 안내",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:46:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/1f0fcae4388458b2e3ce2ca7be73805da1b1fede",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6cbd259",
-      "message": "fix(설계툴): 공용 출입구 — 조리 라인 앞 접근면 800 우선, 좁은 방만 100 대안(패널 안내)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:46:12Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6cbd2595f3e67baa9ffacab8a355b09345353232",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "856591c",
-      "message": "docs: 거래처 탭 설계·적용 기록·독립 검수 처리표 + CLAUDE.md 데이터 모델·구조",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:24:38Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/856591c772b424cdbf57566d8df5e843e8816a77",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "b1af089",
-      "message": "fix: 거래처 탭 독립 검수 반영 — 수정 저장 막힘·없는 쪽 번호·「_」 검색·뷰 권한·spec 가격 통로",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:24:38Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/b1af089a0930d8caddd2650faef15328f97da6ae",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "43ac3bf",
-      "message": "docs(설계툴): 사용 안내 — 새 시작 세 갈래·목록 ⋯ 메뉴·반입 구간과 주의사항",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:23:43Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/43ac3bf38ac36ab35502ca6a014901610f78eb0b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "03d4a3b",
-      "message": "feat(설계툴): 반입 경로 화면·검사 탭·견적 PDF — 경로 한 줄과 이동 경로 주의사항 표",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:23:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/03d4a3bf782f321de270c68a4a74462258eecd9d",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "ff79690",
-      "message": "feat(설계툴): 반입 경로 모델 — 엘리베이터·하역장을 구간으로, 문턱, 주의사항 9항목, 옛 엘리베이터 칸 옮김(차수 지문 유지)",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:23:01Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ff79690cc4b8316a7c25f895c317ee1f9f601c0a",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0fe04aa",
-      "message": "feat: 거래처 탭 — 거래처·제품 검색, 거래처 상세(쪽 나눔), 추가·수정 API, 모바일 내비",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:10:19Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/0fe04aae2aacef5c64e9f8ec1e6f5f4d8f5151ee",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "8775dc7",
-      "message": "feat: 거래처 사이트 수집 — 즐겨찾기 넣기·플랫폼 판정·플랫폼별 수집기 5개·적재기",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:10:19Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/8775dc785ec5635f812fa558a694d6e653d5fba8",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "f7380de",
-      "message": "feat(db): 거래처 탭 표 — supplier_sites·supplier_products + 검색 뷰·제품 수 뷰·글자 조각 색인",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:10:19Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/f7380defa189685edcc946332e625d60932603a3",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "26fa06c",
-      "message": "feat(설계툴): 자동 배치 공용 출입구 — 음식·재료 문 하나(기본), 홀 벽 끝 문 + 그쪽 줄 냉장→손세정대→문",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:09:27Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/26fa06cd33f413fa920658a6ab66eb266c99975e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "94b2972",
-      "message": "feat(설계툴): 내 프로젝트 목록 — 줄을 누르면 편집기, ⋯ 메뉴(이름 바꾸기·복제·상세·삭제), 보관함 영구 삭제",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:07:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/94b297240718ec53c1c11bfc821a0af409f0047b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "6ae3fb7",
-      "message": "docs(설계툴): 설계 — 목록 CRUD·자동 배치 공용 출입구·반입 경로 보강",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T04:01:31Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6ae3fb7c64cef181f2c9f9293bd0288c4af7ef91",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "fbcbf34",
-      "message": "docs(설계툴): 인수인계 §11 — 11-04 배포 기록",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T03:38:22Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/fbcbf34aed3cd7ac3236d1194f4387e8efd2310e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "34e2c04",
-      "message": "feat(설계툴): 새 프로젝트 시작 방식 세 개를 접어 두고 누른 하나만 펼침",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T03:28:21Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/34e2c04091113c5312ed1a557c7d5b25f55247de",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "830ca59",
-      "message": "docs(설계툴): 인수인계 §11 — 새 프로젝트 세 갈래·자동 배치",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:36:02Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/830ca599de7d4cb3fabf1b85460211927fd0bf48",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "09054ee",
-      "message": "docs(설계툴): 자동 배치 독립 검수 결과와 반영표",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:35:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/09054ee834418285cd45964a03681f9f71b9977e",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "cc60c8f",
-      "message": "fix(설계툴): 새 프로젝트 화면 검수 반영 — 오류 남음·불러오기 실패·평수 범위·직접 배치 형태 덮어쓰기",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:35:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/cc60c8f1bbec8de561d1fc7f4ad779d930c342bf",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "0a1274e",
-      "message": "fix(설계툴): 자동 배치 검수 반영 — 후드 깊이·도로 넣기·카운터 위 장비·ASMS 평수·화구 보호·못 놓은 장비 셈",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:35:44Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/0a1274ea01b4a84004d2d90c969a2e73e8a56220",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "2db078d",
-      "message": "test(설계툴): 자동 배치 문서 — 기준 셀·크기 제안·못 놓은 장비 기록과 줄어듦·오류 이유",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:16:50Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2db078d4e07d5af4366e0eae35d313d31e97927b",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "64b9c63",
-      "message": "feat(설계툴): 장비 패널에 자동 배치 「못 놓은 장비」 목록 — 탭해서 놓으면 줄어듦",
-      "author": "junyoungjang976",
-      "date": "2026-11-04T02:16:50Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/64b9c632043d3f271a4d37bb2469a9e31753d244",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
