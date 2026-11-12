@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-11T03:20:40.037488Z",
+  "updated_at": "2026-11-12T04:31:27.850155Z",
   "repos": [
-    "busungtk-order-tracker",
     "busungtk-landing",
+    "busungtk-asms",
+    "busungtk-order-tracker",
     "busungtk-price-library",
     "busungtk-kitchen-consulting",
-    "busungtk-asms",
     "busungtk-marketing-v2",
     "busungtk-sales-crm",
     "busungtk-ai-ideation",
@@ -35,9 +35,9 @@
     "busungtk-kitchen-resource",
     "busungtk-kitchen-quote",
     "busungtk-marketing",
+    "claude-dotfiles",
     "life-manager",
     "travel-manager",
-    "claude-dotfiles",
     "taskmanager-yj",
     "busungtk-brand-config",
     "channeltalk-downloader",
@@ -59,14 +59,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1130,
+    "total_commits": 1124,
     "total_prs": 11,
     "total_issues": 5,
     "active_days": 60
   },
   "daily": {
+    "2026-11-12": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-11": {
-      "commits": 4,
+      "commits": 11,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -87,7 +94,7 @@
       "issues_closed": 0
     },
     "2026-11-08": {
-      "commits": 18,
+      "commits": 13,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -255,7 +262,7 @@
       "issues_closed": 0
     },
     "2026-09-29": {
-      "commits": 6,
+      "commits": 5,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -465,14 +472,7 @@
       "issues_closed": 0
     },
     "2026-08-14": {
-      "commits": 5,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
-    "2026-08-13": {
-      "commits": 6,
+      "commits": 3,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -487,30 +487,23 @@
     }
   },
   "overtime": {
-    "total_commits": 1130,
-    "overtime_commits": 658,
-    "regular_commits": 472,
-    "overtime_rate": 58.2,
+    "total_commits": 1124,
+    "overtime_commits": 650,
+    "regular_commits": 474,
+    "overtime_rate": 57.8,
     "weekend_commits": 206,
-    "late_night_commits": 349,
-    "total_hours": 563.8,
-    "regular_hours": 230.6,
-    "overtime_hours": 333.2,
-    "overtime_hour_rate": 59.1,
+    "late_night_commits": 346,
+    "total_hours": 568.1,
+    "regular_hours": 231.6,
+    "overtime_hours": 336.5,
+    "overtime_hour_rate": 59.2,
     "daily_hours": {
-      "2026-08-13": {
-        "regular_hours": 0,
-        "overtime_hours": 1.7,
-        "total_hours": 1.7,
-        "is_weekend": false,
-        "commits": 6
-      },
       "2026-08-14": {
-        "regular_hours": 5.7,
-        "overtime_hours": 0,
-        "total_hours": 5.7,
+        "regular_hours": 0.3,
+        "overtime_hours": 0.2,
+        "total_hours": 0.5,
         "is_weekend": false,
-        "commits": 5
+        "commits": 3
       },
       "2026-08-19": {
         "regular_hours": 0.0,
@@ -716,11 +709,11 @@
         "commits": 3
       },
       "2026-09-29": {
-        "regular_hours": 6.4,
+        "regular_hours": 5.6,
         "overtime_hours": 5.1,
-        "total_hours": 11.5,
+        "total_hours": 10.7,
         "is_weekend": false,
-        "commits": 5
+        "commits": 4
       },
       "2026-09-30": {
         "regular_hours": 9,
@@ -895,7 +888,7 @@
         "overtime_hours": 7.3,
         "total_hours": 16.3,
         "is_weekend": false,
-        "commits": 150
+        "commits": 145
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -905,15 +898,22 @@
         "commits": 38
       },
       "2026-11-11": {
-        "regular_hours": 1.8,
-        "overtime_hours": 0,
-        "total_hours": 1.8,
+        "regular_hours": 9,
+        "overtime_hours": 4.3,
+        "total_hours": 13.3,
         "is_weekend": false,
-        "commits": 5
+        "commits": 12
+      },
+      "2026-11-12": {
+        "regular_hours": 0.0,
+        "overtime_hours": 0.5,
+        "total_hours": 0.5,
+        "is_weekend": false,
+        "commits": 1
       }
     },
     "overtime_by_date": {
-      "2026-08-13": 1.7,
+      "2026-08-14": 0.2,
       "2026-08-19": 0.5,
       "2026-08-20": 1.6,
       "2026-08-22": 6.0,
@@ -965,13 +965,15 @@
       "2026-11-04": 5.5,
       "2026-11-05": 10.9,
       "2026-11-09": 7.3,
-      "2026-11-10": 1.9
+      "2026-11-10": 1.9,
+      "2026-11-11": 4.3,
+      "2026-11-12": 0.5
     },
     "overtime_by_hour": [
       74,
       64,
       36,
-      37,
+      32,
       31,
       0,
       0,
@@ -987,10 +989,10 @@
       0,
       12,
       98,
-      76,
-      37,
-      51,
-      24,
+      74,
+      35,
+      50,
+      26,
       63
     ],
     "work_hours": {
@@ -999,6 +1001,70 @@
     }
   },
   "commits": [
+    {
+      "sha": "9e3e492",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-12T03:31:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/9e3e492e4189c57df2b845a641262cd8e265b5ae",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "afc1bb3",
+      "message": "chore(seo): 사이트맵 lastmod — 11-11 사진 바로잡은 페이지",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T13:18:06Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/afc1bb3aa3bfb30024cd8e0074203232b0b68c84",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "0de5d73",
+      "message": "fix(landing): 사례 사진 정리로 깨지거나 바뀐 사진 21곳 바로잡기 — 번호만 바뀐 10곳은 새 번호로, 사진이 빠진 11곳(404 4곳 포함)은 같은 사례의 남은 사진",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T13:18:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/0de5d73970d4901b34bd82485e17e7f2f0e9ebac",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "b9f2057",
+      "message": "feat(customer): 고객 목록에서 칸 바로 고치기 — 구분·담당자·연락처·이메일·사업자번호, 고객명·주소는 연필로",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T12:19:49Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/b9f20573cd19419a509f26ca5858c89974535834",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "ded3291",
+      "message": "docs: 우리 색·브랜드 톤 = busungtk-brand-config 한 줄 (ASMS 파랑 오적용 재발 방지)",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T06:41:51Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/ded3291e96ce5a8c3bdbae1f32fc94ae80c74522",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "b38e068",
+      "message": "fix: 테마를 회사 주황으로 — 파랑(ASMS) 대신 brand-config 로고 원색",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T05:03:01Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/b38e068f63763bdf805faf5677de5f4cb9bd5069",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "f8cebaa",
+      "message": "fix(admin): 일별 광고 성과(mktg_daily_metrics)를 직원 세션으로 읽기 — 공개 키 잠금 준비",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T04:11:51Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/f8cebaaaf1e6220b094125b66c416954ef2083ef",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "984299c",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-11T03:31:32Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/984299c717e345b2736c0dfbd9e83d640d4b03c4",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "5654d10",
       "message": "feat(admin): 지표 흐름 꺾은선 그래프 — 활동 효과·네이버 소재 탭, 점을 누르면 그때 한 활동의 무엇을·어떻게·왜·결과",
@@ -2504,46 +2570,6 @@
       "repo": "busungtk-landing"
     },
     {
-      "sha": "6e9db38",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:44:42Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/6e9db38688b54c8984695a4f72239c40fc9af9f0",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2b899ab",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:44:16Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2b899abfade205f3b4b3b004fa1cc8118a85a316",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b022e6a",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:43:32Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b022e6ab3a1b9c29a4444a68bb132baa2301ab99",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e47e12f",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:43:21Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e47e12f472d25eda27fa382c66456dddb4322e19",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "35c7529",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-08T18:42:59Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/35c752952ec06ec793f4daddac1dd87e90b12acd",
-      "repo": "busungtk-landing"
-    },
-    {
       "sha": "3361c8c",
       "message": "Merge branch 'master' into claude/elastic-morse-7a8675",
       "author": "junyoungjang976",
@@ -2574,30 +2600,6 @@
       "date": "2026-11-05T10:48:30Z",
       "url": "https://github.com/junyoungjang976/life-manager/commit/3848677437ec3611674d082d6c827ab93248dd21",
       "repo": "life-manager"
-    },
-    {
-      "sha": "24ab1cd",
-      "message": "feat: 월별 목표, 인생 그래프, 기타 세 칸 구조로 개편",
-      "author": "Claude",
-      "date": "2026-11-05T10:46:08Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/24ab1cd1c7208652b5c99493b88d8c95a2dd6487",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "ea97698",
-      "message": "test·docs(설계툴): 덮개가 화면 전환에 닫히는 시험, 검수 반영표를 검수 원문 번호로 다시 씀",
-      "author": "junyoungjang976",
-      "date": "2026-11-05T10:08:11Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/ea976989a133bb742cfd2a034f30b7675b9612ab",
-      "repo": "busungtk-kitchen-consulting"
-    },
-    {
-      "sha": "f6d2a60",
-      "message": "docs: 독립 검수 11-05 반영표",
-      "author": "junyoungjang976",
-      "date": "2026-11-05T10:05:41Z",
-      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/f6d2a60fe0ab952e15179f6a6efff52507b4b23c",
-      "repo": "busungtk-kitchen-consulting"
     }
   ],
   "pull_requests": [
