@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T03:22:06.436225Z",
+  "updated_at": "2026-11-16T03:23:49.603493Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,14 +59,14 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1150,
+    "total_commits": 1169,
     "total_prs": 11,
     "total_issues": 5,
     "active_days": 62
   },
   "daily": {
     "2026-11-15": {
-      "commits": 5,
+      "commits": 26,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -108,7 +108,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 125,
+      "commits": 123,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -501,16 +501,16 @@
     }
   },
   "overtime": {
-    "total_commits": 1150,
-    "overtime_commits": 661,
-    "regular_commits": 489,
-    "overtime_rate": 57.5,
-    "weekend_commits": 215,
-    "late_night_commits": 361,
-    "total_hours": 585.7,
-    "regular_hours": 243.2,
-    "overtime_hours": 342.5,
-    "overtime_hour_rate": 58.5,
+    "total_commits": 1169,
+    "overtime_commits": 682,
+    "regular_commits": 487,
+    "overtime_rate": 58.3,
+    "weekend_commits": 223,
+    "late_night_commits": 368,
+    "total_hours": 600.2,
+    "regular_hours": 242.2,
+    "overtime_hours": 358.0,
+    "overtime_hour_rate": 59.6,
     "daily_hours": {
       "2026-08-19": {
         "regular_hours": 0.0,
@@ -898,11 +898,11 @@
         "commits": 7
       },
       "2026-11-09": {
-        "regular_hours": 6.3,
+        "regular_hours": 5.3,
         "overtime_hours": 2.0,
-        "total_hours": 8.3,
+        "total_hours": 7.3,
         "is_weekend": false,
-        "commits": 125
+        "commits": 123
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -941,10 +941,17 @@
       },
       "2026-11-15": {
         "regular_hours": 0,
-        "overtime_hours": 8.8,
-        "total_hours": 8.8,
+        "overtime_hours": 23.2,
+        "total_hours": 23.2,
         "is_weekend": true,
-        "commits": 9
+        "commits": 17
+      },
+      "2026-11-16": {
+        "regular_hours": 0,
+        "overtime_hours": 1.1,
+        "total_hours": 1.1,
+        "is_weekend": false,
+        "commits": 13
       }
     },
     "overtime_by_date": {
@@ -1004,11 +1011,12 @@
       "2026-11-12": 2.3,
       "2026-11-13": 0.4,
       "2026-11-14": 0.5,
-      "2026-11-15": 8.8
+      "2026-11-15": 23.2,
+      "2026-11-16": 1.1
     },
     "overtime_by_hour": [
-      76,
-      66,
+      81,
+      74,
       36,
       19,
       30,
@@ -1019,18 +1027,18 @@
       5,
       2,
       7,
-      10,
+      11,
       4,
       0,
       11,
       0,
       12,
-      102,
+      103,
       80,
       40,
       50,
       26,
-      63
+      69
     ],
     "work_hours": {
       "start": 9,
@@ -1038,6 +1046,174 @@
     }
   },
   "commits": [
+    {
+      "sha": "60aef51",
+      "message": "docs: Supabase 통합 반영 — 옛 total-system 사용 금지, busungtk-main 하나",
+      "author": "junyoungjang976",
+      "date": "2026-11-15T16:24:02Z",
+      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/60aef514127572ad192abcd56c00933d58c5c070",
+      "repo": "claude-dotfiles"
+    },
+    {
+      "sha": "9133e18",
+      "message": "fix: 채널톡 동기화 기본 DB 주소를 운영 DB로 (옛 DB 정리 대비)",
+      "author": "junyoungjang976",
+      "date": "2026-11-15T16:23:59Z",
+      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/9133e18b1768654074f13f1bd3a0608235d02ad3",
+      "repo": "channeltalk-downloader"
+    },
+    {
+      "sha": "aa490aa",
+      "message": "fix: 가격 칸을 브랜드, 제품명과 같은 모양으로. 적어 둔 값은 끝에 원을 붙여 보여 준다",
+      "author": "Claude",
+      "date": "2026-11-15T16:15:52Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/aa490aaae346f50b57357830b04986bb1804d437",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "0732b19",
+      "message": "fix: 옷 상세 창의 가격 칸 뒤에 \"원\" 표시",
+      "author": "Claude",
+      "date": "2026-11-15T16:11:33Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/0732b19260bd868c26a95d200be7d9126bf65948",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "99e835f",
+      "message": "fix: 구매 예정 옷도 목록에서는 브랜드가 보이게 (가격은 상세 창과 합계에서)",
+      "author": "Claude",
+      "date": "2026-11-15T16:08:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/99e835f13391dae5b84903809be848acf5b35bea",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "dbc72e8",
+      "message": "fix: 옷 목록의 브랜드 글씨를 가운데 정렬",
+      "author": "Claude",
+      "date": "2026-11-15T16:07:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/dbc72e8d4c4808a77d0e05c75b66d8289ad144e7",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "f4aeb22",
+      "message": "fix: 옷 목록에서는 브랜드만 보이게 (제품명은 상세 창에서)",
+      "author": "Claude",
+      "date": "2026-11-15T16:05:52Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/f4aeb224f0f87133a02d93da48e1e1cde721d97d",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "bf82908",
+      "message": "fix: 옷 올리기가 다른 화면으로 가거나 새로고침해도 이어지게",
+      "author": "Claude",
+      "date": "2026-11-15T16:04:27Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/bf82908e50df195ea4c206f90d4fe655dd4743ca",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "1516325",
+      "message": "feat: 옷과 코디를 끌어서 순서 바꾸기, 종류에 주얼리 & 시계 추가",
+      "author": "Claude",
+      "date": "2026-11-15T15:49:18Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/1516325e94401bee6e0adadf33e83c90682e1fba",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "1fc0a5c",
+      "message": "feat: 옷 상세 창의 적는 칸을 브랜드, 제품명, 가격으로",
+      "author": "Claude",
+      "date": "2026-11-15T15:37:11Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/1fc0a5c564527307ffd2f69a1165acf9160c835c",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "219edf1",
+      "message": "feat: 옷 분류를 자주 입는 옷, 구매 예정, 애매한 옷으로. 옷마다 보이는 크기 줄이기",
+      "author": "Claude",
+      "date": "2026-11-15T15:34:19Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/219edf1b29062e2f912ea23a0564c2f5ec3fcdbc",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "745e618",
+      "message": "feat: 추구미의 이름 조각을 끌어서 순서 바꾸기, 쇼핑몰은 이름만, 누끼 도구 이름 바꿈",
+      "author": "Claude",
+      "date": "2026-11-15T15:28:56Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/745e618788c68b758fc53082d8604315e18c1d61",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "16aba95",
+      "message": "feat: 구매 예정 옷, 코디 보기만 하고 닫기, 내 사진 여러 장 고르기",
+      "author": "Claude",
+      "date": "2026-11-15T15:20:02Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/16aba950c95be10850fdbfbe26c9a22de7af1cc0",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "1ff85d0",
+      "message": "feat: 패션 메뉴 (내 옷장, 여행 코디, 일반 코디, 추구미) 와 누끼 가운데 맞추기 보강",
+      "author": "Claude",
+      "date": "2026-11-15T14:52:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/1ff85d06afb138fc6cf3181f8f9cdb4cddc7804f",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "53b4a81",
+      "message": "fix: 누끼에서 물건 몸통만 남기고 그 가운데로 맞추기",
+      "author": "Claude",
+      "date": "2026-11-15T14:38:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/53b4a816b69311027d186926968c857db0731dc1",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "5af4c09",
+      "message": "feat: 옷장 탭을 옷장과 추구미 두 구역으로 뚜렷하게 나눔",
+      "author": "Claude",
+      "date": "2026-11-15T14:30:53Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/5af4c09ac8729457a0be2dd85ae37bc4e576ef73",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "ad09240",
+      "message": "fix: 코디 칸에서 바로 내 전신 사진을 넣을 수 있게",
+      "author": "Claude",
+      "date": "2026-11-15T14:24:55Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/ad09240476ee291ab33bae6b751ab4c054e822c4",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "468155e",
+      "message": "feat: 옷장에 코디 캔버스 추가",
+      "author": "Claude",
+      "date": "2026-11-15T14:16:27Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/468155eb1bd08937e8ba3b44759ee073442a4541",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "d7f7a28",
+      "message": "feat: 기타 탭을 메모, 옷장, 독서, 영화로 정리하고 옷장과 누끼 도구 추가",
+      "author": "Claude",
+      "date": "2026-11-15T14:07:22Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/d7f7a282e38fa6885738961fe0f151f7e087d2ed",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "8e823e3",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-15T09:32:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/8e823e33b119fbb21fbb84405faefe5de93a79b7",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "d2f7da6",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-15T03:31:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/d2f7da66dc5f14961dbb55f9160fbbdfa4cdbfc8",
+      "repo": "busungtk-landing"
+    },
     {
       "sha": "10074c1",
       "message": "fix: 활동 효과·네이버 소재 동기화가 운영 DB(busungtk-main)를 보게",
@@ -2468,174 +2644,6 @@
       "author": "junyoungjang976",
       "date": "2026-11-09T05:31:44Z",
       "url": "https://github.com/busungtk/busungtk-landing/commit/19aba5a81b293d5c520bf02fea77cd20d0401b90",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cc5bd61",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:30:46Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/cc5bd61ab437a547e715c1846c059725959a17ad",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "70a9572",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:30:00Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/70a9572de693a6249382c39bccc5b8cb242586ce",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e3c7074",
-      "message": "feat: 사례 3건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:29:54Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e3c7074bbfd00ccc376c14723f0b5e5ee3bc4c85",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "3f5c91e",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:29:22Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/3f5c91e962c939562393f5c27546738ddb9166ed",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cfd99b7",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:25:38Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/cfd99b709ef21a1a20b4b41b45d786453b71987d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d6af029",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:25:13Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d6af029ede6973420bdcc0ed8d8eeba1af031980",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "903475f",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:24:50Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/903475f10553278fe3f18fdcca4eaf035de1aa2f",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "acc9a17",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:24:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/acc9a1712c4d1754899c71ce3afc3589aa37781a",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "91ac38b",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:24:20Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/91ac38bf0f43a24533a166595438dca0e9c67383",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "de835ee",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:24:15Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/de835eef78a34c6b68b87bc7766a866574ccbc82",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "b588eef",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:20:53Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/b588eef121a6c87fcdbc6c37adf58304deb8d65b",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "e7e5816",
-      "message": "feat: 사례 4건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:20:11Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/e7e58161e6322e978d45ba183b58b99e103c86cf",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "d4fd671",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:18:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/d4fd67188e3c89758128427326e38f23c76fd633",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "af98220",
-      "message": "feat: 사례 2건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:18:24Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/af982203e632e870073888cea7f6ae48cbe7acab",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "2a64860",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:17:34Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/2a64860aec972e3c1deb4a56e251918a2e13437e",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "7ae87b9",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:17:24Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/7ae87b95277d60908db5f29e05b238d4eb5b2cad",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "881b7d6",
-      "message": "feat: 사례 1건 갈비꽃식으로 교체 — 채널톡 완료보고 다시 쓰기 (로컬, 푸시 안 함)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:17:18Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/881b7d66b7764ea8186d05408e57484dd1595fd4",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "03bc97c",
-      "message": "style: 큰 일정과 이슈의 날짜를 내용 뒤 오른쪽에 11/7 모양으로",
-      "author": "Claude",
-      "date": "2026-11-09T05:11:04Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/03bc97cad5df64be58b593bf6db3d05db8d627bf",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "511051f",
-      "message": "fix: 옛 사례 글 23건 금지어·문체 정리 (인건비·층 표기·쉼표·대시·제목 빗금)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:09:24Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/511051f7e38e5fe4fae05bbfe52e67a3977ee78c",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4b3995d",
-      "message": "Reserve scrollbar gutter so content no longer shifts between pages",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:07:15Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/4b3995dd44b1381e4b7d3f040dca019bd47ccf8e",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "5c1ced8",
-      "message": "fix: 사례 사진 정리 (4/4) - 문제 사진·배너·템플릿 카드 빼기",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T05:07:09Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/5c1ced8d1a690d0165d818670a29111464b80c07",
       "repo": "busungtk-landing"
     }
   ],
