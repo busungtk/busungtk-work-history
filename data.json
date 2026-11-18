@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T05:23:36.862874Z",
+  "updated_at": "2026-11-18T04:51:09.340939Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,14 +59,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1188,
+    "total_commits": 1182,
     "total_prs": 11,
     "total_issues": 5,
     "active_days": 64
   },
   "daily": {
+    "2026-11-18": {
+      "commits": 6,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-17": {
-      "commits": 4,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -122,7 +129,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 121,
+      "commits": 110,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -136,7 +143,7 @@
       "issues_closed": 0
     },
     "2026-11-05": {
-      "commits": 45,
+      "commits": 43,
       "prs_opened": 1,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -283,7 +290,7 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 22,
+      "commits": 19,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -492,13 +499,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-08-19": {
-      "commits": 8,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-08-16": {
       "commits": 0,
       "prs_opened": 0,
@@ -515,24 +515,17 @@
     }
   },
   "overtime": {
-    "total_commits": 1188,
-    "overtime_commits": 696,
-    "regular_commits": 492,
-    "overtime_rate": 58.6,
+    "total_commits": 1182,
+    "overtime_commits": 698,
+    "regular_commits": 484,
+    "overtime_rate": 59.1,
     "weekend_commits": 220,
-    "late_night_commits": 385,
-    "total_hours": 607.4,
-    "regular_hours": 251.2,
-    "overtime_hours": 356.2,
-    "overtime_hour_rate": 58.6,
+    "late_night_commits": 393,
+    "total_hours": 622.8,
+    "regular_hours": 260.0,
+    "overtime_hours": 362.8,
+    "overtime_hour_rate": 58.3,
     "daily_hours": {
-      "2026-08-20": {
-        "regular_hours": 0,
-        "overtime_hours": 1.6,
-        "total_hours": 1.6,
-        "is_weekend": false,
-        "commits": 8
-      },
       "2026-08-22": {
         "regular_hours": 0,
         "overtime_hours": 6.0,
@@ -741,7 +734,7 @@
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 22
+        "commits": 19
       },
       "2026-10-07": {
         "regular_hours": 0,
@@ -895,7 +888,7 @@
         "overtime_hours": 10.9,
         "total_hours": 19.9,
         "is_weekend": false,
-        "commits": 59
+        "commits": 57
       },
       "2026-11-06": {
         "regular_hours": 1.8,
@@ -905,11 +898,11 @@
         "commits": 7
       },
       "2026-11-09": {
-        "regular_hours": 5.3,
+        "regular_hours": 4.2,
         "overtime_hours": 2.0,
-        "total_hours": 7.3,
+        "total_hours": 6.2,
         "is_weekend": false,
-        "commits": 121
+        "commits": 110
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -961,15 +954,21 @@
         "commits": 43
       },
       "2026-11-17": {
-        "regular_hours": 1.0,
-        "overtime_hours": 0.0,
-        "total_hours": 1.0,
+        "regular_hours": 6.3,
+        "overtime_hours": 0.9,
+        "total_hours": 7.2,
         "is_weekend": false,
-        "commits": 4
+        "commits": 14
+      },
+      "2026-11-18": {
+        "regular_hours": 4.6,
+        "overtime_hours": 7.3,
+        "total_hours": 11.9,
+        "is_weekend": false,
+        "commits": 8
       }
     },
     "overtime_by_date": {
-      "2026-08-20": 1.6,
       "2026-08-22": 6.0,
       "2026-08-23": 1.1,
       "2026-08-24": 1.3,
@@ -1025,13 +1024,15 @@
       "2026-11-13": 0.4,
       "2026-11-14": 0.5,
       "2026-11-15": 23.2,
-      "2026-11-16": 10.5
+      "2026-11-16": 10.5,
+      "2026-11-17": 0.9,
+      "2026-11-18": 7.3
     },
     "overtime_by_hour": [
-      80,
-      74,
+      77,
+      70,
       35,
-      19,
+      20,
       30,
       0,
       0,
@@ -1046,7 +1047,7 @@
       11,
       0,
       12,
-      112,
+      120,
       89,
       40,
       49,
@@ -1059,6 +1060,150 @@
     }
   },
   "commits": [
+    {
+      "sha": "758baf0",
+      "message": "feat: 옛 주소 busungtk.com(아임웹) → 새 홈페이지 영구 이동 규칙",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T04:33:49Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/758baf046768ac5743f2020b5a9698e8e3e17dfc",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "13cd9cf",
+      "message": "feat: 옷의 큰 사진과 전신 사진을 파일 저장소 (Firebase Storage) 에 두기",
+      "author": "Claude",
+      "date": "2026-11-18T03:50:43Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/13cd9cf5c832075500466eae7452b5b186aa7e53",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "fd81b90",
+      "message": "feat(invoice): 계산서 발행 요청 글에 신채영 매니저 태그",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T03:15:52Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/fd81b90e90e27be023b5f93c2add44ee7b1ee1cf",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "b7ded87",
+      "message": "fix: 아이폰, 아이패드에서는 기기 저장 공간을 쓰지 않고 서버에서 바로 받기",
+      "author": "Claude",
+      "date": "2026-11-18T00:33:38Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/b7ded87b0c838029312e5da0705aee4d969eca0a",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "c40e0a3",
+      "message": "chore: 사이트맵 날짜를 메뉴 변경 커밋일로 동기화",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T00:05:55Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/c40e0a3d270815be75947c60e6e012e6b886ac91",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "3d2168e",
+      "message": "feat: 전체 메뉴 「어떤 회사인지」에 채용 칸 추가",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T00:05:43Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/3d2168e3bba0905c91a29d7499937fa02812db5e",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "7cda860",
+      "message": "fix: 코디 판에서 옷 그림을 못 받았을 때 흐린 네모가 겹쳐 보이던 문제",
+      "author": "Claude",
+      "date": "2026-11-17T18:38:19Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/7cda86057bc903ab103f7ec064a5a70833d7ac9b",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "48bc5a1",
+      "message": "feat: 채용 지원서 질문을 주관식 다섯 개로 교체 (태도·마인드·문제 해결·흥미·커뮤니케이션)",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T16:42:37Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/48bc5a1308f52549552ddd5691133316d1abbab9",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "36cdea6",
+      "message": "feat: 현장지원팀 채용 페이지(/recruit) + 지원 접수 API",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:57:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/36cdea68b0612129bed3fed477581cb72e5326de",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "590843d",
+      "message": "docs: 채용 페이지(/recruit)와 지원 접수 API 를 URL 매핑에 기록",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:57:57Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/590843d24dd19e8ecdc62d3c2113eb2647f9b528",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ba933b1",
+      "message": "feat(settings): 설정에 「개발 이력」 탭 — 지난 개발·수정 248건을 요청 단위로",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:10:19Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/ba933b1697f0de4a7ab8ac07f950633a47355107",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "a1819eb",
+      "message": "fix: 문의 폼 — 「보고 오신 사례」 상자에 이미 있는 사례는 문의 칸에 다시 채우지 않음",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:10:09Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a1819eba1b5842df5b3afa754a8c8b81fbe76807",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "ec1c5d8",
+      "message": "fix: 사례 페이지 푸터 아래 빈 띠 없애고 하단 바·상담 단추 자리는 푸터 안에서 확보",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:08:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/ec1c5d847f2c7df59e0d7fbbe9f91c13acc617df",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "4251aee",
+      "message": "fix: 사례 페이지 모바일 하단 바와 상담 위젯 단추가 겹치지 않게",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:08:02Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/4251aee52170a1f6ac9e9a3d971445346b2a9f17",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "1756720",
+      "message": "chore: 사례 페이지 재생성 — 문의 버튼·하단 바 반영",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:05:25Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/1756720e693cd7d1ef052b5ecdad68fe22f90e5c",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "13c8e83",
+      "message": "feat: 사례 페이지 종류별 문의 버튼·모바일 하단 바·문의 칸에 사례 미리 채움",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T09:05:21Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/13c8e83ae1d2ff59019218ed650c80a8290a75b4",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "be36199",
+      "message": "fix(quote): 품목 검색 창에서 검색어와 묶음을 같이 건다",
+      "author": "junyoungjang976",
+      "date": "2026-11-17T08:37:36Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/be361998b1fad8c2b097eeddf4bd2d668257ebb6",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "27142b6",
+      "message": "feat: 코디 편집 중에는 되돌리기가 그 판에만 듣게, 휴대폰은 옷을 길게 눌러 메뉴",
+      "author": "Claude",
+      "date": "2026-11-17T07:17:05Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/27142b683dc9e6d36a9e7ce88bf00940f571a4c8",
+      "repo": "life-manager"
+    },
     {
       "sha": "45fcf54",
       "message": "fix: 아이폰에서 저장 공간 연결이 끊겨 저장이 안 되던 문제 (스스로 새로고침)",
@@ -2514,150 +2659,6 @@
       "date": "2026-11-09T07:04:11Z",
       "url": "https://github.com/junyoungjang976/travel-manager/commit/5100371e53e0840a2b6e2e48c248329d61977ce1",
       "repo": "travel-manager"
-    },
-    {
-      "sha": "dade14a",
-      "message": "Use a solid plum color for the next-trip D-day number",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:59:44Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/dade14adfb9294aa89a53f1e57cc02ded6c44b10",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "1abcb79",
-      "message": "feat: 블로그도 할 일처럼 체크 안 한 글을 다음 달로 이월",
-      "author": "Claude",
-      "date": "2026-11-09T06:58:19Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/1abcb794c5bfb22867b819053111aad07b8d7722",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "36c4799",
-      "message": "Color only the next-trip D-day number with a blue-violet gradient",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:57:29Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/36c4799e540a661a3dda88751b7ab5be7472ef5a",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "da6e636",
-      "message": "Restyle the next-trip tile as an inverted monochrome cell",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:51:50Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/da6e63682b24237b024d31fff66b294e80c43071",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "ece3e3c",
-      "message": "style: 트래블 매니저와 같은 차가운 회백색 팔레트로, 공휴일은 일주일마다 갱신",
-      "author": "Claude",
-      "date": "2026-11-09T06:51:05Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/ece3e3c3213ee340d5f328a1b266a7b1bef8dc50",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "a587676",
-      "message": "Highlight the next-trip D-day tile in the stats bar",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:48:49Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/a58767658ef8ce2f99bd195a24e8ca3922aa5328",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "8a6dc02",
-      "message": "feat: 캘린더에 대한민국 공휴일 표시 (한 달에 한 번 갱신)",
-      "author": "Claude",
-      "date": "2026-11-09T06:45:51Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/8a6dc02012cdfa1b3d71e66dd6157a814a541b5b",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "7c607d4",
-      "message": "Widen the main column to 1152px to match Life Manager",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:44:28Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/7c607d4f1e0ad87b01c00f5022a379629b6e65ee",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "ddaa7a2",
-      "message": "Retune the neutral palette around a cool #f7f7f8 background",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:41:59Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/ddaa7a2ef14f26d528db54b8d5e5fa0dc6a32a7d",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "42e8a0a",
-      "message": "refactor: 이월 규칙 단순화 (각 달은 자기 내용만, 달이 바뀌면 넘김)",
-      "author": "Claude",
-      "date": "2026-11-09T06:38:14Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/42e8a0a06a301214193b27cb974af43bd49a34f4",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "b9a6a82",
-      "message": "Point to life-manager's shared rules file as the single source of truth",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:32:36Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/b9a6a827419269948d04e20e845cfa058ccd754f",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "d479be2",
-      "message": "feat: 다음 달을 열면 못 끝낸 할 일을 미리 보여주기",
-      "author": "Claude",
-      "date": "2026-11-09T06:32:10Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/d479be20cc1576b997ee1b168822ef9bfbd99565",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "142a464",
-      "message": "chore: 트래블 매니저 설정 경로(/travel/**) 규칙 추가, 공용 규칙 정본으로 지정",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:29:39Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/142a464ab6d5152ec4b28b3f71a83d2e9d2fa8cd",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "67aed10",
-      "message": "style: \"큰 일정과 이슈\"를 \"일정과 이슈\"로",
-      "author": "Claude",
-      "date": "2026-11-09T06:25:12Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/67aed10d4348a234bee424579d02826a49a91921",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "f8640b5",
-      "message": "fix: 문장만 지운 116건을 원문에서 다시 지어 최소 형식으로 (제목·작업 줄·질문·사실·품목 낱말 원문 대조)",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:18:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/f8640b56be67ef3f224a503193df5c0640b5cfb2",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f9a704c",
-      "message": "Make the home heading editable in place, matching Life Manager",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T06:17:19Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/f9a704cee5cc38e228f06c272da3a62d77be37c7",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "5d621bb",
-      "message": "style: 월별 목표 비율 정리, 본문 폭 넓히기",
-      "author": "Claude",
-      "date": "2026-11-09T06:04:53Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/5d621bbea3cb40e8b67772c57157823194cbfd37",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "b2c0577",
-      "message": "style: 메모장의 별표와 지우기 버튼 사이 여백 줄이기",
-      "author": "Claude",
-      "date": "2026-11-09T05:59:58Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/b2c0577cdefcf9009436bfe43217e67387d1a0ab",
-      "repo": "life-manager"
     }
   ],
   "pull_requests": [
