@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T04:51:09.340939Z",
+  "updated_at": "2026-11-19T04:42:02.783446Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -62,11 +62,18 @@
     "total_commits": 1182,
     "total_prs": 11,
     "total_issues": 5,
-    "active_days": 64
+    "active_days": 65
   },
   "daily": {
+    "2026-11-19": {
+      "commits": 3,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-18": {
-      "commits": 6,
+      "commits": 20,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -129,7 +136,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 110,
+      "commits": 104,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -143,7 +150,7 @@
       "issues_closed": 0
     },
     "2026-11-05": {
-      "commits": 43,
+      "commits": 33,
       "prs_opened": 1,
       "prs_merged": 1,
       "issues_opened": 0,
@@ -486,7 +493,7 @@
       "issues_closed": 0
     },
     "2026-08-23": {
-      "commits": 6,
+      "commits": 5,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 1,
@@ -516,15 +523,15 @@
   },
   "overtime": {
     "total_commits": 1182,
-    "overtime_commits": 698,
-    "regular_commits": 484,
-    "overtime_rate": 59.1,
-    "weekend_commits": 220,
-    "late_night_commits": 393,
-    "total_hours": 622.8,
-    "regular_hours": 260.0,
-    "overtime_hours": 362.8,
-    "overtime_hour_rate": 58.3,
+    "overtime_commits": 703,
+    "regular_commits": 479,
+    "overtime_rate": 59.5,
+    "weekend_commits": 219,
+    "late_night_commits": 397,
+    "total_hours": 640.0,
+    "regular_hours": 267.9,
+    "overtime_hours": 372.1,
+    "overtime_hour_rate": 58.1,
     "daily_hours": {
       "2026-08-22": {
         "regular_hours": 0,
@@ -535,10 +542,10 @@
       },
       "2026-08-23": {
         "regular_hours": 0,
-        "overtime_hours": 1.1,
-        "total_hours": 1.1,
+        "overtime_hours": 0.8,
+        "total_hours": 0.8,
         "is_weekend": true,
-        "commits": 6
+        "commits": 5
       },
       "2026-08-24": {
         "regular_hours": 3.8,
@@ -888,7 +895,7 @@
         "overtime_hours": 10.9,
         "total_hours": 19.9,
         "is_weekend": false,
-        "commits": 57
+        "commits": 47
       },
       "2026-11-06": {
         "regular_hours": 1.8,
@@ -902,7 +909,7 @@
         "overtime_hours": 2.0,
         "total_hours": 6.2,
         "is_weekend": false,
-        "commits": 110
+        "commits": 104
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -961,16 +968,23 @@
         "commits": 14
       },
       "2026-11-18": {
-        "regular_hours": 4.6,
-        "overtime_hours": 7.3,
-        "total_hours": 11.9,
+        "regular_hours": 9,
+        "overtime_hours": 11.7,
+        "total_hours": 20.7,
         "is_weekend": false,
-        "commits": 8
+        "commits": 20
+      },
+      "2026-11-19": {
+        "regular_hours": 3.5,
+        "overtime_hours": 5.2,
+        "total_hours": 8.7,
+        "is_weekend": false,
+        "commits": 5
       }
     },
     "overtime_by_date": {
       "2026-08-22": 6.0,
-      "2026-08-23": 1.1,
+      "2026-08-23": 0.8,
       "2026-08-24": 1.3,
       "2026-08-25": 0.5,
       "2026-08-26": 5.0,
@@ -1026,20 +1040,21 @@
       "2026-11-15": 23.2,
       "2026-11-16": 10.5,
       "2026-11-17": 0.9,
-      "2026-11-18": 7.3
+      "2026-11-18": 11.7,
+      "2026-11-19": 5.2
     },
     "overtime_by_hour": [
       77,
       70,
       35,
-      20,
+      21,
       30,
       0,
       0,
       6,
-      16,
+      17,
       5,
-      1,
+      0,
       7,
       11,
       4,
@@ -1047,11 +1062,11 @@
       11,
       0,
       12,
-      120,
-      89,
-      40,
-      49,
-      26,
+      119,
+      87,
+      42,
+      52,
+      28,
       69
     ],
     "work_hours": {
@@ -1060,6 +1075,142 @@
     }
   },
   "commits": [
+    {
+      "sha": "e802926",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-19T03:31:44Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/e802926cee5244ed887ba094b7d22c44137f8c17",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "cfcdbb9",
+      "message": "캘린더 날짜 창에서 블로그 날짜도 바꾸기",
+      "author": "Claude",
+      "date": "2026-11-19T03:16:37Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/cfcdbb9f7ce934c1f682c73c3765252668a14091",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "915172c",
+      "message": "캘린더 날짜 창에서 할 일, 일정 날짜 바꾸기",
+      "author": "Claude",
+      "date": "2026-11-19T03:12:19Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/915172c9281adcea862d1b952d7649a270f126c0",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "759e211",
+      "message": "fix: 휴가 등록 반차 시간을 오전 9–13시·오후 14–18시로",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T23:59:04Z",
+      "url": "https://github.com/busungtk/busungtk-daily-report/commit/759e2116a4a6f8a9f07f53988af047762a8c5140",
+      "repo": "busungtk-daily-report"
+    },
+    {
+      "sha": "b8e26f5",
+      "message": "fix: 내 사진은 배경은 그대로 두되, 크기와 자리는 누끼를 딸 때와 똑같이 맞추기",
+      "author": "Claude",
+      "date": "2026-11-18T18:48:43Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/b8e26f5f87cc77aafe47cba9e1beefbe3ff40be8",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "2b46bd5",
+      "message": "revert: 확인 창을 다시 브라우저의 기본 창으로 (ef5be86 되돌림)",
+      "author": "Claude",
+      "date": "2026-11-18T13:25:37Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/2b46bd5c578bfadf0aa509706a0f8216a00f7691",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "50199eb",
+      "message": "fix: 회색 털모자 같은 옷의 가장자리가 삐죽삐죽 파이던 문제 (그림자 지우기가 밝은 올을 그림자로 봄)",
+      "author": "Claude",
+      "date": "2026-11-18T13:22:23Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/50199ebae88a211392c96d27d088e1219e9154cf",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "bea477f",
+      "message": "fix: 옷 지우기가 사진 받기를 기다리느라 안 되던 문제",
+      "author": "Claude",
+      "date": "2026-11-18T12:57:39Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/bea477fe2c27a59aee7c28a3c14be348eacd2a33",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "ef5be86",
+      "message": "fix: 지우기 버튼이 아이폰에서 안 먹던 문제 (확인 창을 앱 안에 그리기)",
+      "author": "Claude",
+      "date": "2026-11-18T12:46:56Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/ef5be86cd855f538761644c4b5e3e81832f198a5",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "46591c7",
+      "message": "feat: 내 사진 (전신 사진) 은 누끼를 따지 않고 고른 사진 그대로 넣기",
+      "author": "Claude",
+      "date": "2026-11-18T12:39:54Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/46591c73abd8c38e3e8e84e1392eccc810568ced",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "4b38588",
+      "message": "fix: 기기의 사진 보관이 멈추면 바로 저장소에서 받기, 여는 데 오래 걸리면 어디서 기다리는지 알리기",
+      "author": "Claude",
+      "date": "2026-11-18T11:49:13Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/4b385886a44c6a09f4a692614072b44c0fe98203",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "e26d88a",
+      "message": "fix: 아이폰, 아이패드는 다시 서버에서 바로 받기 (기기 보관을 켠 뒤로 화면이 안 뜨거나 느렸다)",
+      "author": "Claude",
+      "date": "2026-11-18T11:41:43Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/e26d88a95a0378640ccfe7da9c04ef9bb1ae9105",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "cddb1e2",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T09:31:48Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/cddb1e25bd885096ad2e7ea5588e2df1a7e7d127",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "2c2aec4",
+      "message": "feat: 채용 페이지 지원서 아래에 잡코리아 공고 링크 추가",
+      "author": "junyoungjang976",
+      "date": "2026-11-18T06:20:37Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/2c2aec4324ec1a202347278275cb88e24c6432b1",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "efc7731",
+      "message": "feat: 일정과 이슈도 할 일과 같은 순서로, 체크한 할 일은 날짜순으로",
+      "author": "Claude",
+      "date": "2026-11-18T05:26:57Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/efc77314b0a058233950327636d525443df70f34",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "83f7891",
+      "message": "feat: 추구미 이미지도 파일 저장소에, 새 사진은 늘 저장소로 (옮기기 안내가 다시 뜨지 않게)",
+      "author": "Claude",
+      "date": "2026-11-18T05:21:44Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/83f7891fb32870f3ab985290d4c83059d300e4e6",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "618e3bf",
+      "message": "feat: 아이폰, 아이패드도 다시 기기에 받아 두고 쓰기 (저장 공간이 멈춰 있을 때만 서버에서 바로)",
+      "author": "Claude",
+      "date": "2026-11-18T05:14:27Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/618e3bfcfef4d7f011ec1271196e43b9d1342703",
+      "repo": "life-manager"
+    },
     {
       "sha": "758baf0",
       "message": "feat: 옛 주소 busungtk.com(아임웹) → 새 홈페이지 영구 이동 규칙",
@@ -2522,142 +2673,6 @@
       "author": "junyoungjang976",
       "date": "2026-11-09T09:09:01Z",
       "url": "https://github.com/junyoungjang976/travel-manager/commit/3009cb23ebd6621c11467c1055a0d25d0d777ab5",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "0617286",
-      "message": "feat: 독서·영화 카드를 누르면 보기 화면, 두 번 누르면 고치는 화면",
-      "author": "Claude",
-      "date": "2026-11-09T09:02:32Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/0617286b2e47c934241ea162244afccbca80633f",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "3861f3e",
-      "message": "Save itinerary edits on outside tap and stop waiting on the server",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T08:58:23Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/3861f3ed3de9f849ddb1b47bf0391f448a3d0454",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "531dc6e",
-      "message": "feat: 글을 적다가 바깥(허공)을 누르면 저장",
-      "author": "Claude",
-      "date": "2026-11-09T08:47:40Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/531dc6ead1e213c0d647033d7b1c855cf2296695",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "4d720e4",
-      "message": "feat: 독서·영화 카드에 저자·감독 표시, 인사이트는 바로 적는 메모 게시판으로",
-      "author": "Claude",
-      "date": "2026-11-09T08:32:47Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/4d720e442a4b7ea73fbf09510dd3a0a5c3df96f2",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "339a6e2",
-      "message": "Edit the itinerary in place instead of in a nested form sheet",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T08:27:18Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/339a6e28f6c359cdf41d6e81d7546fdbe68ea3ff",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "e1a8b6c",
-      "message": "feat: 기타 탭 독서에 저자 칸, 영화에 감독 칸 추가",
-      "author": "Claude",
-      "date": "2026-11-09T08:23:04Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/e1a8b6ce8a15e4d209f3bd2d2127199e670e57c4",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "a3d7043",
-      "message": "Give itinerary item inputs more room by default",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T08:18:37Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/a3d70438446f42b76b0fc9996fce78b5e409728c",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "55f93f3",
-      "message": "Show itinerary items on a time column with editable start/end times",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T08:14:32Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/55f93f35e1eab323ab29b61f22d0706487d0aee6",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "21a6c05",
-      "message": "feat: 캘린더에 올라간 일정, 할 일, 블로그를 다른 날짜로 끌어 옮기기",
-      "author": "Claude",
-      "date": "2026-11-09T07:59:42Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/21a6c05b8c71d1b85bf6fc1535ba3a7575aad13a",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "096e0d7",
-      "message": "Document that commit subjects must be ASCII for Vercel to deploy",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:42:24Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/096e0d798603985ccd35f6fac8e6d8f3ba92b64b",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "9abd506",
-      "message": "chore: 캘린더 끌어 놓기 기능 프로덕션 배포 다시 시작",
-      "author": "Claude",
-      "date": "2026-11-09T07:41:52Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/9abd50630a881c9b114e4e53d64b6ef8b063b7dc",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "49a7369",
-      "message": "Retrigger deploy with an ASCII-only commit subject",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:38:16Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/49a73692aa01ee72d71053b3440f483c0014259c",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "61c954e",
-      "message": "Retrigger deploy: Vercel missed the 만원 amount change push",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:35:27Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/61c954ec8fc35066d65b19644881938c0e928f13",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "293e18a",
-      "message": "feat: 할 일, 일정과 이슈, 블로그를 캘린더 날짜에 끌어 놓아 날짜 붙이기",
-      "author": "Claude",
-      "date": "2026-11-09T07:34:09Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/293e18afc8f8a04ef93d734033dd0fb7128769b6",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "574e23d",
-      "message": "Show amounts in 만원 and move the card amount into the title row",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:28:15Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/574e23dd4348ed6dd44a45840057881e5a654da4",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "3cfecc3",
-      "message": "Trigger a fresh production deploy of the pink-plum D-day color",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:24:32Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/3cfecc33a8cd5ceff07b7474d6ac4bad4eba79a7",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "5100371",
-      "message": "Shift the next-trip D-day color from plum toward pink",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T07:04:11Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/5100371e53e0840a2b6e2e48c248329d61977ce1",
       "repo": "travel-manager"
     }
   ],
