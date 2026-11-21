@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T04:32:48.391375Z",
+  "updated_at": "2026-11-21T04:27:15.730803Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,14 +59,14 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1182,
+    "total_commits": 1175,
     "total_prs": 11,
     "total_issues": 5,
-    "active_days": 66
+    "active_days": 65
   },
   "daily": {
     "2026-11-20": {
-      "commits": 1,
+      "commits": 10,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -143,7 +143,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 101,
+      "commits": 98,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -304,7 +304,7 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 17,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -500,17 +500,10 @@
       "issues_closed": 0
     },
     "2026-08-23": {
-      "commits": 5,
+      "commits": 0,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 1,
-      "issues_closed": 0
-    },
-    "2026-08-22": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
       "issues_closed": 0
     },
     "2026-08-16": {
@@ -529,31 +522,17 @@
     }
   },
   "overtime": {
-    "total_commits": 1182,
-    "overtime_commits": 704,
-    "regular_commits": 478,
-    "overtime_rate": 59.6,
-    "weekend_commits": 219,
-    "late_night_commits": 398,
-    "total_hours": 646.5,
-    "regular_hours": 273.4,
-    "overtime_hours": 373.1,
-    "overtime_hour_rate": 57.7,
+    "total_commits": 1175,
+    "overtime_commits": 695,
+    "regular_commits": 480,
+    "overtime_rate": 59.1,
+    "weekend_commits": 210,
+    "late_night_commits": 396,
+    "total_hours": 643.8,
+    "regular_hours": 277.5,
+    "overtime_hours": 366.3,
+    "overtime_hour_rate": 56.9,
     "daily_hours": {
-      "2026-08-22": {
-        "regular_hours": 0,
-        "overtime_hours": 6.0,
-        "total_hours": 6.0,
-        "is_weekend": true,
-        "commits": 7
-      },
-      "2026-08-23": {
-        "regular_hours": 0,
-        "overtime_hours": 0.8,
-        "total_hours": 0.8,
-        "is_weekend": true,
-        "commits": 5
-      },
       "2026-08-24": {
         "regular_hours": 3.8,
         "overtime_hours": 1.3,
@@ -748,7 +727,7 @@
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 17
+        "commits": 16
       },
       "2026-10-07": {
         "regular_hours": 0,
@@ -916,7 +895,7 @@
         "overtime_hours": 2.0,
         "total_hours": 6.2,
         "is_weekend": false,
-        "commits": 101
+        "commits": 98
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -989,16 +968,21 @@
         "commits": 9
       },
       "2026-11-20": {
-        "regular_hours": 0.0,
+        "regular_hours": 4.1,
+        "overtime_hours": 0.0,
+        "total_hours": 4.1,
+        "is_weekend": false,
+        "commits": 7
+      },
+      "2026-11-21": {
+        "regular_hours": 0,
         "overtime_hours": 0.5,
         "total_hours": 0.5,
-        "is_weekend": false,
-        "commits": 1
+        "is_weekend": true,
+        "commits": 3
       }
     },
     "overtime_by_date": {
-      "2026-08-22": 6.0,
-      "2026-08-23": 0.8,
       "2026-08-24": 1.3,
       "2026-08-25": 0.5,
       "2026-08-26": 5.0,
@@ -1056,13 +1040,13 @@
       "2026-11-17": 0.9,
       "2026-11-18": 11.7,
       "2026-11-19": 5.7,
-      "2026-11-20": 0.5
+      "2026-11-21": 0.5
     },
     "overtime_by_hour": [
       77,
       70,
       35,
-      21,
+      24,
       30,
       0,
       0,
@@ -1070,15 +1054,15 @@
       17,
       5,
       0,
-      7,
-      11,
-      4,
+      3,
+      10,
+      0,
       0,
       11,
       0,
-      12,
-      120,
-      87,
+      11,
+      119,
+      86,
       42,
       52,
       28,
@@ -1090,6 +1074,78 @@
     }
   },
   "commits": [
+    {
+      "sha": "78aed22",
+      "message": "확인 창의 지우기 버튼을 붉은색 대신 검정으로",
+      "author": "Claude",
+      "date": "2026-11-20T18:44:08Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/78aed228fe300d49098789a146158e0c96dcb7ff",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "8a51e49",
+      "message": "fix: 지울까요 확인 창을 앱 안에 그리기 (아이폰에서 기본 창이 안 뜨던 문제)",
+      "author": "Claude",
+      "date": "2026-11-20T18:42:56Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/8a51e4984e182c11acad9b73c79890ab5a6da397",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "d8aaca2",
+      "message": "fix: 코디 지우기가 서버 대답을 기다리느라 멈춘 것처럼 보이던 것",
+      "author": "Claude",
+      "date": "2026-11-20T18:22:53Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/d8aaca2d13978dd10468c1cb66afe17733a8a468",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "0952cf4",
+      "message": "fix(ui): 상태 12가지 색을 서로 다른 색으로 — 연한 6개·진한 6개",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T07:39:01Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/0952cf4e852a12e2b39e0ddfb415fa6d2748f32a",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "cbb27a5",
+      "message": "feat(order): 새 발주에 사진 2장 첨부 — 발주 메일에 같이 붙고 업체 발주서 화면에서 내려받기",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T06:51:46Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/cbb27a555b9ab7eb2aa30c7934101af032f2db0b",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "fbe30e3",
+      "message": "chore(db): 발주 첨부 사진 보관함 order-files — 운영 적용 기록",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T06:51:46Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/fbe30e3ce2a1ef5288194fadde7001a87f194c5f",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "9af0012",
+      "message": "fix(select): 선택 칸 오른쪽 화살표가 두 개 겹치던 것",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T06:18:52Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/9af0012aa1087bc1c0ef8460a3e8c102b960b7eb",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "81bf2be",
+      "message": "fix(order): 받는 담당자 첫 줄에 업체 관리의 담당자명을 보인다",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T06:11:00Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/81bf2becdfd8de81ecb52e3f170ad708d09177d7",
+      "repo": "busungtk-order-tracker"
+    },
+    {
+      "sha": "16e006b",
+      "message": "fix(modal): 창이 화면보다 길면 「수정」 버튼이 안 보이던 것 — 높이 제한 + 안쪽 굴림",
+      "author": "junyoungjang976",
+      "date": "2026-11-20T06:02:33Z",
+      "url": "https://github.com/busungtk/busungtk-order-tracker/commit/16e006b06c6a2044f37a211c62fd58c67be2d578",
+      "repo": "busungtk-order-tracker"
+    },
     {
       "sha": "9d3846f",
       "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
@@ -2616,78 +2672,6 @@
       "author": "junyoungjang976",
       "date": "2026-11-09T10:50:58Z",
       "url": "https://github.com/junyoungjang976/travel-manager/commit/98da043f675ba15b829647b371a1e2374a1b5f19",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "2211f5b",
-      "message": "Keep itinerary rows apart when the time is taller than the text",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T10:44:10Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/2211f5be1325522b84561a3511de766b1cac16b1",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "cb94db7",
-      "message": "Show country flags on Windows and widen itinerary text on phones",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T10:34:15Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/cb94db78788f94f9b6601c52698aa9d794256963",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "47fd353",
-      "message": "Skip production builds of commits older than the live version",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T10:14:51Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/47fd35333862cf5e07cf83df9d7311a102f0432b",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "8418742",
-      "message": "feat: 캘린더 날짜 창에서 할 일, 블로그 체크하기",
-      "author": "Claude",
-      "date": "2026-11-09T10:10:24Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/8418742b943a83dd9155d258d7d983853d3c06e3",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "78abd7a",
-      "message": "fix: 휴대폰에서 캘린더 날짜 창이 키보드와 확대 없이 보기 화면으로 열리게",
-      "author": "Claude",
-      "date": "2026-11-09T09:53:04Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/78abd7a238915de4670d6b8a34b2f1b3444ae2d1",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "4f70905",
-      "message": "Correct the Vercel skipped-deploy note and redeploy the spacing change",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T09:48:31Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/4f709055f1e43c27b15a3922abbc2d6dffc5f1a2",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "9fc00e8",
-      "message": "style: 독서·영화 창 제목을 크게 (18px → 24px 굵게), 길면 다음 줄로",
-      "author": "Claude",
-      "date": "2026-11-09T09:42:57Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/9fc00e8df40780de899a027c5c783fb7dd9f6596",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "38db8d5",
-      "message": "Loosen itinerary time spacing for readability",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T09:42:44Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/38db8d5da6ce7f540862e6002feac495f4fea8eb",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "f3874ab",
-      "message": "Stack stay check-in/out label above the time",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T09:39:46Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/f3874abe876f69ec055ac7ce89cfc842ad8733a0",
       "repo": "travel-manager"
     }
   ],
