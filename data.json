@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T04:27:15.730803Z",
+  "updated_at": "2026-11-22T03:40:58.807829Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -62,9 +62,23 @@
     "total_commits": 1175,
     "total_prs": 11,
     "total_issues": 5,
-    "active_days": 65
+    "active_days": 67
   },
   "daily": {
+    "2026-11-22": {
+      "commits": 1,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
+    "2026-11-21": {
+      "commits": 13,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-20": {
       "commits": 10,
       "prs_opened": 0,
@@ -143,7 +157,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 98,
+      "commits": 84,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -523,15 +537,15 @@
   },
   "overtime": {
     "total_commits": 1175,
-    "overtime_commits": 695,
-    "regular_commits": 480,
-    "overtime_rate": 59.1,
-    "weekend_commits": 210,
-    "late_night_commits": 396,
-    "total_hours": 643.8,
+    "overtime_commits": 709,
+    "regular_commits": 466,
+    "overtime_rate": 60.3,
+    "weekend_commits": 224,
+    "late_night_commits": 401,
+    "total_hours": 673.0,
     "regular_hours": 277.5,
-    "overtime_hours": 366.3,
-    "overtime_hour_rate": 56.9,
+    "overtime_hours": 395.5,
+    "overtime_hour_rate": 58.8,
     "daily_hours": {
       "2026-08-24": {
         "regular_hours": 3.8,
@@ -895,7 +909,7 @@
         "overtime_hours": 2.0,
         "total_hours": 6.2,
         "is_weekend": false,
-        "commits": 98
+        "commits": 84
       },
       "2026-11-10": {
         "regular_hours": 6.4,
@@ -976,10 +990,17 @@
       },
       "2026-11-21": {
         "regular_hours": 0,
-        "overtime_hours": 0.5,
-        "total_hours": 0.5,
+        "overtime_hours": 20.3,
+        "total_hours": 20.3,
         "is_weekend": true,
-        "commits": 3
+        "commits": 10
+      },
+      "2026-11-22": {
+        "regular_hours": 0,
+        "overtime_hours": 9.4,
+        "total_hours": 9.4,
+        "is_weekend": true,
+        "commits": 7
       }
     },
     "overtime_by_date": {
@@ -1040,33 +1061,34 @@
       "2026-11-17": 0.9,
       "2026-11-18": 11.7,
       "2026-11-19": 5.7,
-      "2026-11-21": 0.5
+      "2026-11-21": 20.3,
+      "2026-11-22": 9.4
     },
     "overtime_by_hour": [
       77,
       70,
       35,
-      24,
+      29,
       30,
-      0,
+      1,
       0,
       6,
       17,
       5,
       0,
       3,
-      10,
-      0,
-      0,
       11,
       0,
+      0,
+      12,
+      1,
       11,
       119,
       86,
-      42,
+      43,
       52,
       28,
-      69
+      73
     ],
     "work_hours": {
       "start": 9,
@@ -1074,6 +1096,118 @@
     }
   },
   "commits": [
+    {
+      "sha": "a72d1fc",
+      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-22T03:31:18Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a72d1fc920eb37a6fb3cbc5b71b43423e59ddba8",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "534263b",
+      "message": "코디 판의 옷 좌우 반전",
+      "author": "Claude",
+      "date": "2026-11-21T20:01:02Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/534263b086630ed4d47dfb2c6060f4d38ee3fb30",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "5450255",
+      "message": "옷장에서 휴대폰도 옷을 꾹 눌러 지우기",
+      "author": "Claude",
+      "date": "2026-11-21T18:45:22Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/5450255c58ecfe02b3dfd4603d19f72f78dc2f3a",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "3f4272a",
+      "message": "fix: 누끼에 흰 배경이 옷처럼 끼어 들어가던 것 (줄무늬 옷)",
+      "author": "Claude",
+      "date": "2026-11-21T18:37:31Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/3f4272a4b6935e582220b1f09b43a5a5f5032984",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "c3f02d5",
+      "message": "코디 목록 메뉴에 지우기 추가",
+      "author": "Claude",
+      "date": "2026-11-21T18:15:10Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/c3f02d5b845448c0820dd2e73227e4ae50fd96dd",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "b152487",
+      "message": "코디 목록에서 바로 복제하기",
+      "author": "Claude",
+      "date": "2026-11-21T18:12:30Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/b152487a4681f5a313cfa2ac0784698a72208ad0",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "6f36d2f",
+      "message": "코디 복제 버튼",
+      "author": "Claude",
+      "date": "2026-11-21T18:07:43Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/6f36d2ff4989d5c868d09453d0a125374106ae15",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "97c919c",
+      "message": "여행 코디 목록에서는 메모를 숨기고 이름만 보이게",
+      "author": "Claude",
+      "date": "2026-11-21T14:42:46Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/97c919c88e0f2552671e4f73c148cb15442f18ff",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "cfb80b4",
+      "message": "코디 메모를 이름 아래 한 줄 전체로, 여러 줄 적을 수 있게",
+      "author": "Claude",
+      "date": "2026-11-21T14:41:40Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/cfb80b4ad6f1a8aeaecb8546e00961d03a449701",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "3f387ce",
+      "message": "코디 이름, 메모 칸의 안내 글을 짧게",
+      "author": "Claude",
+      "date": "2026-11-21T14:39:16Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/3f387ceb622a5c16256f5d2afeb75b0dbfd79f46",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "60d7340",
+      "message": "코디 이름 밑에 메모를 적을 수 있게",
+      "author": "Claude",
+      "date": "2026-11-21T14:34:14Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/60d73409e633d96d8cfd6142da066ecfc8913c9a",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "52a6c9d",
+      "message": "fix: 사진에 꽉 찬 물건 (스타킹 신은 다리 등) 의 누끼가 반쯤 투명하게 따지던 것",
+      "author": "Claude",
+      "date": "2026-11-21T11:36:17Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/52a6c9df81da3cbc443cc819708ec55dc1ae08f2",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "2eb7532",
+      "message": "fix: 세로로 긴 사진 (휴대폰 화면 캡처) 의 누끼에서 옷 몸통이 빠지던 것",
+      "author": "Claude",
+      "date": "2026-11-21T07:08:27Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/2eb75324a0442fa2d19d3451d9d78949d9e63833",
+      "repo": "life-manager"
+    },
+    {
+      "sha": "b006a86",
+      "message": "fix: 사진 고르는 버튼이 아이폰에서 한 번 취소한 뒤 다시 안 열리던 것",
+      "author": "Claude",
+      "date": "2026-11-21T06:38:07Z",
+      "url": "https://github.com/junyoungjang976/life-manager/commit/b006a8669661cdda488aa8e426c359d9ca082a0d",
+      "repo": "life-manager"
+    },
     {
       "sha": "78aed22",
       "message": "확인 창의 지우기 버튼을 붉은색 대신 검정으로",
@@ -2561,118 +2695,6 @@
       "date": "2026-11-10T05:41:34Z",
       "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/348d835c63398ccb4117d3bf4a951614c230a502",
       "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "9381e11",
-      "message": "feat: 말씀마다 메모리 목차를 자동 조회하는 UserPromptSubmit 훅",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:41:34Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/9381e11008afba5879f4809bde3f008306ac9303",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "159ff48",
-      "message": "fix: recall·pending 메모리 경로를 사용자명 대신 OneDrive 정본으로 + 같은 뜻 낱말 검색",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:41:33Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/159ff4859d62572a23b36d377eedbf4c6274b4fa",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "10d62cb",
-      "message": "fix(admin): 활동 효과 카드 — 결론 굵게, 「(주간 보고…)」 꼬리 흐리게",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:38:29Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/10d62cb168d1769bcae60cfe4014639e0d2d0fa1",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "f96cf0b",
-      "message": "fix: 단가 갱신 독립 검수 반영 — 변형 품번 분리·미포함 판정·부가세 한쪽만이면 반대쪽 비움·xlsx 0.20.3",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:31:05Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/f96cf0b273fbaaf5608a4489f1084298d8811419",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "32461a2",
-      "message": "fix(admin): 활동 효과 — 종류별 요약을 「보통 얼마나 변했나」로(활동별 작은 점 + 가운데 값 큰 점·설명), 주요 변화에 실제 수치(전 → 후)",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:26:43Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/32461a28689fa49953e06fc5450a413937b888ef",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "856c8ed",
-      "message": "feat: 캘린더에서 일정, 할 일, 블로그 글을 두 번 눌러 바로 고치기",
-      "author": "Claude",
-      "date": "2026-11-10T05:24:50Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/856c8ed456a36c630e883f4461a5a6322623527c",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "81eb753",
-      "message": "fix(admin): 활동 효과 탭 가시성 — 요약 숫자·하위 탭(목록/비교/종류별)·선택 막대·큰 글자와 그래프·활동 이름 정리·다크 모드",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:12:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/81eb7533937bebcd82e6ce08ee9f738ce0a61734",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "4fd8263",
-      "message": "feat(admin): 「활동 효과」 탭 — 활동 목록·2~4개 비교·종류별 요약 그래프·카드",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T05:01:55Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/4fd826336574e35914dcf6a0c68e30ff493be893",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "cf1f22f",
-      "message": "feat: 단가 갱신 화면 — 업체 엑셀 올리기 → 열 자동 추정 → 품번/품명+규격 대조 → 담당자 승인 반영",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T04:49:50Z",
-      "url": "https://github.com/busungtk/busungtk-price-library/commit/cf1f22f86be34246695b2e1b808ea0c294e90aec",
-      "repo": "busungtk-price-library"
-    },
-    {
-      "sha": "bfe1d70",
-      "message": "Add undo and redo for saved edits",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T03:03:31Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/bfe1d707317939cb3a4f422fd1899d5a84ff183c",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "4788839",
-      "message": "Replace the native time wheel with a tap-to-pick time popover",
-      "author": "junyoungjang976",
-      "date": "2026-11-10T02:54:10Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/4788839d1811a18cd7566df31682d0017c062abe",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "d1424ec",
-      "message": "chore: 최신 main 으로 프로덕션 다시 배포 (늦게 끝난 예전 배포가 덮어씀)",
-      "author": "Claude",
-      "date": "2026-11-10T02:36:25Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/d1424ecc9dd6639dd2c813de03df76cfc648c269",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "cd50b5d",
-      "message": "Pick itinerary flight moves from the flights tab; iPhone Reset clears times",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T11:01:37Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/cd50b5d04640b40dc3f246957a9a5ea9ec153a96",
-      "repo": "travel-manager"
-    },
-    {
-      "sha": "98da043",
-      "message": "Add a \"clear time\" action while editing itinerary and flight times",
-      "author": "junyoungjang976",
-      "date": "2026-11-09T10:50:58Z",
-      "url": "https://github.com/junyoungjang976/travel-manager/commit/98da043f675ba15b829647b371a1e2374a1b5f19",
-      "repo": "travel-manager"
     }
   ],
   "pull_requests": [
