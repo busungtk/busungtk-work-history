@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T05:39:14.326042Z",
+  "updated_at": "2026-11-27T05:32:17.758407Z",
   "repos": [
     "busungtk-landing",
     "busungtk-asms",
@@ -59,14 +59,21 @@
     "dance-academy-marketing"
   ],
   "summary": {
-    "total_commits": 1195,
+    "total_commits": 1191,
     "total_prs": 11,
     "total_issues": 6,
     "active_days": 67
   },
   "daily": {
+    "2026-11-27": {
+      "commits": 9,
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 0,
+      "issues_closed": 0
+    },
     "2026-11-26": {
-      "commits": 3,
+      "commits": 25,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -185,7 +192,7 @@
       "issues_closed": 0
     },
     "2026-11-09": {
-      "commits": 63,
+      "commits": 62,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -213,7 +220,7 @@
       "issues_closed": 0
     },
     "2026-11-03": {
-      "commits": 25,
+      "commits": 16,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -290,7 +297,7 @@
       "issues_closed": 0
     },
     "2026-10-14": {
-      "commits": 35,
+      "commits": 18,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -346,7 +353,7 @@
       "issues_closed": 0
     },
     "2026-10-01": {
-      "commits": 8,
+      "commits": 7,
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 0,
@@ -506,13 +513,6 @@
       "issues_opened": 0,
       "issues_closed": 0
     },
-    "2026-08-28": {
-      "commits": 7,
-      "prs_opened": 0,
-      "prs_merged": 0,
-      "issues_opened": 0,
-      "issues_closed": 0
-    },
     "2026-08-23": {
       "commits": 0,
       "prs_opened": 0,
@@ -536,24 +536,17 @@
     }
   },
   "overtime": {
-    "total_commits": 1195,
-    "overtime_commits": 708,
-    "regular_commits": 487,
-    "overtime_rate": 59.2,
+    "total_commits": 1191,
+    "overtime_commits": 702,
+    "regular_commits": 489,
+    "overtime_rate": 58.9,
     "weekend_commits": 219,
-    "late_night_commits": 403,
-    "total_hours": 702.2,
-    "regular_hours": 291.3,
-    "overtime_hours": 410.9,
-    "overtime_hour_rate": 58.5,
+    "late_night_commits": 408,
+    "total_hours": 720.4,
+    "regular_hours": 303.2,
+    "overtime_hours": 417.2,
+    "overtime_hour_rate": 57.9,
     "daily_hours": {
-      "2026-08-28": {
-        "regular_hours": 0,
-        "overtime_hours": 0.9,
-        "total_hours": 0.9,
-        "is_weekend": false,
-        "commits": 7
-      },
       "2026-08-29": {
         "regular_hours": 0,
         "overtime_hours": 2.2,
@@ -713,7 +706,7 @@
         "overtime_hours": 4.5,
         "total_hours": 12.7,
         "is_weekend": false,
-        "commits": 8
+        "commits": 7
       },
       "2026-10-07": {
         "regular_hours": 0,
@@ -776,7 +769,7 @@
         "overtime_hours": 11.0,
         "total_hours": 20.0,
         "is_weekend": false,
-        "commits": 22
+        "commits": 5
       },
       "2026-10-16": {
         "regular_hours": 0.0,
@@ -853,7 +846,7 @@
         "overtime_hours": 1.8,
         "total_hours": 10.4,
         "is_weekend": false,
-        "commits": 25
+        "commits": 16
       },
       "2026-11-04": {
         "regular_hours": 7.9,
@@ -881,7 +874,7 @@
         "overtime_hours": 2.0,
         "total_hours": 6.2,
         "is_weekend": false,
-        "commits": 63
+        "commits": 62
       },
       "2026-11-10": {
         "regular_hours": 6.1,
@@ -996,15 +989,21 @@
         "commits": 9
       },
       "2026-11-26": {
-        "regular_hours": 0.9,
-        "overtime_hours": 0.0,
-        "total_hours": 0.9,
+        "regular_hours": 7.5,
+        "overtime_hours": 5.1,
+        "total_hours": 12.6,
         "is_weekend": false,
-        "commits": 3
+        "commits": 19
+      },
+      "2026-11-27": {
+        "regular_hours": 5.3,
+        "overtime_hours": 2.1,
+        "total_hours": 7.4,
+        "is_weekend": false,
+        "commits": 15
       }
     },
     "overtime_by_date": {
-      "2026-08-28": 0.9,
       "2026-08-29": 2.2,
       "2026-08-30": 19.4,
       "2026-08-31": 0.5,
@@ -1061,18 +1060,20 @@
       "2026-11-22": 19.9,
       "2026-11-23": 4.5,
       "2026-11-24": 6.2,
-      "2026-11-25": 2.0
+      "2026-11-25": 2.0,
+      "2026-11-26": 5.1,
+      "2026-11-27": 2.1
     },
     "overtime_by_hour": [
       77,
       70,
       35,
-      30,
-      19,
+      21,
+      11,
       1,
-      0,
-      6,
-      18,
+      2,
+      9,
+      19,
       5,
       0,
       3,
@@ -1083,11 +1084,11 @@
       2,
       16,
       116,
-      92,
-      45,
-      53,
-      29,
-      68
+      93,
+      44,
+      55,
+      30,
+      70
     ],
     "work_hours": {
       "start": 9,
@@ -1095,6 +1096,254 @@
     }
   },
   "commits": [
+    {
+      "sha": "0482830",
+      "message": "docs(설계툴): 인수인계 §19 — 자동 라면조리기 3D 배포 기록(83og6ik4q)",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T05:20:01Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/048283011c8dcda77ee47cb07eb75ffc4e7aff3e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "b8ece74",
+      "message": "docs(설계툴): 인수인계 §18(3D 꼬리표·필터 배포) · §19(자동 라면조리기 3D, 미배포), 3D 만든 목록 30종",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:57:06Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/b8ece7490955bcc2efe6bd09ec891da09df55091",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "8011b71",
+      "message": "fix(설계툴): 자동 라면조리기 — 냄비 받침 링을 테만 보이는 링으로(말뚝 12개 → 테 + 속판), 앞판 구멍이 손잡이처럼 튀어나오지 않게",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:56:08Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8011b7107f10a94bc2e65e7d5785073dee6ea2f3",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2b0825e",
+      "message": "test: ramen-line 크기 6종·이름 규칙·버너/앞판 구멍 수·낮은/높은 모양, fab 101·카탈로그 1,475",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:49:07Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/2b0825e4ea10cde122f74b37ebf39cb0beb96a07",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "af5539b",
+      "message": "feat(설계툴): 자동 라면조리기 3D(ramen-line) — 버너 한 줄·체인 레일·경사 덮개·냄비 받침 링·조작 판넬, 높으면 조작반 함·급수통. 현장 실물 품목 1종 추가",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:49:07Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/af5539b6b07791cc1fef3dac1f176776aced46fc",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "6df9b73",
+      "message": "feat(설계툴): 장비 목록 「3D」 꼬리표와 「3D 있는 것만」 필터 — 3D 화면과 같은 규칙, 묶음 검사 허용 파일을 규칙이 옮겨 간 묶음에 맞춤",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:34:04Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/6df9b73db519718d19de72e14c7f997337ade094",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "1fc83eb",
+      "message": "fix(statement): 거래명세표 인쇄 저장 이름을 견적서처럼 자동으로",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:18:47Z",
+      "url": "https://github.com/busungtk/busungtk-asms/commit/1fc83eb47c84eae3275b3aaf9b0cc9bc2f0624f5",
+      "repo": "busungtk-asms"
+    },
+    {
+      "sha": "3aabd69",
+      "message": "docs(설계툴): 3D 모델 만든 목록 29종과 만들 목록(상자로 그려지는 제품군·다듬을 제품군)",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T04:18:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3aabd69f2e04cd634e202b547ab0d1fd249a4165",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a36dc4b",
+      "message": "feat: 홈페이지 사례 2건 자동 발행 — 채널톡 완료보고",
+      "author": "junyoungjang976",
+      "date": "2026-11-27T03:33:04Z",
+      "url": "https://github.com/busungtk/busungtk-landing/commit/a36dc4bd7e0351904c587ceff17a8136fcf663c5",
+      "repo": "busungtk-landing"
+    },
+    {
+      "sha": "a991b5a",
+      "message": "docs(설계툴): 인수인계 §17 — 3D 제품군 둘째 묶음 배포 기록",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T23:52:04Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a991b5a4a50204e3e695360b2630496ab48d888e",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "eee2b15",
+      "message": "docs: 둘째 묶음(11-27) 검수 절 추가",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T22:14:49Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/eee2b1501c52502f5a066f15454ce7b97e04603c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "646c1a7",
+      "message": "test: fab 100·카탈로그 1,474, 세척기용 세정대·손세정대 분류·낮은 페달·lib 이동식 바퀴 고정, 묶음 검사 시험 시간 한도",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T22:14:48Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/646c1a7230e15adcf04221b5b8a5aa50def6ee43",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "d098d36",
+      "message": "fix(설계툴): 손세정대(페달식) 준비 분류, 다단식 선반 겹침 크기 제거(1,474), 세척기용 세정대 볼 1개, 낮은 손세정대 페달 제외",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T22:14:48Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/d098d36c3020279c8a19ad29cca430153bd0b30f",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "074e851",
+      "message": "test·chore(설계툴): 제작 품목 101종 시험, 검색 시험은 그때 카탈로그 기준으로, 묶음 검사에 종류 규칙 낱말(신발장) 한 건 허용",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T21:58:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/074e8514aa6398f7ef5075c410ab20ba7a2422a7",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "8e708b7",
+      "message": "feat(설계툴): 카탈로그에 제작도 장비 22품목·47종 덧붙임(싱크·작업대·찬장·받침대·소독·보관, 1,428 → 1,475)",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T21:58:47Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/8e708b798dd0d39670e7bcc8ab46c1b4a7c63b2a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4530882",
+      "message": "test: 받침대·손세정대·담금/세정작업대·이동식 시험, 기존 1,374종 종류 분포 기대값 갱신",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T14:08:44Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4530882fdfd2aa134db8cf4f766dd92ac0285a46",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "265712e",
+      "message": "feat(설계툴): 받침대·손세정대 종류 + 담금·세정작업대·이동식(바퀴) 옵션",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T14:08:44Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/265712ee81ebe497aacdda8184526a438032252a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "84751c8",
+      "message": "docs(설계툴): 인수인계 §16 — 3D 제품군 모델·제작 품목 54종 배포 기록",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T13:55:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/84751c8768c6e9dc448da431de5cace115d0a0f4",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e7c5a78",
+      "message": "docs: 제품군 모델 검수 반영표 · 사내 경로 축약 · 덧붙이기 순서 주의",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:45:53Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/e7c5a78e51069de073fe7b9c7980aa8fffe99581",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "9805050",
+      "message": "test: 끝말 반례·기존 장비 종류 분포 회귀·작은 크기·3P 시험, 거래처 이름 삭제",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:45:53Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/980505096f92060c5bfad944bfbd0c37f3db0cce",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "e1b39a8",
+      "message": "fix(설계툴): 배식·운반 규칙이 끝말 종류를 가로채지 않게 · 컨베이어·냉장 예외 · loft 하한 · 제조사 낱말 삭제",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:45:52Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/e1b39a83314c4bb04a223ce7c191de1158c246d5",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "a6700d6",
+      "message": "feat(설계툴): 제작도 장비 시험 — 개수·id·3D 종류·검색·견적",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:30:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/a6700d60c5f70a224a7a9948545fa1204eb87b5a",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "4250dad",
+      "message": "feat(설계툴): 카탈로그에 제작도 장비 20품목·54종 덧붙임(1,374 → 1,428)",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:30:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/4250dad5df6e20a1bb3a89c562be283d95928715",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "c3e9244",
+      "message": "feat(설계툴): 제작도 출처 fab — 타입·덧붙이기 스크립트·식판 디스펜서 규칙",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T12:30:37Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/c3e92449f1e82ecda36c3e815be914ada1971996",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "9a58af5",
+      "message": "fix(설계툴): 자율배식대 — 제작도 높이는 상판 높이, 가드는 높이 1,150 이상으로 적힌 장비에만 얹는다",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T11:11:40Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/9a58af5cddcfb2b1961df5ff4d887bb042788262",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "31689e7",
+      "message": "test(설계툴): 제품군 모델 7종 — 크기별 바깥 상자·옵션·이름 표",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T11:08:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/31689e7377889ec603426fa9bc76b132c7ea6442",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "5d35b6d",
+      "message": "feat(설계툴): 배식·운반 설비 7종 제품군 모델 — 종류·이름 규칙과 부품 모양",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T11:08:35Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/5d35b6ded26a438fd74cac7d306ec1dcf9e12cd1",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "3ac23b9",
+      "message": "docs(설계툴): 기획 — 설비 제품군 목록 15군과 3D 제품군 모델(제작도·점검표 근거)",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T10:04:36Z",
+      "url": "https://github.com/busungtk/busungtk-kitchen-consulting/commit/3ac23b9e61b4b2dfa12f03764a4186361cceac4c",
+      "repo": "busungtk-kitchen-consulting"
+    },
+    {
+      "sha": "2dc67a6",
+      "message": "공수 계산: 난이도 미입력 안내 줄 제거 (노란 칸 표시는 그대로)",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T08:52:33Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/2dc67a6f459ba67edfc9e053e18d12fe1e3a95e2",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "9f0342f",
+      "message": "공수 계산 난이도 자동 규칙: 설명을 한 줄로",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T06:22:40Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/9f0342f9437bcd0c5516d4a2862b4c5b9998c862",
+      "repo": "taskmanager-yj"
+    },
+    {
+      "sha": "1b0a7a4",
+      "message": "공수 계산 난이도 자동 규칙: 프로젝트 조건 추가 (예: 프로젝트 '1/6' + 파츠 '헤드')",
+      "author": "junyoungjang976",
+      "date": "2026-11-26T06:18:50Z",
+      "url": "https://github.com/junyoungjang976/taskmanager-yj/commit/1b0a7a485adeae05d699d99a39a9050ba1b1afb9",
+      "repo": "taskmanager-yj"
+    },
     {
       "sha": "907b276",
       "message": "feat(quote): 작업완료확인서 사진 순서를 끌기·◀▶ 단추로 바꾼다",
@@ -2446,254 +2695,6 @@
       "date": "2026-11-16T09:26:59Z",
       "url": "https://github.com/busungtk/busungtk-asms/commit/9e32d0e11570f3dabcbf5e8229530238601d94c5",
       "repo": "busungtk-asms"
-    },
-    {
-      "sha": "69ff397",
-      "message": "feat: 누끼에서 옷 옆에 붙은 그림자도 지우기",
-      "author": "Claude",
-      "date": "2026-11-16T09:13:39Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/69ff3975c6d370757446e0ccc2a53d74dd335d14",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "5686951",
-      "message": "fix(statement): 문자 그림·PDF 에서 글자가 아래 줄에 붙던 것 — 담는 복사본에서만 글자를 칸 가운데로",
-      "author": "junyoungjang976",
-      "date": "2026-11-16T09:04:51Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/568695120af9c47729db6fc193c68dce72e403fa",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1663151",
-      "message": "feat: 코디 판에서 고른 옷은 겹친 옷 아래여도 잡히게, Delete 키로 빼기",
-      "author": "Claude",
-      "date": "2026-11-16T08:47:50Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/16631511bd5e847864c66a6c625dbeb716bf8a3f",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "c73a49f",
-      "message": "feat: 코디 판의 빼기 버튼 대신, 고른 옷의 왼쪽 위에 X",
-      "author": "Claude",
-      "date": "2026-11-16T08:40:43Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/c73a49f41942cdef4da741f3117c59ffaff35f3a",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "71b8931",
-      "message": "feat(statement): 거래명세표 양식 개편 — 공급자용·공급받는자용 한 장, 브랜드색·인감, 휴대폰으로 그림 문자 보내기",
-      "author": "junyoungjang976",
-      "date": "2026-11-16T08:31:08Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/71b893158b7f34d48d90929fd5f4c8c6b6435c7b",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "1fb306a",
-      "message": "feat(api): 거래명세표 그림 문자(솔라피 MMS) 서버 함수",
-      "author": "junyoungjang976",
-      "date": "2026-11-16T08:31:07Z",
-      "url": "https://github.com/busungtk/busungtk-asms/commit/1fb306a55846cf8e071a74b0d2a41aa9fa62f748",
-      "repo": "busungtk-asms"
-    },
-    {
-      "sha": "dc807cb",
-      "message": "docs: 옛 total-system 삭제 반영 (2026-11-16)",
-      "author": "junyoungjang976",
-      "date": "2026-11-16T08:26:22Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/dc807cbb36d04df7eca285e768868c01e7333bf0",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "05f51c4",
-      "message": "feat: 코디 이미지로 저장, 옷 기울이기, 빼기 버튼 빨간색",
-      "author": "Claude",
-      "date": "2026-11-16T08:06:25Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/05f51c4e2ef042435c5d372ac8c2ddeac5e8008a",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "ef51307",
-      "message": "feat: 할 일에서 체크한 항목을 별표 바로 아래로",
-      "author": "Claude",
-      "date": "2026-11-16T08:00:19Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/ef51307ddee3373a17ce92396c0235f6f8c40c97",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "69b300e",
-      "message": "fix: 글자를 끌어다 입력 칸에 놓는 것이 막히던 문제",
-      "author": "Claude",
-      "date": "2026-11-16T05:40:44Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/69b300eaae0dbb0ff2695849384bddf74ed75bb9",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "d84099e",
-      "message": "feat: 옷을 올릴 때 사진마다 종류를 고르기, 미분류 묶음은 다시 맨 위로",
-      "author": "Claude",
-      "date": "2026-11-16T05:09:26Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/d84099e55df51dda9e1ac8a0accd3b031491a5ac",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "7d78577",
-      "message": "fix: 코디 그림의 \"예정 포함\" 표시를 오른쪽 아래로 (얼굴을 가리지 않게)",
-      "author": "Claude",
-      "date": "2026-11-16T03:42:56Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/7d78577bf4d04e37cb2ab9189051c9aa12ab6783",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "60b195d",
-      "message": "fix: 옷 종류 순서를 주얼리 & 시계, 가방, 상의, 하의 순으로",
-      "author": "Claude",
-      "date": "2026-11-16T03:41:12Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/60b195d6be58ee8838b90c47ec5589d6b08e3a62",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "9c5be5b",
-      "message": "feat: 홈페이지 사례 1건 자동 발행 — 채널톡 완료보고",
-      "author": "junyoungjang976",
-      "date": "2026-11-16T03:31:22Z",
-      "url": "https://github.com/busungtk/busungtk-landing/commit/9c5be5b8c9a7b3da7bfcb9cdc092c6cf10a8474d",
-      "repo": "busungtk-landing"
-    },
-    {
-      "sha": "60aef51",
-      "message": "docs: Supabase 통합 반영 — 옛 total-system 사용 금지, busungtk-main 하나",
-      "author": "junyoungjang976",
-      "date": "2026-11-15T16:24:02Z",
-      "url": "https://github.com/junyoungjang976/claude-dotfiles/commit/60aef514127572ad192abcd56c00933d58c5c070",
-      "repo": "claude-dotfiles"
-    },
-    {
-      "sha": "9133e18",
-      "message": "fix: 채널톡 동기화 기본 DB 주소를 운영 DB로 (옛 DB 정리 대비)",
-      "author": "junyoungjang976",
-      "date": "2026-11-15T16:23:59Z",
-      "url": "https://github.com/junyoungjang976/channeltalk-downloader/commit/9133e18b1768654074f13f1bd3a0608235d02ad3",
-      "repo": "channeltalk-downloader"
-    },
-    {
-      "sha": "aa490aa",
-      "message": "fix: 가격 칸을 브랜드, 제품명과 같은 모양으로. 적어 둔 값은 끝에 원을 붙여 보여 준다",
-      "author": "Claude",
-      "date": "2026-11-15T16:15:52Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/aa490aaae346f50b57357830b04986bb1804d437",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "0732b19",
-      "message": "fix: 옷 상세 창의 가격 칸 뒤에 \"원\" 표시",
-      "author": "Claude",
-      "date": "2026-11-15T16:11:33Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/0732b19260bd868c26a95d200be7d9126bf65948",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "99e835f",
-      "message": "fix: 구매 예정 옷도 목록에서는 브랜드가 보이게 (가격은 상세 창과 합계에서)",
-      "author": "Claude",
-      "date": "2026-11-15T16:08:10Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/99e835f13391dae5b84903809be848acf5b35bea",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "dbc72e8",
-      "message": "fix: 옷 목록의 브랜드 글씨를 가운데 정렬",
-      "author": "Claude",
-      "date": "2026-11-15T16:07:10Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/dbc72e8d4c4808a77d0e05c75b66d8289ad144e7",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "f4aeb22",
-      "message": "fix: 옷 목록에서는 브랜드만 보이게 (제품명은 상세 창에서)",
-      "author": "Claude",
-      "date": "2026-11-15T16:05:52Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/f4aeb224f0f87133a02d93da48e1e1cde721d97d",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "bf82908",
-      "message": "fix: 옷 올리기가 다른 화면으로 가거나 새로고침해도 이어지게",
-      "author": "Claude",
-      "date": "2026-11-15T16:04:27Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/bf82908e50df195ea4c206f90d4fe655dd4743ca",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "1516325",
-      "message": "feat: 옷과 코디를 끌어서 순서 바꾸기, 종류에 주얼리 & 시계 추가",
-      "author": "Claude",
-      "date": "2026-11-15T15:49:18Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/1516325e94401bee6e0adadf33e83c90682e1fba",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "1fc0a5c",
-      "message": "feat: 옷 상세 창의 적는 칸을 브랜드, 제품명, 가격으로",
-      "author": "Claude",
-      "date": "2026-11-15T15:37:11Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/1fc0a5c564527307ffd2f69a1165acf9160c835c",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "219edf1",
-      "message": "feat: 옷 분류를 자주 입는 옷, 구매 예정, 애매한 옷으로. 옷마다 보이는 크기 줄이기",
-      "author": "Claude",
-      "date": "2026-11-15T15:34:19Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/219edf1b29062e2f912ea23a0564c2f5ec3fcdbc",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "745e618",
-      "message": "feat: 추구미의 이름 조각을 끌어서 순서 바꾸기, 쇼핑몰은 이름만, 누끼 도구 이름 바꿈",
-      "author": "Claude",
-      "date": "2026-11-15T15:28:56Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/745e618788c68b758fc53082d8604315e18c1d61",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "16aba95",
-      "message": "feat: 구매 예정 옷, 코디 보기만 하고 닫기, 내 사진 여러 장 고르기",
-      "author": "Claude",
-      "date": "2026-11-15T15:20:02Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/16aba950c95be10850fdbfbe26c9a22de7af1cc0",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "1ff85d0",
-      "message": "feat: 패션 메뉴 (내 옷장, 여행 코디, 일반 코디, 추구미) 와 누끼 가운데 맞추기 보강",
-      "author": "Claude",
-      "date": "2026-11-15T14:52:10Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/1ff85d06afb138fc6cf3181f8f9cdb4cddc7804f",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "53b4a81",
-      "message": "fix: 누끼에서 물건 몸통만 남기고 그 가운데로 맞추기",
-      "author": "Claude",
-      "date": "2026-11-15T14:38:10Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/53b4a816b69311027d186926968c857db0731dc1",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "5af4c09",
-      "message": "feat: 옷장 탭을 옷장과 추구미 두 구역으로 뚜렷하게 나눔",
-      "author": "Claude",
-      "date": "2026-11-15T14:30:53Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/5af4c09ac8729457a0be2dd85ae37bc4e576ef73",
-      "repo": "life-manager"
-    },
-    {
-      "sha": "ad09240",
-      "message": "fix: 코디 칸에서 바로 내 전신 사진을 넣을 수 있게",
-      "author": "Claude",
-      "date": "2026-11-15T14:24:55Z",
-      "url": "https://github.com/junyoungjang976/life-manager/commit/ad09240476ee291ab33bae6b751ab4c054e822c4",
-      "repo": "life-manager"
     }
   ],
   "pull_requests": [
